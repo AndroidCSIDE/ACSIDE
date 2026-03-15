@@ -38,6 +38,11 @@ AndroidCS IDE is a full-featured development environment designed for creating a
   * [x] Bash Language Server *(installable via plugins)*
   * [x] Dart Language Server *(available after installing the Flutter SDK)*
   * [ ] XML Language Server *(coming soon)*
+* **Supported LSP capabilities:**
+    * [x] Go to Definition
+    * [x] Code Formatting
+    * [x] Kotlin Diagnostics
+    * [x] Jetpack Compose support
 * [x] Jetpack Compose preview system
 * [x] Flutter app instant preview system
 * [x] AI Agent with Model Context Protocol (MCP) support
