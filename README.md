@@ -25,6 +25,7 @@ AndroidCS IDE is a full-featured development environment designed for creating a
 
 > [!WARNING]
 > **Use official downloads only**
+> 
 > Install AndroidCS IDE from:
 > - **GitHub Release** - https://github.com/AndroidCSIDE/ACSIDE/releases  
 > - **ApkPure** - https://apkpure.com/p/com.nullij.androidcodestudio  
