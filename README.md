@@ -5,7 +5,6 @@
 <img src="https://img.shields.io/github/v/release/AndroidCSIDE/ACSIDE?include_prereleases&amp;label=latest%20release" alt="Latest release">
 </p>
 
-
 <p align="center">
   <a href="https://github.com/AndroidCSIDE/ACSIDE/issues/new?labels=bug&template=BUG.yml&title=%5BBug%5D%3A+">
     <img src="https://img.shields.io/badge/Report%20Bug-red?style=for-the-badge&logo=github" alt="Report a bug">
@@ -23,6 +22,14 @@ AndroidCS IDE is a full-featured development environment designed for creating a
 </p>
 
 ***
+
+> [!WARNING]
+> **Use official downloads only**
+> Install AndroidCS IDE from:
+> - **GitHub Release** - https://github.com/AndroidCSIDE/ACSIDE/releases  
+> - **ApkPure** - https://apkpure.com/p/com.nullij.androidcodestudio  
+> Avoid downloading APKs from unknown or unofficial websites, as they may be modified or unsafe.
+---
 
 ## Supported Features & Roadmap
 
