@@ -44,6 +44,8 @@ AndroidCS IDE is a full-featured development environment designed for creating a
   * [x] Kotlin Language Server — from [JetBrains / Kotlin LSP](https://github.com/Kotlin/kotlin-lsp)
   * [x] Python Language Server *(installable via plugins)*
   * [x] Bash Language Server *(installable via plugins)*
+  * [x] Clang Language Server *(installable via plugins)*
+  * [x] Web Language Servers bundle *(installable via plugins)*
   * [x] Dart Language Server *(available after installing the Flutter SDK)*
   * [ ] XML Language Server *(coming soon)*
 * **Supported LSP capabilities:**

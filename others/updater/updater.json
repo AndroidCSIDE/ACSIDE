@@ -1,0 +1,13 @@
+{
+  "baseVersionCode": 2004,
+  "baseVersionName": "1.0.0-alpha.4.20260513-arm64-v8a",
+  "baseUrl": "https://github.com/AndroidCSIDE/ACSIDE/releases/download/v{versionName}",
+  "variants": {
+    "arm64-v8a": {
+      "versionCode": 2004,
+      "versionName": "1.0.0-alpha.4.20260513-arm64-v8a", 
+      "apkUrl": "{baseUrl}/ACS-{versionName}.apk"
+    }
+  },
+  "changelog": "https://raw.githubusercontent.com/AndroidCSIDE/ACSIDE/refs/heads/main/others/whatsnew/v1.0.0-alpha.4.md"
+}
