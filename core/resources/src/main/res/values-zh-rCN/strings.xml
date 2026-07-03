@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="create_project">创建项目</string>
+  <string name="open_project">打开项目</string>
+  <string name="launch_terminal">启动终端</string>
+
+  <!-- ============================================================ -->
+  <!-- Project Actions                                              -->
+  <!-- ============================================================ -->
+  <string name="action_create_project_title">新建项目</string>
+  <string name="action_create_project_desc">创建新的 Android 项目</string>
+
+  <string name="action_open_project_title">打开</string>
+  <string name="action_open_project_desc">打开现有项目</string>
+
+  <!-- ============================================================ -->
+  <!-- Tool Actions                                                 -->
+  <!-- ============================================================ -->
+  <string name="action_sdk_manager_title">SDK 管理器</string>
+  <string name="action_terminal_title">终端</string>
+
+  <string name="action_settings_title">设置</string>
+
+  <string name="action_plugins_title">插件</string>
+
+  <!-- ============================================================ -->
+  <!-- Editor Actions                                               -->
+  <!-- ============================================================ -->
+  <string name="action_save_title">保存</string>
+
+  <string name="action_undo_title">撤销</string>
+
+  <string name="action_redo_title">重做</string>
+
+  <string name="action_search_title">搜索</string>
+
+  <string name="action_sync_title">同步</string>
+
+  <string name="action_run_title">运行</string>
+
+  <string name="action_cancel_build_title">取消构建</string>
+
+    <string name="action_group_project">项目</string>
+    <string name="action_group_tools">工具</string>
+    <string name="action_group_settings">设置</string>
+    <string name="action_group_plugins">插件</string>
+    <string name="action_group_editor_plugins">编辑器插件</string>
+
+    <!-- ============================================================ -->
+    <!-- Preview Action (Compose / Flutter)                           -->
+    <!-- ============================================================ -->
+    <string name="action_preview_title">预览</string>
+    <string name="action_preview_desc">预览布局或可组合项</string>
+     
+  <string name="settings">首选项</string>
+
+  <string name="kotlin">Kotlin</string>
+  <string name="ndk_version_auto">NDK: 自动</string>
+  <string name="native_error_title">需要 NDK</string>
+  <string name="error_ndk_not_found_or_incompatible">未找到 NDK 安装或不兼容。请从 IDE 设置中安装 NDK。</string>
+  <string name="open_ide_cfg_msg">打开设置</string>
+  
+  <!-- ATC Options Dialog -->
+  <string name="choose_template">选择模板</string>
+  <string name="project_configuration">项目配置</string>
+  <string name="use_cmake">使用 CMake 构建系统</string>
+  <string name="native_language">原生语言 (Native)</string>
+  <string name="minimum_sdk">最低 SDK</string>
+  <string name="new_project">新项目</string>
+  <string name="package_name">包名</string>
+
+  <string name="project_name">项目名称</string>
+  <string name="project_location">项目位置</string>
+  <string name="browse">浏览</string>
+  <string name="language">语言</string>
+  <string name="java">Java</string>
+  <string name="use_gradle_kotlin_dsl">使用 Gradle Kotlin DSL (.kts)</string>
+  <string name="cancel">取消</string>
+  <string name="create">创建</string>
+  <string name="default_project_name">MyApplication</string>
+  <string name="default_package_name">com.example.myapplication</string>
+  <string name="back">返回</string>
+
+  <!-- MainActivity -->
+  <string name="app_name_full">Android Code Studio</string>
+  <string name="app_icon_description">应用图标</string>
+  <string name="error_invalid_gradle_project">所选目录不是有效的 Gradle 项目</string>
+  <string name="error_could_not_access_directory">无法访问所选目录</string>
+  
+  <!-- Sections -->
+  <string name="section_projects">项目</string>
+  <string name="section_recent_projects">最近项目</string>
+  <string name="section_learn">学习</string>
+  <string name="section_resources">资源</string>
+  
+  <!-- Recent Projects -->
+  <string name="no_recent_projects">暂无最近项目</string>
+  <string name="content_description_remove">移除</string>
+  
+  <!-- Learn Section -->
+  <string name="learn_first_app_title">构建你的第一个应用</string>
+  <string name="learn_first_app_description">学习 Android 开发基础知识</string>
+  <string name="learn_kotlin_title">Kotlin 语言指南</string>
+  <string name="learn_kotlin_description">掌握 Kotlin 编程</string>
+  <string name="learn_compose_title">Jetpack Compose</string>
+  <string name="learn_compose_description">Android 的现代 UI 工具包</string>
+  
+  <!-- Resources Section -->
+  <string name="resources_documentation_title">文档</string>
+  <string name="resources_documentation_description">API 参考和指南</string>
+  <string name="resources_samples_title">示例项目</string>
+  <string name="resources_samples_description">探索示例应用程序</string>
+
+  <!-- Editor Bottom Sheet -->
+  <string name="content_description_expand">展开</string>
+  <string name="content_description_collapse">折叠</string>
+  <string name="content_description_clear">清除</string>
+  <string name="content_description_close">关闭</string>
+
+  <!-- Actions -->
+  <string name="action_new_project">新项目</string>
+  <string name="action_new_project_desc">创建一个新的 Android 项目</string>
+  <string name="action_open">打开</string>
+  <string name="action_open_desc">打开现有项目</string>
+  <string name="action_sdk_manager">SDK 管理器</string>
+  <string name="action_sdk_manager_desc">管理 Android SDK 组件</string>
+  <string name="action_terminal">终端</string>
+  <string name="action_terminal_desc">打开集成终端</string>
+  <string name="action_settings">设置</string>
+  <string name="action_settings_desc">配置 IDE 首选项</string>
+  <string name="action_plugins">插件</string>
+  <string name="action_plugins_desc">管理 IDE 插件</string>
+  <string name="action_jitpack_preview">JitPack 预览</string>
+  <string name="action_jitpack_preview_desc">预览 JitPack 库</string>
+  <string name="action_sdk_manager_test">SDK 管理器 (测试版)</string>
+  <string name="action_sdk_manager_test_desc">测试版 SDK 管理器</string>
+  
+  <!-- Editor Actions -->
+  <string name="action_save">保存</string>
+  <string name="action_save_desc">保存当前文件</string>
+  <string name="action_undo">撤销</string>
+  <string name="action_undo_desc">撤销上一次更改</string>
+  <string name="action_redo">重做</string>
+  <string name="action_redo_desc">重做上一次撤销的更改</string>
+  <string name="action_search">搜索</string>
+  <string name="action_search_desc">在文件中搜索和替换</string>
+  <string name="action_sync">同步</string>
+  <string name="action_sync_desc">同步 Gradle 项目</string>
+  <string name="action_run">运行</string>
+  <string name="action_run_desc">构建并运行项目</string>
+  <string name="action_cancel_build">取消构建</string>
+  <string name="action_cancel_build_desc">取消当前构建过程</string>
+  
+  <!-- Action Messages -->
+  <string name="action_disabled">%1$s 当前已禁用</string>
+  <string name="action_executing">正在执行: %1$s</string>
+  <string name="action_execution_error">执行 %1$s 时出错: %2$s</string>
+  <string name="jitpack_preview_unavailable">JitPack 预览不可用</string>
+  <string name="sdk_manager_test_unavailable">SDK 管理器测试不可用</string>
+  
+  <!-- Template Plugin Messages -->
+  <string name="template_plugins_directory_not_found">未找到插件目录</string>
+  <string name="template_no_enabled_plugins">未找到已启用的插件</string>
+  <string name="template_plugin_no_templates">插件 %1$s 没有 templates.json 文件</string>
+  <string name="template_loaded_count">从插件加载了 %1$d 个模板: %2$s</string>
+  <string name="template_total_loaded">加载的模板总数: %1$d，来自 %2$d 个插件</string>
+  <string name="template_plugins_json_not_found">未找到 plugins.json</string>
+  <string name="template_enabled_plugins">已启用的插件: %1$s</string>
+  <string name="template_parse_success">成功从 JSON 加载了 %1$d 个模板</string>
+  <string name="template_parse_error">解析模板 JSON 失败</string>
+  <string name="template_creation_failed">模板创建失败</string>
+
+  <!-- Internal Error Dialog -->
+  <string name="error_internal_title">内部错误</string>
+  <string name="error_internal_lib_dir_missing">丢失关键的内部目录。这是一个不可恢复的错误。请重新安装应用程序。</string>
+  <string name="error_internal_exit">退出</string>
+
+  <!-- Plugin Installation -->
+  <string name="plugin_install_success_title">插件已安装</string>
+  <string name="plugin_install_success_message">%1$s 已成功安装。\n\n您想启用它并重新加载 IDE 吗？</string>
+  <string name="plugin_install_enable_and_reload">启用并重新加载</string>
+  <string name="plugin_install_later">稍后</string>
+  <string name="plugin_install_failed_title">安装失败</string>
+  <string name="plugin_enabled">插件已启用</string>
+
+  <!-- Plugin Screen UI -->
+  <string name="plugin_refresh">刷新</string>
+  <string name="plugin_refreshing">正在刷新…</string>
+  <string name="plugin_search_hint">搜索插件…</string>
+  <string name="plugin_install_from_file">从文件安装</string>
+  <string name="plugin_section_installed">已安装</string>
+  <string name="plugin_section_available">可用</string>
+  <string name="plugin_no_installed">尚未安装任何插件</string>
+  <string name="plugin_no_installed_match">没有匹配的已安装插件</string>
+  <string name="plugin_all_installed">存储库中的所有插件均已安装</string>
+  <string name="plugin_no_available_match">没有匹配的可用插件</string>
+  <string name="plugin_updates_available">有 %1$d 个更新可用</string>
+  <string name="plugin_update_available">有可用更新: v%1$s</string>
+  <string name="plugin_repo_loading">正在加载存储库…</string>
+  <string name="plugin_repo_load_failed">无法加载存储库</string>
+  <string name="plugin_repo_empty">未加载任何插件</string>
+  <string name="plugin_repo_empty_hint">无法连接到插件存储库。请检查网络并点击 ↻ 重试。</string>
+  <string name="plugin_downloading">正在下载…</string>
+  <string name="plugin_downloading_update">正在下载更新…</string>
+  <string name="plugin_badge_installed">已安装</string>
+  <string name="plugin_badge_enabled">已启用</string>
+  <string name="plugin_badge_disabled">已禁用</string>
+  <string name="plugin_action_install">安装</string>
+  <string name="plugin_action_update">更新</string>
+  <string name="plugin_action_update_to">更新至 v%1$s</string>
+  <string name="plugin_action_enable">启用</string>
+  <string name="plugin_action_disable">禁用</string>
+  <string name="plugin_action_uninstall">卸载</string>
+  <string name="plugin_uninstall_confirm_title">卸载插件？</string>
+  <string name="plugin_uninstall_confirm_message">您确定要卸载 %1$s 吗？此操作无法撤销。</string>
+  <string name="plugin_reload_required">需要重新加载</string>
+  <string name="plugin_reload_message">"%1$s" 已就绪。立即重新加载 IDE 以激活它。</string>
+  <string name="plugin_reload_now">立即重新加载</string>
+  <string name="plugin_reload_later">稍后</string>
+  <string name="plugin_install_invalid_file_type">文件类型无效。仅允许使用 .acp 文件。</string>
+  <string name="plugin_install_error">安装失败: %1$s</string>
+  <string name="plugin_download_error">下载失败: %1$s</string>
+  <string name="ok">确定</string>
+
+  <!-- Terminal -->
+  <string name="terminal_title">终端</string>
+  <string name="terminal_sessions">会话</string>
+  <string name="terminal_add_session">添加会话</string>
+  <string name="terminal_delete_session">删除会话</string>
+  <string name="terminal_active">终端活动中</string>
+  <string name="terminal_session_single">终端会话 1 已打开</string>
+  <string name="terminal_sessions_range">终端会话 1-%1$d 已打开</string>
+  <string name="terminal_notification_channel_name">终端会话</string>
+  <string name="terminal_notification_channel_description">显示活动终端会话状态</string>
+
+  <!-- Updater Dialog -->
+  <string name="updater_title">有可用更新</string>
+  <string name="updater_version_prefix">v%1$s</string>
+  <string name="updater_dismiss">忽略</string>
+  <string name="updater_whats_new">新功能</string>
+  <string name="updater_download">下载更新</string>
+  <string name="updater_retry">重试下载</string>
+  <string name="updater_later">稍后</string>
+  <string name="updater_downloading">正在下载…</string>
+  <string name="updater_install_now">立即安装</string>
+  <string name="updater_progress_percent">%1$d%%</string>
+
+  <!-- Component Downloader Dialog -->
+  <string name="component_fetch_error">获取组件信息失败</string>
+  <string name="component_extracting">正在提取…</string>
+  <string name="component_linking">正在链接…</string>
+  <string name="component_downloading">正在下载…</string>
+  <string name="component_installed">安装成功</string>
+  <string name="component_install_failed">安装失败</string>
+  <string name="component_installing">正在安装…</string>
+  <string name="component_done">完成</string>
+  <string name="component_retry">重试</string>
+  <string name="component_download">下载</string>
+
+  <!-- Experiments Settings -->
+  <string name="experiments_section_language_servers">语言服务器 (LSP)</string>
+  <string name="experiments_kotlin_lsp_title">Kotlin 语言服务器</string>
+  <string name="experiments_kotlin_lsp_desc">提供 Kotlin 文件的代码补全、错误诊断和导航</string>
+  <string name="experiments_label_beta">测试版</string>
+  <string name="experiments_action_setup">设置</string>
+
+  <!-- Kotlin LSP Dialog -->
+  <string name="lsp_dialog_title">Kotlin 语言服务器</string>
+  <string name="lsp_dialog_subtitle">实验性功能</string>
+  <string name="lsp_dialog_dismiss">忽略</string>
+  <string name="lsp_feature_completion">智能代码补全</string>
+  <string name="lsp_feature_diagnostics">实时错误诊断</string>
+  <string name="lsp_feature_navigation">转到定义和引用</string>
+  <string name="lsp_feature_formatting">代码格式化</string>
+  <string name="lsp_download">下载 (~270 MB)</string>
+  <string name="lsp_retry">重试下载</string>
+  <string name="lsp_later">稍后</string>
+  <string name="lsp_downloading">正在下载…</string>
+  <string name="lsp_done">完成</string>
+  <string name="lsp_progress_percent">%1$d%%</string>
+  <string name="lsp_already_installed">Kotlin 语言服务器已安装</string>
+  <string name="lsp_remove">移除</string>
+  <string name="lsp_extracting">正在提取…</string>
+
+  <!-- Git Clone -->
+  <string name="git_clone_title">克隆存储库</string>
+  <string name="git_clone_label_url">存储库 URL</string>
+  <string name="git_clone_placeholder_url">https://github.com/user/repo.git</string>
+  <string name="git_clone_label_destination">克隆至 (父文件夹)</string>
+  <string name="git_clone_placeholder_destination">点击文件夹图标以选择</string>
+  <string name="git_clone_content_desc_pick_folder">选择文件夹</string>
+  <string name="git_clone_label_branch">分支 (可选)</string>
+  <string name="git_clone_placeholder_branch">main</string>
+  <string name="git_clone_label_custom_flags">自定义 Git 标志</string>
+  <string name="git_clone_label_extra_args">额外参数</string>
+  <string name="git_clone_placeholder_extra_args">--recurse-submodules --depth 1</string>
+  <string name="git_clone_extra_args_hint">附加到 git clone 命令后的空格分隔标志</string>
+  <string name="git_clone_label_credentials">使用凭据 (私有存储库)</string>
+  <string name="git_clone_label_username">用户名</string>
+  <string name="git_clone_label_token">令牌 (Token) / 密码</string>
+  <string name="git_clone_progress">正在克隆，请稍候…</string>
+  <string name="git_clone_button">克隆</string>
+  <string name="git_clone_status_cloning">正在克隆…</string>
+  <string name="git_clone_error_no_repo_name">无法从 URL 确定存储库名称。</string>
+  <string name="git_clone_error_move_failed">克隆成功，但无法移动到目标位置:\n%1$s</string>
+  <string name="git_not_found_title">未安装 Git</string>
+  <string name="git_not_found_message">环境中未安装 Git。打开终端并运行以下命令以安装它，然后再次尝试克隆。</string>
+  <string name="git_not_found_command">apt install git -y</string>
+  <string name="git_not_found_open_terminal">打开终端</string>
+  <string name="git_not_found_dismiss">忽略</string>
+
+  <!-- Setup Screen -->
+  <string name="setup_step_welcome_title">欢迎使用 AndroidCodeStudio</string>
+  <string name="setup_step_welcome_description">将您的 Android 设备变成强大的开发环境。</string>
+  <string name="setup_step_welcome_action">开始使用</string>
+
+  <string name="setup_step_permissions_title">存储权限</string>
+  <string name="setup_step_permissions_description">我们需要访问您的设备存储以管理项目文件。</string>
+  <string name="setup_step_permissions_action">授予权限</string>
+
+  <string name="setup_step_install_title">安装开发环境</string>
+  <string name="setup_step_install_description">正在安装 Ubuntu、JDK 和 Android SDK\u2026</string>
+  <string name="setup_step_install_action">安装环境</string>
+
+  <string name="setup_step_complete_title">全部就绪！</string>
+  <string name="setup_step_complete_description">您的开发环境已准备就绪。开始编码吧！</string>
+  <string name="setup_step_complete_action">开始编码</string>
+
+  <string name="setup_label_installing">正在安装</string>
+  <string name="setup_error_install_failed">安装失败</string>
+  <string name="setup_btn_retry">重试安装</string>
+
+  <!-- BugReportOverlay -->
+  <string name="bug_report_fab_content_desc">报告错误</string>
+  <string name="bug_report_dialog_title">报告错误</string>
+  <string name="bug_report_close_content_desc">关闭</string>
+  <string name="bug_report_attachment_default_name">附件</string>
+  <string name="bug_report_remove_attachment_content_desc">移除附件</string>
+
+  <!-- Consent dialog -->
+  <string name="bug_report_consent_title">在您继续之前</string>
+  <string name="bug_report_consent_body">错误报告包含您的设备型号、Android 版本、应用版本以及您选择附加的任何说明或文件。\n\n这些信息将发送给开发者，仅用于诊断和修复问题。不会收集任何个人数据。\n\n您是否同意发送此信息？</string>
+  <string name="bug_report_consent_agree">我同意</string>
+  <string name="bug_report_consent_decline">不用了，谢谢</string>
+
+  <!-- Report form -->
+  <string name="bug_report_rate_limit_msg">您已发送了 %1$d 份报告。请等待 %2$d 秒后再发送另一份。</string>
+  <string name="bug_report_title_label">问题标题</string>
+  <string name="bug_report_title_placeholder">错误的简短摘要</string>
+  <string name="bug_report_title_error">标题为必填项</string>
+  <string name="bug_report_body_label">描述</string>
+  <string name="bug_report_body_placeholder">重现步骤，预期结果，实际发生了什么…</string>
+  <string name="bug_report_body_error">描述为必填项</string>
+  <string name="bug_report_attach_button">附加文件或图片 (可选)</string>
+  <string name="bug_report_cancel_button">取消</string>
+  <string name="bug_report_send_button">发送报告</string>
+  <string name="bug_report_reports_remaining">剩余报告次数: %1$d / %2$d</string>
+  <string name="bug_report_reset_preferences_button">重置首选项</string>
+
+  <!-- MainActivity -->
+  <string name="main_git_icon_content_desc">Git</string>
+  <string name="main_hero_line1">打开或创建</string>
+  <string name="main_hero_line2">您的下一个项目</string>
+  <string name="main_section_quick_actions">快捷操作</string>
+  <string name="main_section_recent_projects">最近项目</string>
+  <string name="main_see_all">查看全部</string>
+  <string name="main_project_updated">于 %1$s 更新</string>
+
+  <!-- GeneralSettings sections -->
+  <string name="settings_section_appearance">外观</string>
+  <string name="settings_section_language">语言</string>
+  <string name="settings_section_developer">开发者选项</string>
+
+  <!-- Appearance settings -->
+  <string name="settings_dark_mode_title">深色模式</string>
+  <string name="settings_dark_mode_desc">在整个应用中使用深色主题</string>
+  <string name="settings_app_scale_title">应用缩放</string>
+  <string name="settings_app_scale_desc">缩放: %1$sx</string>
+
+  <!-- Language settings -->
+  <string name="settings_language_title">应用语言</string>
+  <string name="settings_language_desc">选择应用中使用的语言</string>
+
+  <!-- Developer settings -->
+  <string name="settings_ide_logs_title">IDE 日志</string>
+  <string name="settings_ide_logs_desc">启用详细日志记录以进行调试</string>
+
+  <string name="locale_system_default">系统默认</string>
+
+  <!-- Language switch overlay -->
+  <string name="settings_language_switching_title">正在切换语言</string>
+  <string name="settings_language_switching_subtitle">应用稍后将重新启动…</string>
+
+  <!-- EditorActivity: Permission -->
+  <string name="storage_permission_required">浏览文件需要存储权限</string>
+  <string name="all_files_access_permission">请在设置中授予“所有文件访问权限”</string>
+
+  <!-- EditorActivity: Flutter SDK not found dialog -->
+  <string name="flutter_sdk_not_found_title">未找到 Flutter SDK</string>
+  <string name="flutter_sdk_not_found_message">未找到 Flutter SDK</string>
+  <string name="flutter_sdk_not_found_error_code">ACS_FLUTTER_SDK_NOT_FOUND 非法参数</string>
+  <string name="flutter_sdk_install_hint">在打开 Flutter 项目之前，请从主屏幕的 SDK 管理器中安装 Flutter SDK。</string>
+
+  <!-- EditorActivity: Exit dialog -->
+  <string name="exit_editor_title">退出编辑器？</string>
+  <string name="exit_editor_message">这将关闭项目并清理资源。</string>
+  <string name="unsaved_changes_warning">⚠️ 您有未保存的更改！</string>
+  <string name="exit_with_cleanup">退出并清理</string>
+
+  <!-- EditorActivity: Cleanup progress dialog -->
+  <string name="cleaning_up_title">正在清理…</string>
+  <string name="force_stop">强制停止</string>
+  <string name="cleanup_stopping_builds">正在停止活动的构建…</string>
+  <string name="cleanup_stopping_daemons">正在停止 Gradle 守护进程…</string>
+  <string name="cleanup_shutting_down_gradle">正在关闭 Gradle 服务…</string>
+  <string name="cleanup_closing_terminals">正在关闭终端会话…</string>
+  <string name="cleanup_stopping_lsp">正在停止语言服务器…</string>
+  <string name="cleanup_finalizing">正在完成…</string>
+
+  <!-- EditorActivity: Service / build messages -->
+  <string name="tooling_api_not_available">工具 API 不可用。构建功能将被禁用。</string>
+  <string name="services_may_need_reconnect">某些服务可能需要重新连接</string>
+
+  <!-- EditorScreen: General -->
+  <string name="toggle_navigation_drawer">切换导航抽屉</string>
+
+  <!-- EditorScreen: Bottom sheet header -->
+  <string name="build_output">构建输出</string>
+  <string name="ready">就绪</string>
+
+  <!-- EditorScreen: Bottom sheet tab titles -->
+  <string name="tab_output">输出</string>
+  <string name="tab_problems">问题</string>
+  <string name="tab_app_logs">应用日志</string>
+  <string name="tab_ide_logs">IDE 日志</string>
+
+  <!-- EditorScreen: LSP / definition navigation -->
+  <string name="could_not_open_definition">无法打开定义</string>
+  <string name="definition_not_found">未找到定义</string>
+
+  <!-- EditorScreen: Unsupported JDK dialog -->
+  <string name="unsupported_java_version_title">不支持的 Java 版本</string>
+  <string name="unsupported_java_version_message">Kotlin 语言服务器需要 Java 21 或更高版本。\n\n当前的 Java 运行环境太旧，无法运行它 (类文件版本 65.0 需要 Java 21+)。请通过 SDK 管理器安装 Temurin JDK 21，然后重新启动 IDE。</string>
+
+  <!-- EditorScreen: Sync -->
+  <string name="syncing_project">正在同步项目…</string>
+  <string name="finalizing_sync">正在完成同步…</string>
+  <string name="refreshing_classpaths">正在刷新类路径 (classpaths)…</string>
+  <string name="restarting_language_servers">正在重启语言服务器…</string>
+  <string name="loading_tasks">正在加载任务…</string>
+  <string name="sync_completed">同步已完成！</string>
+  <string name="project_synced_successfully">✓ 项目同步成功</string>
+  <string name="sync_failed">✗ 同步失败。请检查构建输出。</string>
+  <string name="sync_error">✗ 同步错误: %s</string>
+  <string name="please_sync_project_first">请先同步项目，或等待同步完成</string>
+
+  <!-- EditorScreen: File actions -->
+  <string name="file_saved">文件已保存</string>
+  <string name="failed_to_save_file">保存文件失败</string>
+  <string name="failed_to_open_file">打开文件失败: %s</string>
+
+  <!-- EditorScreen: Build actions -->
+  <string name="build_cancelled">构建已取消</string>
+  <string name="failed_to_cancel">取消失败: %s</string>
+  <string name="failed_to_run">运行失败: %s</string>
+
+  <!-- Shared: Flutter -->
+  <string name="flutter_pub_get_running">正在运行 Flutter pub get…</string>
+  <string name="flutter_dependencies_downloaded">Flutter 依赖项下载成功</string>
+  <string name="flutter_pub_get_failed">Flutter pub get 失败。请查看“输出”面板获取详细信息。</string>
+  <string name="flutter_sdk_not_found_settings">未找到 Flutter SDK。请从 IDE 设置中安装 Flutter。</string>
+
+  <!-- Shared: Generic error -->
+  <string name="error_with_message">错误: %s</string>
+
+
+    <string name="settings_back">返回</string>
+    <string name="settings_hero_line1">自定义你的</string>
+    <string name="settings_hero_line2">使用体验</string>
+    <string name="settings_hero_subtitle">应用设置与偏好</string>
+    <string name="settings_section_header">设置</string>
+    <string name="settings_detail_subtitle">设置</string>
+    <string name="settings_summary_general">外观、文件与确认操作</string>
+    <string name="settings_summary_editor">字体、显示与代码行为</string>
+    <string name="settings_summary_experimental">预览和实验性功能</string>
+    <string name="settings_summary_about">应用信息、设备与链接</string>
+
+    <string name="editor_section_gradle_service">Gradle 服务</string>
+    <string name="editor_section_syntax_highlighting">语法高亮</string>
+    <string name="editor_section_display">显示</string>
+    <string name="editor_section_behavior">行为</string>
+    <string name="editor_section_lsp_kotlin">LSP：Kotlin</string>
+    <string name="editor_section_advanced">高级</string>
+
+    <string name="editor_theme_title">编辑器主题</string>
+    <string name="editor_syntax_highlighting_title">语法高亮</string>
+    <string name="editor_syntax_highlighting_desc">根据语言对代码进行着色</string>
+    <string name="editor_color_preview_title">颜色预览</string>
+    <string name="editor_color_preview_desc">显示颜色值的预览</string>
+    <string name="editor_highlight_current_line_title">高亮当前行</string>
+    <string name="editor_highlight_current_line_desc">高亮显示光标所在行</string>
+
+    <string name="editor_font_family_title">字体族</string>
+    <string name="editor_font_import_option">导入字体…</string>
+    <string name="editor_memory_usage_title">内存使用</string>
+    <string name="editor_memory_usage_desc">显示内存使用浮层</string>
+    <string name="editor_font_size_title">字体大小</string>
+    <string name="editor_font_size_desc">%d px</string>
+    <string name="editor_tab_size_title">制表符大小</string>
+    <string name="editor_tab_size_desc">%d 个空格</string>
+    <string name="editor_line_numbers_title">行号</string>
+    <string name="editor_line_numbers_desc">在边栏显示行号</string>
+    <string name="editor_word_wrap_title">自动换行</string>
+    <string name="editor_word_wrap_desc">将长行折叠以适应屏幕宽度</string>
+    <string name="editor_line_column_indicator_title">行列指示器</string>
+    <string name="editor_line_column_indicator_desc">在编辑器中显示光标位置</string>
+
+    <string name="editor_auto_format_title">自动格式化</string>
+    <string name="editor_auto_format_desc">保存后自动格式化代码</string>
+    <string name="editor_auto_indent_title">自动缩进</string>
+    <string name="editor_auto_indent_desc">自动为新行添加缩进</string>
+    <string name="editor_auto_pairing_title">自动配对</string>
+    <string name="editor_auto_pairing_desc">自动补全括号和引号</string>
+
+    <string name="editor_kotlin_diagnostics_title">实验性 Kotlin 诊断</string>
+    <string name="editor_kotlin_diagnostics_desc">为 Kotlin 文件报告诊断信息</string>
+
+    <string name="editor_show_whitespace_title">显示空白字符</string>
+    <string name="editor_show_whitespace_desc">以可视方式显示空格和制表符</string>
+    <string name="editor_show_line_endings_title">显示行尾符</string>
+    <string name="editor_show_line_endings_desc">显示换行符字符</string>
+    <string name="editor_cursor_blink_title">光标闪烁</string>
+    <string name="editor_cursor_blink_desc">启用光标闪烁动画</string>
+
+    <string name="editor_font_import_dialog_title">导入自定义字体</string>
+    <string name="editor_font_import_dialog_body">请选择 TrueType (.ttf) 或 OpenType (.otf) 字体文件。</string>
+    <string name="editor_font_import_name_label">字体名称</string>
+    <string name="editor_font_import_choose_file">选择字体文件</string>
+    <string name="editor_font_import_confirm">导入</string>
+    <string name="editor_font_import_cancel">取消</string>
+
+    <string name="gradle_sync_args_title">同步参数</string>
+    <string name="gradle_no_extra_flags">无额外标志</string>
+    <string name="gradle_common_flags_label">常用标志</string>
+    <string name="gradle_custom_flag_label">自定义标志</string>
+    <string name="gradle_custom_flags_label">自定义标志列表</string>
+    <string name="gradle_custom_flag_placeholder">例如：--warning-mode=all</string>
+    <string name="gradle_add_flag_cd">添加标志</string>
+    <string name="gradle_remove_flag_cd">移除</string>
+
+    <string name="settings_about_section_title">关于</string>
+    <string name="settings_editor_section_title">编辑器</string>
+    <string name="settings_general_section_title">常规</string>
+    <string name="settings_experimental_section_title">实验功能</string>
+    
+</resources>

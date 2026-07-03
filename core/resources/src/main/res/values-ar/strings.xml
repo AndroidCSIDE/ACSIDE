@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="create_project">إنشاء مشروع</string>
+  <string name="open_project">فتح مشروع</string>
+  <string name="launch_terminal">تشغيل الوحدة الطرفية</string>
+
+  <!-- ============================================================ -->
+  <!-- Project Actions                                              -->
+  <!-- ============================================================ -->
+  <string name="action_create_project_title">مشروع جديد</string>
+  <string name="action_create_project_desc">إنشاء مشروع Android جديد</string>
+
+  <string name="action_open_project_title">فتح</string>
+  <string name="action_open_project_desc">فتح مشروع موجود</string>
+
+  <!-- ============================================================ -->
+  <!-- Tool Actions                                                 -->
+  <!-- ============================================================ -->
+  <string name="action_sdk_manager_title">مدير SDK</string>
+
+  <string name="action_terminal_title">الطرفية</string>
+
+  <string name="action_settings_title">الإعدادات</string>
+
+  <string name="action_plugins_title">الإضافات</string>
+
+  <!-- ============================================================ -->
+  <!-- Editor Actions                                               -->
+  <!-- ============================================================ -->
+  <string name="action_save_title">حفظ</string>
+
+  <string name="action_undo_title">تراجع</string>
+
+  <string name="action_redo_title">إعادة</string>
+
+  <string name="action_search_title">بحث</string>
+
+  <string name="action_sync_title">مزامنة</string>
+
+  <string name="action_run_title">تشغيل</string>
+
+  <string name="action_cancel_build_title">إلغاء البناء</string>
+
+    <string name="action_group_project">المشروع</string>
+    <string name="action_group_tools">الأدوات</string>
+    <string name="action_group_settings">الإعدادات</string>
+    <string name="action_group_plugins">الإضافات</string>
+    <string name="action_group_editor_plugins">إضافات المحرر</string>
+
+    <!-- ============================================================ -->
+    <!-- Preview Action (Compose / Flutter)                           -->
+    <!-- ============================================================ -->
+    <string name="action_preview_title">معاينة</string>
+    <string name="action_preview_desc">معاينة التخطيط أو العنصر القابل للتركيب</string>
+        
+  <string name="settings">التفضيلات</string>
+
+  <string name="kotlin">Kotlin</string>
+  <string name="ndk_version_auto">NDK: تلقائي</string>
+  <string name="native_error_title">مطلوب NDK</string>
+  <string name="error_ndk_not_found_or_incompatible">لم يتم العثور على تثبيت NDK أو أنه غير متوافق. يرجى تثبيت NDK من إعدادات IDE.</string>
+  <string name="open_ide_cfg_msg">فتح الإعدادات</string>
+  
+  <!-- ATC Options Dialog -->
+  <string name="choose_template">اختيار القالب</string>
+  <string name="project_configuration">تكوين المشروع</string>
+  <string name="use_cmake">استخدام نظام بناء CMake</string>
+  <string name="native_language">اللغة الأصلية (Native)</string>
+  <string name="minimum_sdk">الحد الأدنى لـ SDK</string>
+  <string name="new_project">مشروع جديد</string>
+  <string name="package_name">اسم الحزمة</string>
+
+  <string name="project_name">اسم المشروع</string>
+  <string name="project_location">موقع المشروع</string>
+  <string name="browse">تصفح</string>
+  <string name="language">اللغة</string>
+  <string name="java">Java</string>
+  <string name="use_gradle_kotlin_dsl">استخدام Gradle Kotlin DSL (.kts)</string>
+  <string name="cancel">إلغاء</string>
+  <string name="create">إنشاء</string>
+  <string name="default_project_name">MyApplication</string>
+  <string name="default_package_name">com.example.myapplication</string>
+  <string name="back">رجوع</string>
+
+  <!-- MainActivity -->
+  <string name="app_name_full">Android Code Studio</string>
+  <string name="app_icon_description">أيقونة التطبيق</string>
+  <string name="error_invalid_gradle_project">الدليل المحدد ليس مشروع Gradle صالحاً</string>
+  <string name="error_could_not_access_directory">تعذر الوصول إلى الدليل المحدد</string>
+  
+  <!-- Sections -->
+  <string name="section_projects">المشاريع</string>
+  <string name="section_recent_projects">المشاريع الحديثة</string>
+  <string name="section_learn">التعلم</string>
+  <string name="section_resources">الموارد</string>
+  
+  <!-- Recent Projects -->
+  <string name="no_recent_projects">لا توجد مشاريع حديثة</string>
+  <string name="content_description_remove">إزالة</string>
+  
+  <!-- Learn Section -->
+  <string name="learn_first_app_title">أنشئ تطبيقك الأول</string>
+  <string name="learn_first_app_description">تعلم أساسيات تطوير Android</string>
+  <string name="learn_kotlin_title">دليل لغة Kotlin</string>
+  <string name="learn_kotlin_description">احترف برمجة Kotlin</string>
+  <string name="learn_compose_title">Jetpack Compose</string>
+  <string name="learn_compose_description">أدوات واجهة المستخدم الحديثة لـ Android</string>
+  
+  <!-- Resources Section -->
+  <string name="resources_documentation_title">التوثيق</string>
+  <string name="resources_documentation_description">دليل ومرجع API</string>
+  <string name="resources_samples_title">مشاريع نموذجية</string>
+  <string name="resources_samples_description">استكشف تطبيقات توضيحية</string>
+
+  <!-- Editor Bottom Sheet -->
+  <string name="content_description_expand">توسيع</string>
+  <string name="content_description_collapse">طي</string>
+  <string name="content_description_clear">مسح</string>
+  <string name="content_description_close">إغلاق</string>
+
+  <!-- Actions -->
+  <string name="action_new_project">مشروع جديد</string>
+  <string name="action_new_project_desc">إنشاء مشروع Android جديد</string>
+  <string name="action_open">فتح</string>
+  <string name="action_open_desc">فتح مشروع حالي</string>
+  <string name="action_sdk_manager">مدير SDK</string>
+  <string name="action_sdk_manager_desc">إدارة مكونات Android SDK</string>
+  <string name="action_terminal">الوحدة الطرفية</string>
+  <string name="action_terminal_desc">فتح الوحدة الطرفية المدمجة</string>
+  <string name="action_settings">الإعدادات</string>
+  <string name="action_settings_desc">تكوين تفضيلات IDE</string>
+  <string name="action_plugins">الإضافات</string>
+  <string name="action_plugins_desc">إدارة إضافات IDE</string>
+  <string name="action_jitpack_preview">معاينة JitPack</string>
+  <string name="action_jitpack_preview_desc">معاينة مكتبات JitPack</string>
+  <string name="action_sdk_manager_test">مدير SDK (تجريبي)</string>
+  <string name="action_sdk_manager_test_desc">نسخة تجريبية من مدير SDK</string>
+  
+  <!-- Editor Actions -->
+  <string name="action_save">حفظ</string>
+  <string name="action_save_desc">حفظ الملف الحالي</string>
+  <string name="action_undo">تراجع</string>
+  <string name="action_undo_desc">التراجع عن التغيير الأخير</string>
+  <string name="action_redo">إعادة</string>
+  <string name="action_redo_desc">إعادة التغيير الأخير المتراجع عنه</string>
+  <string name="action_search">بحث</string>
+  <string name="action_search_desc">بحث واستبدال في الملف</string>
+  <string name="action_sync">مزامنة</string>
+  <string name="action_sync_desc">مزامنة مشروع Gradle</string>
+  <string name="action_run">تشغيل</string>
+  <string name="action_run_desc">بناء وتشغيل المشروع</string>
+  <string name="action_cancel_build">إلغاء البناء</string>
+  <string name="action_cancel_build_desc">إلغاء عملية البناء الحالية</string>
+  
+  <!-- Action Messages -->
+  <string name="action_disabled">%1$s معطل حالياً</string>
+  <string name="action_executing">جاري تنفيذ: %1$s</string>
+  <string name="action_execution_error">خطأ في تنفيذ %1$s: %2$s</string>
+  <string name="jitpack_preview_unavailable">معاينة JitPack غير متاحة</string>
+  <string name="sdk_manager_test_unavailable">اختبار مدير SDK غير متاح</string>
+  
+  <!-- Template Plugin Messages -->
+  <string name="template_plugins_directory_not_found">لم يتم العثور على دليل الإضافات</string>
+  <string name="template_no_enabled_plugins">لم يتم العثور على إضافات مفعلة</string>
+  <string name="template_plugin_no_templates">الإضافة %1$s لا تحتوي على ملف templates.json</string>
+  <string name="template_loaded_count">تم تحميل %1$d قوالب من الإضافة: %2$s</string>
+  <string name="template_total_loaded">إجمالي القوالب المحملة: %1$d من %2$d إضافة</string>
+  <string name="template_plugins_json_not_found">لم يتم العثور على ملف plugins.json</string>
+  <string name="template_enabled_plugins">الإضافات المفعلة: %1$s</string>
+  <string name="template_parse_success">تم تحميل %1$d قوالب من JSON بنجاح</string>
+  <string name="template_parse_error">فشل تحليل قوالب JSON</string>
+  <string name="template_creation_failed">فشل إنشاء القالب</string>
+
+  <!-- Internal Error Dialog -->
+  <string name="error_internal_title">خطأ داخلي</string>
+  <string name="error_internal_lib_dir_missing">يوجد دليل داخلي حرج مفقود. هذا خطأ لا يمكن الاسترداد منه. يرجى إعادة تثبيت التطبيق.</string>
+  <string name="error_internal_exit">خروج</string>
+
+  <!-- Plugin Installation -->
+  <string name="plugin_install_success_title">تم تثبيت الإضافة</string>
+  <string name="plugin_install_success_message">تم تثبيت %1$s بنجاح.\n\nهل ترغب في تفعيلها وإعادة تحميل IDE؟</string>
+  <string name="plugin_install_enable_and_reload">تفعيل وإعادة تحميل</string>
+  <string name="plugin_install_later">لاحقاً</string>
+  <string name="plugin_install_failed_title">فشل التثبيت</string>
+  <string name="plugin_enabled">تم تفعيل الإضافة</string>
+
+  <!-- Plugin Screen UI -->
+  <string name="plugin_refresh">تحديث</string>
+  <string name="plugin_refreshing">جاري التحديث…</string>
+  <string name="plugin_search_hint">ابحث عن الإضافات…</string>
+  <string name="plugin_install_from_file">التثبيت من ملف</string>
+  <string name="plugin_section_installed">المثبتة</string>
+  <string name="plugin_section_available">المتاحة</string>
+  <string name="plugin_no_installed">لم يتم تثبيت أي إضافات بعد</string>
+  <string name="plugin_no_installed_match">لا توجد إضافات مثبتة مطابقة</string>
+  <string name="plugin_all_installed">تم تثبيت جميع إضافات المستودع</string>
+  <string name="plugin_no_available_match">لا توجد إضافات متاحة مطابقة</string>
+  <string name="plugin_updates_available">يتوفر %1$d تحديث(تحديثات)</string>
+  <string name="plugin_update_available">تحديث متاح: v%1$s</string>
+  <string name="plugin_repo_loading">جاري تحميل المستودع…</string>
+  <string name="plugin_repo_load_failed">تعذر تحميل المستودع</string>
+  <string name="plugin_repo_empty">لم يتم تحميل أي إضافات</string>
+  <string name="plugin_repo_empty_hint">تعذر الوصول إلى مستودعات الإضافات. تحقق من اتصالك واضغط ↻ للمحاولة مرة أخرى.</string>
+  <string name="plugin_downloading">جاري التنزيل…</string>
+  <string name="plugin_downloading_update">جاري تنزيل التحديث…</string>
+  <string name="plugin_badge_installed">مُثبت</string>
+  <string name="plugin_badge_enabled">مُفعل</string>
+  <string name="plugin_badge_disabled">مُعطل</string>
+  <string name="plugin_action_install">تثبيت</string>
+  <string name="plugin_action_update">تحديث</string>
+  <string name="plugin_action_update_to">تحديث إلى v%1$s</string>
+  <string name="plugin_action_enable">تفعيل</string>
+  <string name="plugin_action_disable">تعطيل</string>
+  <string name="plugin_action_uninstall">إلغاء التثبيت</string>
+  <string name="plugin_uninstall_confirm_title">إلغاء تثبيت الإضافة؟</string>
+  <string name="plugin_uninstall_confirm_message">هل أنت متأكد أنك تريد إلغاء تثبيت %1$s؟ لا يمكن التراجع عن هذا الإجراء.</string>
+  <string name="plugin_reload_required">مطلوب إعادة التحميل</string>
+  <string name="plugin_reload_message">الإضافة "%1$s" جاهزة. أعد تحميل IDE الآن لتنشيطها.</string>
+  <string name="plugin_reload_now">إعادة التحميل الآن</string>
+  <string name="plugin_reload_later">لاحقاً</string>
+  <string name="plugin_install_invalid_file_type">نوع الملف غير صالح. يُسمح فقط بملفات .acp</string>
+  <string name="plugin_install_error">فشل التثبيت: %1$s</string>
+  <string name="plugin_download_error">فشل التنزيل: %1$s</string>
+  <string name="ok">موافق</string>
+
+  <!-- Terminal -->
+  <string name="terminal_title">الوحدة الطرفية</string>
+  <string name="terminal_sessions">الجلسات</string>
+  <string name="terminal_add_session">إضافة جلسة</string>
+  <string name="terminal_delete_session">حذف جلسة</string>
+  <string name="terminal_active">الوحدة الطرفية نشطة</string>
+  <string name="terminal_session_single">جلسة الوحدة الطرفية 1 مفتوحة</string>
+  <string name="terminal_sessions_range">جلسات الوحدة الطرفية 1-%1$d مفتوحة</string>
+  <string name="terminal_notification_channel_name">جلسات الوحدة الطرفية</string>
+  <string name="terminal_notification_channel_description">يعرض حالة جلسة الوحدة الطرفية النشطة</string>
+
+  <!-- Updater Dialog -->
+  <string name="updater_title">يتوفر تحديث</string>
+  <string name="updater_version_prefix">v%1$s</string>
+  <string name="updater_dismiss">تجاهل</string>
+  <string name="updater_whats_new">ما الجديد</string>
+  <string name="updater_download">تنزيل التحديث</string>
+  <string name="updater_retry">إعادة محاولة التنزيل</string>
+  <string name="updater_later">لاحقاً</string>
+  <string name="updater_downloading">جاري التنزيل…</string>
+  <string name="updater_install_now">التثبيت الآن</string>
+  <string name="updater_progress_percent">%1$d%%</string>
+
+  <!-- Component Downloader Dialog -->
+  <string name="component_fetch_error">فشل جلب معلومات المكون</string>
+  <string name="component_extracting">جاري الاستخراج…</string>
+  <string name="component_linking">جاري الربط…</string>
+  <string name="component_downloading">جاري التنزيل…</string>
+  <string name="component_installed">تم التثبيت بنجاح</string>
+  <string name="component_install_failed">فشل التثبيت</string>
+  <string name="component_installing">جاري التثبيت…</string>
+  <string name="component_done">تم</string>
+  <string name="component_retry">إعادة المحاولة</string>
+  <string name="component_download">تنزيل</string>
+
+  <!-- Experiments Settings -->
+  <string name="experiments_section_language_servers">خوادم اللغات</string>
+  <string name="experiments_kotlin_lsp_title">خادم لغة Kotlin</string>
+  <string name="experiments_kotlin_lsp_desc">إكمال الكود، التشخيصات، والتنقل في ملفات Kotlin</string>
+  <string name="experiments_label_beta">تجريبي (BETA)</string>
+  <string name="experiments_action_setup">إعداد</string>
+
+  <!-- Kotlin LSP Dialog -->
+  <string name="lsp_dialog_title">خادم لغة Kotlin</string>
+  <string name="lsp_dialog_subtitle">تجريبي</string>
+  <string name="lsp_dialog_dismiss">تجاهل</string>
+  <string name="lsp_feature_completion">إكمال ذكي للكود</string>
+  <string name="lsp_feature_diagnostics">تشخيص الأخطاء في الوقت الفعلي</string>
+  <string name="lsp_feature_navigation">الانتقال إلى التعريف والمراجع</string>
+  <string name="lsp_feature_formatting">تنسيق الكود</string>
+  <string name="lsp_download">تنزيل (~270 ميجابايت)</string>
+  <string name="lsp_retry">إعادة محاولة التنزيل</string>
+  <string name="lsp_later">لاحقاً</string>
+  <string name="lsp_downloading">جاري التنزيل…</string>
+  <string name="lsp_done">تم</string>
+  <string name="lsp_progress_percent">%1$d%%</string>
+  <string name="lsp_already_installed">خادم لغة Kotlin مثبت بالفعل</string>
+  <string name="lsp_remove">إزالة</string>
+  <string name="lsp_extracting">جاري الاستخراج…</string>
+
+  <!-- Git Clone -->
+  <string name="git_clone_title">استنساخ المستودع</string>
+  <string name="git_clone_label_url">رابط المستودع</string>
+  <string name="git_clone_placeholder_url">https://github.com/user/repo.git</string>
+  <string name="git_clone_label_destination">الاستنساخ إلى (المجلد الأصل)</string>
+  <string name="git_clone_placeholder_destination">اضغط على أيقونة المجلد للاختيار</string>
+  <string name="git_clone_content_desc_pick_folder">اختيار مجلد</string>
+  <string name="git_clone_label_branch">الفرع (اختياري)</string>
+  <string name="git_clone_placeholder_branch">main</string>
+  <string name="git_clone_label_custom_flags">أعلام (Flags) Git مخصصة</string>
+  <string name="git_clone_label_extra_args">وسائط إضافية</string>
+  <string name="git_clone_placeholder_extra_args">--recurse-submodules --depth 1</string>
+  <string name="git_clone_extra_args_hint">أعلام مفصولة بمسافة تلحق بأمر استنساخ git</string>
+  <string name="git_clone_label_credentials">استخدام بيانات الاعتماد (مستودع خاص)</string>
+  <string name="git_clone_label_username">اسم المستخدم</string>
+  <string name="git_clone_label_token">الرمز (Token) / كلمة المرور</string>
+  <string name="git_clone_progress">جاري الاستنساخ، يرجى الانتظار…</string>
+  <string name="git_clone_button">استنساخ</string>
+  <string name="git_clone_status_cloning">جاري الاستنساخ…</string>
+  <string name="git_clone_error_no_repo_name">تعذر تحديد اسم المستودع من الرابط.</string>
+  <string name="git_clone_error_move_failed">نجح الاستنساخ ولكن فشل النقل إلى الوجهة:\n%1$s</string>
+  <string name="git_not_found_title">Git غير مثبت</string>
+  <string name="git_not_found_message">Git غير مثبت في البيئة. افتح الوحدة الطرفية وقم بتشغيل الأمر أدناه لتثبيته، ثم حاول الاستنساخ مرة أخرى.</string>
+  <string name="git_not_found_command">apt install git -y</string>
+  <string name="git_not_found_open_terminal">فتح الوحدة الطرفية</string>
+  <string name="git_not_found_dismiss">تجاهل</string>
+
+  <!-- Setup Screen -->
+  <string name="setup_step_welcome_title">مرحباً بك في AndroidCodeStudio</string>
+  <string name="setup_step_welcome_description">حوّل جهاز Android الخاص بك إلى بيئة تطوير قوية.</string>
+  <string name="setup_step_welcome_action">ابدأ الآن</string>
+
+  <string name="setup_step_permissions_title">أذونات التخزين</string>
+  <string name="setup_step_permissions_description">نحتاج إلى الوصول إلى مساحة تخزين جهازك لإدارة ملفات المشروع.</string>
+  <string name="setup_step_permissions_action">منح الإذن</string>
+
+  <string name="setup_step_install_title">تثبيت بيئة التطوير</string>
+  <string name="setup_step_install_description">جاري تثبيت Ubuntu، JDK، و Android SDK\u2026</string>
+  <string name="setup_step_install_action">تثبيت البيئة</string>
+
+  <string name="setup_step_complete_title">كل شيء جاهز!</string>
+  <string name="setup_step_complete_description">بيئة التطوير الخاصة بك جاهزة. ابدأ البرمجة!</string>
+  <string name="setup_step_complete_action">ابدأ البرمجة</string>
+
+  <string name="setup_label_installing">جاري التثبيت</string>
+  <string name="setup_error_install_failed">فشل التثبيت</string>
+  <string name="setup_btn_retry">إعادة محاولة التثبيت</string>
+
+  <!-- BugReportOverlay -->
+  <string name="bug_report_fab_content_desc">الإبلاغ عن خطأ</string>
+  <string name="bug_report_dialog_title">الإبلاغ عن خطأ</string>
+  <string name="bug_report_close_content_desc">إغلاق</string>
+  <string name="bug_report_attachment_default_name">مرفق</string>
+  <string name="bug_report_remove_attachment_content_desc">إزالة المرفق</string>
+
+  <!-- Consent dialog -->
+  <string name="bug_report_consent_title">قبل المتابعة</string>
+  <string name="bug_report_consent_body">تتضمن تقارير الأخطاء طراز جهازك، وإصدار Android، وإصدار التطبيق، وأي وصف أو ملفات تختار إرفاقها.\n\nيتم إرسال هذه المعلومات إلى المطور وتُستخدم حصرياً لتشخيص المشكلات وإصلاحها. لا يتم جمع أي بيانات شخصية.\n\nهل توافق على إرسال هذه المعلومات؟</string>
+  <string name="bug_report_consent_agree">أوافق</string>
+  <string name="bug_report_consent_decline">لا شكراً</string>
+
+  <!-- Report form -->
+  <string name="bug_report_rate_limit_msg">لقد أرسلت %1$d تقارير. يرجى الانتظار %2$d ثانية قبل إرسال تقرير آخر.</string>
+  <string name="bug_report_title_label">عنوان المشكلة</string>
+  <string name="bug_report_title_placeholder">ملخص قصير للخطأ</string>
+  <string name="bug_report_title_error">العنوان مطلوب</string>
+  <string name="bug_report_body_label">الوصف</string>
+  <string name="bug_report_body_placeholder">خطوات إعادة إنتاج الخطأ، ما كنت تتوقعه، ما حدث…</string>
+  <string name="bug_report_body_error">الوصف مطلوب</string>
+  <string name="bug_report_attach_button">إرفاق ملف أو صورة (اختياري)</string>
+  <string name="bug_report_cancel_button">إلغاء</string>
+  <string name="bug_report_send_button">إرسال التقرير</string>
+  <string name="bug_report_reports_remaining">التقارير المتبقية: %1$d / %2$d</string>
+  <string name="bug_report_reset_preferences_button">إعادة تعيين التفضيلات</string>
+
+  <!-- MainActivity -->
+  <string name="main_git_icon_content_desc">Git</string>
+  <string name="main_hero_line1">افتح أو أنشئ</string>
+  <string name="main_hero_line2">مشروعك القادم</string>
+  <string name="main_section_quick_actions">إجراءات سريعة</string>
+  <string name="main_section_recent_projects">المشاريع الحديثة</string>
+  <string name="main_see_all">عرض الكل</string>
+  <string name="main_project_updated">تم التحديث %1$s</string>
+
+  <!-- GeneralSettings sections -->
+  <string name="settings_section_appearance">المظهر</string>
+  <string name="settings_section_language">اللغة</string>
+  <string name="settings_section_developer">خيارات المطور</string>
+
+  <!-- Appearance settings -->
+  <string name="settings_dark_mode_title">الوضع الداكن</string>
+  <string name="settings_dark_mode_desc">استخدام السمة الداكنة في جميع أنحاء التطبيق</string>
+  <string name="settings_app_scale_title">مقياس التطبيق</string>
+  <string name="settings_app_scale_desc">المقياس: %1$sx</string>
+
+  <!-- Language settings -->
+  <string name="settings_language_title">لغة التطبيق</string>
+  <string name="settings_language_desc">اختر اللغة المستخدمة في التطبيق</string>
+
+  <!-- Developer settings -->
+  <string name="settings_ide_logs_title">سجلات IDE</string>
+  <string name="settings_ide_logs_desc">تفعيل التسجيل المفصل لأغراض التصحيح</string>
+
+  <string name="locale_system_default">النظام الافتراضي</string>
+
+  <!-- Language switch overlay -->
+  <string name="settings_language_switching_title">جاري تبديل اللغة</string>
+  <string name="settings_language_switching_subtitle">سيتم إعادة تشغيل التطبيق لحظات…</string>
+
+  <!-- EditorActivity: Permission -->
+  <string name="storage_permission_required">إذن التخزين مطلوب لتصفح الملفات</string>
+  <string name="all_files_access_permission">يرجى منح إذن \'الوصول إلى جميع الملفات\' في الإعدادات</string>
+
+  <!-- EditorActivity: Flutter SDK not found dialog -->
+  <string name="flutter_sdk_not_found_title">لم يتم العثور على Flutter SDK</string>
+  <string name="flutter_sdk_not_found_message">لم يتم العثور على حزمة Flutter SDK</string>
+  <string name="flutter_sdk_not_found_error_code">معامل غير صالح ACS_FLUTTER_SDK_NOT_FOUND</string>
+  <string name="flutter_sdk_install_hint">يرجى تثبيت Flutter SDK من مدير SDK في الشاشة الرئيسية قبل فتح مشروع Flutter.</string>
+
+  <!-- EditorActivity: Exit dialog -->
+  <string name="exit_editor_title">الخروج من المحرر؟</string>
+  <string name="exit_editor_message">سيؤدي هذا إلى إغلاق المشروع وتنظيف الموارد.</string>
+  <string name="unsaved_changes_warning">⚠️ لديك تغييرات غير محفوظة!</string>
+  <string name="exit_with_cleanup">الخروج مع التنظيف</string>
+
+  <!-- EditorActivity: Cleanup progress dialog -->
+  <string name="cleaning_up_title">جاري التنظيف…</string>
+  <string name="force_stop">إيقاف إجباري</string>
+  <string name="cleanup_stopping_builds">إيقاف عمليات البناء النشطة…</string>
+  <string name="cleanup_stopping_daemons">إيقاف عمليات Gradle في الخلفية…</string>
+  <string name="cleanup_shutting_down_gradle">إيقاف تشغيل خدمة Gradle…</string>
+  <string name="cleanup_closing_terminals">إغلاق جلسات الوحدة الطرفية…</string>
+  <string name="cleanup_stopping_lsp">إيقاف خوادم اللغات…</string>
+  <string name="cleanup_finalizing">إنهاء…</string>
+
+  <!-- EditorActivity: Service / build messages -->
+  <string name="tooling_api_not_available">واجهة برمجة تطبيقات الأدوات (Tooling API) غير متاحة. سيتم تعطيل ميزات البناء.</string>
+  <string name="services_may_need_reconnect">قد تحتاج بعض الخدمات إلى إعادة الاتصال</string>
+
+  <!-- EditorScreen: General -->
+  <string name="toggle_navigation_drawer">تبديل قائمة التنقل الجانبية</string>
+
+  <!-- EditorScreen: Bottom sheet header -->
+  <string name="build_output">مخرجات البناء</string>
+  <string name="ready">جاهز</string>
+
+  <!-- EditorScreen: Bottom sheet tab titles -->
+  <string name="tab_output">المخرجات</string>
+  <string name="tab_problems">المشكلات</string>
+  <string name="tab_app_logs">سجلات التطبيق</string>
+  <string name="tab_ide_logs">سجلات IDE</string>
+
+  <!-- EditorScreen: LSP / definition navigation -->
+  <string name="could_not_open_definition">تعذر فتح التعريف</string>
+  <string name="definition_not_found">لم يتم العثور على التعريف</string>
+
+  <!-- EditorScreen: Unsupported JDK dialog -->
+  <string name="unsupported_java_version_title">إصدار Java غير مدعوم</string>
+  <string name="unsupported_java_version_message">يتطلب خادم لغة Kotlin إصدار Java 21 أو أحدث.\n\nبيئة تشغيل Java الحالية قديمة جداً لتشغيله (يتطلب إصدار ملف الفئة 65.0 Java 21+). يرجى تثبيت Temurin JDK 21 عبر مدير SDK ثم إعادة تشغيل IDE.</string>
+
+  <!-- EditorScreen: Sync -->
+  <string name="syncing_project">جاري مزامنة المشروع…</string>
+  <string name="finalizing_sync">جاري إنهاء المزامنة…</string>
+  <string name="refreshing_classpaths">جاري تحديث مسارات الفئات (classpaths)…</string>
+  <string name="restarting_language_servers">جاري إعادة تشغيل خوادم اللغات…</string>
+  <string name="loading_tasks">جاري تحميل المهام…</string>
+  <string name="sync_completed">اكتملت المزامنة!</string>
+  <string name="project_synced_successfully">✓ تمت مزامنة المشروع بنجاح</string>
+  <string name="sync_failed">✗ فشلت المزامنة. تحقق من مخرجات البناء.</string>
+  <string name="sync_error">✗ خطأ في المزامنة: %s</string>
+  <string name="please_sync_project_first">يرجى مزامنة المشروع أولاً، أو انتظر حتى تكتمل المزامنة</string>
+
+  <!-- EditorScreen: File actions -->
+  <string name="file_saved">تم حفظ الملف</string>
+  <string name="failed_to_save_file">فشل حفظ الملف</string>
+  <string name="failed_to_open_file">فشل فتح الملف: %s</string>
+
+  <!-- EditorScreen: Build actions -->
+  <string name="build_cancelled">تم إلغاء البناء</string>
+  <string name="failed_to_cancel">فشل الإلغاء: %s</string>
+  <string name="failed_to_run">فشل التشغيل: %s</string>
+
+  <!-- Shared: Flutter -->
+  <string name="flutter_pub_get_running">جاري تشغيل Flutter pub get…</string>
+  <string name="flutter_dependencies_downloaded">تم تنزيل تبعيات Flutter بنجاح</string>
+  <string name="flutter_pub_get_failed">فشل Flutter pub get. تحقق من لوحة المخرجات للحصول على التفاصيل.</string>
+  <string name="flutter_sdk_not_found_settings">لم يتم العثور على Flutter SDK. يرجى تثبيت Flutter من إعدادات IDE.</string>
+
+  <!-- Shared: Generic error -->
+  <string name="error_with_message">خطأ: %s</string>
+
+    <string name="settings_back">رجوع</string>
+    <string name="settings_hero_line1">خصّص</string>
+    <string name="settings_hero_line2">تجربتك</string>
+    <string name="settings_hero_subtitle">إعدادات التطبيق والتفضيلات</string>
+    <string name="settings_section_header">الإعدادات</string>
+    <string name="settings_detail_subtitle">الإعدادات</string>
+    <string name="settings_summary_general">المظهر والملفات والتأكيدات</string>
+    <string name="settings_summary_editor">الخط والعرض وسلوك الكود</string>
+    <string name="settings_summary_experimental">ميزات المعاينة والتجريبية</string>
+    <string name="settings_summary_about">معلومات التطبيق والجهاز والروابط</string>
+
+    <string name="editor_section_gradle_service">خدمة Gradle</string>
+    <string name="editor_section_syntax_highlighting">تمييز بناء الجملة</string>
+    <string name="editor_section_display">العرض</string>
+    <string name="editor_section_behavior">السلوك</string>
+    <string name="editor_section_lsp_kotlin">LSP: Kotlin</string>
+    <string name="editor_section_advanced">متقدم</string>
+
+    <string name="editor_theme_title">سمة المحرر</string>
+    <string name="editor_syntax_highlighting_title">تمييز بناء الجملة</string>
+    <string name="editor_syntax_highlighting_desc">تلوين الكود بناءً على اللغة</string>
+    <string name="editor_color_preview_title">معاينة اللون</string>
+    <string name="editor_color_preview_desc">عرض معاينة لقيم الألوان</string>
+    <string name="editor_highlight_current_line_title">تمييز السطر الحالي</string>
+    <string name="editor_highlight_current_line_desc">تمييز السطر الذي يوجد فيه المؤشر</string>
+
+    <string name="editor_font_family_title">عائلة الخط</string>
+    <string name="editor_font_import_option">استيراد خط…</string>
+    <string name="editor_memory_usage_title">استخدام الذاكرة</string>
+    <string name="editor_memory_usage_desc">عرض طبقة استخدام الذاكرة</string>
+    <string name="editor_font_size_title">حجم الخط</string>
+    <string name="editor_font_size_desc">%d بكسل</string>
+    <string name="editor_tab_size_title">حجم المسافة البادئة</string>
+    <string name="editor_tab_size_desc">%d مسافات</string>
+    <string name="editor_line_numbers_title">أرقام الأسطر</string>
+    <string name="editor_line_numbers_desc">عرض أرقام الأسطر في الهامش</string>
+    <string name="editor_word_wrap_title">التفاف الكلمات</string>
+    <string name="editor_word_wrap_desc">التفاف الأسطر الطويلة لتناسب الشاشة</string>
+    <string name="editor_line_column_indicator_title">مؤشر السطر والعمود</string>
+    <string name="editor_line_column_indicator_desc">عرض موضع المؤشر في المحرر</string>
+
+    <string name="editor_auto_format_title">التنسيق التلقائي</string>
+    <string name="editor_auto_format_desc">تنسيق الكود تلقائياً بعد الحفظ</string>
+    <string name="editor_auto_indent_title">المسافة البادئة التلقائية</string>
+    <string name="editor_auto_indent_desc">المسافة البادئة التلقائية للأسطر الجديدة</string>
+    <string name="editor_auto_pairing_title">الإغلاق التلقائي</string>
+    <string name="editor_auto_pairing_desc">إغلاق الأقواس وعلامات الاقتباس تلقائياً</string>
+
+    <string name="editor_kotlin_diagnostics_title">تشخيصات Kotlin التجريبية</string>
+    <string name="editor_kotlin_diagnostics_desc">الإبلاغ عن التشخيصات لملفات Kotlin</string>
+
+    <string name="editor_show_whitespace_title">إظهار المسافات البيضاء</string>
+    <string name="editor_show_whitespace_desc">عرض المسافات وعلامات التبويب بصرياً</string>
+    <string name="editor_show_line_endings_title">إظهار نهايات الأسطر</string>
+    <string name="editor_show_line_endings_desc">عرض محارف كسر السطر</string>
+    <string name="editor_cursor_blink_title">وميض المؤشر</string>
+    <string name="editor_cursor_blink_desc">تحريك وميض المؤشر</string>
+
+    <string name="editor_font_import_dialog_title">استيراد خط مخصص</string>
+    <string name="editor_font_import_dialog_body">اختر ملف خط TrueType ‏(.ttf) أو OpenType ‏(.otf).</string>
+    <string name="editor_font_import_name_label">اسم الخط</string>
+    <string name="editor_font_import_choose_file">اختر ملف الخط</string>
+    <string name="editor_font_import_confirm">استيراد</string>
+    <string name="editor_font_import_cancel">إلغاء</string>
+
+    <string name="gradle_sync_args_title">وسيطات المزامنة</string>
+    <string name="gradle_no_extra_flags">لا توجد علامات إضافية</string>
+    <string name="gradle_common_flags_label">العلامات الشائعة</string>
+    <string name="gradle_custom_flag_label">علامة مخصصة</string>
+    <string name="gradle_custom_flags_label">العلامات المخصصة</string>
+    <string name="gradle_custom_flag_placeholder">مثال: --warning-mode=all</string>
+    <string name="gradle_add_flag_cd">إضافة علامة</string>
+    <string name="gradle_remove_flag_cd">إزالة</string>
+
+    <string name="settings_about_section_title">حول</string>
+    <string name="settings_editor_section_title">اعدادات المحرر</string>
+    <string name="settings_general_section_title">اعدادات عامة</string>
+    <string name="settings_experimental_section_title">اعدادات تجريبية</string>
+    
+</resources>

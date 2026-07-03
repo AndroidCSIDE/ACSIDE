@@ -28,7 +28,6 @@ AndroidCS IDE is a full-featured development environment designed for creating a
 > 
 > Install AndroidCS IDE from:
 > - **GitHub Release** - https://github.com/AndroidCSIDE/ACSIDE/releases  
-> - **ApkPure** - https://apkpure.com/p/com.nullij.androidcodestudio  
 > Avoid downloading APKs from unknown or unofficial websites, as they may be modified or unsafe.
 ---
 
@@ -47,7 +46,7 @@ AndroidCS IDE is a full-featured development environment designed for creating a
   * [x] Clang Language Server *(installable via plugins)*
   * [x] Web Language Servers bundle *(installable via plugins)*
   * [x] Dart Language Server *(available after installing the Flutter SDK)*
-  * [ ] XML Language Server *(coming soon)*
+  * [x] XML Language Server *(coming soon)*
 * **Supported LSP capabilities:**
     * [x] Go to Definition
     * [x] Code Formatting
