@@ -552,5 +552,217 @@
     <string name="settings_editor_section_title">编辑器</string>
     <string name="settings_general_section_title">常规</string>
     <string name="settings_experimental_section_title">实验功能</string>
-    
+    <string name="settings_terminal_section_title">终端</string>
+    <string name="settings_terminal_section_header">混合环境</string>
+    <string name="settings_summary_terminal">配置终端设置</string>
+    <string name="settings_proot_no_seccomp_title">禁用 PRoot seccomp</string>
+    <string name="settings_proot_no_seccomp_desc">对 PRoot 会话应用 PROOT_NO_SECCOMP=1。仅当混合环境在您的设备上运行失败时使用。</string>
+
+    <!-- Privacy Consent -->
+    <string name="privacy_consent_title">隐私声明</string>
+    <string name="privacy_consent_body">Android Code Studio 是闭源软件。本应用不会收集、传输或存储您的个人数据。网络活动仅限于您明确触发的操作，例如项目同步、依赖项下载和可选的更新检查。</string>
+    <string name="privacy_consent_monitor_hint">如果您想亲自验证这一点，请在使用 IDE 时使用网络检查工具（如 Reqable）监控 ACS Lite。</string>
+    <string name="privacy_consent_accept">接受并继续</string>
+    <string name="privacy_consent_decline">拒绝并退出</string>
+
+    <!-- Setup Screen - Manual Install -->
+    <string name="setup_manual_section_title">从存储安装</string>
+    <string name="setup_manual_section_hint">每个组件均可独立安装。支持的归档格式包括 tar.gz、tar.xz、zip 及相关格式。</string>
+    <string name="setup_manual_section_or_hint">或者</string>
+    <string name="setup_manual_ubuntu">Ubuntu rootfs 归档</string>
+    <string name="setup_manual_jdk">JDK 归档</string>
+    <string name="setup_manual_sdk">Android SDK 归档</string>
+    <string name="setup_manual_installed">已安装</string>
+
+    <!-- JDK Pick Dialog -->
+    <string name="jdk_pick_title_install">选择 JDK 版本</string>
+    <string name="jdk_pick_desc_install">选择要安装的 Java Development Kit 版本。</string>
+    <string name="jdk_pick_confirm_install">安装</string>
+    <string name="jdk_pick_title_import">归档对应的 JDK 版本</string>
+    <string name="jdk_pick_desc_import">选择此归档应安装为哪个版本。</string>
+    <string name="jdk_pick_confirm_import">继续</string>
+
+    <!-- SDK Manual Import -->
+    <string name="sdk_manual_installed">已导入</string>
+    <string name="sdk_manual_section_title">从存储安装</string>
+    <string name="sdk_manual_jdk">导入 JDK 归档</string>
+    <string name="sdk_manual_sdk">导入 Android SDK 归档</string>
+
+    <!-- Kotlin LSP Indexing -->
+    <string name="kotlin_lsp_indexing_reassurance">仍在索引中…这在较大的项目中是正常现象。请耐心等待。</string>
+
+    <!-- Updater Dialog -->
+    <string name="updater_changelog_unavailable">更新日志不可用</string>
+
+    <!-- Developer Settings -->
+    <string name="settings_bug_report_overlay_title">错误报告悬浮窗</string>
+    <string name="settings_bug_report_overlay_desc">显示一个悬浮窗，方便您快速报告问题</string>
+
+    <!-- Error Report Dialog -->
+    <string name="error_report_title">发送错误报告？</string>
+    <string name="error_report_message">出了点问题。只有在您同意的情况下，包含诊断日志的匿名报告才会发送给开发者。这些日志有助于修复问题，不包含任何个人数据。</string>
+    <string name="error_report_send_report_btn">发送报告</string>
+    <string name="error_report_no_thanks_btn">不用了，谢谢</string>
+
+    <!-- About Section -->
+    <string name="about_app_name">Android Code Studio</string>
+    <string name="about_device_info_title">设备信息</string>
+    <string name="about_device_label">设备</string>
+    <string name="about_model_label">型号</string>
+    <string name="about_android_label">Android</string>
+    <string name="about_links_title">链接</string>
+    <string name="about_link_source_code">源代码</string>
+    <string name="about_link_discussion">讨论群组</string>
+    <string name="about_link_channel">官方频道</string>
+
+    <!-- Storage Access -->
+    <string name="storage_access_required">需要存储访问权限</string>
+    <string name="grant_permissions_to_browse_and_manage_your_files">授予权限以浏览和管理您的文件</string>
+    <string name="grant_basic_permissions">授予基本权限</string>
+    <string name="grant_all_files_access">授予所有文件访问权限</string>
+
+    <!-- Editor Extras -->
+    <string name="editor_string_extraction_title">字符串提取</string>
+    <string name="editor_string_extraction_desc">检测硬编码字符串并提供提取到资源文件的操作</string>
+    <string name="editor_page_mode_title">分页模式</string>
+    <string name="editor_page_mode_desc">打开大文件时将编辑器拆分为多个页面。</string>
+    <string name="editor_font_import_file_selected">已选择字体文件 ✓</string>
+
+    <!-- Terminal & File Manager -->
+    <string name="close_terminal">关闭终端</string>
+    <string name="navigate_to_path">导航到路径</string>
+    <string name="directory_path">目录路径</string>
+    <string name="directory_does_not_exist_or_is_not_allowed">目录不存在或不被允许</string>
+    <string name="go">前往</string>
+    <string name="locations">位置</string>
+    <string name="restricted_to_listed_directories">仅限列出的目录</string>
+    <string name="twin_file_manager">双栏文件管理器</string>
+    <string name="toggle_drawer">切换抽屉</string>
+    <string name="git_clone">Git 克隆</string>
+    <string name="delete">删除</string>
+    <string name="str_new">新建</string>
+    <string name="select">选择</string>
+    <string name="select_all">全选</string>
+    <string name="all">全部</string>
+    <string name="file_browser">文件浏览器</string>
+    <string name="close_search">关闭搜索</string>
+    <string name="search_projects">搜索项目</string>
+    <string name="project_directory_path">项目目录路径</string>
+    <string name="browse_with_file_picker">使用文件选择器浏览</string>
+    <string name="path_must_be_under_sdcard">路径必须在 /sdcard、AndroidCSProjects 或 Projects 目录下</string>
+    <string name="directory_not_found_or_not_valid">目录未找到或不是有效项目</string>
+
+    <!-- Problems Quick Fix -->
+    <string name="problems_quick_fix">快速修复</string>
+    <string name="problems_quick_fix_choose_title">选择修复方案</string>
+    <string name="problems_quick_fix_none">无可用的快速修复</string>
+
+    <!-- Project Backup -->
+    <string name="editor_drawer_backup_project">备份项目 (ZIP)</string>
+    <string name="backup_project_succeeded">项目备份已保存</string>
+    <string name="backup_project_failed">无法创建备份</string>
+    <string name="backup_project_in_progress">正在备份项目…</string>
+    <string name="backup_project_succeeded_title">备份完成</string>
+    <string name="backup_project_failed_title">备份失败</string>
+    <string name="backup_project_files_progress">%1$d / %2$d 个文件</string>
+    <string name="backup_project_eta_calculating">正在估算剩余时间…</string>
+    <string name="backup_project_eta_almost_done">即将完成…</string>
+    <string name="backup_project_eta_seconds">约 %1$d 秒后完成</string>
+    <string name="backup_project_collapse">折叠</string>
+    <string name="backup_project_expand">展开</string>
+
+    <!-- ATC Compose Wizard -->
+    <string name="atc_checking_ndk">正在检查 NDK…</string>
+    <string name="atc_error_invalid_ndk">找到的最高 NDK 版本 (%1$s) 无效或已损坏。</string>
+    <string name="atc_error_empty_project_name">项目名称不能为空</string>
+    <string name="atc_error_invalid_project_name">项目名称必须以字母开头，且只能包含字母、数字和下划线</string>
+    <string name="atc_error_project_exists">该位置已存在同名项目</string>
+    <string name="atc_error_project_exists_msg">该位置已存在名为 %1$s 的项目。</string>
+    <string name="atc_creating_project">正在创建项目…</string>
+    <string name="atc_error_create_project_failed">创建项目失败: %1$s</string>
+    <string name="atc_error_generic">错误: %1$s</string>
+    <string name="atc_error_no_cmake">未找到 CMake 安装。请从 IDE 设置中安装 CMake。</string>
+    <string name="atc_invalid_save_location_title">无效的保存位置</string>
+    <string name="atc_invalid_save_location_message">游戏项目必须保存在 Android Code Studio 主目录中才能正常工作。</string>
+    <string name="atc_switch_automatically">自动切换</string>
+    <string name="atc_error_no_ndk">未找到 NDK</string>
+    <string name="atc_ndk_version">NDK: %1$s</string>
+    <string name="atc_ndk_auto">自动</string>
+    <string name="atc_ndk_version_label">NDK 版本: %1$s</string>
+    <string name="atc_use_gradle_kts">使用 Gradle Kotlin DSL</string>
+    <string name="atc_use_cmake">使用 CMake</string>
+    <string name="atc_create_project_btn">创建项目</string>
+
+    <!-- Editor Dialogs -->
+    <string name="atc_cleaning_up">正在清理…</string>
+    <string name="atc_cleanup_complete">清理完成</string>
+    <string name="atc_cleanup_desc">正在停止 Gradle 守护进程并清理资源。请稍候…</string>
+    <string name="atc_cleanup_success">所有资源已成功清理。</string>
+    <string name="atc_run_task">运行任务</string>
+    <string name="atc_available_tasks">可用任务:</string>
+
+    <!-- SDK Manager -->
+    <string name="sdk_tab_build_tools">构建工具</string>
+    <string name="sdk_tab_ndk">NDK</string>
+    <string name="sdk_tab_platforms">平台</string>
+    <string name="sdk_tab_jdk">JDK</string>
+    <string name="sdk_tab_flutter">Flutter</string>
+    <string name="sdk_config_title">SDK 配置</string>
+    <string name="sdk_config_desc">控制在项目同步和构建期间应用的 Gradle 初始化脚本。</string>
+    <string name="sdk_config_force_ndk">强制 NDK 版本</string>
+    <string name="sdk_config_force_cmake">强制 CMake 版本</string>
+    <string name="sdk_ndk_versions">NDK 版本</string>
+    <string name="sdk_forced_ndk_format">已强制 NDK: %1$s</string>
+    <string name="sdk_force_ndk_title">强制 NDK 版本</string>
+    <string name="sdk_force_ndk_desc">指定一个已安装的 NDK 版本以在所有项目中强制使用。该版本将在应用前根据 /home/Android/Sdk/ndk 进行验证。</string>
+    <string name="sdk_ndk_version_label">NDK 版本</string>
+    <string name="sdk_ndk_version_placeholder">例如 27.3.13750724</string>
+    <string name="sdk_currently_forced_format">当前强制版本: %1$s</string>
+    <string name="sdk_apply_btn">应用</string>
+    <string name="sdk_version_format">版本 %1$s</string>
+    <string name="sdk_installed_badge">已安装</string>
+    <string name="sdk_uninstall_btn">卸载</string>
+    <string name="sdk_installing_status">正在安装…</string>
+    <string name="sdk_install_btn">安装</string>
+    <string name="sdk_flutter_sdk">Flutter SDK</string>
+    <string name="sdk_installed_ready">已安装并就绪</string>
+    <string name="sdk_not_installed">未安装</string>
+    <string name="sdk_requirements">要求</string>
+    <string name="sdk_architecture">架构</string>
+    <string name="sdk_arm64_only">仅限 ARM64</string>
+    <string name="sdk_storage_required">所需存储空间</string>
+    <string name="sdk_flutter_storage_value">~2 GB</string>
+    <string name="sdk_already_installed">已安装</string>
+    <string name="sdk_install_flutter">安装 Flutter</string>
+    <string name="sdk_uninstall_flutter">卸载 Flutter</string>
+    <string name="sdk_uninstalling_status">正在卸载…</string>
+    <string name="sdk_close_btn">关闭</string>
+    <string name="sdk_jdk_imported_msg">JDK %1$s 已导入</string>
+    <string name="sdk_jdk_import_failed_msg">JDK 导入失败</string>
+    <string name="sdk_android_sdk_imported_msg">Android SDK 已导入</string>
+    <string name="sdk_android_sdk_import_failed_msg">SDK 导入失败</string>
+    <string name="sdk_no_ndk_found">未找到 NDK</string>
+    <string name="sdk_platform_tools">平台工具</string>
+    <string name="sdk_jdk_versions">JDK 版本</string>
+
+    <!-- Locale Display Names (translatable=false in source) -->
+    <string name="locale_english" translatable="false">English</string>
+    <string name="locale_arabic" translatable="false">العربية</string>
+    <string name="locale_french" translatable="false">Français</string>
+    <string name="locale_german" translatable="false">Deutsch</string>
+    <string name="locale_spanish" translatable="false">Español</string>
+    <string name="locale_portuguese" translatable="false">Português</string>
+    <string name="locale_russian" translatable="false">Русский</string>
+    <string name="locale_chinese" translatable="false">中文</string>
+    <string name="locale_japanese" translatable="false">日本語</string>
+    <string name="locale_korean" translatable="false">한국어</string>
+
+    <!-- Project Type Labels (translatable=false in source) -->
+    <string name="project_type_flutter" translatable="false">Flutter</string>
+    <string name="project_type_android" translatable="false">Android</string>
+
+    <!-- Native Language Labels (translatable=false in source) -->
+    <string name="native_language_cpp" translatable="false">C++</string>
+    <string name="native_language_c" translatable="false">C</string>
+
 </resources>
