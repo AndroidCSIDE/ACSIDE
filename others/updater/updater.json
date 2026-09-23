@@ -1,0 +1,18 @@
+{
+  "baseVersionCode": 2004,
+  "baseVersionName": "1.0.0-alpha.4.20260513-arm64-v8a",
+  "baseUrl": "https://github.com/AndroidCSIDE/ACSIDE/releases/download/v1.0.0-alpha.5.20260708",
+  "variants": {
+    "arm64-v8a": {
+      "versionCode": 2006,
+      "versionName": "1.0.0-alpha.5.20260708-arm64-v8a",
+      "apkUrl": "{baseUrl}/ACS-{versionName}-release.apk"
+    },
+    "armeabi-v7a": {
+      "versionCode": 2005,
+      "versionName": "1.0.0-alpha.5.20260708-armeabi-v7a",
+      "apkUrl": "{baseUrl}/ACS-{versionName}-release.apk"
+    }
+  },
+  "changelog": "https://raw.githubusercontent.com/AndroidCSIDE/ACSIDE/refs/heads/main/others/whatsnew/v1.0.0-alpha.5-hf.md"
+}

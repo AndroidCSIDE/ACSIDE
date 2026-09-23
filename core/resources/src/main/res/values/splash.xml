@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="App.Starting" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_screen_icon</item>
+        <item name="android:windowSplashScreenAnimationDuration">3000</item>
+        <item name="android:windowSplashScreenBackground">?attr/colorSurface</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">?attr/colorSurface</item>
+    </style>
+
+</resources>

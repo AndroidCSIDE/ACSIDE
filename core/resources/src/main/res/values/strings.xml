@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" translatable="false">ACS IDE</string>
+    <string name="acsb_app_name" translatable="false">ACS IDE:bootstrap</string>
+    <string name="create_project">Create project</string>
+    <string name="open_project">Open project</string>
+    <string name="launch_terminal">Launch terminal</string>
+    <!-- ============================================================ -->
+    <!-- Project Actions                                              -->
+    <!-- ============================================================ -->
+    <string name="action_create_project_title">New Project</string>
+    <string name="action_create_project_desc">Create a new Android project</string>
+    <string name="action_open_project_title">Open</string>
+    <string name="action_open_project_desc">Open an existing project</string>
+    <!-- ============================================================ -->
+    <!-- Tool Actions                                                 -->
+    <!-- ============================================================ -->
+    <string name="action_sdk_manager_title">SDK Manager</string>
+    <string name="action_terminal_title">Terminal</string>
+    <string name="action_settings_title">Settings</string>
+    <string name="action_plugins_title">Plugins</string>
+    <!-- ============================================================ -->
+    <!-- Editor Actions                                               -->
+    <!-- ============================================================ -->
+    <string name="action_save_title">Save</string>
+    <string name="action_undo_title">Undo</string>
+    <string name="action_redo_title">Redo</string>
+    <string name="action_search_title">Search</string>
+    <string name="action_sync_title">Sync</string>
+    <string name="action_run_title">Run</string>
+    <string name="action_cancel_build_title">Cancel Build</string>
+    <string name="action_group_project">Project</string>
+    <string name="action_group_tools">Tools</string>
+    <string name="action_group_settings">Settings</string>
+    <string name="action_group_plugins">Plugins</string>
+    <string name="action_group_editor_plugins">Editor Plugins</string>
+    <!-- ============================================================ -->
+    <!-- Preview Action (Compose / Flutter)                           -->
+    <!-- ============================================================ -->
+    <string name="action_preview_title">Preview</string>
+    <string name="action_preview_desc">Preview layout or composable</string>
+    <string name="settings">Preferences</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="ndk_version_auto">NDK: Auto</string>
+    <string name="native_error_title">NDK Required</string>
+    <string name="error_ndk_not_found_or_incompatible">No NDK installation found or it\'s incompatible. Please install NDK from IDE Settings.</string>
+    <string name="open_ide_cfg_msg">Open Settings</string>
+    <!-- ATC Options Dialog -->
+    <string name="choose_template">Choose Template</string>
+    <string name="project_configuration">Project Configuration</string>
+    <string name="use_cmake">Use CMake build system</string>
+    <string name="native_language">Native language</string>
+    <string name="minimum_sdk">Minimum SDK</string>
+    <string name="new_project">New project</string>
+    <string name="package_name">Package name</string>
+    <string name="project_name">Project name</string>
+    <string name="project_location">Project location</string>
+    <string name="browse">Browse</string>
+    <string name="language">Language</string>
+    <string name="java">Java</string>
+    <string name="use_gradle_kotlin_dsl">Use Gradle Kotlin DSL (.kts)</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+    <string name="default_project_name" translatable="false">MyApplication</string>
+    <string name="default_package_name" translatable="false">com.example.myapplication</string>
+    <string name="back">Back</string>
+    <!-- MainActivity -->
+    <string name="app_name_full" translatable="false">Android Code Studio</string>
+    <string name="app_icon_description">App Icon</string>
+    <string name="error_invalid_gradle_project">Selected directory is not a valid Gradle project</string>
+    <string name="error_could_not_access_directory">Could not access selected directory</string>
+    <!-- Sections -->
+    <string name="section_projects">Projects</string>
+    <string name="section_recent_projects">Recent Projects</string>
+    <string name="section_learn">Learn</string>
+    <string name="section_resources">Resources</string>
+    <!-- Recent Projects -->
+    <string name="no_recent_projects">No recent projects</string>
+    <string name="content_description_remove">Remove</string>
+    <!-- Learn Section -->
+    <string name="learn_first_app_title">Build Your First App</string>
+    <string name="learn_first_app_description">Learn the basics of Android development</string>
+    <string name="learn_kotlin_title">Kotlin Language Guide</string>
+    <string name="learn_kotlin_description">Master Kotlin programming</string>
+    <string name="learn_compose_title">Jetpack Compose</string>
+    <string name="learn_compose_description">Modern UI toolkit for Android</string>
+    <!-- Resources Section -->
+    <string name="resources_documentation_title">Documentation</string>
+    <string name="resources_documentation_description">API reference and guides</string>
+    <string name="resources_samples_title">Sample Projects</string>
+    <string name="resources_samples_description">Explore example applications</string>
+    <!-- Editor Bottom Sheet -->
+    <string name="content_description_expand">Expand</string>
+    <string name="content_description_collapse">Collapse</string>
+    <string name="content_description_clear">Clear</string>
+    <string name="content_description_close">Close</string>
+    <!-- Actions -->
+    <string name="action_new_project">New Project</string>
+    <string name="action_new_project_desc">Create a new Android project</string>
+    <string name="action_open">Open</string>
+    <string name="action_open_desc">Open an existing project</string>
+    <string name="action_sdk_manager">SDK Manager</string>
+    <string name="action_sdk_manager_desc">Manage Android SDK components</string>
+    <string name="action_terminal">Terminal</string>
+    <string name="action_terminal_desc">Open integrated terminal</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings_desc">Configure IDE preferences</string>
+    <string name="action_plugins">Plugins</string>
+    <string name="action_plugins_desc">Manage IDE plugins</string>
+    <string name="action_jitpack_preview">JitPack Preview</string>
+    <string name="action_jitpack_preview_desc">Preview JitPack libraries</string>
+    <string name="action_sdk_manager_test">SDK Manager (Test)</string>
+    <string name="action_sdk_manager_test_desc">Test version of SDK Manager</string>
+    <!-- Editor Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_save_desc">Save the current file</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_undo_desc">Undo the last change</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_redo_desc">Redo the last undone change</string>
+    <string name="action_search">Search</string>
+    <string name="action_search_desc">Search and replace in file</string>
+    <string name="action_sync">Sync</string>
+    <string name="action_sync_desc">Sync Gradle project</string>
+    <string name="action_run">Run</string>
+    <string name="action_run_desc">Build and run project</string>
+    <string name="action_cancel_build">Cancel Build</string>
+    <string name="action_cancel_build_desc">Cancel the current build</string>
+    <!-- Action Messages -->
+    <string name="action_disabled">%1$s is currently disabled</string>
+    <string name="action_executing">Executing: %1$s</string>
+    <string name="action_execution_error">Error executing %1$s: %2$s</string>
+    <string name="jitpack_preview_unavailable">JitPack Preview not available</string>
+    <string name="sdk_manager_test_unavailable">SDK Manager Test not available</string>
+    <!-- Template Plugin Messages -->
+    <string name="template_plugins_directory_not_found">Plugins directory not found</string>
+    <string name="template_no_enabled_plugins">No enabled plugins found</string>
+    <string name="template_plugin_no_templates">Plugin %1$s has no templates.json file</string>
+    <string name="template_loaded_count">Loaded %1$d templates from plugin: %2$s</string>
+    <string name="template_total_loaded">Total templates loaded: %1$d from %2$d plugins</string>
+    <string name="template_plugins_json_not_found">plugins.json not found</string>
+    <string name="template_enabled_plugins">Enabled plugins: %1$s</string>
+    <string name="template_parse_success">Successfully loaded %1$d templates from JSON</string>
+    <string name="template_parse_error">Failed to parse templates JSON</string>
+    <string name="template_creation_failed">Template creation failed</string>
+    <!-- Internal Error Dialog (lib dir missing / extraction failure) -->
+    <string name="error_internal_title">Internal Error</string>
+    <string name="error_internal_lib_dir_missing">A critical internal directory is missing. This is an unrecoverable error. Please reinstall the application.</string>
+    <string name="error_internal_exit">Exit</string>
+    <!-- Editor backend native library -->
+    <string name="lib_editor_backend_asset_path" translatable="false">naive/libeditor-backend.so</string>
+    <!-- Plugin Installation -->
+    <string name="plugin_install_success_title">Plugin Installed</string>
+    <string name="plugin_install_success_message">%1$s has been installed successfully.\n\nWould you like to enable it and reload the IDE?</string>
+    <string name="plugin_install_enable_and_reload">Enable &amp; Reload</string>
+    <string name="plugin_install_later">Later</string>
+    <string name="plugin_install_failed_title">Installation Failed</string>
+    <string name="plugin_enabled">Plugin enabled</string>
+    <!-- Plugin Screen UI -->
+    <string name="plugin_refresh">Refresh</string>
+    <string name="plugin_refreshing">Refreshing…</string>
+    <string name="plugin_search_hint">Search plugins…</string>
+    <string name="plugin_install_from_file">Install from file</string>
+    <string name="plugin_section_installed">Installed</string>
+    <string name="plugin_section_available">Available</string>
+    <string name="plugin_no_installed">No plugins installed yet</string>
+    <string name="plugin_no_installed_match">No installed plugins match</string>
+    <string name="plugin_all_installed">All repository plugins are installed</string>
+    <string name="plugin_no_available_match">No available plugins match</string>
+    <string name="plugin_updates_available">%1$d update(s) available</string>
+    <string name="plugin_update_available">Update available: v%1$s</string>
+    <string name="plugin_repo_loading">Loading repository…</string>
+    <string name="plugin_repo_load_failed">Couldn\'t load repository</string>
+    <string name="plugin_repo_empty">No plugins loaded</string>
+    <string name="plugin_repo_empty_hint">Could not reach plugin repositories. Check your connection and tap ↻ to retry.</string>
+    <string name="plugin_downloading">Downloading…</string>
+    <string name="plugin_downloading_update">Downloading update…</string>
+    <string name="plugin_badge_installed">Installed</string>
+    <string name="plugin_badge_enabled">Enabled</string>
+    <string name="plugin_badge_disabled">Disabled</string>
+    <string name="plugin_action_install">Install</string>
+    <string name="plugin_action_update">Update</string>
+    <string name="plugin_action_update_to">Update to v%1$s</string>
+    <string name="plugin_action_enable">Enable</string>
+    <string name="plugin_action_disable">Disable</string>
+    <string name="plugin_action_uninstall">Uninstall</string>
+    <string name="plugin_uninstall_confirm_title">Uninstall Plugin?</string>
+    <string name="plugin_uninstall_confirm_message">Are you sure you want to uninstall %1$s? This action cannot be undone.</string>
+    <string name="plugin_reload_required">Reload Required</string>
+    <string name="plugin_reload_message">"%1$s" is ready. Reload the IDE now to activate it.</string>
+    <string name="plugin_reload_now">Reload Now</string>
+    <string name="plugin_reload_later">Later</string>
+    <string name="plugin_install_invalid_file_type">Invalid file type. Only .acp files are allowed.</string>
+    <string name="plugin_install_error">Installation failed: %1$s</string>
+    <string name="plugin_download_error">Download failed: %1$s</string>
+    <string name="ok">OK</string>
+    <!-- Terminal -->
+    <string name="terminal_title">Terminal</string>
+    <string name="terminal_sessions">Sessions</string>
+    <string name="terminal_add_session">Add session</string>
+    <string name="terminal_delete_session">Delete session</string>
+    <string name="terminal_active">Terminal Active</string>
+    <string name="terminal_session_single">Terminal session 1 is open</string>
+    <string name="terminal_sessions_range">Terminal sessions 1-%1$d are open</string>
+    <string name="terminal_notification_channel_name">Terminal Sessions</string>
+    <string name="terminal_notification_channel_description">Shows active terminal session status</string>
+    <!-- Updater Dialog -->
+    <string name="updater_title">Update Available</string>
+    <string name="updater_version_prefix" translatable="false">v%1$s</string>
+    <string name="updater_dismiss">Dismiss</string>
+    <string name="updater_whats_new">What\'s new</string>
+    <string name="updater_download">Download Update</string>
+    <string name="updater_retry">Retry Download</string>
+    <string name="updater_later">Later</string>
+    <string name="updater_downloading">Downloading…</string>
+    <string name="updater_install_now">Install Now</string>
+    <string name="updater_progress_percent" translatable="false">%1$d%%</string>
+    <string name="updater_changelog_unavailable">Changelog unavailable</string>
+    <!-- Component Downloader Dialog -->
+    <string name="component_fetch_error">Failed to fetch component info</string>
+    <string name="component_extracting">Extracting…</string>
+    <string name="component_linking">Linking…</string>
+    <string name="component_downloading">Downloading…</string>
+    <string name="component_installed">Installed successfully</string>
+    <string name="component_install_failed">Installation failed</string>
+    <string name="component_installing">Installing…</string>
+    <string name="component_done">Done</string>
+    <string name="component_retry">Retry</string>
+    <string name="component_download">Download</string>
+    <!-- Experiments Settings -->
+    <string name="experiments_section_language_servers">Language Servers</string>
+    <string name="experiments_kotlin_lsp_title">Kotlin Language Server</string>
+    <string name="experiments_kotlin_lsp_desc">Code completion, diagnostics and navigation for Kotlin files</string>
+    <string name="kotlin_lsp_indexing_reassurance">Still indexing... this is expected on larger projects. Please wait.</string>
+    <string name="kotlin_lsp_ready">Kotlin Language Server ready</string>
+    <string name="experiments_label_beta">BETA</string>
+    <string name="experiments_action_setup">Set up</string>
+    <!-- Kotlin LSP Dialog -->
+    <string name="lsp_dialog_title">Kotlin Language Server</string>
+    <string name="lsp_dialog_subtitle">Experimental</string>
+    <string name="lsp_dialog_dismiss">Dismiss</string>
+    <string name="lsp_feature_completion">Smart code completion</string>
+    <string name="lsp_feature_diagnostics">Real-time error diagnostics</string>
+    <string name="lsp_feature_navigation">Go to definition &amp; references</string>
+    <string name="lsp_feature_formatting">Code formatting</string>
+    <string name="lsp_download">Download (~270 MB)</string>
+    <string name="lsp_install">Install</string>
+    <string name="lsp_installing">Installing…</string>
+    <string name="lsp_retry">Retry Install</string>
+    <string name="lsp_later">Later</string>
+    <string name="lsp_downloading">Downloading…</string>
+    <string name="lsp_done">Done</string>
+    <string name="lsp_progress_percent" translatable="false">%1$d%%</string>
+    <string name="lsp_already_installed">Kotlin Language Server is already installed</string>
+    <string name="lsp_remove">Remove</string>
+    <string name="lsp_extracting">Extracting…</string>
+    <!-- LSP Per-Feature Toggles -->
+    <string name="lsp_features_sheet_title">%1$s Features</string>
+    <string name="lsp_features_sheet_subtitle">Enable or disable individual LSP capabilities</string>
+    <string name="lsp_feat_completion">Code completion</string>
+    <string name="lsp_feat_completion_desc">Suggest completions while typing</string>
+    <string name="lsp_feat_diagnostics">Diagnostics</string>
+    <string name="lsp_feat_diagnostics_desc">Show errors, warnings, and hints inline</string>
+    <string name="lsp_feat_hover">Hover info</string>
+    <string name="lsp_feat_hover_desc">Show type and documentation on hover</string>
+    <string name="lsp_feat_signature_help">Signature help</string>
+    <string name="lsp_feat_signature_help_desc">Show parameter hints inside function calls</string>
+    <string name="lsp_feat_code_actions">Code actions</string>
+    <string name="lsp_feat_code_actions_desc">Quick fixes, imports, and refactors</string>
+    <string name="lsp_feat_formatting">Formatting</string>
+    <string name="lsp_feat_formatting_desc">Auto-format documents and selections</string>
+    <string name="lsp_feat_inlay_hints">Inlay hints</string>
+    <string name="lsp_feat_inlay_hints_desc">Show inline type and parameter hints</string>
+    <string name="lsp_java_exclude_desktop">Exclude desktop/Swing classes</string>
+    <string name="lsp_java_exclude_desktop_desc">Hide AWT, Swing, JavaFX, and other non-Android JDK types from completion and indexing</string>
+    <string name="lsp_xml_enable_in_compose">Enable in Jetpack Compose projects</string>
+    <string name="lsp_xml_enable_in_compose_desc">Enable XML Language Server indexing and features even when the project uses Jetpack Compose</string>
+    <!-- Git Clone -->
+    <string name="git_clone_title">Clone Repository</string>
+    <string name="git_clone_label_url">Repository URL</string>
+    <string name="git_clone_placeholder_url" translatable="false">https://github.com/user/repo.git</string>
+    <string name="git_clone_label_destination">Clone into (parent folder)</string>
+    <string name="git_clone_placeholder_destination">Tap folder icon to pick</string>
+    <string name="git_clone_content_desc_pick_folder">Pick folder</string>
+    <string name="git_clone_label_branch">Branch (optional)</string>
+    <string name="git_clone_placeholder_branch" translatable="false">main</string>
+    <string name="git_clone_label_custom_flags">Custom git flags</string>
+    <string name="git_clone_label_extra_args">Extra arguments</string>
+    <string name="git_clone_placeholder_extra_args" translatable="false">--recurse-submodules --depth 1</string>
+    <string name="git_clone_extra_args_hint">Space-separated flags appended to git clone</string>
+    <string name="git_clone_label_credentials">Use credentials (private repo)</string>
+    <string name="git_clone_label_username">Username</string>
+    <string name="git_clone_label_token">Token / Password</string>
+    <string name="git_clone_progress">Cloning, please wait…</string>
+    <string name="git_clone_button">Clone</string>
+    <string name="git_clone_status_cloning">Cloning…</string>
+    <string name="git_clone_error_no_repo_name">Could not determine repo name from URL.</string>
+    <string name="git_clone_error_move_failed">Clone succeeded but failed to move to destination:\n%1$s</string>
+    <string name="git_not_found_title">Git Not Installed</string>
+    <string name="git_not_found_message">Git is not installed in the environment. Open the terminal and run the command below to install it, then try cloning again.</string>
+    <string name="git_not_found_command" translatable="false">apt install git -y</string>
+    <string name="git_not_found_open_terminal">Open Terminal</string>
+    <string name="git_not_found_dismiss">Dismiss</string>
+    <!-- Source Control Drawer & Guided Git Workflow -->
+    <string name="git_source_control_title">Source Control</string>
+    <string name="git_refresh">Refresh</string>
+    <string name="git_no_repo_title">No Git Repository</string>
+    <string name="git_no_repo_desc">This workspace is not a Git repository yet. Initialize one to start tracking changes.</string>
+    <string name="git_init_repo">Initialize Repository</string>
+    <string name="git_open_terminal_git">Open Terminal for Git CLI</string>
+    <string name="git_init_dialog_title">Initialize Git Repository</string>
+    <string name="git_init_dialog_desc">Creates a new Git repository at:\n%1$s\n\nA hidden .git directory will be created to track versions and history.</string>
+    <string name="git_init_confirm">Initialize</string>
+    <string name="git_first_run_title">Repository Setup</string>
+    <string name="git_step_init_done">1. Repository initialized</string>
+    <string name="git_step_stage_commit">2. Stage and commit changes</string>
+    <string name="git_step_add_remote">3. Connect remote repository</string>
+    <string name="git_step_push">4. Push branch to remote</string>
+    <string name="git_no_remote_banner_title">No Remote Configured</string>
+    <string name="git_no_remote_banner_desc">Add a remote repository (such as GitHub or GitLab) to push your commits and collaborate.</string>
+    <string name="git_add_remote_btn">Add Remote</string>
+    <string name="git_remote_name_label">Remote Name</string>
+    <string name="git_remote_url_label">Remote URL</string>
+    <string name="git_remote_url_invalid">Please enter a valid Git URL (https://, git@, or ssh://)</string>
+    <string name="git_staged_changes">Staged Changes</string>
+    <string name="git_unstaged_changes">Changes</string>
+    <string name="git_conflict_changes">Merge Conflicts</string>
+    <string name="git_abort_merge">Abort Merge</string>
+    <string name="git_abort_merge_confirm_title">Abort Merge?</string>
+    <string name="git_abort_merge_confirm_desc">Aborting will discard the merge in progress and reset your working tree to HEAD.</string>
+    <string name="git_conflict_ask_ai">Ask AI to Resolve</string>
+    <string name="git_ask_ai_error">Ask AI</string>
+    <string name="git_stage_all">Stage All</string>
+    <string name="git_unstage_all">Unstage All</string>
+    <string name="git_discard_all">Discard All</string>
+    <string name="git_stage">Stage</string>
+    <string name="git_unstage">Unstage</string>
+    <string name="git_discard">Discard</string>
+    <string name="git_filter_placeholder">Filter changes</string>
+    <string name="git_commit_placeholder">Commit message</string>
+    <string name="git_commit_btn">Commit</string>
+    <string name="git_amend">Amend</string>
+    <string name="git_sign">GPG Sign</string>
+    <string name="git_no_staged_hint">Stage changes to commit</string>
+    <string name="git_clean_tree_hint">Working tree is clean</string>
+    <string name="git_quick_actions">Quick Actions</string>
+    <string name="git_fetch">Fetch</string>
+    <string name="git_pull">Pull</string>
+    <string name="git_push">Push</string>
+    <string name="git_history">History</string>
+    <string name="git_remotes">Remotes</string>
+    <string name="git_branches">Branches</string>
+    <string name="git_stash">Stash</string>
+    <string name="git_stash_pop">Stash Pop</string>
+    <string name="git_merge">Merge</string>
+    <string name="git_cherry_pick">Cherry-pick</string>
+    <string name="git_tag">Tag</string>
+    <string name="git_force_push">Force Push</string>
+    <string name="git_hard_reset">Hard Reset</string>
+    <string name="git_credentials">Credentials</string>
+    <string name="git_user_config">Git Identity</string>
+    <string name="git_user_config_title">Git User Identity</string>
+    <string name="git_user_config_desc">Configure author name and email stored in repository config for commits.</string>
+    <string name="git_user_config_name">Author Name</string>
+    <string name="git_user_config_email">Author Email</string>
+    <string name="git_user_config_save">Save</string>
+    <string name="git_auth_dialog_title">Git Authentication</string>
+    <string name="git_auth_dialog_title_invalid">Invalid Credentials</string>
+    <string name="git_auth_dialog_title_expired">Token Expired</string>
+    <string name="git_auth_dialog_title_permission">Permission Denied</string>
+    <string name="git_auth_username_label">Username</string>
+    <string name="git_auth_remember_label">Remember credentials securely</string>
+    <string name="git_auth_confirm">Authenticate</string>
+    <string name="git_auth_cancel">Cancel</string>
+    <string name="git_auth_auth_required">Authentication is required for this remote operation.</string>
+    <string name="git_auth_auth_failed">Authentication failed. Please check your credentials.</string>
+    <string name="git_auth_permission_denied">Access denied. Verify repository permissions and access scopes.</string>
+    <string name="git_auth_method">Auth Method</string>
+    <string name="git_auth_method_token">Personal Access Token</string>
+    <string name="git_auth_method_password">Password</string>
+    <string name="git_auth_method_ssh">SSH Key</string>
+    <string name="git_auth_username">Username</string>
+    <string name="git_auth_token_label">Personal Access Token</string>
+    <string name="git_auth_password_label">Password</string>
+    <string name="git_auth_ssh_path_label">SSH Private Key Path</string>
+    <string name="git_auth_ssh_passphrase">Passphrase (optional)</string>
+    <string name="git_auth_remember">Remember credentials securely</string>
+    <string name="git_auth_save">Save and Continue</string>
+    <string name="git_auth_saved_title">Saved Credentials</string>
+    <string name="git_auth_no_saved">No saved credentials yet</string>
+    <string name="git_auth_delete">Delete</string>
+    <string name="git_auth_add_btn">Add Credentials</string>
+    <string name="git_auth_remote_label">Remote or Host (e.g. origin or github.com)</string>
+    <string name="git_auth_username_optional_hint">Username (optional when using token)</string>
+    <string name="git_diff_inline">Inline</string>
+    <string name="git_diff_side_by_side">Side-by-side</string>
+    <string name="git_diff_expand">Expand Diff</string>
+    <string name="git_diff_collapse">Collapse</string>
+    <string name="git_diff_close">Close</string>
+    <string name="git_diff_binary">Binary file - diff hidden</string>
+    <string name="git_diff_empty">No differences detected</string>
+    <string name="git_conflict_banner_title">Merge Conflicts Detected</string>
+    <string name="git_conflict_banner_desc">Resolve conflicting files before committing.</string>
+    <string name="git_conflict_accept_ours">Accept Ours</string>
+    <string name="git_conflict_accept_theirs">Accept Theirs</string>
+    <string name="git_conflict_mark_resolved">Mark Resolved</string>
+    <string name="git_hint_stash">Shelves uncommitted working changes</string>
+    <string name="git_hint_rebase">Re-applies commits onto target branch</string>
+    <string name="git_hint_cherry_pick">Applies a specific commit to current branch</string>
+    <string name="git_hint_force_push">Overwrites remote branch with local history</string>
+    <string name="git_hint_hard_reset">Discards uncommitted changes back to HEAD</string>
+    <string name="git_branch_current">current</string>
+    <string name="git_branch_checkout">Checkout</string>
+    <string name="git_branch_create">Create</string>
+    <string name="git_branch_delete">Delete</string>
+    <string name="git_branch_rename">Rename</string>
+    <string name="git_branch_new_name">New branch name</string>
+    <string name="git_branch_filter">Filter branches</string>
+    <string name="git_commit_empty_error">Commit message cannot be empty</string>
+    <string name="git_nothing_to_commit">Nothing to commit. Stage changes first.</string>
+    <string name="git_nothing_to_push">Branch is up-to-date with remote.</string>
+    <string name="git_nothing_to_pull">Already up-to-date with remote.</string>
+    <string name="git_repo_initialized_success">Repository initialized</string>
+    <string name="git_commit_success">Committed successfully</string>
+    <string name="git_push_success">Pushed successfully</string>
+    <string name="git_pull_success">Pulled successfully</string>
+    <string name="git_fetch_success">Fetched successfully</string>
+    <string name="git_up_to_date">Up to date</string>
+    <string name="git_ahead_commits">Ahead by %1$d</string>
+    <string name="git_behind_commits">Behind by %1$d</string>
+    <string name="git_error_dialog_title">Git Error</string>
+    <string name="git_error_dialog_copy">Copy Error</string>
+    <string name="git_error_dialog_copied">Error copied to clipboard</string>
+    <string name="git_error_dialog_close">Close</string>
+    <string name="git_error_details_label">Error Details &amp; Stacktrace</string>
+    <!-- Setup Screen - Step 0: Welcome -->
+    <string name="privacy_consent_title">Privacy</string>
+    <string name="privacy_consent_body">ACS IDE does not collect user data or anything ok?</string>
+    <string name="privacy_consent_accept">Continue</string>
+    <string name="privacy_consent_decline">Exit</string>
+
+    <!-- Core Components Missing Dialog -->
+    <string name="core_components_missing_title">Core Components Missing</string>
+    <string name="core_components_missing_message">The core component (com.acside) is missing from your system. This component is the heart of Android Code Studio and cannot be missing. Please reinstall the entire IDE to restore core functionality.</string>
+    <string name="core_components_missing_action_reinstall">Reinstall IDE</string>
+    <string name="core_components_missing_action_exit">Exit</string>
+    <string name="bootstrap_marker_missing_error">Core bootstrap marker (.acside_bootstrap_ok) is missing. Please complete setup.</string>
+    <string name="setup_step_welcome_title">Welcome to AndroidCodeStudio</string>
+    <string name="setup_step_welcome_description">Transform your Android device into a powerful development environment.</string>
+    <string name="setup_step_welcome_action">Get Started</string>
+    <!-- Setup Screen - Step 1: Storage Permissions -->
+    <string name="setup_step_permissions_title">Storage Permissions</string>
+    <string name="setup_step_permissions_description">We need access to your device storage to manage project files.</string>
+    <string name="setup_step_permissions_action">Grant Permission</string>
+    <!-- Setup Screen - Step 2: Install -->
+    <string name="setup_step_install_title">Development Environment</string>
+    <string name="setup_step_install_description">Download Ubuntu, JDK, and Android SDK, or install archives from storage.</string>
+    <string name="setup_step_install_action">Install Environment</string>
+    <!-- Setup Screen - Step 3: Complete -->
+    <string name="setup_step_complete_title">All Set!</string>
+    <string name="setup_step_complete_description">Your development environment is ready. Start coding!</string>
+    <string name="setup_step_complete_action">Start Coding</string>
+    <!-- Setup Screen - Install progress UI -->
+    <string name="setup_label_installing">Installing</string>
+    <!-- Setup Screen - Error UI -->
+    <string name="setup_error_install_failed">Installation Failed</string>
+    <!-- Setup Screen - Retry button -->
+    <string name="setup_btn_retry">Retry Installation</string>
+    <string name="setup_manual_section_title">Install ACS Bootstrap</string>
+    <string name="setup_manual_section_hint">Since Alpha 6, ACS Lite officially moved to using Termux packages via the ACSIDE environment. To proceed with setting up the IDE please tap "Install ACSIDE Bootstrap" to get started.</string>
+    <string name="setup_manual_section_or_hint">Or</string>
+    <string name="setup_acside_shared_package">Install ACSIDE Bootstrap</string>
+    <string name="setup_manual_installed">Installed</string>
+    <string name="jdk_pick_title_install">Select JDK version</string>
+    <string name="jdk_pick_desc_install">Choose which Java Development Kit version to install.</string>
+    <string name="jdk_pick_confirm_install">Install</string>
+    <string name="jdk_pick_title_import">JDK version for archive</string>
+    <string name="jdk_pick_desc_import">Choose which version this archive should be installed as.</string>
+    <string name="jdk_pick_confirm_import">Continue</string>
+    <string name="sdk_manual_installed">Imported</string>
+    <string name="sdk_manual_section_title">Install from storage</string>
+    <string name="sdk_manual_jdk">Import JDK archive</string>
+    <string name="sdk_manual_sdk">Import Android SDK archive</string>
+    <!-- BugReportOverlay -->
+    <string name="bug_report_fab_content_desc">Report a bug</string>
+    <string name="bug_report_dialog_title">Report a Bug</string>
+    <string name="bug_report_close_content_desc">Close</string>
+    <string name="bug_report_attachment_default_name">attachment</string>
+    <string name="bug_report_remove_attachment_content_desc">Remove attachment</string>
+    <!-- Consent dialog -->
+    <string name="bug_report_consent_title">Before you continue</string>
+    <string name="bug_report_consent_body">Bug reports include your device model, Android version, app version, and any description or files you choose to attach.\n\nThis information is sent to the developer and is used solely to diagnose and fix issues. No personal data is collected.\n\nDo you agree to send this information?</string>
+    <string name="bug_report_consent_agree">I agree</string>
+    <string name="bug_report_consent_decline">No thanks</string>
+    <!-- Report form -->
+    <string name="bug_report_rate_limit_msg">You\'ve sent %1$d reports. Please wait %2$ds before sending another.</string>
+    <string name="bug_report_title_label">Issue title</string>
+    <string name="bug_report_title_placeholder">Short summary of the bug</string>
+    <string name="bug_report_title_error">Title is required</string>
+    <string name="bug_report_body_label">Description</string>
+    <string name="bug_report_body_placeholder">Steps to reproduce, what you expected, what happened…</string>
+    <string name="bug_report_body_error">Description is required</string>
+    <string name="bug_report_attach_button">Attach file or image (optional)</string>
+    <string name="bug_report_cancel_button">Cancel</string>
+    <string name="bug_report_send_button">Send Report</string>
+    <string name="bug_report_reports_remaining">Reports remaining: %1$d / %2$d</string>
+    <string name="bug_report_reset_preferences_button">Reset Preferences</string>
+    <!-- MainActivity -->
+    <string name="main_git_icon_content_desc">Git</string>
+    <string name="main_hero_line1">Open or create</string>
+    <string name="main_hero_line2">Your next project</string>
+
+    <string name="main_section_quick_actions">Quick Actions</string>
+    <string name="main_section_recent_projects">Recent Projects</string>
+    <string name="main_project_updated">Updated %1$s</string>
+    <!-- RecentProjectCard -->
+    <string name="project_type_flutter" translatable="false">Flutter</string>
+    <string name="project_type_android" translatable="false">Android</string>
+    <!-- GeneralSettings sections -->
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_section_language">Language</string>
+    <string name="settings_section_developer">Developer Options</string>
+    <!-- Appearance settings -->
+    <string name="settings_dark_mode_title">Dark Mode</string>
+    <string name="settings_dark_mode_desc">Use dark theme throughout the app</string>
+    <string name="settings_looks_feel_title">Looks &amp; Feel</string>
+    <string name="settings_looks_feel_desc">Choose the app color palette</string>
+    <string name="settings_looks_feel_custom_colors_title">Custom palette</string>
+    <string name="settings_looks_feel_color_primary">Primary</string>
+    <string name="settings_looks_feel_color_secondary">Secondary</string>
+    <string name="settings_looks_feel_color_tertiary">Tertiary</string>
+    <string name="settings_looks_feel_color_background">Background</string>
+    <string name="settings_looks_feel_color_surface">Surface</string>
+    <string name="settings_looks_feel_color_error">Error</string>
+    <string name="settings_looks_feel_hex_label">Hex color</string>
+    <string name="settings_looks_feel_apply">Apply</string>
+    <string name="settings_looks_feel_cancel">Cancel</string>
+    <string name="settings_fluent2_look_title">Windows 11 Fluent 2 Look</string>
+    <string name="settings_fluent2_look_desc">Apply a Fluent 2 inspired visual style across the app</string>
+    <string name="settings_fluent2_restart_title">Restart required</string>
+    <string name="settings_fluent2_restart_message">Restart the app to apply the new look.</string>
+    <string name="settings_fluent2_restart_confirm">Restart now</string>
+    <string name="settings_fluent2_restart_later">Later</string>
+    <string name="settings_app_scale_title">App Scale</string>
+    <string name="settings_app_scale_desc">Scale: %1$sx</string>
+    <!-- Language settings -->
+    <string name="settings_language_title">App Language</string>
+    <string name="settings_language_desc">Choose the language used across the app</string>
+    <!-- Developer settings -->
+    <string name="settings_ide_logs_title">IDE Logs</string>
+    <string name="settings_ide_logs_desc">Enable detailed logging for debugging</string>
+    <string name="settings_ide_logs_warning_title">Enable IDE Logs?</string>
+    <string name="settings_ide_logs_warning_desc">Enabling IDE logs may capture and process a massive volume of log output, which can cause significant UI lag and degrade performance. Are you sure you want to enable it?</string>
+    <string name="settings_ide_logs_warning_confirm">Enable</string>
+    <string name="settings_ide_logs_warning_confirm_timer">Enable (%1$ds)</string>
+    <!-- Developer settings -->
+    <string name="settings_bug_report_overlay_title">Bug Report Overlay</string>
+    <string name="settings_bug_report_overlay_desc">Shows a floating overlay that lets you quickly report issues</string>
+    <!-- LocaleManager display names - never translate these -->
+    <string name="locale_system_default">System Default</string>
+    <string name="locale_english" translatable="false">English</string>
+    <string name="locale_arabic" translatable="false">العربية</string>
+    <string name="locale_french" translatable="false">Français</string>
+    <string name="locale_german" translatable="false">Deutsch</string>
+    <string name="locale_spanish" translatable="false">Español</string>
+    <string name="locale_portuguese" translatable="false">Português</string>
+    <string name="locale_russian" translatable="false">Русский</string>
+    <string name="locale_chinese" translatable="false">中文</string>
+    <string name="locale_japanese" translatable="false">日本語</string>
+    <string name="locale_korean" translatable="false">한국어</string>
+    <!-- Language switch overlay -->
+    <string name="settings_language_switching_title">Switching Language</string>
+    <string name="settings_language_switching_subtitle">The app will restart momentarily…</string>
+    <!-- EditorActivity: Permission -->
+    <string name="storage_permission_required">Storage permission is required to browse files</string>
+    <string name="all_files_access_permission">Please grant \'All files access\' permission in settings</string>
+    <!-- EditorActivity: Flutter SDK not found dialog -->
+    <string name="flutter_sdk_not_found_title">Flutter SDK Not Found</string>
+    <string name="flutter_sdk_not_found_message">The Flutter SDK was not found</string>
+    <string name="flutter_sdk_not_found_error_code">ACS_FLUTTER_SDK_NOT_FOUND illegal argument</string>
+    <string name="flutter_sdk_install_hint">Please install the Flutter SDK from Sdk Manager in the Home screen before opening a Flutter project.</string>
+    <!-- EditorActivity: Exit dialog -->
+    <string name="exit_editor_title">Exit Editor?</string>
+    <string name="exit_editor_message">This will close the project and clean up resources.</string>
+    <string name="unsaved_changes_warning">⚠️ You have unsaved changes!</string>
+    <string name="exit_with_cleanup">Exit with Cleanup</string>
+    <!-- EditorActivity: Cleanup progress dialog -->
+    <string name="cleaning_up_title">Cleaning Up…</string>
+    <string name="force_stop">Force Stop</string>
+    <string name="cleanup_stopping_builds">Stopping active builds…</string>
+    <string name="cleanup_stopping_daemons">Stopping Gradle daemons…</string>
+    <string name="cleanup_shutting_down_gradle">Shutting down Gradle service…</string>
+    <string name="cleanup_closing_terminals">Closing terminal sessions…</string>
+    <string name="cleanup_stopping_lsp">Stopping Language Servers…</string>
+    <string name="cleanup_finalizing">Finalizing…</string>
+    <!-- EditorActivity: Service / build messages -->
+    <string name="tooling_api_not_available">Tooling API not available. Build features will be disabled.</string>
+    <string name="services_may_need_reconnect">Some services may need to reconnect</string>
+    <!-- EditorScreen: General -->
+    <string name="toggle_navigation_drawer">Toggle navigation drawer</string>
+    <!-- EditorScreen: Bottom sheet header -->
+    <string name="build_output">Build Output</string>
+    <string name="ready">Ready</string>
+    <string name="building">Building</string>
+    <string name="synchronizing_with_gradle">Synchronizing with Gradle…</string>
+    <string name="running_tasks">Running: %1$s</string>
+    <string name="build_successful">Build Successful</string>
+    <string name="all_tasks_completed">All tasks completed</string>
+    <string name="build_failed_title">Build Failed</string>
+    <string name="build_failed_summary">%1$s</string>
+    <!-- EditorScreen: Bottom sheet tab titles -->
+    <string name="tab_output">Output</string>
+    <string name="tab_problems">Problems</string>
+    <string name="tab_app_logs">App Logs</string>
+    <string name="tab_ide_logs">IDE Logs</string>
+    <!-- EditorScreen: LSP / definition navigation -->
+    <string name="could_not_open_definition">Could not open definition</string>
+    <string name="definition_not_found">Definition not found</string>
+    <!-- EditorScreen: Unsupported JDK dialog -->
+    <string name="unsupported_java_version_title">Unsupported Java Version</string>
+    <string name="unsupported_java_version_message">The Kotlin language server requires Java 21 or later.\n\nThe current Java runtime is too old to run it (class file version 65.0 requires Java 21+). Please install Temurin JDK 21 via SDK Manager then restart the IDE.</string>
+    <!-- EditorScreen: Sync -->
+    <string name="syncing_project">Syncing project…</string>
+    <string name="finalizing_sync">Finalizing sync…</string>
+    <string name="refreshing_classpaths">Refreshing classpaths…</string>
+    <string name="restarting_language_servers">Restarting language servers…</string>
+    <string name="loading_tasks">Loading tasks…</string>
+    <string name="sync_completed">Sync completed!</string>
+    <string name="project_synced_successfully">✓ Project synced successfully</string>
+    <string name="sync_failed">✗ Sync failed. Check build output.</string>
+    <string name="sync_error">✗ Sync error: %s</string>
+    <string name="please_sync_project_first">Please sync project first, or wait for sync to complete</string>
+    <!-- EditorScreen: File actions -->
+    <string name="file_saved">File saved</string>
+    <string name="failed_to_save_file">Failed to save file</string>
+    <string name="failed_to_open_file">Failed to open file: %s</string>
+    <!-- EditorScreen: Build actions -->
+    <string name="build_cancelled">Build cancelled</string>
+    <string name="failed_to_cancel">Failed to cancel: %s</string>
+    <string name="failed_to_run">Failed to run: %s</string>
+    <!-- Shared: Flutter -->
+    <string name="flutter_clean_task_name" translatable="false">flutter clean</string>
+    <string name="flutter_clean_running">Running Flutter clean…</string>
+    <string name="flutter_clean_completed">Flutter clean completed successfully</string>
+    <string name="flutter_clean_failed">Flutter clean failed with exit code %1$d</string>
+    <string name="flutter_clean_error">Error running Flutter clean: %1$s</string>
+    <string name="flutter_pub_get_task_name" translatable="false">flutter pub get</string>
+    <string name="flutter_pub_get_running">Running Flutter pub get…</string>
+    <string name="flutter_pub_get_completed">Flutter pub get completed successfully</string>
+    <string name="flutter_pub_get_failed">Flutter pub get failed. Check Output panel for details.</string>
+    <string name="flutter_pub_get_failed_with_code">Flutter pub get failed with exit code %1$d</string>
+    <string name="flutter_pub_get_failed_reason">Flutter pub get failed: %1$s</string>
+    <string name="flutter_dependencies_downloaded">Flutter dependencies downloaded successfully</string>
+    <string name="dart_pub_get_task_name" translatable="false">dart pub get</string>
+    <string name="dart_pub_get_running">Running Dart pub get…</string>
+    <string name="dart_pub_get_completed">Dart pub get completed successfully</string>
+    <string name="dart_pub_get_failed_with_code">Dart pub get failed with exit code %1$d</string>
+    <string name="dart_pub_get_failed_reason">Dart pub get failed: %1$s</string>
+    <string name="flutter_sdk_not_found_settings">Flutter SDK not found. Please install Flutter from IDE Settings.</string>
+    <!-- Shared: Generic error -->
+    <string name="error_with_message">Error: %s</string>
+    <string name="settings_back">Back</string>
+    <string name="settings_hero_line1">Customize your</string>
+    <string name="settings_hero_line2">Experience</string>
+    <string name="settings_hero_subtitle">App settings &amp; preferences</string>
+    <string name="settings_section_header">Settings</string>
+    <string name="settings_detail_subtitle">Settings</string>
+    <string name="settings_summary_general">Appearance, files &amp; confirmations</string>
+    <string name="settings_summary_editor">Font, display &amp; code behavior</string>
+    <string name="settings_summary_experimental">Preview and experimental features</string>
+    <string name="settings_summary_terminal">Configure terminal settings</string>
+    <string name="settings_summary_about">App info, device &amp; links</string>
+    <string name="settings_summary_output_debug">Build output, logcat &amp; ADB</string>
+    <string name="settings_output_debug_section_title">Output &amp; Debug</string>
+    <string name="settings_section_build_output">Build output</string>
+    <string name="settings_section_logcat_backend">App logcat</string>
+    <string name="settings_section_adb_setup">ADB setup</string>
+    <string name="settings_logcat_backend_title">Logcat backend</string>
+    <string name="settings_logcat_backend_desc">ADB is recommended. Shizuku remains available as an alternative.</string>
+    <string name="settings_logcat_backend_adb">ADB (recommended)</string>
+    <string name="settings_logcat_backend_shizuku">Shizuku</string>
+    <string name="settings_adb_step_developer_title">1. Open developer options</string>
+    <string name="settings_adb_step_developer_desc">Enable developer options first, then return here.</string>
+    <string name="settings_adb_step_usb_title">2. Enable USB debugging</string>
+    <string name="settings_adb_step_usb_desc">Turn on USB debugging in developer options.</string>
+    <string name="settings_adb_step_wireless_title">3. Enable wireless debugging</string>
+    <string name="settings_adb_step_wireless_desc">Open wireless debugging and keep it enabled.</string>
+    <string name="settings_adb_step_pair_title">4. Pair ACS with wireless debugging</string>
+    <string name="settings_adb_step_pair_desc">Starts pairing discovery. When the pairing service appears, enter the code from the notification.</string>
+    <string name="settings_adb_open_developer_options">Open</string>
+    <string name="settings_adb_open_wireless">Open</string>
+    <string name="settings_adb_start_pairing">Pair</string>
+    <string name="settings_adb_developer_help_title">Enable developer options</string>
+    <string name="settings_adb_developer_help_body">Open Settings → About phone, then tap Build number seven times until developer options are enabled.</string>
+    <string name="settings_adb_developer_help_got_it">Got it</string>
+    <string name="settings_adb_usb_otg_title">USB-OTG devices</string>
+    <string name="settings_adb_usb_otg_desc">Request USB host permission for ADB devices attached over USB-OTG.</string>
+    <string name="settings_adb_usb_otg_action">Grant USB</string>
+    <string name="settings_adb_how_to_connect_title">Wireless debugging</string>
+    <string name="settings_adb_how_to_connect_desc">Pair ACS and check connection status.</string>
+    <string name="settings_adb_how_to_connect_action">How to connect</string>
+    <string name="adb_connect_title">Connect with ADB</string>
+    <string name="adb_connect_subtitle">Pair wireless debugging and install to the connected device</string>
+    <string name="adb_connect_status_section">Connection</string>
+    <string name="adb_connect_status_checking">Checking…</string>
+    <string name="adb_connect_status_connected">Connected</string>
+    <string name="adb_connect_status_disconnected">Not connected</string>
+    <string name="adb_connect_refresh">Refresh</string>
+    <string name="adb_connect_pair_action">Pair</string>
+    <string name="adb_connect_pair_waiting">Waiting for pairing…</string>
+    <string name="adb_connect_pair_done">Already connected</string>
+    <string name="adb_pairing_channel_name">Wireless debugging pairing</string>
+    <string name="adb_pairing_searching_title">Searching for pairing service</string>
+    <string name="adb_pairing_searching_text">Waiting for wireless debugging pairing…</string>
+    <string name="adb_pairing_found_title">Pairing service found</string>
+    <string name="adb_pairing_found_text">Enter the pairing code for port %1$d</string>
+    <string name="adb_pairing_working_title">Pairing in progress</string>
+    <string name="adb_pairing_succeed_title">Paired successfully</string>
+    <string name="adb_pairing_succeed_text">ACS is connected through wireless debugging.</string>
+    <string name="adb_pairing_failed_title">Pairing failed</string>
+    <string name="adb_pairing_failed_text">Could not pair with wireless debugging.</string>
+    <string name="adb_pairing_code_label">Pairing code</string>
+    <string name="adb_pairing_input_action">Enter pairing code</string>
+    <string name="adb_pairing_stop">Stop</string>
+    <string name="editor_section_gradle_service">Gradle Service</string>
+    <string name="editor_section_syntax_highlighting">Syntax Highlighting</string>
+    <string name="editor_section_display">Display</string>
+    <string name="editor_section_behavior">Behavior</string>
+    <string name="editor_section_lsp_kotlin">LSP: Kotlin</string>
+    <string name="editor_section_advanced">Advanced</string>
+    <string name="editor_theme_title">Editor Theme</string>
+    <string name="editor_syntax_highlighting_title">Syntax Highlighting</string>
+    <string name="editor_syntax_highlighting_desc">Colorize code based on language</string>
+    <string name="editor_color_preview_title">Color Preview</string>
+    <string name="editor_color_preview_desc">Show preview for color values</string>
+    <string name="editor_highlight_current_line_title">Highlight Current Line</string>
+    <string name="editor_highlight_current_line_desc">Highlight the line with cursor</string>
+    <string name="editor_font_family_title">Font Family</string>
+    <string name="editor_font_import_option">Import Font…</string>
+    <string name="editor_memory_usage_title">Memory usage</string>
+    <string name="editor_memory_usage_desc">Show memory usage overlay</string>
+    <string name="editor_font_size_title">Font Size</string>
+    <string name="editor_font_size_desc">%dpx</string>
+    <string name="editor_tab_size_title">Tab Size</string>
+    <string name="editor_tab_size_desc">%d spaces</string>
+    <string name="editor_line_numbers_title">Line Numbers</string>
+    <string name="editor_line_numbers_desc">Show line numbers in the gutter</string>
+    <string name="editor_word_wrap_title">Word Wrap</string>
+    <string name="editor_word_wrap_desc">Wrap long lines to fit the screen</string>
+    <string name="editor_line_column_indicator_title">Line &amp; Column Indicator</string>
+    <string name="editor_line_column_indicator_desc">Show cursor position in editor</string>
+    <string name="editor_auto_format_title">Auto Format</string>
+    <string name="editor_auto_format_desc">Automatically format code after saving</string>
+    <string name="editor_auto_indent_title">Auto Indent</string>
+    <string name="editor_auto_indent_desc">Automatically indent new lines</string>
+    <string name="editor_auto_pairing_title">Auto Pairing</string>
+    <string name="editor_auto_pairing_desc">Auto-close brackets and quotes</string>
+    <string name="editor_string_extraction_title">String extraction</string>
+    <string name="editor_string_extraction_desc">Detect hardcoded strings and offer extract-to-resource actions</string>
+    <string name="editor_page_mode_title">Page Mode</string>
+    <string name="editor_page_mode_desc">Splits the editor into pages when large files are opened.</string>
+    <string name="editor_kotlin_diagnostics_title">Experimental kotlin diagnostics</string>
+    <string name="editor_kotlin_diagnostics_desc">Report diagnostic for kotlin files</string>
+    <string name="editor_show_whitespace_title">Show Whitespace</string>
+    <string name="editor_show_whitespace_desc">Display spaces and tabs visually</string>
+    <string name="editor_show_line_endings_title">Show Line Endings</string>
+    <string name="editor_show_line_endings_desc">Display line break characters</string>
+    <string name="editor_cursor_blink_title">Cursor Blink</string>
+    <string name="editor_cursor_blink_desc">Animate cursor blinking</string>
+    <string name="editor_visible_password_flag_title">Visible password flag</string>
+    <string name="editor_visible_password_flag_desc">Use a secure keyboard without suggestions. Turn off to allow keyboard suggestions.</string>
+    <string name="editor_font_import_dialog_title">Import Custom Font</string>
+    <string name="editor_font_import_dialog_body">Choose a TrueType (.ttf) or OpenType (.otf) font file.</string>
+    <string name="editor_font_import_name_label">Font Name</string>
+    <string name="editor_font_import_choose_file">Choose Font File</string>
+    <string name="editor_font_import_confirm">Import</string>
+    <string name="editor_font_import_cancel">Cancel</string>
+    <string name="editor_font_import_file_selected">Font file selected ✓</string>
+    <string name="gradle_sync_args_title">Sync arguments</string>
+    <string name="gradle_no_extra_flags">No extra flags</string>
+    <string name="gradle_common_flags_label">Common flags</string>
+    <string name="gradle_custom_flag_label">Custom flag</string>
+    <string name="gradle_custom_flags_label">Custom flags</string>
+    <string name="gradle_custom_flag_placeholder">e.g. --warning-mode=all</string>
+    <string name="gradle_add_flag_cd">Add flag</string>
+    <string name="gradle_remove_flag_cd">Remove</string>
+    <string name="settings_about_section_title">About</string>
+    <string name="settings_editor_section_title">Editor</string>
+    <string name="settings_general_section_title">General</string>
+    <string name="settings_experimental_section_title">Experimental</string>
+    <string name="settings_terminal_section_title">Terminal</string>
+    <string name="settings_terminal_section_header">Hybrid environment</string>
+    <string name="settings_proot_no_seccomp_title">Disable PRoot seccomp</string>
+    <string name="settings_proot_no_seccomp_desc">Applies PROOT_NO_SECCOMP=1 to PRoot sessions. Use only if the hybrid environment fails on your device.</string>
+    <string name="error_report_title">Send error report?</string>
+    <string name="error_report_message">Something went wrong. An anonymous report with diagnostic logs will only be sent to the developer if you agree. These logs help fix the issue. No personal data is included.</string>
+    <string name="error_report_send_report_btn">Send report</string>
+    <string name="error_report_no_thanks_btn">No thanks</string>
+    <!-- About Section - App Info -->
+    <string name="about_app_name">Android Code Studio</string>
+    <!-- About Section - Device Information -->
+    <string name="about_device_info_title">Device Information</string>
+    <string name="about_device_label">Device</string>
+    <string name="about_model_label">Model</string>
+    <string name="about_android_label">Android</string>
+    <!-- About Section - Links -->
+    <string name="about_links_title">Links</string>
+    <string name="about_link_source_code">Source Code</string>
+    <string name="about_link_discussion">Discussion Group</string>
+    <string name="about_link_channel">Official Channel</string>
+    <string name="lib_editor_backend_filename" translatable="false">libeditor-backend.so</string>
+    <string name="permission_transition" translatable="false">permission_transition</string>
+    <string name="icon_pulse" translatable="false">icon_pulse</string>
+    <string name="icon_scale" translatable="false">icon_scale</string>
+    <string name="storage_access_required">Storage Access Required</string>
+    <string name="grant_permissions_to_browse_and_manage_your_files">Grant permissions to browse and manage your files</string>
+    <string name="grant_basic_permissions">Grant Basic Permissions</string>
+    <string name="grant_all_files_access">Grant All Files Access</string>
+    <string name="close_terminal">Close terminal</string>
+    <string name="navigate_to_path">Navigate to path</string>
+    <string name="directory_path">Directory path</string>
+    <string name="directory_does_not_exist_or_is_not_allowed">Directory does not exist or is not allowed</string>
+    <string name="go">Go</string>
+    <string name="locations">Locations</string>
+    <string name="restricted_to_listed_directories">Restricted to listed directories</string>
+    <string name="twin_file_manager">Twin File Manager</string>
+    <string name="drawer_icon_progress" translatable="false">drawer_icon_progress</string>
+    <string name="toggle_drawer">Toggle drawer</string>
+    <string name="git_clone">Git clone</string>
+    <string name="delete">Delete</string>
+    <string name="str_new">New</string>
+    <string name="select">Select</string>
+    <string name="select_all">Select All</string>
+    <string name="all">All</string>
+    <!-- Those are new and should go here -->
+    <string name="file_browser">File browser</string>
+    <string name="close_search">Close search</string>
+    <string name="search_projects">Search projects</string>
+    <string name="project_directory_path">Project directory path</string>
+    <string name="project_directory_path_placeholder">Path to your project</string>
+    <string name="project_directory_does_not_exist">Project directory does not exist</string>
+    <string name="browse_with_file_picker">Browse with file picker</string>
+    <string name="path_must_be_under_sdcard">Path must be under /sdcard, AndroidCSProjects, or Projects</string>
+    <string name="directory_not_found_or_not_valid">Directory not found or not a valid project</string>
+    <string name="open_project_sheet_search_hint">Search projects…</string>
+    <string name="open_project_sheet_section_all_projects">ALL PROJECTS</string>
+    <string name="open_project_sheet_no_match">No projects match "%1$s"</string>
+    <string name="open_project_sheet_no_projects">No projects found</string>
+    <string name="open_project_sheet_recent_badge">Recent</string>
+    <string name="problems_quick_fix">Quick fix</string>
+    <string name="problems_quick_fix_choose_title">Choose a fix</string>
+    <string name="problems_quick_fix_none">No quick fixes available</string>
+    <string name="editor_drawer_backup_project">Backup project (ZIP)</string>
+    <string name="backup_project_succeeded">Project backup saved</string>
+    <string name="backup_project_failed">Could not create backup</string>
+    <string name="backup_project_in_progress">Backing up project…</string>
+    <string name="backup_project_succeeded_title">Backup complete</string>
+    <string name="backup_project_failed_title">Backup failed</string>
+    <string name="backup_project_files_progress">%1$d of %2$d files</string>
+    <string name="backup_project_eta_calculating">Estimating time remaining…</string>
+    <string name="backup_project_eta_almost_done">Almost done…</string>
+    <string name="backup_project_eta_seconds">About %1$d s remaining</string>
+    <string name="backup_project_collapse">Collapse</string>
+    <string name="backup_project_expand">Expand</string>
+    <string name="recent_project_menu_subtitle">Project</string>
+    <string name="recent_project_copy_path">Copy path</string>
+    <string name="recent_project_path_copied">Path copied</string>
+    <string name="recent_project_rename">Rename</string>
+    <string name="recent_project_rename_title">Rename project</string>
+    <string name="recent_project_rename_label">Project name</string>
+    <string name="recent_project_rename_confirm">Rename</string>
+    <string name="recent_project_rename_succeeded">Project renamed</string>
+    <string name="recent_project_rename_failed">Could not rename project</string>
+    <string name="recent_project_delete_permanently">Delete permanently</string>
+    <string name="recent_project_delete_title">Delete project?</string>
+    <string name="recent_project_delete_message">This permanently deletes \"%1$s\" and all files under:\n%2$s</string>
+    <string name="recent_project_delete_confirm">Delete</string>
+    <string name="recent_project_delete_succeeded">Project deleted</string>
+    <string name="recent_project_delete_failed">Could not delete project</string>
+
+    <!-- ATC Compose Wizard Strings -->
+    <string name="atc_checking_ndk">Checking NDK...</string>
+    <string name="atc_error_invalid_ndk">The highest NDK version found (%1$s) is invalid or corrupted.</string>
+    <string name="atc_error_empty_project_name">Project name cannot be empty</string>
+    <string name="atc_error_invalid_project_name">Project name must start with a letter and contain only letters, numbers, and underscores</string>
+    <string name="atc_error_project_exists">A project with this name already exists at this location</string>
+    <string name="atc_error_project_exists_msg">A project named %1$s already exists at this location.</string>
+    <string name="atc_creating_project">Creating project...</string>
+    <string name="atc_error_create_project_failed">Failed to create project: %1$s</string>
+    <string name="atc_error_generic">Error: %1$s</string>
+    <string name="atc_error_no_cmake">No CMake installation found. Please install CMake from IDE Settings.</string>
+    <string name="atc_invalid_save_location_title">Invalid Save Location</string>
+    <string name="atc_invalid_save_location_message">Game projects must be saved in the Android Code Studio home directory to work correctly.</string>
+    <string name="atc_switch_automatically">Switch Automatically</string>
+    <string name="native_language_cpp" translatable="false">C++</string>
+    <string name="native_language_c" translatable="false">C</string>
+    <string name="atc_error_no_ndk">No NDK Found</string>
+    <string name="atc_ndk_version">NDK: %1$s</string>
+    <string name="atc_ndk_auto">Auto</string>
+    <string name="atc_ndk_version_label">NDK Version: %1$s</string>
+    <string name="atc_use_gradle_kts">Use Gradle Kotlin DSL</string>
+    <string name="atc_use_cmake">Use CMake</string>
+    <string name="atc_create_project_btn">Create Project</string>
+
+    <!-- Editor Dialogs Strings -->
+    <string name="atc_cleaning_up">Cleaning up...</string>
+    <string name="atc_cleanup_complete">Cleanup Complete</string>
+    <string name="atc_cleanup_desc">Stopping Gradle daemons and cleaning up resources. Please wait...</string>
+    <string name="atc_cleanup_success">All resources have been cleaned up successfully.</string>
+    <string name="atc_run_task">Run Task</string>
+    <string name="atc_available_tasks">Available Tasks:</string>
+
+    <!-- SDK Manager Tabs Strings -->
+    <string name="sdk_tab_build_tools">Build Tools</string>
+    <string name="sdk_tab_ndk">NDK</string>
+    <string name="sdk_tab_cmake">CMake</string>
+    <string name="sdk_tab_platforms">Platforms</string>
+    <string name="sdk_tab_jdk">JDK</string>
+    <string name="sdk_tab_flutter">Flutter</string>
+    <string name="sdk_config_title">SDK Configuration</string>
+    <string name="sdk_config_desc">Control Gradle init scripts applied during project sync and builds.</string>
+    <string name="sdk_config_force_ndk">Force NDK version</string>
+    <string name="sdk_config_force_cmake">Force CMake version</string>
+    <string name="sdk_config_force_protoc">Force protoc path</string>
+
+    <!-- SDK Manager Screen Strings -->
+    <string name="sdk_ndk_versions">NDK Versions</string>
+    <string name="sdk_forced_ndk_format">Forced NDK: %1$s</string>
+    <string name="sdk_force_ndk_title">Force NDK Version</string>
+    <string name="sdk_force_ndk_desc">Specify an installed NDK version to force across all projects. The version will be validated against /home/Android/Sdk/ndk before applying.</string>
+    <string name="sdk_ndk_version_label">NDK Version</string>
+    <string name="sdk_ndk_version_placeholder">e.g. 27.3.13750724</string>
+    <string name="sdk_currently_forced_format">Currently forced: %1$s</string>
+    <string name="sdk_apply_btn">Apply</string>
+    <string name="sdk_version_format">Version %1$s</string>
+    <string name="sdk_installed_badge">Installed</string>
+    <string name="sdk_invalid_badge">Invalid</string>
+    <string name="sdk_ndk_invalid_title">Invalid NDK</string>
+    <string name="sdk_ndk_invalid_help_cd">Show why this NDK is invalid</string>
+    <string name="sdk_uninstall_btn">Uninstall</string>
+    <string name="sdk_installing_status">Installing...</string>
+    <string name="sdk_install_btn">Install</string>
+    <string name="sdk_flutter_sdk">Flutter SDK</string>
+    <string name="sdk_installed_ready">Installed and ready</string>
+    <string name="sdk_not_installed">Not installed</string>
+    <string name="sdk_requirements">Requirements</string>
+    <string name="sdk_architecture">Architecture</string>
+    <string name="sdk_arm64_only">ARM64 only</string>
+    <string name="sdk_storage_required">Storage Required</string>
+    <string name="sdk_flutter_storage_value">~2 GB</string>
+    <string name="sdk_already_installed">Already Installed</string>
+    <string name="sdk_install_flutter">Install Flutter</string>
+    <string name="sdk_uninstall_flutter">Uninstall Flutter</string>
+    <string name="sdk_uninstalling_status">Uninstalling...</string>
+    <string name="sdk_close_btn">Close</string>
+    <string name="sdk_jdk_imported_msg">JDK %1$s imported</string>
+    <string name="sdk_jdk_import_failed_msg">JDK import failed</string>
+    <string name="sdk_android_sdk_imported_msg">Android SDK imported</string>
+    <string name="sdk_android_sdk_import_failed_msg">SDK import failed</string>
+    <string name="sdk_no_ndk_found">No NDK Found</string>
+    <string name="sdk_platform_tools">Platform Tools</string>
+    <string name="sdk_cmake_versions">CMake Versions</string>
+    <string name="sdk_jdk_versions">JDK Versions</string>
+
+    <string name="env_setup_header_title">Install Environment</string>
+    <string name="env_setup_header_subtitle">Configure your JDK, SDK, and NDK</string>
+    <string name="env_setup_back_content_description">Back</string>
+    
+    <string name="env_setup_jdk_title">OpenJDK</string>
+    <string name="env_setup_jdk_subtitle">Choose the JDK version to use</string>
+    
+    <string name="env_setup_sdk_title">Android SDK</string>
+    <string name="env_setup_sdk_subtitle">Install automatically or from a local archive</string>
+    <string name="env_setup_sdk_archive_field_label">SDK archive</string>
+    <string name="env_setup_sdk_archive_field_placeholder">No file selected</string>
+    <string name="env_setup_sdk_archive_field_support">.zip, .tar.gz, or .tar.xz</string>
+    <string name="env_setup_sdk_archive_picker_content_description">Choose SDK archive file</string>
+    
+    <string name="env_setup_ndk_title">Android NDK</string>
+    <string name="env_setup_ndk_subtitle">Choose the NDK toolkit version</string>
+    
+    <string name="env_setup_done_button">Done</string>
+
+    <!-- Feature Announcement Strings -->
+    <string name="feature_badge_new">New Feature</string>
+    <string name="feature_fluent2_title">Windows 11 Fluent 2 Mode</string>
+    <string name="feature_fluent2_subtitle">Experience the next-generation visual transformation</string>
+    <string name="feature_fluent2_description">Android Code Studio now features Microsoft Fluent 2 aesthetics, offering a refined desktop-class interface with smooth depth, mica backgrounds, and rounded controls.</string>
+    <string name="feature_fluent2_highlight1_title">Mica &amp; Acrylic Surfaces</string>
+    <string name="feature_fluent2_highlight1_desc">Translucent layered cards, soft shadows, and clean borders across screens.</string>
+    <string name="feature_fluent2_highlight2_title">Refined Typography &amp; Spacing</string>
+    <string name="feature_fluent2_highlight2_desc">Enhanced readability with compact controls and dynamic highlights.</string>
+    <string name="feature_fluent2_highlight3_title">Instant One-Click Toggle</string>
+    <string name="feature_fluent2_highlight3_desc">Enable or disable Fluent 2 Mode anytime from Main Screen header or Settings.</string>
+    <string name="feature_fluent2_action">Enable Fluent 2</string>
+    <string name="feature_fluent2_dismiss">Got It</string>
+    <string name="empty_editor_message">No opened file.\nClick the browse files button and start coding.</string>
+
+    <string name="browse_files">Browse Files</string>
+    <!-- XML Preview Strings -->
+    <string name="action_xml_preview_title">XML Preview</string>
+    <string name="xml_preview_title">XML Preview</string>
+    <string name="xml_preview_rendering">Rendering layout preview...</string>
+    <string name="xml_preview_error">XML Preview Error</string>
+    <string name="xml_preview_not_synced">Project not synced. Please sync the Gradle project first.</string>
+    <string name="xml_preview_no_layout">No layout file specified</string>
+    <string name="xml_preview_refresh">Refresh Preview</string>
+    <string name="xml_preview_rebuild">Rebuild (assembleDebug)</string>
+    <string name="xml_preview_rebuild_hint">Layout resources may be out of date. Rebuild the module with assembleDebug, then try preview again.</string>
+    <string name="xml_preview_theme">Theme</string>
+    <string name="xml_preview_night_mode">Night Mode</string>
+    <string name="xml_preview_mode_system">System Default</string>
+    <string name="xml_preview_mode_light">Light</string>
+    <string name="xml_preview_mode_dark">Dark</string>
+    <string name="xml_preview_display_settings">Display Settings</string>
+    <string name="xml_preview_menu_preview">Preview</string>
+    <string name="xml_preview_menu_preview_video">Preview as video</string>
+    <string name="xml_preview_width_label">Width (px)</string>
+    <string name="xml_preview_height_label">Height (px)</string>
+    <string name="xml_preview_density_label">Density (dpi)</string>
+    <string name="xml_preview_preset_standard">Standard</string>
+    <string name="xml_preview_preset_full_hd_plus">Full HD+</string>
+    <string name="xml_preview_preset_tablet">Tablet</string>
+    <string name="xml_preview_display_invalid">Enter valid positive numbers for width, height, and density.</string>
+    <string name="xml_preview_apply">Apply</string>
+    <string name="xml_preview_applying">Applying…</string>
+    <string name="xml_preview_unavailable">Preview render unavailable</string>
+    <string name="xml_preview_parsing">Parsing XML layout %1$s...</string>
+    <string name="xml_preview_no_active">No active XML preview</string>
+    <string name="xml_preview_start_before_refresh">Start a preview first before refreshing.</string>
+    <string name="xml_preview_start_before_settings">Start a preview first before changing display settings.</string>
+    <string name="xml_preview_start_before_rebuild">Start a preview first before rebuilding.</string>
+    <string name="xml_preview_project_not_synced_title">Project not synced</string>
+    <string name="xml_preview_project_not_synced_details">Sync the Gradle project first so target resources can be compiled.</string>
+    <string name="xml_preview_metadata_unavailable">Metadata unavailable</string>
+    <string name="xml_preview_metadata_unavailable_details">No active preview session metadata is available.</string>
+    <string name="xml_preview_resource_not_found">Resource package not found</string>
+    <string name="xml_preview_resource_not_found_rerender">No resource archive is available for re-render.</string>
+    <string name="xml_preview_resource_not_found_after_build">Compilation finished but no output was found under %1$s.</string>
+    <string name="xml_preview_resource_not_found_apk">Compilation finished but no .ap_ or .apk output was found under %1$s.</string>
+    <string name="xml_preview_resource_compile_failed">Resource compilation failed</string>
+    <string name="xml_preview_incremental_error">Incremental compile error</string>
+    <string name="xml_preview_unknown_render_error">Unknown error rendering XML preview</string>
+    <string name="xml_preview_recompiling">Recompiling %1$s...</string>
+    <string name="xml_preview_compiling_resources">Compiling target module layout resources...</string>
+    <string name="xml_preview_running_assemble">Running %1$s...</string>
+    <string name="xml_preview_rendering_layout">Rendering layout %1$s...</string>
+    <string name="xml_preview_resolving_metadata">Resolving target module resources...</string>
+    <string name="no_output_yet">No Output Yet</string>
+    <string name="run_project_for_output">Run your project to see output here</string>
+    <string name="previous_page">Previous page</string>
+    <string name="next_page">Next page</string>
+    <string name="install_apk">Install APK</string>
+    <string name="share_output">Share output</string>
+    <string name="clear_output">Clear output</string>
+    <!-- Language Server Settings -->
+    <string name="experiments_java_lsp_title">Java Language Server</string>
+    <string name="experiments_java_lsp_desc">Code completion, diagnostics and navigation for Java files</string>
+    <string name="experiments_dart_lsp_title">Dart Language Server</string>
+    <string name="experiments_dart_lsp_desc">Code completion and analysis for Dart and Flutter files</string>
+    <string name="experiments_dart_lsp_no_sdk_desc">Requires Flutter SDK (not installed)</string>
+    <string name="experiments_xml_lsp_title">XML Language Server</string>
+    <string name="experiments_xml_lsp_desc">Code completion and validation for Android XML layouts and resources</string>
+    <string name="experiments_section_gradle_service">Gradle Service</string>
+    <string name="experiments_custom_gradle_title">Custom Gradle Installation</string>
+    <string name="experiments_custom_gradle_desc">Override the Gradle version in gradle-wrapper.properties with a specific local distribution path.</string>
+    <string name="experiments_label_experimental">EXPERIMENTAL</string>
+    <!-- LSP JVM Options -->
+    <string name="lsp_jvm_options_title">JVM Options</string>
+    <string name="lsp_jvm_options_subtitle">Applied on next server start</string>
+    <string name="lsp_jvm_memory_header">MEMORY</string>
+    <string name="lsp_jvm_extra_flags_header">EXTRA FLAGS</string>
+    <string name="lsp_jvm_initial_heap_label">-Xms  (initial heap)</string>
+    <string name="lsp_jvm_max_heap_label">-Xmx  (max heap)</string>
+    <string name="lsp_jvm_max_metaspace_label" translatable="false">-XX:MaxMetaspaceSize</string>
+    <string name="lsp_jvm_extra_flags_label">Additional JVM flags</string>
+    <string name="lsp_jvm_reset_action">Reset</string>
+    <string name="lsp_jvm_save_action">Save</string>
+    <!-- Gradle Task Runner Strings -->
+    <string name="settings_remember_gradle_tasks_title">Remember Selected Gradle Tasks</string>
+    <string name="settings_remember_gradle_tasks_desc">Persist selected Gradle tasks and extra arguments across app restarts</string>
+    <string name="gradle_dialog_remember_tasks">Remember selection</string>
+    <string name="gradle_tasks_run_count">Run %1$d Tasks</string>
+    <string name="gradle_task_run_single">Run 1 Task</string>
+    <string name="gradle_task_select_tasks">Select Tasks</string>
+    <string name="gradle_tasks_clear_selection">Clear Selection</string>
+    <string name="gradle_extra_args_btn">Extra Gradle Arguments</string>
+    <string name="gradle_extra_args_count_btn">Extra Gradle Arguments (%1$d)</string>
+    <string name="gradle_dialog_run_gradle_tasks">Run Gradle Tasks</string>
+    <string name="gradle_dialog_run_flutter_commands">Run Flutter Commands</string>
+    <string name="gradle_dialog_tasks_selected_count">%1$d tasks selected</string>
+    <string name="gradle_dialog_single_task_selected">1 task selected</string>
+    <string name="gradle_args_dialog_title">Extra Gradle Arguments</string>
+    <string name="gradle_args_dialog_subtitle">Select common arguments or add custom ones</string>
+    <string name="gradle_args_custom_badge">Custom</string>
+    <string name="gradle_args_custom_placeholder">Add custom argument (e.g., --parallel)</string>
+    <string name="gradle_args_clear_all">Clear All</string>
+    <string name="gradle_args_apply">Apply</string>
+    <string name="gradle_tab_gradle" translatable="false">Gradle</string>
+    <string name="gradle_tab_flutter" translatable="false">Flutter</string>
+    <string name="run_action_build_debug">Build debug</string>
+    <string name="run_action_build_release">Build release</string>
+    <string name="run_action_custom">Custom</string>
+    <!-- Memory Overlay Strings -->
+    <string name="overlay_memory_content_description">Memory</string>
+    <string name="overlay_memory_usage_title">Memory Usage</string>
+    <string name="overlay_collapse_content_description">Collapse</string>
+    <string name="overlay_expand_content_description">Expand</string>
+    <string name="overlay_ide_process_title">IDE Process</string>
+    <string name="overlay_acside_process_title">Overall Usage</string>
+    <string name="overlay_tooling_api_title">Tooling API</string>
+    <string name="overlay_active_screen">Active Screen</string>
+    <string name="overlay_heap_breakdown">Heap Breakdown</string>
+    <string name="overlay_dalvik_label">Dalvik</string>
+    <string name="overlay_native_label">Native</string>
+    <string name="overlay_other_label">Other</string>
+    <string name="overlay_active_threads">Active Threads</string>
+    <string name="overlay_tooling_workspace">Workspace</string>
+    <string name="overlay_tooling_building">Building</string>
+    <string name="overlay_tooling_heap_graph">Heap graph</string>
+    <string name="overlay_size_label">Size</string>
+    <string name="overlay_drag_to_move">Drag to move</string>
+    <string name="overlay_status_running">Running</string>
+    <string name="overlay_status_not_running">Not running</string>
+    <string name="overlay_subprocesses_title">Processes</string>
+    <string name="overlay_thread_frames_format">%1$d frames</string>
+    <string name="overlay_pid_format">PID: %1$d</string>
+    <string name="overlay_used_max_mb_format">%1$d MB / %2$d MB</string>
+    <string name="overlay_percent_format">%1$d%%</string>
+    <string name="overlay_mb_format">%1$dMB</string>
+    <string name="overlay_tooling_mb_format">Tooling %1$dMB</string>
+    <string name="overlay_acside_mb_format">ACSIDE %1$dMB</string>
+    <!-- Adaptive Performance Strings -->
+    <string name="adaptive_perf_dialog_title">Adaptive Performance</string>
+    <string name="adaptive_perf_dialog_subtitle">Optimal settings tuned for your hardware</string>
+    <string name="adaptive_perf_specs_ram">Device RAM</string>
+    <string name="adaptive_perf_specs_storage">Internal Storage</string>
+    <string name="adaptive_perf_specs_cores">CPU Cores</string>
+    <string name="adaptive_perf_specs_tier">Performance Tier</string>
+    <string name="adaptive_perf_tier_low">Entry</string>
+    <string name="adaptive_perf_tier_balanced">Balanced</string>
+    <string name="adaptive_perf_tier_high">High</string>
+    <string name="adaptive_perf_tier_ultra">Ultra</string>
+    <string name="adaptive_perf_applying">Applying optimal settings&#8230;</string>
+    <string name="adaptive_perf_applied">Optimal performance settings applied</string>
+    <string name="adaptive_perf_continue">Continue</string>
+    <string name="adaptive_perf_dialog_description">Your device specifications have been evaluated to optimize JVM memory heaps, Language Server responsiveness, and Gradle background daemons.</string>
+    <!-- HealthWatcher Strings -->
+    <string name="health_watcher_nullij_warning_title">High Memory Warning</string>
+    <string name="health_watcher_nullij_warning_message">Android Code Studio memory usage has reached %1$d MB. Consider closing heavy editor tabs or background tasks if performance degrades.</string>
+    <string name="health_watcher_acside_warning_title">ACSIDE Memory Warning</string>
+    <string name="health_watcher_acside_warning_message">The ACSIDE companion process memory has reached %1$d MB (configured threshold: %2$d MB). Stopping active language servers will free memory.</string>
+    <string name="health_watcher_stop_lsps">Stop Language Servers</string>
+    <string name="health_watcher_never_show_again">Never show this again</string>
+    <string name="health_watcher_dismiss">Dismiss</string>
+    <string name="health_watcher_ok">OK</string>
+    <string name="health_watcher_lsps_stopped">Language servers stopped. Editor refreshed.</string>
+    <string name="health_watcher_settings_title">Memory &amp; Health Watcher</string>
+    <string name="health_watcher_settings_summary">Monitor background memory usage and receive threshold alerts</string>
+    <string name="health_watcher_threshold_title">ACSIDE Memory Threshold</string>
+    <string name="health_watcher_threshold_summary">Trigger warning when companion process exceeds this limit</string>
+    <string name="health_watcher_unit_title">Threshold Unit</string>
+    <string name="health_watcher_unit_summary">Unit of measurement for companion process memory threshold</string>
+    <string name="health_watcher_unit_mb" translatable="false">MB</string>
+    <string name="health_watcher_unit_gb" translatable="false">GB</string>
+    <string name="health_watcher_reset_dialogs_title">Reset Warning Dialog Preferences</string>
+    <string name="health_watcher_reset_dialogs_summary">Re-enable previously suppressed high memory warning dialogs</string>
+    <string name="health_watcher_reset_dialogs_done">Warning dialog preferences reset to default.</string>
+    <!-- Tooling API JVM Options Strings -->
+    <string name="experiments_tooling_api_jvm_title">Tooling API JVM Options</string>
+    <string name="experiments_tooling_api_jvm_desc">Configure heap allocations and JVM options for the Gradle Tooling API server.</string>
+    <string name="tooling_api_jvm_options_title">Tooling API JVM Options</string>
+    <string name="tooling_api_jvm_options_subtitle">Applied on next tooling server start</string>
+    <!-- External file change conflict strings -->
+    <string name="external_change_dialog_title">File Changed on Disk</string>
+    <string name="external_change_dialog_desc">%1$s has been modified externally. Do you want to reload it from disk and overwrite your editor changes, or keep your editor changes?</string>
+    <string name="external_change_reload">Reload from Disk</string>
+    <string name="external_change_keep">Keep Editor Changes</string>
+    <!-- MCP Agent Strings -->
+    <string name="mcp_edit_mode_button_desc">Edit mode</string>
+    <string name="mcp_edit_mode_always_accept">Always accept edits</string>
+    <string name="mcp_edit_mode_preview">Preview before accept</string>
+    <string name="mcp_diff_title">Review Proposed Changes</string>
+    <string name="mcp_diff_accept">Accept changes</string>
+    <string name="mcp_diff_reject">Reject</string>
+    <string name="mcp_diff_conflict_warning">File changed on disk since this preview was generated.</string>
+    <string name="mcp_diff_file_created">New file</string>
+    <string name="mcp_diff_file_deleted">Deleted file</string>
+    <string name="mcp_diff_file_renamed">%1$s → %2$s</string>
+    <string name="mcp_diff_prev_file">Previous</string>
+    <string name="mcp_diff_next_file">Next</string>
+    <string name="mcp_fallback_empty_response">No response received from the model.</string>
+    <string name="mcp_error_tap_for_details">Something went wrong. Tap ! icon for details.</string>
+    <string name="mcp_error_details_title">Error Details</string>
+    <string name="mcp_error_copy">Copy</string>
+    <string name="mcp_error_copied">Copied to clipboard</string>
+    <string name="mcp_error_no_internet">No internet connection.</string>
+    <string name="mcp_error_invalid_api_key">Invalid API key.</string>
+    <string name="mcp_error_quota">Quota exceeded or rate limited.</string>
+    <string name="mcp_error_timeout">Request timed out.</string>
+    <string name="mcp_error_unexpected">An unexpected error occurred.</string>
+    <string name="mcp_error_details_summary">Summary</string>
+    <string name="mcp_error_details_type">Type</string>
+    <string name="mcp_error_details_message">Message</string>
+    <string name="mcp_error_details_tool">Tool</string>
+    <string name="mcp_error_details_stacktrace">Stack Trace</string>
+
+    <!-- Quick line actions -->
+    <string name="quick_line_actions">Quick line actions</string>
+    <string name="quick_action_copy_line">Copy line</string>
+    <string name="quick_action_cut_line">Cut line</string>
+    <string name="quick_action_delete_line">Delete line</string>
+    <string name="quick_action_empty_line">Empty line</string>
+    <string name="quick_action_replace_line">Replace line</string>
+    <string name="quick_action_duplicate_line">Duplicate line</string>
+    <string name="quick_action_uppercase">Convert to uppercase</string>
+    <string name="quick_action_lowercase">Convert to lowercase</string>
+    <string name="quick_action_increase_indent">Increase Indent</string>
+    <string name="quick_action_decrease_indent">Decrease Indent</string>
+    <string name="quick_action_toggle_comment">Toggle comment</string>
+    <string name="quick_action_format_java">Format java code</string>
+    <string name="java_format_error_title">Java format error</string>
+
+    <!-- Dependency updater -->
+    <string name="dependency_update_available_title">Update available</string>
+    <string name="dependency_update_all_title">Update all</string>
+    <string name="dependency_update_all_message">Update %1$d dependencies to their latest versions?</string>
+    <string name="dependency_update_apply">Apply</string>
+    <string name="dependency_update_catalog_hint">This will update libs.versions.toml</string>
+</resources>
+
+

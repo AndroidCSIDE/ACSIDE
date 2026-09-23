@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/kind_badge_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    
+    <!-- Rounded corners for Material 3 look -->
+    <corners android:radius="8dp" />
+    
+    <!-- Default background color (will be overridden in code) -->
+    <solid android:color="#9C27B0" />
+    
+</shape>

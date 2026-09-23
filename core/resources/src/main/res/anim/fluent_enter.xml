@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Windows 11 Fluent Entrance: fade + subtle slide up + scale from 0.96 -->
+<!-- Decelerate easing (cubic-bezier 0,0,0,1): fast start, smooth landing -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/decelerate_interpolator"
+    android:duration="300">
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:interpolator="@android:anim/decelerate_interpolator" />
+    <translate
+        android:fromYDelta="4%"
+        android:toYDelta="0%"
+        android:interpolator="@android:anim/decelerate_interpolator" />
+    <scale
+        android:fromXScale="0.96"
+        android:toXScale="1.0"
+        android:fromYScale="0.96"
+        android:toYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:interpolator="@android:anim/decelerate_interpolator" />
+</set>

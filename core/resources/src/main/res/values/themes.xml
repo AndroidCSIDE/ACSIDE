@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <style
+    name="AppTheme"
+    parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+    <style name="BootstrapActivity" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+  <style name="CustomActivityAnimation">
+    <item name="android:activityOpenEnterAnimation">@anim/fade_glow_in</item>
+    <item name="android:activityOpenExitAnimation">@anim/fade_glow_out</item>
+    <item name="android:activityCloseEnterAnimation">@anim/fade_glow_in</item>
+    <item name="android:activityCloseExitAnimation">@anim/fade_glow_out</item>
+  </style>
+
+</resources>

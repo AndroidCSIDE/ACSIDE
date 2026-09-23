@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" translatable="false">ACS IDE</string>
+    <string name="acsb_app_name" translatable="false">ACS IDE:bootstrap</string>
+    <string name="create_project">Proje oluştur</string>
+    <string name="open_project">Proje aç</string>
+    <string name="launch_terminal">Terminali başlat</string>
+    <!-- ============================================================ -->
+    <!-- Project Actions                                              -->
+    <!-- ============================================================ -->
+    <string name="action_create_project_title">Yeni Proje</string>
+    <string name="action_create_project_desc">Yeni bir Android projesi oluştur</string>
+    <string name="action_open_project_title">Aç</string>
+    <string name="action_open_project_desc">Mevcut bir projeyi aç</string>
+    <!-- ============================================================ -->
+    <!-- Tool Actions                                                 -->
+    <!-- ============================================================ -->
+    <string name="action_sdk_manager_title">SDK Yöneticisi</string>
+    <string name="action_terminal_title">Terminal</string>
+    <string name="action_settings_title">Ayarlar</string>
+    <string name="action_plugins_title">Eklentiler</string>
+    <!-- ============================================================ -->
+    <!-- Editor Actions                                               -->
+    <!-- ============================================================ -->
+    <string name="action_save_title">Kaydet</string>
+    <string name="action_undo_title">Geri al</string>
+    <string name="action_redo_title">Yinele</string>
+    <string name="action_search_title">Ara</string>
+    <string name="action_sync_title">Senkronize et</string>
+    <string name="action_run_title">Çalıştır</string>
+    <string name="action_cancel_build_title">Derlemeyi İptal Et</string>
+    <string name="action_group_project">Proje</string>
+    <string name="action_group_tools">Araçlar</string>
+    <string name="action_group_settings">Ayarlar</string>
+    <string name="action_group_plugins">Eklentiler</string>
+    <string name="action_group_editor_plugins">Düzenleyici Eklentileri</string>
+    <!-- ============================================================ -->
+    <!-- Preview Action (Compose / Flutter)                           -->
+    <!-- ============================================================ -->
+    <string name="action_preview_title">Önizleme</string>
+    <string name="action_preview_desc">Düzeni veya composable\'ı önizle</string>
+    <string name="settings">Tercihler</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="ndk_version_auto">NDK: Otomatik</string>
+    <string name="native_error_title">NDK Gerekli</string>
+    <string name="error_ndk_not_found_or_incompatible">NDK kurulumu bulunamadı veya uyumsuz. Lütfen NDK\'yı IDE Ayarları\'ndan yükleyin.</string>
+    <string name="open_ide_cfg_msg">Ayarları Aç</string>
+    <!-- ATC Options Dialog -->
+    <string name="choose_template">Şablon Seç</string>
+    <string name="project_configuration">Proje Yapılandırması</string>
+    <string name="use_cmake">CMake derleme sistemini kullan</string>
+    <string name="native_language">Yerel dil</string>
+    <string name="minimum_sdk">Minimum SDK</string>
+    <string name="new_project">Yeni proje</string>
+    <string name="package_name">Paket adı</string>
+    <string name="project_name">Proje adı</string>
+    <string name="project_location">Proje konumu</string>
+    <string name="browse">Gözat</string>
+    <string name="language">Dil</string>
+    <string name="java">Java</string>
+    <string name="use_gradle_kotlin_dsl">Gradle Kotlin DSL kullan (.kts)</string>
+    <string name="cancel">İptal</string>
+    <string name="create">Oluştur</string>
+    <string name="default_project_name" translatable="false">MyApplication</string>
+    <string name="default_package_name" translatable="false">com.example.myapplication</string>
+    <string name="back">Geri</string>
+    <!-- MainActivity -->
+    <string name="app_name_full" translatable="false">Android Code Studio</string>
+    <string name="app_icon_description">Uygulama Simgesi</string>
+    <string name="error_invalid_gradle_project">Seçilen dizin geçerli bir Gradle projesi değil</string>
+    <string name="error_could_not_access_directory">Seçilen dizine erişilemedi</string>
+    <!-- Sections -->
+    <string name="section_projects">Projeler</string>
+    <string name="section_recent_projects">Son Projeler</string>
+    <string name="section_learn">Öğren</string>
+    <string name="section_resources">Kaynaklar</string>
+    <!-- Recent Projects -->
+    <string name="no_recent_projects">Son proje yok</string>
+    <string name="content_description_remove">Kaldır</string>
+    <!-- Learn Section -->
+    <string name="learn_first_app_title">İlk Uygulamanı Oluştur</string>
+    <string name="learn_first_app_description">Android geliştirmenin temellerini öğren</string>
+    <string name="learn_kotlin_title">Kotlin Dil Kılavuzu</string>
+    <string name="learn_kotlin_description">Kotlin programlamada ustalaş</string>
+    <string name="learn_compose_title">Jetpack Compose</string>
+    <string name="learn_compose_description">Android için modern arayüz araç seti</string>
+    <!-- Resources Section -->
+    <string name="resources_documentation_title">Belgeler</string>
+    <string name="resources_documentation_description">API referansı ve kılavuzlar</string>
+    <string name="resources_samples_title">Örnek Projeler</string>
+    <string name="resources_samples_description">Örnek uygulamaları keşfet</string>
+    <!-- Editor Bottom Sheet -->
+    <string name="content_description_expand">Genişlet</string>
+    <string name="content_description_collapse">Daralt</string>
+    <string name="content_description_clear">Temizle</string>
+    <string name="content_description_close">Kapat</string>
+    <!-- Actions -->
+    <string name="action_new_project">Yeni Proje</string>
+    <string name="action_new_project_desc">Yeni bir Android projesi oluştur</string>
+    <string name="action_open">Aç</string>
+    <string name="action_open_desc">Mevcut bir projeyi aç</string>
+    <string name="action_sdk_manager">SDK Yöneticisi</string>
+    <string name="action_sdk_manager_desc">Android SDK bileşenlerini yönet</string>
+    <string name="action_terminal">Terminal</string>
+    <string name="action_terminal_desc">Tümleşik terminali aç</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_settings_desc">IDE tercihlerini yapılandır</string>
+    <string name="action_plugins">Eklentiler</string>
+    <string name="action_plugins_desc">IDE eklentilerini yönet</string>
+    <string name="action_jitpack_preview">JitPack Önizleme</string>
+    <string name="action_jitpack_preview_desc">JitPack kütüphanelerini önizle</string>
+    <string name="action_sdk_manager_test">SDK Yöneticisi (Test)</string>
+    <string name="action_sdk_manager_test_desc">SDK Yöneticisi\'nin test sürümü</string>
+    <!-- Editor Actions -->
+    <string name="action_save">Kaydet</string>
+    <string name="action_save_desc">Geçerli dosyayı kaydet</string>
+    <string name="action_undo">Geri al</string>
+    <string name="action_undo_desc">Son değişikliği geri al</string>
+    <string name="action_redo">Yinele</string>
+    <string name="action_redo_desc">Son geri alınan değişikliği yinele</string>
+    <string name="action_search">Ara</string>
+    <string name="action_search_desc">Dosyada ara ve değiştir</string>
+    <string name="action_sync">Senkronize et</string>
+    <string name="action_sync_desc">Gradle projesini senkronize et</string>
+    <string name="action_run">Çalıştır</string>
+    <string name="action_run_desc">Projeyi derle ve çalıştır</string>
+    <string name="action_cancel_build">Derlemeyi İptal Et</string>
+    <string name="action_cancel_build_desc">Geçerli derlemeyi iptal et</string>
+    <!-- Action Messages -->
+    <string name="action_disabled">%1$s şu anda devre dışı</string>
+    <string name="action_executing">Çalıştırılıyor: %1$s</string>
+    <string name="action_execution_error">%1$s çalıştırılırken hata oluştu: %2$s</string>
+    <string name="jitpack_preview_unavailable">JitPack Önizleme kullanılamıyor</string>
+    <string name="sdk_manager_test_unavailable">SDK Yöneticisi Testi kullanılamıyor</string>
+    <!-- Template Plugin Messages -->
+    <string name="template_plugins_directory_not_found">Eklentiler dizini bulunamadı</string>
+    <string name="template_no_enabled_plugins">Etkinleştirilmiş eklenti bulunamadı</string>
+    <string name="template_plugin_no_templates">%1$s eklentisinde templates.json dosyası yok</string>
+    <string name="template_loaded_count">%2$s eklentisinden %1$d şablon yüklendi</string>
+    <string name="template_total_loaded">Toplam yüklenen şablon: %2$d eklentiden %1$d</string>
+    <string name="template_plugins_json_not_found">plugins.json bulunamadı</string>
+    <string name="template_enabled_plugins">Etkin eklentiler: %1$s</string>
+    <string name="template_parse_success">JSON\'dan %1$d şablon başarıyla yüklendi</string>
+    <string name="template_parse_error">Şablon JSON\'u ayrıştırılamadı</string>
+    <string name="template_creation_failed">Şablon oluşturma başarısız oldu</string>
+    <!-- Internal Error Dialog (lib dir missing / extraction failure) -->
+    <string name="error_internal_title">Dahili Hata</string>
+    <string name="error_internal_lib_dir_missing">Kritik bir dahili dizin eksik. Bu, kurtarılamayan bir hatadır. Lütfen uygulamayı yeniden yükleyin.</string>
+    <string name="error_internal_exit">Çıkış</string>
+    <!-- Editor backend native library -->
+    <string name="lib_editor_backend_asset_path" translatable="false">naive/libeditor-backend.so</string>
+    <!-- Plugin Installation -->
+    <string name="plugin_install_success_title">Eklenti Yüklendi</string>
+    <string name="plugin_install_success_message">%1$s başarıyla yüklendi.\n\nEtkinleştirip IDE\'yi yeniden başlatmak ister misiniz?</string>
+    <string name="plugin_install_enable_and_reload">Etkinleştir ve Yeniden Başlat</string>
+    <string name="plugin_install_later">Daha sonra</string>
+    <string name="plugin_install_failed_title">Yükleme Başarısız</string>
+    <string name="plugin_enabled">Eklenti etkinleştirildi</string>
+    <!-- Plugin Screen UI -->
+    <string name="plugin_refresh">Yenile</string>
+    <string name="plugin_refreshing">Yenileniyor…</string>
+    <string name="plugin_search_hint">Eklenti ara…</string>
+    <string name="plugin_install_from_file">Dosyadan yükle</string>
+    <string name="plugin_section_installed">Yüklü</string>
+    <string name="plugin_section_available">Kullanılabilir</string>
+    <string name="plugin_no_installed">Henüz yüklü eklenti yok</string>
+    <string name="plugin_no_installed_match">Eşleşen yüklü eklenti yok</string>
+    <string name="plugin_all_installed">Tüm depo eklentileri yüklü</string>
+    <string name="plugin_no_available_match">Eşleşen kullanılabilir eklenti yok</string>
+    <string name="plugin_updates_available">%1$d güncelleme mevcut</string>
+    <string name="plugin_update_available">Güncelleme mevcut: v%1$s</string>
+    <string name="plugin_repo_loading">Depo yükleniyor…</string>
+    <string name="plugin_repo_load_failed">Depo yüklenemedi</string>
+    <string name="plugin_repo_empty">Yüklenmiş eklenti yok</string>
+    <string name="plugin_repo_empty_hint">Eklenti depolarına ulaşılamadı. Bağlantınızı kontrol edin ve yeniden denemek için ↻ öğesine dokunun.</string>
+    <string name="plugin_downloading">İndiriliyor…</string>
+    <string name="plugin_downloading_update">Güncelleme indiriliyor…</string>
+    <string name="plugin_badge_installed">Yüklü</string>
+    <string name="plugin_badge_enabled">Etkin</string>
+    <string name="plugin_badge_disabled">Devre dışı</string>
+    <string name="plugin_action_install">Yükle</string>
+    <string name="plugin_action_update">Güncelle</string>
+    <string name="plugin_action_update_to">v%1$s sürümüne güncelle</string>
+    <string name="plugin_action_enable">Etkinleştir</string>
+    <string name="plugin_action_disable">Devre dışı bırak</string>
+    <string name="plugin_action_uninstall">Kaldır</string>
+    <string name="plugin_uninstall_confirm_title">Eklenti Kaldırılsın mı?</string>
+    <string name="plugin_uninstall_confirm_message">%1$s eklentisini kaldırmak istediğinizden emin misiniz? Bu işlem geri alınamaz.</string>
+    <string name="plugin_reload_required">Yeniden Başlatma Gerekli</string>
+    <string name="plugin_reload_message">"%1$s" hazır. Etkinleştirmek için IDE\'yi şimdi yeniden başlatın.</string>
+    <string name="plugin_reload_now">Şimdi Yeniden Başlat</string>
+    <string name="plugin_reload_later">Daha sonra</string>
+    <string name="plugin_install_invalid_file_type">Geçersiz dosya türü. Yalnızca .acp dosyalarına izin verilir.</string>
+    <string name="plugin_install_error">Yükleme başarısız: %1$s</string>
+    <string name="plugin_download_error">İndirme başarısız: %1$s</string>
+    <string name="ok">Tamam</string>
+    <!-- Terminal -->
+    <string name="terminal_title">Terminal</string>
+    <string name="terminal_sessions">Oturumlar</string>
+    <string name="terminal_add_session">Oturum ekle</string>
+    <string name="terminal_delete_session">Oturumu sil</string>
+    <string name="terminal_active">Terminal Etkin</string>
+    <string name="terminal_session_single">Terminal oturumu 1 açık</string>
+    <string name="terminal_sessions_range">1-%1$d terminal oturumu açık</string>
+    <string name="terminal_notification_channel_name">Terminal Oturumları</string>
+    <string name="terminal_notification_channel_description">Etkin terminal oturumu durumunu gösterir</string>
+    <!-- Updater Dialog -->
+    <string name="updater_title">Güncelleme Mevcut</string>
+    <string name="updater_version_prefix" translatable="false">v%1$s</string>
+    <string name="updater_dismiss">Kapat</string>
+    <string name="updater_whats_new">Yenilikler</string>
+    <string name="updater_download">Güncellemeyi İndir</string>
+    <string name="updater_retry">İndirmeyi Yeniden Dene</string>
+    <string name="updater_later">Daha sonra</string>
+    <string name="updater_downloading">İndiriliyor…</string>
+    <string name="updater_install_now">Şimdi Yükle</string>
+    <string name="updater_progress_percent" translatable="false">%1$d%%</string>
+    <string name="updater_changelog_unavailable">Değişiklik günlüğü kullanılamıyor</string>
+    <!-- Component Downloader Dialog -->
+    <string name="component_fetch_error">Bileşen bilgisi alınamadı</string>
+    <string name="component_extracting">Ayıklanıyor…</string>
+    <string name="component_linking">Bağlanıyor…</string>
+    <string name="component_downloading">İndiriliyor…</string>
+    <string name="component_installed">Başarıyla yüklendi</string>
+    <string name="component_install_failed">Yükleme başarısız</string>
+    <string name="component_installing">Yükleniyor…</string>
+    <string name="component_done">Tamamlandı</string>
+    <string name="component_retry">Yeniden dene</string>
+    <string name="component_download">İndir</string>
+    <!-- Experiments Settings -->
+    <string name="experiments_section_language_servers">Dil Sunucuları</string>
+    <string name="experiments_kotlin_lsp_title">Kotlin Dil Sunucusu</string>
+    <string name="experiments_kotlin_lsp_desc">Kotlin dosyaları için kod tamamlama, tanılama ve gezinme</string>
+    <string name="kotlin_lsp_indexing_reassurance">Hâlâ dizinleniyor… büyük projelerde bu beklenen bir durumdur. Lütfen bekleyin.</string>
+    <string name="kotlin_lsp_ready">Kotlin Dil Sunucusu hazır</string>
+    <string name="experiments_label_beta">BETA</string>
+    <string name="experiments_action_setup">Kur</string>
+    <!-- Kotlin LSP Dialog -->
+    <string name="lsp_dialog_title">Kotlin Dil Sunucusu</string>
+    <string name="lsp_dialog_subtitle">Deneysel</string>
+    <string name="lsp_dialog_dismiss">Kapat</string>
+    <string name="lsp_feature_completion">Akıllı kod tamamlama</string>
+    <string name="lsp_feature_diagnostics">Gerçek zamanlı hata tanılama</string>
+    <string name="lsp_feature_navigation">Tanıma git ve referanslar</string>
+    <string name="lsp_feature_formatting">Kod biçimlendirme</string>
+    <string name="lsp_download">İndir (~270 MB)</string>
+    <string name="lsp_install">Yükle</string>
+    <string name="lsp_installing">Yükleniyor…</string>
+    <string name="lsp_retry">Yüklemeyi Yeniden Dene</string>
+    <string name="lsp_later">Daha sonra</string>
+    <string name="lsp_downloading">İndiriliyor…</string>
+    <string name="lsp_done">Tamamlandı</string>
+    <string name="lsp_progress_percent" translatable="false">%1$d%%</string>
+    <string name="lsp_already_installed">Kotlin Dil Sunucusu zaten yüklü</string>
+    <string name="lsp_remove">Kaldır</string>
+    <string name="lsp_extracting">Ayıklanıyor…</string>
+    <!-- LSP Per-Feature Toggles -->
+    <string name="lsp_features_sheet_title">%1$s Özellikleri</string>
+    <string name="lsp_features_sheet_subtitle">Bireysel LSP yeteneklerini etkinleştirin veya devre dışı bırakın</string>
+    <string name="lsp_feat_completion">Kod tamamlama</string>
+    <string name="lsp_feat_completion_desc">Yazarken tamamlama önerileri sun</string>
+    <string name="lsp_feat_diagnostics">Tanılama</string>
+    <string name="lsp_feat_diagnostics_desc">Satır içi hataları, uyarıları ve ipuçlarını göster</string>
+    <string name="lsp_feat_hover">Üzerine gelme bilgisi</string>
+    <string name="lsp_feat_hover_desc">Üzerine gelince tür ve belgeleri göster</string>
+    <string name="lsp_feat_signature_help">İmza yardımı</string>
+    <string name="lsp_feat_signature_help_desc">Fonksiyon çağrıları içinde parametre ipuçlarını göster</string>
+    <string name="lsp_feat_code_actions">Kod eylemleri</string>
+    <string name="lsp_feat_code_actions_desc">Hızlı düzeltmeler, içe aktarmalar ve yeniden düzenlemeler</string>
+    <string name="lsp_feat_formatting">Biçimlendirme</string>
+    <string name="lsp_feat_formatting_desc">Belgeleri ve seçimleri otomatik biçimlendir</string>
+    <string name="lsp_feat_inlay_hints">Satır içi ipuçları</string>
+    <string name="lsp_feat_inlay_hints_desc">Satır içi tür ve parametre ipuçlarını göster</string>
+    <string name="lsp_java_exclude_desktop">Masaüstü/Swing sınıflarını hariç tut</string>
+    <string name="lsp_java_exclude_desktop_desc">AWT, Swing, JavaFX ve Android dışı JDK türlerini gizle</string>
+    <!-- Git Clone -->
+    <string name="git_clone_title">Depoyu Klonla</string>
+    <string name="git_clone_label_url">Depo URL\'si</string>
+    <string name="git_clone_placeholder_url" translatable="false">https://github.com/user/repo.git</string>
+    <string name="git_clone_label_destination">Klonlanacak yer (üst klasör)</string>
+    <string name="git_clone_placeholder_destination">Seçmek için klasör simgesine dokunun</string>
+    <string name="git_clone_content_desc_pick_folder">Klasör seç</string>
+    <string name="git_clone_label_branch">Dal (isteğe bağlı)</string>
+    <string name="git_clone_placeholder_branch" translatable="false">main</string>
+    <string name="git_clone_label_custom_flags">Özel git bayrakları</string>
+    <string name="git_clone_label_extra_args">Ek argümanlar</string>
+    <string name="git_clone_placeholder_extra_args" translatable="false">--recurse-submodules --depth 1</string>
+    <string name="git_clone_extra_args_hint">git clone komutuna eklenen, boşlukla ayrılmış bayraklar</string>
+    <string name="git_clone_label_credentials">Kimlik bilgisi kullan (özel depo)</string>
+    <string name="git_clone_label_username">Kullanıcı adı</string>
+    <string name="git_clone_label_token">Belirteç / Parola</string>
+    <string name="git_clone_progress">Klonlanıyor, lütfen bekleyin…</string>
+    <string name="git_clone_button">Klonla</string>
+    <string name="git_clone_status_cloning">Klonlanıyor…</string>
+    <string name="git_clone_error_no_repo_name">URL\'den depo adı belirlenemedi.</string>
+    <string name="git_clone_error_move_failed">Klonlama başarılı oldu ancak hedefe taşıma başarısız oldu:\n%1$s</string>
+    <string name="git_not_found_title">Git Yüklü Değil</string>
+    <string name="git_not_found_message">Git bu ortamda yüklü değil. Terminali açın ve yüklemek için aşağıdaki komutu çalıştırın, ardından klonlamayı tekrar deneyin.</string>
+    <string name="git_not_found_command" translatable="false">apt install git -y</string>
+    <string name="git_not_found_open_terminal">Terminali Aç</string>
+    <string name="git_not_found_dismiss">Kapat</string>
+    <!-- Source Control Drawer & Guided Git Workflow -->
+    <string name="git_source_control_title">Kaynak Denetimi</string>
+    <string name="git_refresh">Yenile</string>
+    <string name="git_no_repo_title">Git Deposu Yok</string>
+    <string name="git_no_repo_desc">Bu çalışma alanı henüz bir Git deposu değil. Değişiklikleri takip etmek için bir depo başlatın.</string>
+    <string name="git_init_repo">Depoyu Başlat</string>
+    <string name="git_open_terminal_git">Git CLI İçin Terminali Aç</string>
+    <string name="git_init_dialog_title">Git Deposunu Başlat</string>
+    <string name="git_init_dialog_desc">Şu konumda yeni bir Git deposu oluşturur:\n%1$s\n\nSürümleri ve geçmişi izlemek için gizli bir .git dizini oluşturulacaktır.</string>
+    <string name="git_init_confirm">Başlat</string>
+    <string name="git_first_run_title">Depo Kurulumu</string>
+    <string name="git_step_init_done">1. Depo başlatıldı</string>
+    <string name="git_step_stage_commit">2. Değişiklikleri hazırla ve kaydet</string>
+    <string name="git_step_add_remote">3. Uzak depoyu bağla</string>
+    <string name="git_step_push">4. Dalı uzak depoya gönder</string>
+    <string name="git_no_remote_banner_title">Uzak Depo Yapılandırılmadı</string>
+    <string name="git_no_remote_banner_desc">Değişikliklerinizi göndermek ve işbirliği yapmak için bir uzak depo (GitHub veya GitLab gibi) ekleyin.</string>
+    <string name="git_add_remote_btn">Uzak Depo Ekle</string>
+    <string name="git_remote_name_label">Uzak Depo Adı</string>
+    <string name="git_remote_url_label">Uzak Depo URL\'si</string>
+    <string name="git_remote_url_invalid">Lütfen geçerli bir Git URL\'si girin (https://, git@ veya ssh://)</string>
+    <string name="git_staged_changes">Hazırlanan Değişiklikler</string>
+    <string name="git_unstaged_changes">Değişiklikler</string>
+    <string name="git_conflict_changes">Birleştirme Çakışmaları</string>
+    <string name="git_stage_all">Tümünü Hazırla</string>
+    <string name="git_unstage_all">Tümünün Hazırlığını Kaldır</string>
+    <string name="git_discard_all">Tüm Değişiklikleri Geri Al</string>
+    <string name="git_stage">Hazırla</string>
+    <string name="git_unstage">Hazırlığı Kaldır</string>
+    <string name="git_discard">Geri Al</string>
+    <string name="git_filter_placeholder">Değişiklikleri filtrele</string>
+    <string name="git_commit_placeholder">İşleme (commit) mesajı</string>
+    <string name="git_commit_btn">İşle (Commit)</string>
+    <string name="git_amend">Önceki commit\'i düzelt</string>
+    <string name="git_sign">GPG İmzala</string>
+    <string name="git_no_staged_hint">Commit yapmak için önce dosyaları hazırlayın</string>
+    <string name="git_clean_tree_hint">Çalışma ağacı temiz, değişiklik yok</string>
+    <string name="git_quick_actions">Hızlı İşlemler</string>
+    <string name="git_fetch">Getir (Fetch)</string>
+    <string name="git_pull">Çek (Pull)</string>
+    <string name="git_push">Gönder (Push)</string>
+    <string name="git_history">Geçmiş</string>
+    <string name="git_remotes">Uzak Depolar</string>
+    <string name="git_branches">Dallar</string>
+    <string name="git_stash">Geçici Sakla (Stash)</string>
+    <string name="git_stash_pop">Saklananı Uygula</string>
+    <string name="git_merge">Birleştir (Merge)</string>
+    <string name="git_cherry_pick">Commit Al (Cherry-pick)</string>
+    <string name="git_tag">Etiket</string>
+    <string name="git_force_push">Zorla Gönder (Force Push)</string>
+    <string name="git_hard_reset">Tam Sıfırla (Hard Reset)</string>
+    <string name="git_credentials">Kimlik Bilgileri</string>
+    <string name="git_auth_dialog_title">Git Kimlik Doğrulama</string>
+    <string name="git_auth_dialog_title_invalid">Geçersiz Kimlik Bilgileri</string>
+    <string name="git_auth_dialog_title_expired">Token Süresi Doldu</string>
+    <string name="git_auth_dialog_title_permission">İzin Reddedildi</string>
+    <string name="git_auth_username_label">Kullanıcı Adı</string>
+    <string name="git_auth_remember_label">Kimlik bilgilerini güvenli şekilde hatırla</string>
+    <string name="git_auth_confirm">Kimlik Doğrula</string>
+    <string name="git_auth_cancel">İptal</string>
+    <string name="git_auth_auth_required">Bu uzak işlem için kimlik doğrulaması gerekiyor.</string>
+    <string name="git_auth_auth_failed">Kimlik doğrulama başarısız oldu. Lütfen bilgilerinizi kontrol edin.</string>
+    <string name="git_auth_permission_denied">Erişim reddedildi. Depo izinlerini ve belirteç kapsamlarını kontrol edin.</string>
+    <string name="git_auth_method">Doğrulama Yöntemi</string>
+    <string name="git_auth_method_token">Kişisel Erişim Belirteci (Token)</string>
+    <string name="git_auth_method_password">Kullanıcı Adı ve Şifre</string>
+    <string name="git_auth_method_ssh">SSH Özel Anahtarı</string>
+    <string name="git_auth_username">Kullanıcı Adı</string>
+    <string name="git_auth_token_label">Kişisel Erişim Belirteci</string>
+    <string name="git_auth_password_label">Şifre</string>
+    <string name="git_auth_ssh_path_label">SSH Özel Anahtar Yolu</string>
+    <string name="git_auth_ssh_passphrase">Anahtar Parolası (isteğe bağlı)</string>
+    <string name="git_auth_remember">Kimlik bilgilerini güvenle hatırla</string>
+    <string name="git_auth_save">Kaydet ve Devam Et</string>
+    <string name="git_auth_saved_title">Kayıtlı Kimlik Bilgileri</string>
+    <string name="git_auth_no_saved">Henüz kayıtlı kimlik bilgisi yok</string>
+    <string name="git_auth_delete">Sil</string>
+    <string name="git_auth_add_btn">Kimlik Bilgisi Ekle</string>
+    <string name="git_auth_remote_label">Uzak Depo veya Ana Bilgisayar (örn. origin veya github.com)</string>
+    <string name="git_auth_username_optional_hint">Kullanıcı Adı (token kullanırken isteğe bağlı)</string>
+    <string name="git_diff_inline">Satır içi</string>
+    <string name="git_diff_side_by_side">Yan yana</string>
+    <string name="git_diff_expand">Farkları Genişlet</string>
+    <string name="git_diff_collapse">Daralt</string>
+    <string name="git_diff_close">Kapat</string>
+    <string name="git_diff_binary">İkili dosya - farklar gizlendi</string>
+    <string name="git_diff_empty">Fark tespit edilmedi</string>
+    <string name="git_conflict_banner_title">Birleştirme Çakışmaları Tespit Edildi</string>
+    <string name="git_conflict_banner_desc">Commit oluşturmadan önce çakışan dosyaları çözün.</string>
+    <string name="git_conflict_accept_ours">Bizimkini Kabul Et</string>
+    <string name="git_conflict_accept_theirs">Gelen Sürümü Kabul Et</string>
+    <string name="git_conflict_mark_resolved">Çözüldü Olarak İşaretle</string>
+    <string name="git_hint_stash">İşlenmemiş değişiklikleri geçici olarak kenara kaldırır</string>
+    <string name="git_hint_rebase">Commit\'leri başka bir hedef dalın üzerine yeniden uygular</string>
+    <string name="git_hint_cherry_pick">Belirli bir commit\'i geçerli dala uygular</string>
+    <string name="git_hint_force_push">Uzak dal geçmişini yerel durumla geçersiz kılar</string>
+    <string name="git_hint_hard_reset">İşlenmemiş tüm değişiklikleri atar ve HEAD durumuna döner</string>
+    <string name="git_branch_current">geçerli</string>
+    <string name="git_branch_checkout">Dala Geç</string>
+    <string name="git_branch_create">Oluştur</string>
+    <string name="git_branch_delete">Sil</string>
+    <string name="git_branch_rename">Yeniden Adlandır</string>
+    <string name="git_branch_new_name">Yeni dal adı</string>
+    <string name="git_branch_filter">Dalları filtrele</string>
+    <string name="git_commit_empty_error">Commit mesajı boş olamaz</string>
+    <string name="git_nothing_to_commit">Kaydedilecek bir şey yok. Önce dosyaları hazırlayın.</string>
+    <string name="git_nothing_to_push">Dal uzak depo ile güncel.</string>
+    <string name="git_nothing_to_pull">Depo zaten tamamen güncel.</string>
+    <string name="git_repo_initialized_success">Depo başarıyla başlatıldı</string>
+    <string name="git_commit_success">Commit başarıyla oluşturuldu</string>
+    <string name="git_push_success">Uzak depoya başarıyla gönderildi</string>
+    <string name="git_pull_success">Uzak depodan başarıyla çekildi</string>
+    <string name="git_fetch_success">Başarıyla getirildi</string>
+    <string name="git_up_to_date">Güncel</string>
+    <string name="git_ahead_commits">%1$d commit ileride</string>
+    <string name="git_behind_commits">%1$d commit geride</string>
+    <string name="git_error_dialog_title">Git Hatası</string>
+    <string name="git_error_dialog_copy">Hatayı Kopyala</string>
+    <string name="git_error_dialog_copied">Hata panoya kopyalandı</string>
+    <string name="git_error_dialog_close">Kapat</string>
+    <string name="git_error_details_label">Hata Ayrıntıları ve Çağrı Yığını</string>
+    <!-- Setup Screen - Step 0: Welcome -->
+    <string name="privacy_consent_title">Gizlilik</string>
+    <string name="privacy_consent_body">ACS IDE, kullanıcı verilerini veya başka herhangi bir şeyi toplamaz, tamam mı?</string>
+    <string name="privacy_consent_accept">Devam et</string>
+    <string name="privacy_consent_decline">Çıkış</string>
+
+    <!-- Core Components Missing Dialog -->
+    <string name="core_components_missing_title">Temel Bileşenler Eksik</string>
+    <string name="core_components_missing_message">Temel bileşen (com.acside) sisteminizden eksik. Bu bileşen Android Code Studio\'nun kalbidir ve eksik olamaz. Temel işlevselliği geri yüklemek için lütfen tüm IDE\'yi yeniden yükleyin.</string>
+    <string name="core_components_missing_action_reinstall">IDE\'yi Yeniden Yükle</string>
+    <string name="core_components_missing_action_exit">Çıkış</string>
+    <string name="bootstrap_marker_missing_error">Temel önyükleme işareti (.acside_bootstrap_ok) eksik. Lütfen kurulumu tamamlayın.</string>
+    <string name="setup_step_welcome_title">AndroidCodeStudio\'ya Hoş Geldiniz</string>
+    <string name="setup_step_welcome_description">Android cihazınızı güçlü bir geliştirme ortamına dönüştürün.</string>
+    <string name="setup_step_welcome_action">Başla</string>
+    <!-- Setup Screen - Step 1: Storage Permissions -->
+    <string name="setup_step_permissions_title">Depolama İzinleri</string>
+    <string name="setup_step_permissions_description">Proje dosyalarını yönetmek için cihaz depolama alanınıza erişim gerekiyor.</string>
+    <string name="setup_step_permissions_action">İzin Ver</string>
+    <!-- Setup Screen - Step 2: Install -->
+    <string name="setup_step_install_title">Geliştirme Ortamı</string>
+    <string name="setup_step_install_description">Ubuntu, JDK ve Android SDK\'yı indirin veya depodan arşiv yükleyin.</string>
+    <string name="setup_step_install_action">Ortamı Yükle</string>
+    <!-- Setup Screen - Step 3: Complete -->
+    <string name="setup_step_complete_title">Her Şey Hazır!</string>
+    <string name="setup_step_complete_description">Geliştirme ortamınız hazır. Kodlamaya başlayın!</string>
+    <string name="setup_step_complete_action">Kodlamaya Başla</string>
+    <!-- Setup Screen - Install progress UI -->
+    <string name="setup_label_installing">Yükleniyor</string>
+    <!-- Setup Screen - Error UI -->
+    <string name="setup_error_install_failed">Yükleme Başarısız</string>
+    <!-- Setup Screen - Retry button -->
+    <string name="setup_btn_retry">Yüklemeyi Yeniden Dene</string>
+    <string name="setup_manual_section_title">ACS Bootstrap\'i Yükle</string>
+    <string name="setup_manual_section_hint">Alpha 6\'dan itibaren ACS Lite, resmi olarak ACSIDE ortamı üzerinden Termux paketlerini kullanmaya geçti. IDE\'yi kurmaya devam etmek için lütfen başlamak üzere "ACSIDE Bootstrap\'i Yükle" öğesine dokunun.</string>
+    <string name="setup_manual_section_or_hint">Veya</string>
+    <string name="setup_acside_shared_package">ACSIDE Bootstrap\'i Yükle</string>
+    <string name="setup_manual_installed">Yüklü</string>
+    <string name="jdk_pick_title_install">JDK sürümü seçin</string>
+    <string name="jdk_pick_desc_install">Yüklenecek Java Geliştirme Kiti sürümünü seçin.</string>
+    <string name="jdk_pick_confirm_install">Yükle</string>
+    <string name="jdk_pick_title_import">Arşiv için JDK sürümü</string>
+    <string name="jdk_pick_desc_import">Bu arşivin hangi sürüm olarak yükleneceğini seçin.</string>
+    <string name="jdk_pick_confirm_import">Devam et</string>
+    <string name="sdk_manual_installed">İçe aktarıldı</string>
+    <string name="sdk_manual_section_title">Depodan yükle</string>
+    <string name="sdk_manual_jdk">JDK arşivini içe aktar</string>
+    <string name="sdk_manual_sdk">Android SDK arşivini içe aktar</string>
+    <!-- BugReportOverlay -->
+    <string name="bug_report_fab_content_desc">Hata bildir</string>
+    <string name="bug_report_dialog_title">Hata Bildir</string>
+    <string name="bug_report_close_content_desc">Kapat</string>
+    <string name="bug_report_attachment_default_name">ek</string>
+    <string name="bug_report_remove_attachment_content_desc">Eki kaldır</string>
+    <!-- Consent dialog -->
+    <string name="bug_report_consent_title">Devam etmeden önce</string>
+    <string name="bug_report_consent_body">Hata bildirimleri; cihaz modelinizi, Android sürümünüzü, uygulama sürümünüzü ve eklemeyi tercih ettiğiniz her türlü açıklama veya dosyayı içerir.\n\nBu bilgiler geliştiriciye gönderilir ve yalnızca sorunları teşhis edip çözmek için kullanılır. Herhangi bir kişisel veri toplanmaz.\n\nBu bilgileri göndermeyi kabul ediyor musunuz?</string>
+    <string name="bug_report_consent_agree">Kabul ediyorum</string>
+    <string name="bug_report_consent_decline">Hayır, teşekkürler</string>
+    <!-- Report form -->
+    <string name="bug_report_rate_limit_msg">%1$d rapor gönderdiniz. Lütfen başka bir tane göndermeden önce %2$d saniye bekleyin.</string>
+    <string name="bug_report_title_label">Sorun başlığı</string>
+    <string name="bug_report_title_placeholder">Hatanın kısa özeti</string>
+    <string name="bug_report_title_error">Başlık gereklidir</string>
+    <string name="bug_report_body_label">Açıklama</string>
+    <string name="bug_report_body_placeholder">Yeniden oluşturma adımları, ne beklediğiniz, ne olduğu…</string>
+    <string name="bug_report_body_error">Açıklama gereklidir</string>
+    <string name="bug_report_attach_button">Dosya veya resim ekle (isteğe bağlı)</string>
+    <string name="bug_report_cancel_button">İptal</string>
+    <string name="bug_report_send_button">Raporu Gönder</string>
+    <string name="bug_report_reports_remaining">Kalan rapor sayısı: %1$d / %2$d</string>
+    <string name="bug_report_reset_preferences_button">Tercihleri Sıfırla</string>
+    <!-- MainActivity -->
+    <string name="main_git_icon_content_desc">Git</string>
+    <string name="main_hero_line1">Aç veya oluştur</string>
+    <string name="main_hero_line2">Bir sonraki projeni</string>
+
+    <string name="main_section_quick_actions">Hızlı İşlemler</string>
+    <string name="main_section_recent_projects">Son Projeler</string>
+    <string name="main_project_updated">%1$s güncellendi</string>
+    <!-- RecentProjectCard -->
+    <string name="project_type_flutter" translatable="false">Flutter</string>
+    <string name="project_type_android" translatable="false">Android</string>
+    <!-- GeneralSettings sections -->
+    <string name="settings_section_appearance">Görünüm</string>
+    <string name="settings_section_language">Dil</string>
+    <string name="settings_section_developer">Geliştirici Seçenekleri</string>
+    <!-- Appearance settings -->
+    <string name="settings_dark_mode_title">Karanlık Mod</string>
+    <string name="settings_dark_mode_desc">Uygulama genelinde koyu temayı kullan</string>
+    <string name="settings_looks_feel_title">Görünüm ve His</string>
+    <string name="settings_looks_feel_desc">Uygulama renk paletini seç</string>
+    <string name="settings_looks_feel_custom_colors_title">Özel palet</string>
+    <string name="settings_looks_feel_color_primary">Birincil</string>
+    <string name="settings_looks_feel_color_secondary">İkincil</string>
+    <string name="settings_looks_feel_color_tertiary">Üçüncül</string>
+    <string name="settings_looks_feel_color_background">Arka plan</string>
+    <string name="settings_looks_feel_color_surface">Yüzey</string>
+    <string name="settings_looks_feel_color_error">Hata</string>
+    <string name="settings_looks_feel_hex_label">Hex renk</string>
+    <string name="settings_looks_feel_apply">Uygula</string>
+    <string name="settings_looks_feel_cancel">İptal</string>
+    <string name="settings_fluent2_look_title">Windows 11 Fluent 2 Görünümü</string>
+    <string name="settings_fluent2_look_desc">Uygulama genelinde Fluent 2\'den ilham alan bir görsel stil uygula</string>
+    <string name="settings_fluent2_restart_title">Yeniden başlatma gerekli</string>
+    <string name="settings_fluent2_restart_message">Yeni görünümü uygulamak için uygulamayı yeniden başlatın.</string>
+    <string name="settings_fluent2_restart_confirm">Şimdi yeniden başlat</string>
+    <string name="settings_fluent2_restart_later">Daha sonra</string>
+    <string name="settings_app_scale_title">Uygulama Ölçeği</string>
+    <string name="settings_app_scale_desc">Ölçek: %1$sx</string>
+    <!-- Language settings -->
+    <string name="settings_language_title">Uygulama Dili</string>
+    <string name="settings_language_desc">Uygulama genelinde kullanılacak dili seç</string>
+    <!-- Developer settings -->
+    <string name="settings_ide_logs_title">IDE Günlükleri</string>
+    <string name="settings_ide_logs_desc">Hata ayıklama için ayrıntılı günlük kaydını etkinleştir</string>
+    <!-- Developer settings -->
+    <string name="settings_bug_report_overlay_title">Hata Bildirim Katmanı</string>
+    <string name="settings_bug_report_overlay_desc">Sorunları hızlıca bildirmenizi sağlayan kayan bir katman gösterir</string>
+    <!-- LocaleManager display names - never translate these -->
+    <string name="locale_system_default">Sistem Varsayılanı</string>
+    <string name="locale_english" translatable="false">English</string>
+    <string name="locale_arabic" translatable="false">العربية</string>
+    <string name="locale_french" translatable="false">Français</string>
+    <string name="locale_german" translatable="false">Deutsch</string>
+    <string name="locale_spanish" translatable="false">Español</string>
+    <string name="locale_portuguese" translatable="false">Português</string>
+    <string name="locale_russian" translatable="false">Русский</string>
+    <string name="locale_chinese" translatable="false">中文</string>
+    <string name="locale_japanese" translatable="false">日本語</string>
+    <string name="locale_korean" translatable="false">한국어</string>
+    <!-- Language switch overlay -->
+    <string name="settings_language_switching_title">Dil Değiştiriliyor</string>
+    <string name="settings_language_switching_subtitle">Uygulama birazdan yeniden başlayacak…</string>
+    <!-- EditorActivity: Permission -->
+    <string name="storage_permission_required">Dosyalara göz atmak için depolama izni gerekli</string>
+    <string name="all_files_access_permission">Lütfen ayarlarda \'Tüm dosyalara erişim\' iznini verin</string>
+    <!-- EditorActivity: Flutter SDK not found dialog -->
+    <string name="flutter_sdk_not_found_title">Flutter SDK Bulunamadı</string>
+    <string name="flutter_sdk_not_found_message">Flutter SDK bulunamadı</string>
+    <string name="flutter_sdk_not_found_error_code">ACS_FLUTTER_SDK_NOT_FOUND geçersiz bağımsız değişken</string>
+    <string name="flutter_sdk_install_hint">Bir Flutter projesi açmadan önce lütfen Ana Ekran\'daki Sdk Yöneticisi\'nden Flutter SDK\'yı yükleyin.</string>
+    <!-- EditorActivity: Exit dialog -->
+    <string name="exit_editor_title">Düzenleyiciden Çıkılsın mı?</string>
+    <string name="exit_editor_message">Bu işlem projeyi kapatacak ve kaynakları temizleyecektir.</string>
+    <string name="unsaved_changes_warning">⚠️ Kaydedilmemiş değişiklikleriniz var!</string>
+    <string name="exit_with_cleanup">Temizleyerek Çık</string>
+    <!-- EditorActivity: Cleanup progress dialog -->
+    <string name="cleaning_up_title">Temizleniyor…</string>
+    <string name="force_stop">Zorla Durdur</string>
+    <string name="cleanup_stopping_builds">Etkin derlemeler durduruluyor…</string>
+    <string name="cleanup_stopping_daemons">Gradle arka plan işlemleri durduruluyor…</string>
+    <string name="cleanup_shutting_down_gradle">Gradle hizmeti kapatılıyor…</string>
+    <string name="cleanup_closing_terminals">Terminal oturumları kapatılıyor…</string>
+    <string name="cleanup_stopping_lsp">Dil Sunucuları durduruluyor…</string>
+    <string name="cleanup_finalizing">Tamamlanıyor…</string>
+    <!-- EditorActivity: Service / build messages -->
+    <string name="tooling_api_not_available">Araç API\'si kullanılamıyor. Derleme özellikleri devre dışı bırakılacak.</string>
+    <string name="services_may_need_reconnect">Bazı hizmetlerin yeniden bağlanması gerekebilir</string>
+    <!-- EditorScreen: General -->
+    <string name="toggle_navigation_drawer">Gezinme çekmecesini aç/kapat</string>
+    <!-- EditorScreen: Bottom sheet header -->
+    <string name="build_output">Derleme Çıktısı</string>
+    <string name="ready">Hazır</string>
+    <string name="building">Derleniyor</string>
+    <string name="synchronizing_with_gradle">Gradle ile senkronize ediliyor…</string>
+    <string name="running_tasks">Çalışıyor: %1$s</string>
+    <string name="build_successful">Derleme Başarılı</string>
+    <string name="all_tasks_completed">Tüm görevler tamamlandı</string>
+    <string name="build_failed_title">Derleme Başarısız</string>
+    <string name="build_failed_summary">%1$s</string>
+    <!-- EditorScreen: Bottom sheet tab titles -->
+    <string name="tab_output">Çıktı</string>
+    <string name="tab_problems">Sorunlar</string>
+    <string name="tab_app_logs">Uygulama Günlükleri</string>
+    <string name="tab_ide_logs">IDE Günlükleri</string>
+    <!-- EditorScreen: LSP / definition navigation -->
+    <string name="could_not_open_definition">Tanım açılamadı</string>
+    <string name="definition_not_found">Tanım bulunamadı</string>
+    <!-- EditorScreen: Unsupported JDK dialog -->
+    <string name="unsupported_java_version_title">Desteklenmeyen Java Sürümü</string>
+    <string name="unsupported_java_version_message">Kotlin dil sunucusu Java 21 veya üzerini gerektirir.\n\nMevcut Java çalışma zamanı bunu çalıştırmak için çok eski (sınıf dosyası sürümü 65.0, Java 21+ gerektirir). Lütfen SDK Yöneticisi üzerinden Temurin JDK 21\'i yükleyip IDE\'yi yeniden başlatın.</string>
+    <!-- EditorScreen: Sync -->
+    <string name="syncing_project">Proje senkronize ediliyor…</string>
+    <string name="finalizing_sync">Senkronizasyon tamamlanıyor…</string>
+    <string name="refreshing_classpaths">Sınıf yolları yenileniyor…</string>
+    <string name="restarting_language_servers">Dil sunucuları yeniden başlatılıyor…</string>
+    <string name="loading_tasks">Görevler yükleniyor…</string>
+    <string name="sync_completed">Senkronizasyon tamamlandı!</string>
+    <string name="project_synced_successfully">✓ Proje başarıyla senkronize edildi</string>
+    <string name="sync_failed">✗ Senkronizasyon başarısız oldu. Derleme çıktısını kontrol edin.</string>
+    <string name="sync_error">✗ Senkronizasyon hatası: %s</string>
+    <string name="please_sync_project_first">Lütfen önce projeyi senkronize edin veya senkronizasyonun tamamlanmasını bekleyin</string>
+    <!-- EditorScreen: File actions -->
+    <string name="file_saved">Dosya kaydedildi</string>
+    <string name="failed_to_save_file">Dosya kaydedilemedi</string>
+    <string name="failed_to_open_file">Dosya açılamadı: %s</string>
+    <!-- EditorScreen: Build actions -->
+    <string name="build_cancelled">Derleme iptal edildi</string>
+    <string name="failed_to_cancel">İptal edilemedi: %s</string>
+    <string name="failed_to_run">Çalıştırılamadı: %s</string>
+    <!-- Shared: Flutter -->
+    <string name="flutter_clean_running">Flutter temizleme çalıştırılıyor…</string>
+    <string name="flutter_clean_completed">Flutter temizleme başarıyla tamamlandı</string>
+    <string name="flutter_clean_failed">Flutter temizleme %1$d çıkış koduyla başarısız oldu</string>
+    <string name="flutter_clean_error">Flutter temizleme çalıştırılırken hata: %1$s</string>
+    <string name="flutter_pub_get_running">Flutter pub get çalıştırılıyor…</string>
+    <string name="flutter_pub_get_completed">Flutter pub get başarıyla tamamlandı</string>
+    <string name="flutter_pub_get_failed">Flutter pub get başarısız oldu. Ayrıntılar için Çıktı panelini kontrol edin.</string>
+    <string name="flutter_pub_get_failed_with_code">Flutter pub get %1$d çıkış koduyla başarısız oldu</string>
+    <string name="flutter_pub_get_failed_reason">Flutter pub get başarısız oldu: %1$s</string>
+    <string name="flutter_dependencies_downloaded">Flutter bağımlılıkları başarıyla indirildi</string>
+    <string name="dart_pub_get_running">Dart pub get çalıştırılıyor…</string>
+    <string name="dart_pub_get_completed">Dart pub get başarıyla tamamlandı</string>
+    <string name="dart_pub_get_failed_with_code">Dart pub get %1$d çıkış koduyla başarısız oldu</string>
+    <string name="dart_pub_get_failed_reason">Dart pub get başarısız oldu: %1$s</string>
+    <string name="flutter_sdk_not_found_settings">Flutter SDK bulunamadı. Lütfen Flutter\'ı IDE Ayarları\'ndan yükleyin.</string>
+    <!-- Shared: Generic error -->
+    <string name="error_with_message">Hata: %s</string>
+    <string name="settings_back">Geri</string>
+    <string name="settings_hero_line1">Deneyiminizi</string>
+    <string name="settings_hero_line2">Özelleştirin</string>
+    <string name="settings_hero_subtitle">Uygulama ayarları ve tercihleri</string>
+    <string name="settings_section_header">Ayarlar</string>
+    <string name="settings_detail_subtitle">Ayarlar</string>
+    <string name="settings_summary_general">Görünüm, dosyalar ve onaylar</string>
+    <string name="settings_summary_editor">Yazı tipi, görüntü ve kod davranışı</string>
+    <string name="settings_summary_experimental">Önizleme ve deneysel özellikler</string>
+    <string name="settings_summary_terminal">Terminal ayarlarını yapılandır</string>
+    <string name="settings_summary_about">Uygulama bilgisi, cihaz ve bağlantılar</string>
+    <string name="settings_summary_output_debug">Derleme çıktısı, logcat ve ADB</string>
+    <string name="settings_output_debug_section_title">Çıktı ve Hata Ayıklama</string>
+    <string name="settings_section_build_output">Derleme çıktısı</string>
+    <string name="settings_section_logcat_backend">Uygulama logcat\'i</string>
+    <string name="settings_section_adb_setup">ADB kurulumu</string>
+    <string name="settings_logcat_backend_title">Logcat arka ucu</string>
+    <string name="settings_logcat_backend_desc">ADB önerilir. Shizuku alternatif olarak kullanılabilir durumda kalır.</string>
+    <string name="settings_logcat_backend_adb">ADB (önerilen)</string>
+    <string name="settings_logcat_backend_shizuku">Shizuku</string>
+    <string name="settings_adb_step_developer_title">1. Geliştirici seçeneklerini açın</string>
+    <string name="settings_adb_step_developer_desc">Önce geliştirici seçeneklerini etkinleştirin, ardından buraya dönün.</string>
+    <string name="settings_adb_step_usb_title">2. USB hata ayıklamayı etkinleştirin</string>
+    <string name="settings_adb_step_usb_desc">Geliştirici seçeneklerinde USB hata ayıklamayı açın.</string>
+    <string name="settings_adb_step_wireless_title">3. Kablosuz hata ayıklamayı etkinleştirin</string>
+    <string name="settings_adb_step_wireless_desc">Kablosuz hata ayıklamayı açın ve etkin tutun.</string>
+    <string name="settings_adb_step_pair_title">4. ACS\'yi kablosuz hata ayıklama ile eşleştirin</string>
+    <string name="settings_adb_step_pair_desc">Eşleştirme keşfini başlatır. Eşleştirme hizmeti göründüğünde, bildirimdeki kodu girin.</string>
+    <string name="settings_adb_open_developer_options">Aç</string>
+    <string name="settings_adb_open_wireless">Aç</string>
+    <string name="settings_adb_start_pairing">Eşleştir</string>
+    <string name="settings_adb_developer_help_title">Geliştirici seçeneklerini etkinleştir</string>
+    <string name="settings_adb_developer_help_body">Ayarlar → Telefon hakkında bölümünü açın, ardından geliştirici seçenekleri etkinleşene kadar Yapı numarasına yedi kez dokunun.</string>
+    <string name="settings_adb_developer_help_got_it">Anladım</string>
+    <string name="settings_adb_usb_otg_title">USB-OTG cihazları</string>
+    <string name="settings_adb_usb_otg_desc">USB-OTG üzerinden bağlı ADB cihazları için USB ana bilgisayar izni iste.</string>
+    <string name="settings_adb_usb_otg_action">USB\'ye İzin Ver</string>
+    <string name="settings_adb_how_to_connect_title">Kablosuz hata ayıklama</string>
+    <string name="settings_adb_how_to_connect_desc">ACS\'yi eşleştirin ve bağlantı durumunu kontrol edin.</string>
+    <string name="settings_adb_how_to_connect_action">Nasıl bağlanılır</string>
+    <string name="adb_connect_title">ADB ile Bağlan</string>
+    <string name="adb_connect_subtitle">Kablosuz hata ayıklamayı eşleştirin ve bağlı cihaza yükleyin</string>
+    <string name="adb_connect_status_section">Bağlantı</string>
+    <string name="adb_connect_status_checking">Kontrol ediliyor…</string>
+    <string name="adb_connect_status_connected">Bağlandı</string>
+    <string name="adb_connect_status_disconnected">Bağlı değil</string>
+    <string name="adb_connect_refresh">Yenile</string>
+    <string name="adb_connect_pair_action">Eşleştir</string>
+    <string name="adb_connect_pair_waiting">Eşleştirme bekleniyor…</string>
+    <string name="adb_connect_pair_done">Zaten bağlı</string>
+    <string name="adb_pairing_channel_name">Kablosuz hata ayıklama eşleştirmesi</string>
+    <string name="adb_pairing_searching_title">Eşleştirme hizmeti aranıyor</string>
+    <string name="adb_pairing_searching_text">Kablosuz hata ayıklama eşleştirmesi bekleniyor…</string>
+    <string name="adb_pairing_found_title">Eşleştirme hizmeti bulundu</string>
+    <string name="adb_pairing_found_text">%1$d bağlantı noktası için eşleştirme kodunu girin</string>
+    <string name="adb_pairing_working_title">Eşleştirme sürüyor</string>
+    <string name="adb_pairing_succeed_title">Başarıyla eşleştirildi</string>
+    <string name="adb_pairing_succeed_text">ACS, kablosuz hata ayıklama üzerinden bağlandı.</string>
+    <string name="adb_pairing_failed_title">Eşleştirme başarısız oldu</string>
+    <string name="adb_pairing_failed_text">Kablosuz hata ayıklama ile eşleştirilemedi.</string>
+    <string name="adb_pairing_code_label">Eşleştirme kodu</string>
+    <string name="adb_pairing_input_action">Eşleştirme kodunu girin</string>
+    <string name="adb_pairing_stop">Durdur</string>
+    <string name="editor_section_gradle_service">Gradle Hizmeti</string>
+    <string name="editor_section_syntax_highlighting">Sözdizimi Vurgulama</string>
+    <string name="editor_section_display">Görüntü</string>
+    <string name="editor_section_behavior">Davranış</string>
+    <string name="editor_section_lsp_kotlin">LSP: Kotlin</string>
+    <string name="editor_section_advanced">Gelişmiş</string>
+    <string name="editor_theme_title">Düzenleyici Teması</string>
+    <string name="editor_syntax_highlighting_title">Sözdizimi Vurgulama</string>
+    <string name="editor_syntax_highlighting_desc">Kodu dile göre renklendir</string>
+    <string name="editor_color_preview_title">Renk Önizlemesi</string>
+    <string name="editor_color_preview_desc">Renk değerleri için önizleme göster</string>
+    <string name="editor_highlight_current_line_title">Geçerli Satırı Vurgula</string>
+    <string name="editor_highlight_current_line_desc">İmlecin bulunduğu satırı vurgula</string>
+    <string name="editor_font_family_title">Yazı Tipi Ailesi</string>
+    <string name="editor_font_import_option">Yazı Tipi İçe Aktar…</string>
+    <string name="editor_memory_usage_title">Bellek kullanımı</string>
+    <string name="editor_memory_usage_desc">Bellek kullanımı katmanını göster</string>
+    <string name="editor_font_size_title">Yazı Tipi Boyutu</string>
+    <string name="editor_font_size_desc">%dpx</string>
+    <string name="editor_tab_size_title">Sekme Boyutu</string>
+    <string name="editor_tab_size_desc">%d boşluk</string>
+    <string name="editor_line_numbers_title">Satır Numaraları</string>
+    <string name="editor_line_numbers_desc">Kenar boşluğunda satır numaralarını göster</string>
+    <string name="editor_word_wrap_title">Kelime Kaydırma</string>
+    <string name="editor_word_wrap_desc">Uzun satırları ekrana sığdırmak için kaydır</string>
+    <string name="editor_line_column_indicator_title">Satır ve Sütun Göstergesi</string>
+    <string name="editor_line_column_indicator_desc">Düzenleyicide imleç konumunu göster</string>
+    <string name="editor_auto_format_title">Otomatik Biçimlendirme</string>
+    <string name="editor_auto_format_desc">Kaydettikten sonra kodu otomatik olarak biçimlendir</string>
+    <string name="editor_auto_indent_title">Otomatik Girinti</string>
+    <string name="editor_auto_indent_desc">Yeni satırları otomatik olarak girintile</string>
+    <string name="editor_auto_pairing_title">Otomatik Eşleştirme</string>
+    <string name="editor_auto_pairing_desc">Parantezleri ve tırnak işaretlerini otomatik kapat</string>
+    <string name="editor_string_extraction_title">Dize çıkarma</string>
+    <string name="editor_string_extraction_desc">Sabit kodlanmış dizeleri algıla ve kaynağa çıkarma işlemleri öner</string>
+    <string name="editor_page_mode_title">Sayfa Modu</string>
+    <string name="editor_page_mode_desc">Büyük dosyalar açıldığında düzenleyiciyi sayfalara böler.</string>
+    <string name="editor_kotlin_diagnostics_title">Deneysel kotlin tanılamaları</string>
+    <string name="editor_kotlin_diagnostics_desc">Kotlin dosyaları için tanılama bildir</string>
+    <string name="editor_show_whitespace_title">Boşlukları Göster</string>
+    <string name="editor_show_whitespace_desc">Boşlukları ve sekmeleri görsel olarak göster</string>
+    <string name="editor_show_line_endings_title">Satır Sonlarını Göster</string>
+    <string name="editor_show_line_endings_desc">Satır sonu karakterlerini göster</string>
+    <string name="editor_cursor_blink_title">İmleç Yanıp Sönmesi</string>
+    <string name="editor_cursor_blink_desc">İmlecin yanıp sönmesini canlandır</string>
+    <string name="editor_visible_password_flag_title">Görünür şifre işareti</string>
+    <string name="editor_visible_password_flag_desc">Önerisiz güvenli bir klavye kullanın. Klavye önerilerine izin vermek için kapatın.</string>
+    <string name="editor_font_import_dialog_title">Özel Yazı Tipi İçe Aktar</string>
+    <string name="editor_font_import_dialog_body">Bir TrueType (.ttf) veya OpenType (.otf) yazı tipi dosyası seçin.</string>
+    <string name="editor_font_import_name_label">Yazı Tipi Adı</string>
+    <string name="editor_font_import_choose_file">Yazı Tipi Dosyası Seç</string>
+    <string name="editor_font_import_confirm">İçe aktar</string>
+    <string name="editor_font_import_cancel">İptal</string>
+    <string name="editor_font_import_file_selected">Yazı tipi dosyası seçildi ✓</string>
+    <string name="gradle_sync_args_title">Senkronizasyon argümanları</string>
+    <string name="gradle_no_extra_flags">Ek bayrak yok</string>
+    <string name="gradle_common_flags_label">Yaygın bayraklar</string>
+    <string name="gradle_custom_flag_label">Özel bayrak</string>
+    <string name="gradle_custom_flags_label">Özel bayraklar</string>
+    <string name="gradle_custom_flag_placeholder">örn. --warning-mode=all</string>
+    <string name="gradle_add_flag_cd">Bayrak ekle</string>
+    <string name="gradle_remove_flag_cd">Kaldır</string>
+    <string name="settings_about_section_title">Hakkında</string>
+    <string name="settings_editor_section_title">Düzenleyici</string>
+    <string name="settings_general_section_title">Genel</string>
+    <string name="settings_experimental_section_title">Deneysel</string>
+    <string name="settings_terminal_section_title">Terminal</string>
+    <string name="settings_terminal_section_header">Karma ortam</string>
+    <string name="settings_proot_no_seccomp_title">PRoot seccomp\'u devre dışı bırak</string>
+    <string name="settings_proot_no_seccomp_desc">PRoot oturumlarına PROOT_NO_SECCOMP=1 uygular. Yalnızca karma ortam cihazınızda başarısız olursa kullanın.</string>
+    <string name="error_report_title">Hata raporu gönderilsin mi?</string>
+    <string name="error_report_message">Bir şeyler ters gitti. Kabul ederseniz, tanılama günlükleri içeren anonim bir rapor yalnızca geliştiriciye gönderilir. Bu günlükler sorunun çözülmesine yardımcı olur. Kişisel veri içermez.</string>
+    <string name="error_report_send_report_btn">Raporu gönder</string>
+    <string name="error_report_no_thanks_btn">Hayır, teşekkürler</string>
+    <!-- About Section - App Info -->
+    <string name="about_app_name">Android Code Studio</string>
+    <!-- About Section - Device Information -->
+    <string name="about_device_info_title">Cihaz Bilgisi</string>
+    <string name="about_device_label">Cihaz</string>
+    <string name="about_model_label">Model</string>
+    <string name="about_android_label">Android</string>
+    <!-- About Section - Links -->
+    <string name="about_links_title">Bağlantılar</string>
+    <string name="about_link_source_code">Kaynak Kodu</string>
+    <string name="about_link_discussion">Tartışma Grubu</string>
+    <string name="about_link_channel">Resmi Kanal</string>
+    <string name="lib_editor_backend_filename" translatable="false">libeditor-backend.so</string>
+    <string name="permission_transition" translatable="false">permission_transition</string>
+    <string name="icon_pulse" translatable="false">icon_pulse</string>
+    <string name="icon_scale" translatable="false">icon_scale</string>
+    <string name="storage_access_required">Depolama Erişimi Gerekli</string>
+    <string name="grant_permissions_to_browse_and_manage_your_files">Dosyalarınıza göz atmak ve onları yönetmek için izin verin</string>
+    <string name="grant_basic_permissions">Temel İzinleri Ver</string>
+    <string name="grant_all_files_access">Tüm Dosyalara Erişimi Ver</string>
+    <string name="close_terminal">Terminali kapat</string>
+    <string name="navigate_to_path">Yola git</string>
+    <string name="directory_path">Dizin yolu</string>
+    <string name="directory_does_not_exist_or_is_not_allowed">Dizin mevcut değil veya izin verilmiyor</string>
+    <string name="go">Git</string>
+    <string name="locations">Konumlar</string>
+    <string name="restricted_to_listed_directories">Listelenen dizinlerle sınırlıdır</string>
+    <string name="twin_file_manager">Twin Dosya Yöneticisi</string>
+    <string name="drawer_icon_progress" translatable="false">drawer_icon_progress</string>
+    <string name="toggle_drawer">Çekmeceyi aç/kapat</string>
+    <string name="git_clone">Git klonla</string>
+    <string name="delete">Sil</string>
+    <string name="str_new">Yeni</string>
+    <string name="select">Seç</string>
+    <string name="select_all">Tümünü Seç</string>
+    <string name="all">Tümü</string>
+    <!-- Those are new and should go here -->
+    <string name="file_browser">Dosya tarayıcısı</string>
+    <string name="close_search">Aramayı kapat</string>
+    <string name="search_projects">Projelerde ara</string>
+    <string name="project_directory_path">Proje dizini yolu</string>
+    <string name="project_directory_path_placeholder">Projenizin yolu</string>
+    <string name="project_directory_does_not_exist">Proje dizini mevcut değil</string>
+    <string name="browse_with_file_picker">Dosya seçici ile gözat</string>
+    <string name="path_must_be_under_sdcard">Yol; /sdcard, AndroidCSProjects veya Projects altında olmalıdır</string>
+    <string name="directory_not_found_or_not_valid">Dizin bulunamadı veya geçerli bir proje değil</string>
+    <string name="open_project_sheet_search_hint">Projelerde ara…</string>
+    <string name="open_project_sheet_section_all_projects">TÜM PROJELER</string>
+    <string name="open_project_sheet_no_match">"%1$s" ile eşleşen proje yok</string>
+    <string name="open_project_sheet_no_projects">Proje bulunamadı</string>
+    <string name="open_project_sheet_recent_badge">Son</string>
+    <string name="problems_quick_fix">Hızlı düzeltme</string>
+    <string name="problems_quick_fix_choose_title">Bir düzeltme seçin</string>
+    <string name="problems_quick_fix_none">Kullanılabilir hızlı düzeltme yok</string>
+    <string name="editor_drawer_backup_project">Projeyi yedekle (ZIP)</string>
+    <string name="backup_project_succeeded">Proje yedeği kaydedildi</string>
+    <string name="backup_project_failed">Yedek oluşturulamadı</string>
+    <string name="backup_project_in_progress">Proje yedekleniyor…</string>
+    <string name="backup_project_succeeded_title">Yedekleme tamamlandı</string>
+    <string name="backup_project_failed_title">Yedekleme başarısız oldu</string>
+    <string name="backup_project_files_progress">%2$d dosyadan %1$d tanesi</string>
+    <string name="backup_project_eta_calculating">Kalan süre tahmin ediliyor…</string>
+    <string name="backup_project_eta_almost_done">Neredeyse tamamlandı…</string>
+    <string name="backup_project_eta_seconds">Yaklaşık %1$d sn kaldı</string>
+    <string name="backup_project_collapse">Daralt</string>
+    <string name="backup_project_expand">Genişlet</string>
+    <string name="recent_project_menu_subtitle">Proje</string>
+    <string name="recent_project_copy_path">Yolu kopyala</string>
+    <string name="recent_project_path_copied">Yol kopyalandı</string>
+    <string name="recent_project_rename">Yeniden adlandır</string>
+    <string name="recent_project_rename_title">Projeyi yeniden adlandır</string>
+    <string name="recent_project_rename_label">Proje adı</string>
+    <string name="recent_project_rename_confirm">Yeniden adlandır</string>
+    <string name="recent_project_rename_succeeded">Proje yeniden adlandırıldı</string>
+    <string name="recent_project_rename_failed">Proje yeniden adlandırılamadı</string>
+    <string name="recent_project_delete_permanently">Kalıcı olarak sil</string>
+    <string name="recent_project_delete_title">Proje silinsin mi?</string>
+    <string name="recent_project_delete_message">Bu işlem "%1$s" ve şu konumdaki tüm dosyaları kalıcı olarak siler:\n%2$s</string>
+    <string name="recent_project_delete_confirm">Sil</string>
+    <string name="recent_project_delete_succeeded">Proje silindi</string>
+    <string name="recent_project_delete_failed">Proje silinemedi</string>
+
+    <!-- ATC Compose Wizard Strings -->
+    <string name="atc_checking_ndk">NDK kontrol ediliyor…</string>
+    <string name="atc_error_invalid_ndk">Bulunan en yüksek NDK sürümü (%1$s) geçersiz veya bozuk.</string>
+    <string name="atc_error_empty_project_name">Proje adı boş olamaz</string>
+    <string name="atc_error_invalid_project_name">Proje adı bir harfle başlamalı ve yalnızca harf, sayı ve alt çizgi içermelidir</string>
+    <string name="atc_error_project_exists">Bu konumda bu adla bir proje zaten var</string>
+    <string name="atc_error_project_exists_msg">Bu konumda %1$s adlı bir proje zaten var.</string>
+    <string name="atc_creating_project">Proje oluşturuluyor…</string>
+    <string name="atc_error_create_project_failed">Proje oluşturulamadı: %1$s</string>
+    <string name="atc_error_generic">Hata: %1$s</string>
+    <string name="atc_error_no_cmake">CMake kurulumu bulunamadı. Lütfen CMake\'i IDE Ayarları\'ndan yükleyin.</string>
+    <string name="atc_invalid_save_location_title">Geçersiz Kayıt Konumu</string>
+    <string name="atc_invalid_save_location_message">Oyun projelerinin doğru çalışabilmesi için Android Code Studio ana dizinine kaydedilmesi gerekir.</string>
+    <string name="atc_switch_automatically">Otomatik Olarak Değiştir</string>
+    <string name="native_language_cpp" translatable="false">C++</string>
+    <string name="native_language_c" translatable="false">C</string>
+    <string name="atc_error_no_ndk">NDK Bulunamadı</string>
+    <string name="atc_ndk_version">NDK: %1$s</string>
+    <string name="atc_ndk_auto">Otomatik</string>
+    <string name="atc_ndk_version_label">NDK Sürümü: %1$s</string>
+    <string name="atc_use_gradle_kts">Gradle Kotlin DSL kullan</string>
+    <string name="atc_use_cmake">CMake kullan</string>
+    <string name="atc_create_project_btn">Proje Oluştur</string>
+
+    <!-- Editor Dialogs Strings -->
+    <string name="atc_cleaning_up">Temizleniyor…</string>
+    <string name="atc_cleanup_complete">Temizlik Tamamlandı</string>
+    <string name="atc_cleanup_desc">Gradle arka plan işlemleri durduruluyor ve kaynaklar temizleniyor. Lütfen bekleyin…</string>
+    <string name="atc_cleanup_success">Tüm kaynaklar başarıyla temizlendi.</string>
+    <string name="atc_run_task">Görevi Çalıştır</string>
+    <string name="atc_available_tasks">Kullanılabilir Görevler:</string>
+
+    <!-- SDK Manager Tabs Strings -->
+    <string name="sdk_tab_build_tools">Derleme Araçları</string>
+    <string name="sdk_tab_ndk">NDK</string>
+    <string name="sdk_tab_cmake">CMake</string>
+    <string name="sdk_tab_platforms">Platformlar</string>
+    <string name="sdk_tab_jdk">JDK</string>
+    <string name="sdk_tab_flutter">Flutter</string>
+    <string name="sdk_config_title">SDK Yapılandırması</string>
+    <string name="sdk_config_desc">Proje senkronizasyonu ve derlemeleri sırasında uygulanan Gradle başlangıç betiklerini kontrol edin.</string>
+    <string name="sdk_config_force_ndk">NDK sürümünü zorla</string>
+    <string name="sdk_config_force_cmake">CMake sürümünü zorla</string>
+    <string name="sdk_config_force_protoc">protoc yolunu zorla</string>
+
+    <!-- SDK Manager Screen Strings -->
+    <string name="sdk_ndk_versions">NDK Sürümleri</string>
+    <string name="sdk_forced_ndk_format">Zorlanan NDK: %1$s</string>
+    <string name="sdk_force_ndk_title">NDK Sürümünü Zorla</string>
+    <string name="sdk_force_ndk_desc">Tüm projelerde zorlanacak, yüklü bir NDK sürümü belirtin. Sürüm uygulanmadan önce /home/Android/Sdk/ndk konumuna göre doğrulanacaktır.</string>
+    <string name="sdk_ndk_version_label">NDK Sürümü</string>
+    <string name="sdk_ndk_version_placeholder">örn. 27.3.13750724</string>
+    <string name="sdk_currently_forced_format">Şu anda zorlanan: %1$s</string>
+    <string name="sdk_apply_btn">Uygula</string>
+    <string name="sdk_version_format">Sürüm %1$s</string>
+    <string name="sdk_installed_badge">Yüklü</string>
+    <string name="sdk_invalid_badge">Geçersiz</string>
+    <string name="sdk_ndk_invalid_title">Geçersiz NDK</string>
+    <string name="sdk_ndk_invalid_help_cd">Bu NDK\'nın neden geçersiz olduğunu göster</string>
+    <string name="sdk_uninstall_btn">Kaldır</string>
+    <string name="sdk_installing_status">Yükleniyor…</string>
+    <string name="sdk_install_btn">Yükle</string>
+    <string name="sdk_flutter_sdk">Flutter SDK</string>
+    <string name="sdk_installed_ready">Yüklü ve hazır</string>
+    <string name="sdk_not_installed">Yüklü değil</string>
+    <string name="sdk_requirements">Gereksinimler</string>
+    <string name="sdk_architecture">Mimari</string>
+    <string name="sdk_arm64_only">Yalnızca ARM64</string>
+    <string name="sdk_storage_required">Gerekli Depolama Alanı</string>
+    <string name="sdk_flutter_storage_value">~2 GB</string>
+    <string name="sdk_already_installed">Zaten Yüklü</string>
+    <string name="sdk_install_flutter">Flutter\'ı Yükle</string>
+    <string name="sdk_uninstall_flutter">Flutter\'ı Kaldır</string>
+    <string name="sdk_uninstalling_status">Kaldırılıyor…</string>
+    <string name="sdk_close_btn">Kapat</string>
+    <string name="sdk_jdk_imported_msg">JDK %1$s içe aktarıldı</string>
+    <string name="sdk_jdk_import_failed_msg">JDK içe aktarımı başarısız oldu</string>
+    <string name="sdk_android_sdk_imported_msg">Android SDK içe aktarıldı</string>
+    <string name="sdk_android_sdk_import_failed_msg">SDK içe aktarımı başarısız oldu</string>
+    <string name="sdk_no_ndk_found">NDK Bulunamadı</string>
+    <string name="sdk_platform_tools">Platform Araçları</string>
+    <string name="sdk_cmake_versions">CMake Sürümleri</string>
+    <string name="sdk_jdk_versions">JDK Sürümleri</string>
+
+    <string name="env_setup_header_title">Ortamı Yükle</string>
+    <string name="env_setup_header_subtitle">JDK, SDK ve NDK\'nızı yapılandırın</string>
+    <string name="env_setup_back_content_description">Geri</string>
+    
+    <string name="env_setup_jdk_title">OpenJDK</string>
+    <string name="env_setup_jdk_subtitle">Kullanılacak JDK sürümünü seçin</string>
+    
+    <string name="env_setup_sdk_title">Android SDK</string>
+    <string name="env_setup_sdk_subtitle">Otomatik olarak veya yerel bir arşivden yükleyin</string>
+    <string name="env_setup_sdk_archive_field_label">SDK arşivi</string>
+    <string name="env_setup_sdk_archive_field_placeholder">Dosya seçilmedi</string>
+    <string name="env_setup_sdk_archive_field_support">.zip, .tar.gz veya .tar.xz</string>
+    <string name="env_setup_sdk_archive_picker_content_description">SDK arşiv dosyasını seç</string>
+    
+    <string name="env_setup_ndk_title">Android NDK</string>
+    <string name="env_setup_ndk_subtitle">NDK araç seti sürümünü seçin</string>
+    
+    <string name="env_setup_done_button">Bitti</string>
+
+    <!-- Feature Announcement Strings -->
+    <string name="feature_badge_new">Yeni Özellik</string>
+    <string name="feature_fluent2_title">Windows 11 Fluent 2 Modu</string>
+    <string name="feature_fluent2_subtitle">Yeni nesil görsel dönüşümü deneyimleyin</string>
+    <string name="feature_fluent2_description">Android Code Studio artık; yumuşak derinlik, mika arka planlar ve yuvarlatılmış kontrollerle rafine bir masaüstü sınıfı arayüz sunan Microsoft Fluent 2 estetiğine sahip.</string>
+    <string name="feature_fluent2_highlight1_title">Mika ve Akrilik Yüzeyler</string>
+    <string name="feature_fluent2_highlight1_desc">Ekranlar genelinde yarı saydam katmanlı kartlar, yumuşak gölgeler ve temiz kenarlıklar.</string>
+    <string name="feature_fluent2_highlight2_title">Rafine Tipografi ve Boşluk Kullanımı</string>
+    <string name="feature_fluent2_highlight2_desc">Kompakt kontroller ve dinamik vurgularla geliştirilmiş okunabilirlik.</string>
+    <string name="feature_fluent2_highlight3_title">Anında Tek Tıkla Değiştirme</string>
+    <string name="feature_fluent2_highlight3_desc">Fluent 2 Modu\'nu istediğiniz zaman Ana Ekran başlığından veya Ayarlar\'dan etkinleştirin ya da devre dışı bırakın.</string>
+    <string name="feature_fluent2_action">Fluent 2\'yi Etkinleştir</string>
+    <string name="feature_fluent2_dismiss">Anladım</string>
+    <string name="empty_editor_message">Açık dosya yok.\nDosyalara gözat düğmesine tıklayın ve kodlamaya başlayın.</string>
+
+    <string name="browse_files">Dosyalara Gözat</string>
+    <!-- XML Preview Strings -->
+    <string name="action_xml_preview_title">XML Önizleme</string>
+    <string name="xml_preview_title">XML Önizleme</string>
+    <string name="xml_preview_rendering">Düzen önizlemesi oluşturuluyor…</string>
+    <string name="xml_preview_error">XML Önizleme Hatası</string>
+    <string name="xml_preview_not_synced">Proje senkronize edilmedi. Lütfen önce Gradle projesini senkronize edin.</string>
+    <string name="xml_preview_no_layout">Düzen dosyası belirtilmedi</string>
+    <string name="xml_preview_refresh">Önizlemeyi Yenile</string>
+    <string name="xml_preview_rebuild">Yeniden Derle (assembleDebug)</string>
+    <string name="xml_preview_rebuild_hint">Düzen kaynakları güncel olmayabilir. Modülü assembleDebug ile yeniden derleyin, ardından önizlemeyi tekrar deneyin.</string>
+    <string name="xml_preview_theme">Tema</string>
+    <string name="xml_preview_night_mode">Gece Modu</string>
+    <string name="xml_preview_mode_system">Sistem Varsayılanı</string>
+    <string name="xml_preview_mode_light">Açık</string>
+    <string name="xml_preview_mode_dark">Koyu</string>
+    <string name="xml_preview_display_settings">Görüntü Ayarları</string>
+    <string name="xml_preview_menu_preview">Önizleme</string>
+    <string name="xml_preview_menu_preview_video">Video olarak önizle</string>
+    <string name="xml_preview_width_label">Genişlik (px)</string>
+    <string name="xml_preview_height_label">Yükseklik (px)</string>
+    <string name="xml_preview_density_label">Yoğunluk (dpi)</string>
+    <string name="xml_preview_preset_standard">Standart</string>
+    <string name="xml_preview_preset_full_hd_plus">Full HD+</string>
+    <string name="xml_preview_preset_tablet">Tablet</string>
+    <string name="xml_preview_display_invalid">Genişlik, yükseklik ve yoğunluk için geçerli pozitif sayılar girin.</string>
+    <string name="xml_preview_apply">Uygula</string>
+    <string name="xml_preview_applying">Uygulanıyor…</string>
+    <string name="xml_preview_unavailable">Önizleme oluşturma kullanılamıyor</string>
+    <string name="xml_preview_parsing">XML düzeni %1$s ayrıştırılıyor…</string>
+    <string name="xml_preview_no_active">Etkin XML önizlemesi yok</string>
+    <string name="xml_preview_start_before_refresh">Yenilemeden önce bir önizleme başlatın.</string>
+    <string name="xml_preview_start_before_settings">Görüntü ayarlarını değiştirmeden önce bir önizleme başlatın.</string>
+    <string name="xml_preview_start_before_rebuild">Yeniden derlemeden önce bir önizleme başlatın.</string>
+    <string name="xml_preview_project_not_synced_title">Proje senkronize edilmedi</string>
+    <string name="xml_preview_project_not_synced_details">Hedef kaynakların derlenebilmesi için önce Gradle projesini senkronize edin.</string>
+    <string name="xml_preview_metadata_unavailable">Meta veri kullanılamıyor</string>
+    <string name="xml_preview_metadata_unavailable_details">Etkin önizleme oturumu meta verisi mevcut değil.</string>
+    <string name="xml_preview_resource_not_found">Kaynak paketi bulunamadı</string>
+    <string name="xml_preview_resource_not_found_rerender">Yeniden oluşturma için kullanılabilir bir kaynak arşivi yok.</string>
+    <string name="xml_preview_resource_not_found_after_build">Derleme tamamlandı ancak %1$s altında çıktı bulunamadı.</string>
+    <string name="xml_preview_resource_not_found_apk">Derleme tamamlandı ancak %1$s altında .ap_ veya .apk çıktısı bulunamadı.</string>
+    <string name="xml_preview_resource_compile_failed">Kaynak derlemesi başarısız oldu</string>
+    <string name="xml_preview_incremental_error">Artımlı derleme hatası</string>
+    <string name="xml_preview_unknown_render_error">XML önizlemesi oluşturulurken bilinmeyen hata</string>
+    <string name="xml_preview_recompiling">%1$s yeniden derleniyor…</string>
+    <string name="xml_preview_compiling_resources">Hedef modül düzen kaynakları derleniyor…</string>
+    <string name="xml_preview_running_assemble">%1$s çalıştırılıyor…</string>
+    <string name="xml_preview_rendering_layout">%1$s düzeni oluşturuluyor…</string>
+    <string name="xml_preview_resolving_metadata">Hedef modül kaynakları çözümleniyor…</string>
+    <string name="no_output_yet">Henüz Çıktı Yok</string>
+    <string name="run_project_for_output">Çıktıyı burada görmek için projenizi çalıştırın</string>
+    <string name="previous_page">Önceki sayfa</string>
+    <string name="next_page">Sonraki sayfa</string>
+    <string name="install_apk">APK Yükle</string>
+    <string name="share_output">Çıktıyı paylaş</string>
+    <string name="clear_output">Çıktıyı temizle</string>
+    <!-- Language Server Settings -->
+    <string name="experiments_java_lsp_title">Java Dil Sunucusu</string>
+    <string name="experiments_java_lsp_desc">Java dosyaları için kod tamamlama, tanılama ve gezinme</string>
+    <string name="experiments_dart_lsp_title">Dart Dil Sunucusu</string>
+    <string name="experiments_dart_lsp_desc">Dart ve Flutter dosyaları için kod tamamlama ve analiz</string>
+    <string name="experiments_dart_lsp_no_sdk_desc">Flutter SDK gereklidir (yüklü değil)</string>
+    <string name="experiments_xml_lsp_title">XML Dil Sunucusu</string>
+    <string name="experiments_xml_lsp_desc">Android XML düzenleri ve kaynakları için kod tamamlama ve doğrulama</string>
+    <string name="experiments_section_gradle_service">Gradle Hizmeti</string>
+    <string name="experiments_custom_gradle_title">Özel Gradle Kurulumu</string>
+    <string name="experiments_custom_gradle_desc">gradle-wrapper.properties dosyasındaki Gradle sürümünü belirli bir yerel dağıtım yoluyla geçersiz kılın.</string>
+    <string name="experiments_label_experimental">DENEYSEL</string>
+    <!-- LSP JVM Options -->
+    <string name="lsp_jvm_options_title">JVM Seçenekleri</string>
+    <string name="lsp_jvm_options_subtitle">Sonraki sunucu başlatılmasında uygulanır</string>
+    <string name="lsp_jvm_memory_header">BELLEK</string>
+    <string name="lsp_jvm_extra_flags_header">EK BAYRAKLAR</string>
+    <string name="lsp_jvm_initial_heap_label">-Xms  (başlangıç yığını)</string>
+    <string name="lsp_jvm_max_heap_label">-Xmx  (maksimum yığın)</string>
+    <string name="lsp_jvm_extra_flags_label">Ek JVM bayrakları</string>
+    <string name="lsp_jvm_reset_action">Sıfırla</string>
+    <string name="lsp_jvm_save_action">Kaydet</string>
+    <!-- Gradle Task Runner Strings -->
+    <string name="settings_remember_gradle_tasks_title">Seçilen Gradle Görevlerini Hatırla</string>
+    <string name="settings_remember_gradle_tasks_desc">Uygulama yeniden başlatmaları arasında seçilen Gradle görevlerini ve ek bağımsız değişkenleri koruyun</string>
+    <string name="gradle_dialog_remember_tasks">Seçimi hatırla</string>
+    <string name="gradle_tasks_run_count">%1$d Görevi Çalıştır</string>
+    <string name="gradle_task_run_single">1 Görevi Çalıştır</string>
+    <string name="gradle_task_select_tasks">Görevleri Seçin</string>
+    <string name="gradle_tasks_clear_selection">Seçimi Temizle</string>
+    <string name="gradle_extra_args_btn">Ek Gradle Bağımsız Değişkenleri</string>
+    <string name="gradle_extra_args_count_btn">Ek Gradle Bağımsız Değişkenleri (%1$d)</string>
+    <string name="gradle_dialog_run_gradle_tasks">Gradle Görevlerini Çalıştır</string>
+    <string name="gradle_dialog_run_flutter_commands">Flutter Komutlarını Çalıştır</string>
+    <string name="gradle_dialog_tasks_selected_count">%1$d görev seçildi</string>
+    <string name="gradle_dialog_single_task_selected">1 görev seçildi</string>
+    <string name="gradle_args_dialog_title">Ek Gradle Bağımsız Değişkenleri</string>
+    <string name="gradle_args_dialog_subtitle">Ortak bağımsız değişkenleri seçin veya özel olanları ekleyin</string>
+    <string name="gradle_args_custom_badge">Özel</string>
+    <string name="gradle_args_custom_placeholder">Özel bağımsız değişken ekleyin (örn. --parallel)</string>
+    <string name="gradle_args_clear_all">Tümünü Temizle</string>
+    <string name="gradle_args_apply">Uygula</string>
+    <string name="run_action_build_debug">Hata ayıklama derlemesi</string>
+    <string name="run_action_build_release">Sürüm derlemesi</string>
+    <string name="run_action_custom">Özel</string>
+    <!-- Memory Overlay Strings -->
+    <string name="overlay_memory_content_description">Bellek</string>
+    <string name="overlay_memory_usage_title">Bellek Kullanımı</string>
+    <string name="overlay_collapse_content_description">Daralt</string>
+    <string name="overlay_expand_content_description">Genişlet</string>
+    <string name="overlay_ide_process_title">IDE İşlemi</string>
+    <string name="overlay_acside_process_title">Genel Kullanım</string>
+    <string name="overlay_tooling_api_title">Araç API\'si</string>
+    <string name="overlay_active_screen">Aktif Ekran</string>
+    <string name="overlay_heap_breakdown">Öbek Dağılımı</string>
+    <string name="overlay_dalvik_label">Dalvik</string>
+    <string name="overlay_native_label">Yerel</string>
+    <string name="overlay_other_label">Diğer</string>
+    <string name="overlay_active_threads">Aktif İş Parçacıkları</string>
+    <string name="overlay_tooling_workspace">Çalışma Alanı</string>
+    <string name="overlay_tooling_building">Derleniyor</string>
+    <string name="overlay_tooling_heap_graph">Öbek grafiği</string>
+    <string name="overlay_size_label">Boyut</string>
+    <string name="overlay_drag_to_move">Taşımak için sürükleyin</string>
+    <string name="overlay_status_running">Çalışıyor</string>
+    <string name="overlay_status_not_running">Çalışmıyor</string>
+    <string name="overlay_subprocesses_title">İşlemler</string>
+    <string name="overlay_thread_frames_format">%1$d kare</string>
+    <string name="overlay_pid_format">PID: %1$d</string>
+    <string name="overlay_used_max_mb_format">%1$d MB / %2$d MB</string>
+    <string name="overlay_percent_format">%%%1$d</string>
+    <string name="overlay_mb_format">%1$dMB</string>
+    <string name="overlay_tooling_mb_format">Tooling %1$dMB</string>
+    <string name="overlay_acside_mb_format">ACSIDE %1$dMB</string>
+    <!-- Adaptive Performance Strings -->
+    <string name="adaptive_perf_dialog_title">Uyarlanabilir Performans</string>
+    <string name="adaptive_perf_dialog_subtitle">Donanımınız için ayarlanmış en uygun değerler</string>
+    <string name="adaptive_perf_specs_ram">Cihaz RAM</string>
+    <string name="adaptive_perf_specs_storage">Dahili Depolama</string>
+    <string name="adaptive_perf_specs_cores">İşlemci Çekirdekleri</string>
+    <string name="adaptive_perf_specs_tier">Performans Profili</string>
+    <string name="adaptive_perf_tier_low">Giriş</string>
+    <string name="adaptive_perf_tier_balanced">Dengeli</string>
+    <string name="adaptive_perf_tier_high">Yüksek</string>
+    <string name="adaptive_perf_tier_ultra">Ultra</string>
+    <string name="adaptive_perf_applying">En uygun ayarlar uygulanıyor&#8230;</string>
+    <string name="adaptive_perf_applied">En uygun performans ayarları başarıyla uygulandı</string>
+    <string name="adaptive_perf_continue">Devam Et</string>
+    <string name="adaptive_perf_dialog_description">Cihaz donanımınız, JVM bellek sınırlarını, Dil Sunucusu hızını ve Gradle artalan işlemlerini en iyi duruma getirmek için değerlendirildi.</string>
+    <!-- HealthWatcher Strings -->
+    <string name="health_watcher_nullij_warning_title">Yüksek Bellek Uyarısı</string>
+    <string name="health_watcher_nullij_warning_message">Android Code Studio bellek kullanımı %1$d MB seviyesine ulaştı. Performans düşerse ağır sekmeleri kapatmayı düşünebilirsiniz.</string>
+    <string name="health_watcher_acside_warning_title">ACSIDE Bellek Uyarısı</string>
+    <string name="health_watcher_acside_warning_message">ACSIDE yardımcı işlem belleği %1$d MB değerine ulaştı (yapılandırılan sınır: %2$d MB). Dil sunucularını durdurmak belleği boşaltır.</string>
+    <string name="health_watcher_stop_lsps">Dil Sunucularını Durdur</string>
+    <string name="health_watcher_never_show_again">Bunu bir daha gösterme</string>
+    <string name="health_watcher_dismiss">Kapat</string>
+    <string name="health_watcher_ok">Tamam</string>
+    <string name="health_watcher_lsps_stopped">Dil sunucuları durduruldu. Düzenleyici yenilendi.</string>
+    <string name="health_watcher_settings_title">Bellek ve Sağlık İzleyici</string>
+    <string name="health_watcher_settings_summary">Arka plan bellek kullanımını izleyin ve sınır uyarıları alın</string>
+    <string name="health_watcher_threshold_title">ACSIDE Bellek Sınırı</string>
+    <string name="health_watcher_threshold_summary">Yardımcı işlem bu sınırı aştığında uyarı tetikle</string>
+    <string name="health_watcher_unit_title">Sınır Birimi</string>
+    <string name="health_watcher_unit_summary">Yardımcı işlem bellek sınırı için ölçü birimi</string>
+    <string name="health_watcher_reset_dialogs_title">Uyarı İletişim Kutusu Tercihlerini Sıfırla</string>
+    <string name="health_watcher_reset_dialogs_summary">Daha önce gizlenen bellek uyarı kutularını yeniden etkinleştirin</string>
+    <string name="health_watcher_reset_dialogs_done">Uyarı tercihleri varsayılana sıfırlandı.</string>
+    <!-- Tooling API JVM Options Strings -->
+    <string name="experiments_tooling_api_jvm_title">Tooling API JVM Seçenekleri</string>
+    <string name="experiments_tooling_api_jvm_desc">Gradle Tooling API sunucusu için bellek ayarlarını ve JVM seçeneklerini yapılandırın.</string>
+    <string name="tooling_api_jvm_options_title">Tooling API JVM Seçenekleri</string>
+    <string name="tooling_api_jvm_options_subtitle">Sonraki araç sunucusu başlatmasında uygulanır</string>
+    <!-- External file change conflict strings -->
+    <string name="external_change_dialog_title">Dosya Diskte Değiştirildi</string>
+    <string name="external_change_dialog_desc">%1$s harici olarak değiştirildi. Diski yeniden yükleyip düzenleyici değişikliklerinin üzerine yazmak mı istiyorsunuz, yoksa düzenleyici değişikliklerini korumak mı?</string>
+    <string name="external_change_reload">Diskten Yeniden Yükle</string>
+    <string name="external_change_keep">Düzenleyici Değişikliklerini Koru</string>
+    <!-- MCP Agent Strings -->
+    <string name="mcp_edit_mode_button_desc">Düzenleme modu</string>
+    <string name="mcp_edit_mode_always_accept">Düzenlemeleri her zaman kabul et</string>
+    <string name="mcp_edit_mode_preview">Kabul etmeden önce önizle</string>
+    <string name="mcp_diff_title">Önerilen Değişiklikleri İncele</string>
+    <string name="mcp_diff_accept">Değişiklikleri kabul et</string>
+    <string name="mcp_diff_reject">Reddet</string>
+    <string name="mcp_diff_conflict_warning">Bu önizleme oluşturulduktan sonra dosya diskte değiştirildi.</string>
+    <string name="mcp_diff_file_created">Yeni dosya</string>
+    <string name="mcp_diff_file_deleted">Silinen dosya</string>
+    <string name="mcp_diff_file_renamed">%1$s → %2$s</string>
+    <string name="mcp_diff_prev_file">Önceki</string>
+    <string name="mcp_diff_next_file">Sonraki</string>
+    <string name="mcp_fallback_empty_response">Modelden yanıt alınamadı.</string>
+    <string name="mcp_error_tap_for_details">Bir hata oluştu. Ayrıntılar için ! dokunun.</string>
+    <string name="mcp_error_details_title">Hata Ayrıntıları</string>
+    <string name="mcp_error_copy">Kopyala</string>
+    <string name="mcp_error_copied">Panoya kopyalandı</string>
+    <string name="mcp_error_no_internet">İnternet bağlantısı yok.</string>
+    <string name="mcp_error_invalid_api_key">Geçersiz API anahtarı.</string>
+    <string name="mcp_error_quota">Kota aşıldı veya istek sınırlandı.</string>
+    <string name="mcp_error_timeout">İstek zaman aşımına uğradı.</string>
+    <string name="mcp_error_unexpected">Beklenmeyen bir hata oluştu.</string>
+    <string name="mcp_error_details_summary">Özet</string>
+    <string name="mcp_error_details_type">Tür</string>
+    <string name="mcp_error_details_message">İleti</string>
+    <string name="mcp_error_details_tool">Araç</string>
+    <string name="mcp_error_details_stacktrace">Yığın İzleme</string>
+
+    <string name="quick_line_actions">Hızlı satır eylemleri</string>
+    <string name="quick_action_copy_line">Satırı kopyala</string>
+    <string name="quick_action_cut_line">Satırı kes</string>
+    <string name="quick_action_delete_line">Satırı sil</string>
+    <string name="quick_action_empty_line">Satırı boşalt</string>
+    <string name="quick_action_replace_line">Satırı değiştir</string>
+    <string name="quick_action_duplicate_line">Satırı çoğalt</string>
+    <string name="quick_action_uppercase">Büyük harfe dönüştür</string>
+    <string name="quick_action_lowercase">Küçük harfe dönüştür</string>
+    <string name="quick_action_increase_indent">Girintiyi artır</string>
+    <string name="quick_action_decrease_indent">Girintiyi azalt</string>
+    <string name="quick_action_toggle_comment">Yorumu aç/kapat</string>
+    <string name="quick_action_format_java">Java kodunu biçimlendir</string>
+    <string name="java_format_error_title">Java biçimlendirme hatası</string>
+    <string name="dependency_update_available_title">Güncelleme mevcut</string>
+    <string name="dependency_update_all_title">Tümünü güncelle</string>
+    <string name="dependency_update_all_message">%1$d bağımlılık en son sürümlere güncellensin mi?</string>
+    <string name="dependency_update_apply">Uygula</string>
+    <string name="dependency_update_catalog_hint">Bu libs.versions.toml dosyasını güncelleyecek</string>
+</resources>

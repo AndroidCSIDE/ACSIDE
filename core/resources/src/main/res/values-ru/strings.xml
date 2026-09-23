@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" translatable="false">ACS IDE</string>
+    <string name="acsb_app_name" translatable="false">ACS IDE:bootstrap</string>
+    <string name="create_project">Создать проект</string>
+    <string name="open_project">Открыть проект</string>
+    <string name="launch_terminal">Запустить терминал</string>
+    <!-- ============================================================ -->
+    <!-- Project Actions                                              -->
+    <!-- ============================================================ -->
+    <string name="action_create_project_title">Новый проект</string>
+    <string name="action_create_project_desc">Создать новый проект Android</string>
+    <string name="action_open_project_title">Открыть</string>
+    <string name="action_open_project_desc">Открыть существующий проект</string>
+    <!-- ============================================================ -->
+    <!-- Tool Actions                                                 -->
+    <!-- ============================================================ -->
+    <string name="action_sdk_manager_title">Менеджер SDK</string>
+    <string name="action_terminal_title">Терминал</string>
+    <string name="action_settings_title">Настройки</string>
+    <string name="action_plugins_title">Плагины</string>
+    <!-- ============================================================ -->
+    <!-- Editor Actions                                               -->
+    <!-- ============================================================ -->
+    <string name="action_save_title">Сохранить</string>
+    <string name="action_undo_title">Отменить</string>
+    <string name="action_redo_title">Повторить</string>
+    <string name="action_search_title">Поиск</string>
+    <string name="action_sync_title">Синхронизация</string>
+    <string name="action_run_title">Запуск</string>
+    <string name="action_cancel_build_title">Отменить сборку</string>
+    <string name="action_group_project">Проект</string>
+    <string name="action_group_tools">Инструменты</string>
+    <string name="action_group_settings">Настройки</string>
+    <string name="action_group_plugins">Плагины</string>
+    <string name="action_group_editor_plugins">Плагины редактора</string>
+    <!-- ============================================================ -->
+    <!-- Preview Action (Compose / Flutter)                           -->
+    <!-- ============================================================ -->
+    <string name="action_preview_title">Предпросмотр</string>
+    <string name="action_preview_desc">Предпросмотр макета или компонуемой функции</string>
+    <string name="settings">Настройки</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="ndk_version_auto">NDK: Авто</string>
+    <string name="native_error_title">Требуется NDK</string>
+    <string name="error_ndk_not_found_or_incompatible">Установка NDK не найдена или несовместима. Установите NDK в настройках IDE.</string>
+    <string name="open_ide_cfg_msg">Открыть настройки</string>
+    <!-- ATC Options Dialog -->
+    <string name="choose_template">Выбрать шаблон</string>
+    <string name="project_configuration">Конфигурация проекта</string>
+    <string name="use_cmake">Использовать систему сборки CMake</string>
+    <string name="native_language">Нативный язык</string>
+    <string name="minimum_sdk">Минимальный SDK</string>
+    <string name="new_project">Новый проект</string>
+    <string name="package_name">Имя пакета</string>
+    <string name="project_name">Имя проекта</string>
+    <string name="project_location">Расположение проекта</string>
+    <string name="browse">Обзор</string>
+    <string name="language">Язык</string>
+    <string name="java">Java</string>
+    <string name="use_gradle_kotlin_dsl">Использовать Gradle Kotlin DSL (.kts)</string>
+    <string name="cancel">Отмена</string>
+    <string name="create">Создать</string>
+    <string name="default_project_name" translatable="false">MyApplication</string>
+    <string name="default_package_name" translatable="false">com.example.myapplication</string>
+    <string name="back">Назад</string>
+    <!-- MainActivity -->
+    <string name="app_name_full" translatable="false">Android Code Studio</string>
+    <string name="app_icon_description">Значок приложения</string>
+    <string name="error_invalid_gradle_project">Выбранный каталог не является допустимым проектом Gradle</string>
+    <string name="error_could_not_access_directory">Не удалось получить доступ к выбранному каталогу</string>
+    <!-- Sections -->
+    <string name="section_projects">Проекты</string>
+    <string name="section_recent_projects">Недавние проекты</string>
+    <string name="section_learn">Обучение</string>
+    <string name="section_resources">Ресурсы</string>
+    <!-- Recent Projects -->
+    <string name="no_recent_projects">Нет недавних проектов</string>
+    <string name="content_description_remove">Удалить</string>
+    <!-- Learn Section -->
+    <string name="learn_first_app_title">Создайте своё первое приложение</string>
+    <string name="learn_first_app_description">Изучите основы разработки под Android</string>
+    <string name="learn_kotlin_title">Руководство по языку Kotlin</string>
+    <string name="learn_kotlin_description">Освойте программирование на Kotlin</string>
+    <string name="learn_compose_title">Jetpack Compose</string>
+    <string name="learn_compose_description">Современный набор инструментов для интерфейсов Android</string>
+    <!-- Resources Section -->
+    <string name="resources_documentation_title">Документация</string>
+    <string name="resources_documentation_description">Справочник API и руководства</string>
+    <string name="resources_samples_title">Примеры проектов</string>
+    <string name="resources_samples_description">Изучите примеры приложений</string>
+    <!-- Editor Bottom Sheet -->
+    <string name="content_description_expand">Развернуть</string>
+    <string name="content_description_collapse">Свернуть</string>
+    <string name="content_description_clear">Очистить</string>
+    <string name="content_description_close">Закрыть</string>
+    <!-- Actions -->
+    <string name="action_new_project">Новый проект</string>
+    <string name="action_new_project_desc">Создать новый проект Android</string>
+    <string name="action_open">Открыть</string>
+    <string name="action_open_desc">Открыть существующий проект</string>
+    <string name="action_sdk_manager">Менеджер SDK</string>
+    <string name="action_sdk_manager_desc">Управление компонентами Android SDK</string>
+    <string name="action_terminal">Терминал</string>
+    <string name="action_terminal_desc">Открыть встроенный терминал</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_settings_desc">Настроить параметры IDE</string>
+    <string name="action_plugins">Плагины</string>
+    <string name="action_plugins_desc">Управление плагинами IDE</string>
+    <string name="action_jitpack_preview">Предпросмотр JitPack</string>
+    <string name="action_jitpack_preview_desc">Предпросмотр библиотек JitPack</string>
+    <string name="action_sdk_manager_test">Менеджер SDK (тест)</string>
+    <string name="action_sdk_manager_test_desc">Тестовая версия менеджера SDK</string>
+    <!-- Editor Actions -->
+    <string name="action_save">Сохранить</string>
+    <string name="action_save_desc">Сохранить текущий файл</string>
+    <string name="action_undo">Отменить</string>
+    <string name="action_undo_desc">Отменить последнее изменение</string>
+    <string name="action_redo">Повторить</string>
+    <string name="action_redo_desc">Повторить последнее отменённое изменение</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_search_desc">Поиск и замена в файле</string>
+    <string name="action_sync">Синхронизация</string>
+    <string name="action_sync_desc">Синхронизировать проект Gradle</string>
+    <string name="action_run">Запуск</string>
+    <string name="action_run_desc">Собрать и запустить проект</string>
+    <string name="action_cancel_build">Отменить сборку</string>
+    <string name="action_cancel_build_desc">Отменить текущую сборку</string>
+    <!-- Action Messages -->
+    <string name="action_disabled">%1$s сейчас отключено</string>
+    <string name="action_executing">Выполняется: %1$s</string>
+    <string name="action_execution_error">Ошибка при выполнении %1$s: %2$s</string>
+    <string name="jitpack_preview_unavailable">Предпросмотр JitPack недоступен</string>
+    <string name="sdk_manager_test_unavailable">Тестовый менеджер SDK недоступен</string>
+    <!-- Template Plugin Messages -->
+    <string name="template_plugins_directory_not_found">Каталог плагинов не найден</string>
+    <string name="template_no_enabled_plugins">Нет включённых плагинов</string>
+    <string name="template_plugin_no_templates">У плагина %1$s нет файла templates.json</string>
+    <string name="template_loaded_count">Загружено шаблонов: %1$d из плагина: %2$s</string>
+    <string name="template_total_loaded">Всего загружено шаблонов: %1$d из %2$d плагинов</string>
+    <string name="template_plugins_json_not_found">Файл plugins.json не найден</string>
+    <string name="template_enabled_plugins">Включённые плагины: %1$s</string>
+    <string name="template_parse_success">Успешно загружено шаблонов: %1$d из JSON</string>
+    <string name="template_parse_error">Не удалось разобрать JSON шаблонов</string>
+    <string name="template_creation_failed">Не удалось создать шаблон</string>
+    <!-- Internal Error Dialog (lib dir missing / extraction failure) -->
+    <string name="error_internal_title">Внутренняя ошибка</string>
+    <string name="error_internal_lib_dir_missing">Отсутствует критически важный внутренний каталог. Это неустранимая ошибка. Переустановите приложение.</string>
+    <string name="error_internal_exit">Выход</string>
+    <!-- Editor backend native library -->
+    <string name="lib_editor_backend_asset_path" translatable="false">naive/libeditor-backend.so</string>
+    <!-- Plugin Installation -->
+    <string name="plugin_install_success_title">Плагин установлен</string>
+    <string name="plugin_install_success_message">%1$s успешно установлен.\n\nВключить его и перезагрузить IDE?</string>
+    <string name="plugin_install_enable_and_reload">Включить и перезагрузить</string>
+    <string name="plugin_install_later">Позже</string>
+    <string name="plugin_install_failed_title">Установка не удалась</string>
+    <string name="plugin_enabled">Плагин включён</string>
+    <!-- Plugin Screen UI -->
+    <string name="plugin_refresh">Обновить</string>
+    <string name="plugin_refreshing">Обновление…</string>
+    <string name="plugin_search_hint">Поиск плагинов…</string>
+    <string name="plugin_install_from_file">Установить из файла</string>
+    <string name="plugin_section_installed">Установленные</string>
+    <string name="plugin_section_available">Доступные</string>
+    <string name="plugin_no_installed">Пока нет установленных плагинов</string>
+    <string name="plugin_no_installed_match">Нет совпадений среди установленных плагинов</string>
+    <string name="plugin_all_installed">Все плагины репозитория установлены</string>
+    <string name="plugin_no_available_match">Нет совпадений среди доступных плагинов</string>
+    <string name="plugin_updates_available">Доступно обновлений: %1$d</string>
+    <string name="plugin_update_available">Доступно обновление: v%1$s</string>
+    <string name="plugin_repo_loading">Загрузка репозитория…</string>
+    <string name="plugin_repo_load_failed">Не удалось загрузить репозиторий</string>
+    <string name="plugin_repo_empty">Плагины не загружены</string>
+    <string name="plugin_repo_empty_hint">Не удалось подключиться к репозиториям плагинов. Проверьте соединение и нажмите ↻, чтобы повторить попытку.</string>
+    <string name="plugin_downloading">Загрузка…</string>
+    <string name="plugin_downloading_update">Загрузка обновления…</string>
+    <string name="plugin_badge_installed">Установлен</string>
+    <string name="plugin_badge_enabled">Включён</string>
+    <string name="plugin_badge_disabled">Отключён</string>
+    <string name="plugin_action_install">Установить</string>
+    <string name="plugin_action_update">Обновить</string>
+    <string name="plugin_action_update_to">Обновить до v%1$s</string>
+    <string name="plugin_action_enable">Включить</string>
+    <string name="plugin_action_disable">Отключить</string>
+    <string name="plugin_action_uninstall">Удалить</string>
+    <string name="plugin_uninstall_confirm_title">Удалить плагин?</string>
+    <string name="plugin_uninstall_confirm_message">Вы уверены, что хотите удалить %1$s? Это действие нельзя отменить.</string>
+    <string name="plugin_reload_required">Требуется перезагрузка</string>
+    <string name="plugin_reload_message">«%1$s» готов. Перезагрузите IDE, чтобы активировать его.</string>
+    <string name="plugin_reload_now">Перезагрузить сейчас</string>
+    <string name="plugin_reload_later">Позже</string>
+    <string name="plugin_install_invalid_file_type">Недопустимый тип файла. Разрешены только файлы .acp.</string>
+    <string name="plugin_install_error">Ошибка установки: %1$s</string>
+    <string name="plugin_download_error">Ошибка загрузки: %1$s</string>
+    <string name="ok">ОК</string>
+    <!-- Terminal -->
+    <string name="terminal_title">Терминал</string>
+    <string name="terminal_sessions">Сессии</string>
+    <string name="terminal_add_session">Добавить сессию</string>
+    <string name="terminal_delete_session">Удалить сессию</string>
+    <string name="terminal_active">Терминал активен</string>
+    <string name="terminal_session_single">Открыта сессия терминала 1</string>
+    <string name="terminal_sessions_range">Открыты сессии терминала 1-%1$d</string>
+    <string name="terminal_notification_channel_name">Сессии терминала</string>
+    <string name="terminal_notification_channel_description">Показывает статус активной сессии терминала</string>
+    <!-- Updater Dialog -->
+    <string name="updater_title">Доступно обновление</string>
+    <string name="updater_version_prefix" translatable="false">v%1$s</string>
+    <string name="updater_dismiss">Скрыть</string>
+    <string name="updater_whats_new">Что нового</string>
+    <string name="updater_download">Загрузить обновление</string>
+    <string name="updater_retry">Повторить загрузку</string>
+    <string name="updater_later">Позже</string>
+    <string name="updater_downloading">Загрузка…</string>
+    <string name="updater_install_now">Установить сейчас</string>
+    <string name="updater_progress_percent" translatable="false">%1$d%%</string>
+    <string name="updater_changelog_unavailable">Список изменений недоступен</string>
+    <!-- Component Downloader Dialog -->
+    <string name="component_fetch_error">Не удалось получить информацию о компоненте</string>
+    <string name="component_extracting">Распаковка…</string>
+    <string name="component_linking">Связывание…</string>
+    <string name="component_downloading">Загрузка…</string>
+    <string name="component_installed">Успешно установлено</string>
+    <string name="component_install_failed">Установка не удалась</string>
+    <string name="component_installing">Установка…</string>
+    <string name="component_done">Готово</string>
+    <string name="component_retry">Повторить</string>
+    <string name="component_download">Загрузить</string>
+    <!-- Experiments Settings -->
+    <string name="experiments_section_language_servers">Языковые серверы</string>
+    <string name="experiments_kotlin_lsp_title">Языковой сервер Kotlin</string>
+    <string name="experiments_kotlin_lsp_desc">Автодополнение кода, диагностика и навигация для файлов Kotlin</string>
+    <string name="kotlin_lsp_indexing_reassurance">Идёт индексация... это ожидаемо для крупных проектов. Подождите.</string>
+    <string name="kotlin_lsp_ready">Языковой сервер Kotlin готов</string>
+    <string name="experiments_label_beta">БЕТА</string>
+    <string name="experiments_action_setup">Настроить</string>
+    <!-- Kotlin LSP Dialog -->
+    <string name="lsp_dialog_title">Языковой сервер Kotlin</string>
+    <string name="lsp_dialog_subtitle">Экспериментальная функция</string>
+    <string name="lsp_dialog_dismiss">Скрыть</string>
+    <string name="lsp_feature_completion">Умное автодополнение кода</string>
+    <string name="lsp_feature_diagnostics">Диагностика ошибок в реальном времени</string>
+    <string name="lsp_feature_navigation">Переход к определению и ссылкам</string>
+    <string name="lsp_feature_formatting">Форматирование кода</string>
+    <string name="lsp_download">Загрузить (~270 МБ)</string>
+    <string name="lsp_install">Установить</string>
+    <string name="lsp_installing">Установка…</string>
+    <string name="lsp_retry">Повторить установку</string>
+    <string name="lsp_later">Позже</string>
+    <string name="lsp_downloading">Загрузка…</string>
+    <string name="lsp_done">Готово</string>
+    <string name="lsp_progress_percent" translatable="false">%1$d%%</string>
+    <string name="lsp_already_installed">Языковой сервер Kotlin уже установлен</string>
+    <string name="lsp_remove">Удалить</string>
+    <string name="lsp_extracting">Распаковка…</string>
+    <!-- LSP Per-Feature Toggles -->
+    <string name="lsp_features_sheet_title">Функции %1$s</string>
+    <string name="lsp_features_sheet_subtitle">Включить или отключить отдельные возможности LSP</string>
+    <string name="lsp_feat_completion">Автодополнение</string>
+    <string name="lsp_feat_completion_desc">Предлагать варианты при вводе текста</string>
+    <string name="lsp_feat_diagnostics">Диагностика</string>
+    <string name="lsp_feat_diagnostics_desc">Показывать ошибки, предупреждения и подсказки встроенно</string>
+    <string name="lsp_feat_hover">Информация при наведении</string>
+    <string name="lsp_feat_hover_desc">Показывать тип и документацию при наведении курсора</string>
+    <string name="lsp_feat_signature_help">Подсказка сигнатуры</string>
+    <string name="lsp_feat_signature_help_desc">Показывать подсказки параметров внутри вызовов функций</string>
+    <string name="lsp_feat_code_actions">Действия с кодом</string>
+    <string name="lsp_feat_code_actions_desc">Быстрые исправления, импорты и рефакторинг</string>
+    <string name="lsp_feat_formatting">Форматирование</string>
+    <string name="lsp_feat_formatting_desc">Автоматически форматировать документы и выделения</string>
+    <string name="lsp_feat_inlay_hints">Встроенные подсказки</string>
+    <string name="lsp_feat_inlay_hints_desc">Показывать встроенные подсказки по типам и параметрам</string>
+    <string name="lsp_java_exclude_desktop">Исключить классы Desktop/Swing</string>
+    <string name="lsp_java_exclude_desktop_desc">Скрыть типы AWT, Swing, JavaFX и другие типы JDK, не связанные с Android</string>
+    <!-- Git Clone -->
+    <string name="git_clone_title">Клонировать репозиторий</string>
+    <string name="git_clone_label_url">URL репозитория</string>
+    <string name="git_clone_placeholder_url" translatable="false">https://github.com/user/repo.git</string>
+    <string name="git_clone_label_destination">Клонировать в (родительская папка)</string>
+    <string name="git_clone_placeholder_destination">Нажмите на значок папки, чтобы выбрать</string>
+    <string name="git_clone_content_desc_pick_folder">Выбрать папку</string>
+    <string name="git_clone_label_branch">Ветка (необязательно)</string>
+    <string name="git_clone_placeholder_branch" translatable="false">main</string>
+    <string name="git_clone_label_custom_flags">Пользовательские флаги git</string>
+    <string name="git_clone_label_extra_args">Дополнительные аргументы</string>
+    <string name="git_clone_placeholder_extra_args" translatable="false">--recurse-submodules --depth 1</string>
+    <string name="git_clone_extra_args_hint">Флаги через пробел, добавляемые к команде git clone</string>
+    <string name="git_clone_label_credentials">Использовать учётные данные (приватный репозиторий)</string>
+    <string name="git_clone_label_username">Имя пользователя</string>
+    <string name="git_clone_label_token">Токен / пароль</string>
+    <string name="git_clone_progress">Клонирование, подождите…</string>
+    <string name="git_clone_button">Клонировать</string>
+    <string name="git_clone_status_cloning">Клонирование…</string>
+    <string name="git_clone_error_no_repo_name">Не удалось определить имя репозитория по URL.</string>
+    <string name="git_clone_error_move_failed">Клонирование выполнено, но не удалось переместить в место назначения:\n%1$s</string>
+    <string name="git_not_found_title">Git не установлен</string>
+    <string name="git_not_found_message">Git не установлен в этой среде. Откройте терминал и выполните команду ниже, чтобы установить его, затем повторите клонирование.</string>
+    <string name="git_not_found_command" translatable="false">apt install git -y</string>
+    <string name="git_not_found_open_terminal">Открыть терминал</string>
+    <string name="git_not_found_dismiss">Скрыть</string>
+    <!-- Source Control Drawer & Guided Git Workflow -->
+    <string name="git_source_control_title">Управление версиями</string>
+    <string name="git_refresh">Обновить</string>
+    <string name="git_no_repo_title">Репозиторий Git не найден</string>
+    <string name="git_no_repo_desc">Эта рабочая область еще не является репозиторием Git. Инициализируйте его для отслеживания изменений.</string>
+    <string name="git_init_repo">Инициализировать репозиторий</string>
+    <string name="git_open_terminal_git">Открыть терминал для Git CLI</string>
+    <string name="git_init_dialog_title">Инициализация репозитория Git</string>
+    <string name="git_init_dialog_desc">Создает новый репозиторий Git по адресу:\n%1$s\n\nБудет создана скрытая папка .git для отслеживания версий и истории.</string>
+    <string name="git_init_confirm">Инициализировать</string>
+    <string name="git_first_run_title">Настройка репозитория</string>
+    <string name="git_step_init_done">1. Репозиторий инициализирован</string>
+    <string name="git_step_stage_commit">2. Индексация и фиксация изменений</string>
+    <string name="git_step_add_remote">3. Подключение удаленного репозитория</string>
+    <string name="git_step_push">4. Отправка ветки на удаленный сервер</string>
+    <string name="git_no_remote_banner_title">Удаленный репозиторий не настроен</string>
+    <string name="git_no_remote_banner_desc">Добавьте удаленный репозиторий (например GitHub или GitLab) для отправки изменений и совместной работы.</string>
+    <string name="git_add_remote_btn">Добавить удаленный репозиторий</string>
+    <string name="git_remote_name_label">Имя удаленного репозитория</string>
+    <string name="git_remote_url_label">URL удаленного репозитория</string>
+    <string name="git_remote_url_invalid">Введите корректный URL Git (https://, git@ или ssh://)</string>
+    <string name="git_staged_changes">Индексированные изменения</string>
+    <string name="git_unstaged_changes">Изменения</string>
+    <string name="git_conflict_changes">Конфликты слияния</string>
+    <string name="git_stage_all">Индексировать все</string>
+    <string name="git_unstage_all">Снять индексацию со всех</string>
+    <string name="git_discard_all">Отменить все изменения</string>
+    <string name="git_stage">Индексировать</string>
+    <string name="git_unstage">Снять индексацию</string>
+    <string name="git_discard">Отменить</string>
+    <string name="git_filter_placeholder">Фильтр изменений</string>
+    <string name="git_commit_placeholder">Сообщение коммита</string>
+    <string name="git_commit_btn">Закоммитить</string>
+    <string name="git_amend">Изменить предыдущий коммит</string>
+    <string name="git_sign">Подпись GPG</string>
+    <string name="git_no_staged_hint">Проиндексируйте файлы для коммита</string>
+    <string name="git_clean_tree_hint">Рабочая область чиста, изменений нет</string>
+    <string name="git_quick_actions">Быстрые действия</string>
+    <string name="git_fetch">Получить (Fetch)</string>
+    <string name="git_pull">Стянуть (Pull)</string>
+    <string name="git_push">Отправить (Push)</string>
+    <string name="git_history">История</string>
+    <string name="git_remotes">Удаленные репозитории</string>
+    <string name="git_branches">Ветки</string>
+    <string name="git_stash">Спрятать (Stash)</string>
+    <string name="git_stash_pop">Применить спрятанное</string>
+    <string name="git_merge">Слияние (Merge)</string>
+    <string name="git_cherry_pick">Перенести коммит (Cherry-pick)</string>
+    <string name="git_tag">Тег</string>
+    <string name="git_force_push">Принудительная отправка</string>
+    <string name="git_hard_reset">Жесткий сброс (Hard Reset)</string>
+    <string name="git_credentials">Учетные данные</string>
+    <string name="git_auth_dialog_title">Аутентификация Git</string>
+    <string name="git_auth_dialog_title_invalid">Неверные учётные данные</string>
+    <string name="git_auth_dialog_title_expired">Токен устарел</string>
+    <string name="git_auth_dialog_title_permission">Доступ запрещён</string>
+    <string name="git_auth_username_label">Имя пользователя</string>
+    <string name="git_auth_remember_label">Сохранить учётные данные безопасно</string>
+    <string name="git_auth_confirm">Войти</string>
+    <string name="git_auth_cancel">Отмена</string>
+    <string name="git_auth_auth_required">Для этой операции требуется аутентификация.</string>
+    <string name="git_auth_auth_failed">Ошибка аутентификации. Проверьте правильность введенных данных.</string>
+    <string name="git_auth_permission_denied">Доступ запрещен. Проверьте права доступа к репозиторию или токены.</string>
+    <string name="git_auth_method">Способ аутентификации</string>
+    <string name="git_auth_method_token">Личный токен доступа (PAT)</string>
+    <string name="git_auth_method_password">Имя пользователя и пароль</string>
+    <string name="git_auth_method_ssh">Приватный ключ SSH</string>
+    <string name="git_auth_username">Имя пользователя</string>
+    <string name="git_auth_token_label">Личный токен доступа</string>
+    <string name="git_auth_password_label">Пароль</string>
+    <string name="git_auth_ssh_path_label">Путь к приватному ключу SSH</string>
+    <string name="git_auth_ssh_passphrase">Парольная фраза (необязательно)</string>
+    <string name="git_auth_remember">Безопасно сохранить учетные данные</string>
+    <string name="git_auth_save">Сохранить и продолжить</string>
+    <string name="git_auth_saved_title">Сохраненные учетные данные</string>
+    <string name="git_auth_no_saved">Сохраненных учетных данных пока нет</string>
+    <string name="git_auth_delete">Удалить</string>
+    <string name="git_auth_add_btn">Добавить учётные данные</string>
+    <string name="git_auth_remote_label">Удалённый репозиторий или хост (напр. origin или github.com)</string>
+    <string name="git_auth_username_optional_hint">Имя пользователя (необязательно при использовании токена)</string>
+    <string name="git_diff_inline">В одну колонку</string>
+    <string name="git_diff_side_by_side">Рядом</string>
+    <string name="git_diff_expand">Развернуть различия</string>
+    <string name="git_diff_collapse">Свернуть</string>
+    <string name="git_diff_close">Закрыть</string>
+    <string name="git_diff_binary">Бинарный файл - различия скрыты</string>
+    <string name="git_diff_empty">Различий не обнаружено</string>
+    <string name="git_conflict_banner_title">Обнаружены конфликты слияния</string>
+    <string name="git_conflict_banner_desc">Разрешите конфликты в файлах перед созданием коммита.</string>
+    <string name="git_conflict_accept_ours">Принять текущую версию</string>
+    <string name="git_conflict_accept_theirs">Принять входящую версию</string>
+    <string name="git_conflict_mark_resolved">Отметить как разрешенный</string>
+    <string name="git_hint_stash">Временно сохраняет незафиксированные изменения</string>
+    <string name="git_hint_rebase">Переносит коммиты поверх другой целевой ветки</string>
+    <string name="git_hint_cherry_pick">Применяет изменения конкретного коммита к текущей ветке</string>
+    <string name="git_hint_force_push">Перезаписывает историю удаленной ветки локальным состоянием</string>
+    <string name="git_hint_hard_reset">Сбрасывает все незафиксированные изменения обратно к HEAD</string>
+    <string name="git_branch_current">текущая</string>
+    <string name="git_branch_checkout">Переключить</string>
+    <string name="git_branch_create">Создать</string>
+    <string name="git_branch_delete">Удалить</string>
+    <string name="git_branch_rename">Переименовать</string>
+    <string name="git_branch_new_name">Имя новой ветки</string>
+    <string name="git_branch_filter">Фильтр веток</string>
+    <string name="git_commit_empty_error">Сообщение коммита не может быть пустым</string>
+    <string name="git_nothing_to_commit">Нечего коммитить. Сначала проиндексируйте файлы.</string>
+    <string name="git_nothing_to_push">Ветка синхронизирована с удаленным репозиторием.</string>
+    <string name="git_nothing_to_pull">Репозиторий уже синхронизирован.</string>
+    <string name="git_repo_initialized_success">Репозиторий успешно инициализирован</string>
+    <string name="git_commit_success">Коммит успешно создан</string>
+    <string name="git_push_success">Изменения успешно отправлены</string>
+    <string name="git_pull_success">Изменения успешно получены</string>
+    <string name="git_fetch_success">Информация успешно обновлена</string>
+    <string name="git_up_to_date">Актуально</string>
+    <string name="git_ahead_commits">Впереди на %1$d</string>
+    <string name="git_behind_commits">Позади на %1$d</string>
+    <string name="git_error_dialog_title">Ошибка Git</string>
+    <string name="git_error_dialog_copy">Копировать ошибку</string>
+    <string name="git_error_dialog_copied">Ошибка скопирована в буфер обмена</string>
+    <string name="git_error_dialog_close">Закрыть</string>
+    <string name="git_error_details_label">Подробности ошибки и стек вызовов</string>
+    <!-- Setup Screen - Step 0: Welcome -->
+    <string name="privacy_consent_title">Конфиденциальность</string>
+    <string name="privacy_consent_body">ACS IDE не собирает никаких пользовательских данных.</string>
+    <string name="privacy_consent_accept">Продолжить</string>
+    <string name="privacy_consent_decline">Выход</string>
+
+    <!-- Core Components Missing Dialog -->
+    <string name="core_components_missing_title">Отсутствуют основные компоненты</string>
+    <string name="core_components_missing_message">Основной компонент (com.acside) отсутствует в вашей системе. Этот компонент — ядро Android Code Studio, и он не может отсутствовать. Переустановите IDE полностью, чтобы восстановить основные функции.</string>
+    <string name="core_components_missing_action_reinstall">Переустановить IDE</string>
+    <string name="core_components_missing_action_exit">Выход</string>
+    <string name="bootstrap_marker_missing_error">Отсутствует основной маркер начальной загрузки (.acside_bootstrap_ok). Завершите настройку.</string>
+    <string name="setup_step_welcome_title">Добро пожаловать в AndroidCodeStudio</string>
+    <string name="setup_step_welcome_description">Превратите своё устройство Android в мощную среду разработки.</string>
+    <string name="setup_step_welcome_action">Начать</string>
+    <!-- Setup Screen - Step 1: Storage Permissions -->
+    <string name="setup_step_permissions_title">Разрешения на хранилище</string>
+    <string name="setup_step_permissions_description">Нам нужен доступ к хранилищу вашего устройства для управления файлами проектов.</string>
+    <string name="setup_step_permissions_action">Предоставить разрешение</string>
+    <!-- Setup Screen - Step 2: Install -->
+    <string name="setup_step_install_title">Среда разработки</string>
+    <string name="setup_step_install_description">Загрузите Ubuntu, JDK и Android SDK или установите архивы из хранилища.</string>
+    <string name="setup_step_install_action">Установить среду</string>
+    <!-- Setup Screen - Step 3: Complete -->
+    <string name="setup_step_complete_title">Всё готово!</string>
+    <string name="setup_step_complete_description">Ваша среда разработки готова. Начните программировать!</string>
+    <string name="setup_step_complete_action">Начать программировать</string>
+    <!-- Setup Screen - Install progress UI -->
+    <string name="setup_label_installing">Установка</string>
+    <!-- Setup Screen - Error UI -->
+    <string name="setup_error_install_failed">Установка не удалась</string>
+    <!-- Setup Screen - Retry button -->
+    <string name="setup_btn_retry">Повторить установку</string>
+    <string name="setup_manual_section_title">Установить ACS Bootstrap</string>
+    <string name="setup_manual_section_hint">Начиная с Alpha 6, ACS Lite официально перешёл на использование пакетов Termux через среду ACSIDE. Чтобы продолжить настройку IDE, нажмите «Установить ACSIDE Bootstrap».</string>
+    <string name="setup_manual_section_or_hint">Или</string>
+    <string name="setup_acside_shared_package">Установить ACSIDE Bootstrap</string>
+    <string name="setup_manual_installed">Установлено</string>
+    <string name="jdk_pick_title_install">Выберите версию JDK</string>
+    <string name="jdk_pick_desc_install">Выберите версию Java Development Kit для установки.</string>
+    <string name="jdk_pick_confirm_install">Установить</string>
+    <string name="jdk_pick_title_import">Версия JDK для архива</string>
+    <string name="jdk_pick_desc_import">Выберите версию, под которой следует установить этот архив.</string>
+    <string name="jdk_pick_confirm_import">Продолжить</string>
+    <string name="sdk_manual_installed">Импортировано</string>
+    <string name="sdk_manual_section_title">Установить из хранилища</string>
+    <string name="sdk_manual_jdk">Импортировать архив JDK</string>
+    <string name="sdk_manual_sdk">Импортировать архив Android SDK</string>
+    <!-- BugReportOverlay -->
+    <string name="bug_report_fab_content_desc">Сообщить об ошибке</string>
+    <string name="bug_report_dialog_title">Сообщить об ошибке</string>
+    <string name="bug_report_close_content_desc">Закрыть</string>
+    <string name="bug_report_attachment_default_name">вложение</string>
+    <string name="bug_report_remove_attachment_content_desc">Удалить вложение</string>
+    <!-- Consent dialog -->
+    <string name="bug_report_consent_title">Прежде чем продолжить</string>
+    <string name="bug_report_consent_body">Отчёты об ошибках содержат модель устройства, версию Android, версию приложения, а также любое описание или файлы, которые вы решите приложить.\n\nЭта информация отправляется разработчику и используется исключительно для диагностики и исправления проблем. Личные данные не собираются.\n\nВы согласны отправить эту информацию?</string>
+    <string name="bug_report_consent_agree">Согласен</string>
+    <string name="bug_report_consent_decline">Нет, спасибо</string>
+    <!-- Report form -->
+    <string name="bug_report_rate_limit_msg">Вы отправили отчётов: %1$d. Подождите %2$d с, прежде чем отправить ещё один.</string>
+    <string name="bug_report_title_label">Заголовок проблемы</string>
+    <string name="bug_report_title_placeholder">Краткое описание ошибки</string>
+    <string name="bug_report_title_error">Требуется заголовок</string>
+    <string name="bug_report_body_label">Описание</string>
+    <string name="bug_report_body_placeholder">Шаги для воспроизведения, что вы ожидали, что произошло…</string>
+    <string name="bug_report_body_error">Требуется описание</string>
+    <string name="bug_report_attach_button">Прикрепить файл или изображение (необязательно)</string>
+    <string name="bug_report_cancel_button">Отмена</string>
+    <string name="bug_report_send_button">Отправить отчёт</string>
+    <string name="bug_report_reports_remaining">Осталось отчётов: %1$d / %2$d</string>
+    <string name="bug_report_reset_preferences_button">Сбросить настройки</string>
+    <!-- MainActivity -->
+    <string name="main_git_icon_content_desc">Git</string>
+    <string name="main_hero_line1">Откройте или создайте</string>
+    <string name="main_hero_line2">Ваш следующий проект</string>
+
+    <string name="main_section_quick_actions">Быстрые действия</string>
+    <string name="main_section_recent_projects">Недавние проекты</string>
+    <string name="main_project_updated">Обновлено %1$s</string>
+    <!-- RecentProjectCard -->
+    <string name="project_type_flutter" translatable="false">Flutter</string>
+    <string name="project_type_android" translatable="false">Android</string>
+    <!-- GeneralSettings sections -->
+    <string name="settings_section_appearance">Внешний вид</string>
+    <string name="settings_section_language">Язык</string>
+    <string name="settings_section_developer">Параметры разработчика</string>
+    <!-- Appearance settings -->
+    <string name="settings_dark_mode_title">Тёмная тема</string>
+    <string name="settings_dark_mode_desc">Использовать тёмную тему во всём приложении</string>
+    <string name="settings_looks_feel_title">Внешний вид</string>
+    <string name="settings_looks_feel_desc">Выберите цветовую палитру приложения</string>
+    <string name="settings_looks_feel_custom_colors_title">Пользовательская палитра</string>
+    <string name="settings_looks_feel_color_primary">Основной</string>
+    <string name="settings_looks_feel_color_secondary">Дополнительный</string>
+    <string name="settings_looks_feel_color_tertiary">Третичный</string>
+    <string name="settings_looks_feel_color_background">Фон</string>
+    <string name="settings_looks_feel_color_surface">Поверхность</string>
+    <string name="settings_looks_feel_color_error">Ошибка</string>
+    <string name="settings_looks_feel_hex_label">Цвет в Hex</string>
+    <string name="settings_looks_feel_apply">Применить</string>
+    <string name="settings_looks_feel_cancel">Отмена</string>
+    <string name="settings_fluent2_look_title">Стиль Windows 11 Fluent 2</string>
+    <string name="settings_fluent2_look_desc">Применить визуальный стиль в духе Fluent 2 во всём приложении</string>
+    <string name="settings_fluent2_restart_title">Требуется перезапуск</string>
+    <string name="settings_fluent2_restart_message">Перезапустите приложение, чтобы применить новый стиль.</string>
+    <string name="settings_fluent2_restart_confirm">Перезапустить сейчас</string>
+    <string name="settings_fluent2_restart_later">Позже</string>
+    <string name="settings_app_scale_title">Масштаб приложения</string>
+    <string name="settings_app_scale_desc">Масштаб: %1$sx</string>
+    <!-- Language settings -->
+    <string name="settings_language_title">Язык приложения</string>
+    <string name="settings_language_desc">Выберите язык, используемый в приложении</string>
+    <!-- Developer settings -->
+    <string name="settings_ide_logs_title">Журналы IDE</string>
+    <string name="settings_ide_logs_desc">Включить подробное журналирование для отладки</string>
+    <!-- Developer settings -->
+    <string name="settings_bug_report_overlay_title">Оверлей отчётов об ошибках</string>
+    <string name="settings_bug_report_overlay_desc">Показывает плавающий оверлей для быстрой отправки отчётов о проблемах</string>
+    <!-- LocaleManager display names - never translate these -->
+    <string name="locale_system_default">Как в системе</string>
+    <string name="locale_english" translatable="false">English</string>
+    <string name="locale_arabic" translatable="false">العربية</string>
+    <string name="locale_french" translatable="false">Français</string>
+    <string name="locale_german" translatable="false">Deutsch</string>
+    <string name="locale_spanish" translatable="false">Español</string>
+    <string name="locale_portuguese" translatable="false">Português</string>
+    <string name="locale_russian" translatable="false">Русский</string>
+    <string name="locale_chinese" translatable="false">中文</string>
+    <string name="locale_japanese" translatable="false">日本語</string>
+    <string name="locale_korean" translatable="false">한국어</string>
+    <!-- Language switch overlay -->
+    <string name="settings_language_switching_title">Смена языка</string>
+    <string name="settings_language_switching_subtitle">Приложение сейчас перезапустится…</string>
+    <!-- EditorActivity: Permission -->
+    <string name="storage_permission_required">Для просмотра файлов требуется разрешение на доступ к хранилищу</string>
+    <string name="all_files_access_permission">Предоставьте разрешение «Доступ ко всем файлам» в настройках</string>
+    <!-- EditorActivity: Flutter SDK not found dialog -->
+    <string name="flutter_sdk_not_found_title">Flutter SDK не найден</string>
+    <string name="flutter_sdk_not_found_message">Flutter SDK не найден</string>
+    <string name="flutter_sdk_not_found_error_code" translatable="false">ACS_FLUTTER_SDK_NOT_FOUND illegal argument</string>
+    <string name="flutter_sdk_install_hint">Установите Flutter SDK через менеджер SDK на главном экране перед открытием проекта Flutter.</string>
+    <!-- EditorActivity: Exit dialog -->
+    <string name="exit_editor_title">Выйти из редактора?</string>
+    <string name="exit_editor_message">Это закроет проект и очистит ресурсы.</string>
+    <string name="unsaved_changes_warning">⚠️ У вас есть несохранённые изменения!</string>
+    <string name="exit_with_cleanup">Выйти с очисткой</string>
+    <!-- EditorActivity: Cleanup progress dialog -->
+    <string name="cleaning_up_title">Очистка…</string>
+    <string name="force_stop">Принудительная остановка</string>
+    <string name="cleanup_stopping_builds">Остановка активных сборок…</string>
+    <string name="cleanup_stopping_daemons">Остановка демонов Gradle…</string>
+    <string name="cleanup_shutting_down_gradle">Завершение работы службы Gradle…</string>
+    <string name="cleanup_closing_terminals">Закрытие сессий терминала…</string>
+    <string name="cleanup_stopping_lsp">Остановка языковых серверов…</string>
+    <string name="cleanup_finalizing">Завершение…</string>
+    <!-- EditorActivity: Service / build messages -->
+    <string name="tooling_api_not_available">API инструментов недоступен. Функции сборки будут отключены.</string>
+    <string name="services_may_need_reconnect">Некоторым службам может потребоваться повторное подключение</string>
+    <!-- EditorScreen: General -->
+    <string name="toggle_navigation_drawer">Открыть/закрыть боковое меню</string>
+    <!-- EditorScreen: Bottom sheet header -->
+    <string name="build_output">Вывод сборки</string>
+    <string name="ready">Готово</string>
+    <!-- EditorScreen: Bottom sheet tab titles -->
+    <string name="tab_output">Вывод</string>
+    <string name="tab_problems">Проблемы</string>
+    <string name="tab_app_logs">Логи приложения</string>
+    <string name="tab_ide_logs">Логи IDE</string>
+    <!-- EditorScreen: LSP / definition navigation -->
+    <string name="could_not_open_definition">Не удалось открыть определение</string>
+    <string name="definition_not_found">Определение не найдено</string>
+    <!-- EditorScreen: Unsupported JDK dialog -->
+    <string name="unsupported_java_version_title">Неподдерживаемая версия Java</string>
+    <string name="unsupported_java_version_message">Языковому серверу Kotlin требуется Java 21 или новее.\n\nТекущая среда выполнения Java слишком старая для его запуска (версия class-файла 65.0 требует Java 21+). Установите Temurin JDK 21 через менеджер SDK и перезапустите IDE.</string>
+    <!-- EditorScreen: Sync -->
+    <string name="syncing_project">Синхронизация проекта…</string>
+    <string name="finalizing_sync">Завершение синхронизации…</string>
+    <string name="refreshing_classpaths">Обновление путей к классам…</string>
+    <string name="restarting_language_servers">Перезапуск языковых серверов…</string>
+    <string name="loading_tasks">Загрузка задач…</string>
+    <string name="sync_completed">Синхронизация завершена!</string>
+    <string name="project_synced_successfully">✓ Проект успешно синхронизирован</string>
+    <string name="sync_failed">✗ Синхронизация не удалась. Проверьте вывод сборки.</string>
+    <string name="sync_error">✗ Ошибка синхронизации: %s</string>
+    <string name="please_sync_project_first">Сначала синхронизируйте проект или дождитесь завершения синхронизации</string>
+    <!-- EditorScreen: File actions -->
+    <string name="file_saved">Файл сохранён</string>
+    <string name="failed_to_save_file">Не удалось сохранить файл</string>
+    <string name="failed_to_open_file">Не удалось открыть файл: %s</string>
+    <!-- EditorScreen: Build actions -->
+    <string name="build_cancelled">Сборка отменена</string>
+    <string name="failed_to_cancel">Не удалось отменить: %s</string>
+    <string name="failed_to_run">Не удалось запустить: %s</string>
+    <!-- Shared: Flutter -->
+    <string name="flutter_clean_running">Выполняется очистка Flutter…</string>
+    <string name="flutter_clean_completed">Очистка Flutter успешно завершена</string>
+    <string name="flutter_clean_failed">Очистка Flutter завершилась с ошибкой (код %1$d)</string>
+    <string name="flutter_clean_error">Ошибка при выполнении очистки Flutter: %1$s</string>
+    <string name="flutter_pub_get_running">Выполняется Flutter pub get…</string>
+    <string name="flutter_pub_get_completed">Flutter pub get успешно завершён</string>
+    <string name="flutter_pub_get_failed">Flutter pub get не выполнен. Подробности см. на панели вывода.</string>
+    <string name="flutter_pub_get_failed_with_code">Flutter pub get завершился с ошибкой (код %1$d)</string>
+    <string name="flutter_pub_get_failed_reason">Flutter pub get завершился с ошибкой: %1$s</string>
+    <string name="flutter_dependencies_downloaded">Зависимости Flutter успешно загружены</string>
+    <string name="dart_pub_get_running">Выполняется Dart pub get…</string>
+    <string name="dart_pub_get_completed">Dart pub get успешно завершён</string>
+    <string name="dart_pub_get_failed_with_code">Dart pub get завершился с ошибкой (код %1$d)</string>
+    <string name="dart_pub_get_failed_reason">Dart pub get завершился с ошибкой: %1$s</string>
+    <string name="flutter_sdk_not_found_settings">Flutter SDK не найден. Установите Flutter в настройках IDE.</string>
+    <!-- Shared: Generic error -->
+    <string name="error_with_message">Ошибка: %s</string>
+    <string name="settings_back">Назад</string>
+    <string name="settings_hero_line1">Настройте</string>
+    <string name="settings_hero_line2">Свой опыт</string>
+    <string name="settings_hero_subtitle">Настройки и параметры приложения</string>
+    <string name="settings_section_header">Настройки</string>
+    <string name="settings_detail_subtitle">Настройки</string>
+    <string name="settings_summary_general">Внешний вид, файлы и подтверждения</string>
+    <string name="settings_summary_editor">Шрифт, отображение и поведение кода</string>
+    <string name="settings_summary_experimental">Предпросмотр и экспериментальные функции</string>
+    <string name="settings_summary_terminal">Настройка параметров терминала</string>
+    <string name="settings_summary_about">Информация о приложении, устройстве и ссылки</string>
+    <string name="settings_summary_output_debug">Вывод сборки, logcat и ADB</string>
+    <string name="settings_output_debug_section_title">Вывод и отладка</string>
+    <string name="settings_section_build_output">Вывод сборки</string>
+    <string name="settings_section_logcat_backend">Logcat приложения</string>
+    <string name="settings_section_adb_setup">Настройка ADB</string>
+    <string name="settings_logcat_backend_title">Источник Logcat</string>
+    <string name="settings_logcat_backend_desc">Рекомендуется ADB. Shizuku по-прежнему доступен как альтернатива.</string>
+    <string name="settings_logcat_backend_adb">ADB (рекомендуется)</string>
+    <string name="settings_logcat_backend_shizuku">Shizuku</string>
+    <string name="settings_adb_step_developer_title">1. Откройте параметры разработчика</string>
+    <string name="settings_adb_step_developer_desc">Сначала включите параметры разработчика, затем вернитесь сюда.</string>
+    <string name="settings_adb_step_usb_title">2. Включите отладку по USB</string>
+    <string name="settings_adb_step_usb_desc">Включите отладку по USB в параметрах разработчика.</string>
+    <string name="settings_adb_step_wireless_title">3. Включите беспроводную отладку</string>
+    <string name="settings_adb_step_wireless_desc">Откройте беспроводную отладку и оставьте её включённой.</string>
+    <string name="settings_adb_step_pair_title">4. Сопряжение ACS с беспроводной отладкой</string>
+    <string name="settings_adb_step_pair_desc">Запускает поиск сопряжения. Когда появится служба сопряжения, введите код из уведомления.</string>
+    <string name="settings_adb_open_developer_options">Открыть</string>
+    <string name="settings_adb_open_wireless">Открыть</string>
+    <string name="settings_adb_start_pairing">Сопряжение</string>
+    <string name="settings_adb_developer_help_title">Включить параметры разработчика</string>
+    <string name="settings_adb_developer_help_body">Откройте Настройки → О телефоне, затем нажмите на номер сборки семь раз, пока не включатся параметры разработчика.</string>
+    <string name="settings_adb_developer_help_got_it">Понятно</string>
+    <string name="settings_adb_usb_otg_title">Устройства USB-OTG</string>
+    <string name="settings_adb_usb_otg_desc">Запросить разрешение USB-хоста для устройств ADB, подключённых через USB-OTG.</string>
+    <string name="settings_adb_usb_otg_action">Предоставить USB</string>
+    <string name="settings_adb_how_to_connect_title">Беспроводная отладка</string>
+    <string name="settings_adb_how_to_connect_desc">Сопряжение ACS и проверка статуса подключения.</string>
+    <string name="settings_adb_how_to_connect_action">Как подключиться</string>
+    <string name="adb_connect_title">Подключение через ADB</string>
+    <string name="adb_connect_subtitle">Сопряжение беспроводной отладки и установка на подключённое устройство</string>
+    <string name="adb_connect_status_section">Подключение</string>
+    <string name="adb_connect_status_checking">Проверка…</string>
+    <string name="adb_connect_status_connected">Подключено</string>
+    <string name="adb_connect_status_disconnected">Не подключено</string>
+    <string name="adb_connect_refresh">Обновить</string>
+    <string name="adb_connect_pair_action">Сопряжение</string>
+    <string name="adb_connect_pair_waiting">Ожидание сопряжения…</string>
+    <string name="adb_connect_pair_done">Уже подключено</string>
+    <string name="adb_pairing_channel_name">Сопряжение беспроводной отладки</string>
+    <string name="adb_pairing_searching_title">Поиск службы сопряжения</string>
+    <string name="adb_pairing_searching_text">Ожидание сопряжения беспроводной отладки…</string>
+    <string name="adb_pairing_found_title">Служба сопряжения найдена</string>
+    <string name="adb_pairing_found_text">Введите код сопряжения для порта %1$d</string>
+    <string name="adb_pairing_working_title">Сопряжение выполняется</string>
+    <string name="adb_pairing_succeed_title">Сопряжение выполнено успешно</string>
+    <string name="adb_pairing_succeed_text">ACS подключён через беспроводную отладку.</string>
+    <string name="adb_pairing_failed_title">Сопряжение не удалось</string>
+    <string name="adb_pairing_failed_text">Не удалось выполнить сопряжение с беспроводной отладкой.</string>
+    <string name="adb_pairing_code_label">Код сопряжения</string>
+    <string name="adb_pairing_input_action">Ввести код сопряжения</string>
+    <string name="adb_pairing_stop">Остановить</string>
+    <string name="editor_section_gradle_service">Служба Gradle</string>
+    <string name="editor_section_syntax_highlighting">Подсветка синтаксиса</string>
+    <string name="editor_section_display">Отображение</string>
+    <string name="editor_section_behavior">Поведение</string>
+    <string name="editor_section_lsp_kotlin">LSP: Kotlin</string>
+    <string name="editor_section_advanced">Дополнительно</string>
+    <string name="editor_theme_title">Тема редактора</string>
+    <string name="editor_syntax_highlighting_title">Подсветка синтаксиса</string>
+    <string name="editor_syntax_highlighting_desc">Раскрашивать код в зависимости от языка</string>
+    <string name="editor_color_preview_title">Предпросмотр цвета</string>
+    <string name="editor_color_preview_desc">Показывать предпросмотр значений цвета</string>
+    <string name="editor_highlight_current_line_title">Подсветка текущей строки</string>
+    <string name="editor_highlight_current_line_desc">Подсвечивать строку с курсором</string>
+    <string name="editor_font_family_title">Семейство шрифта</string>
+    <string name="editor_font_import_option">Импортировать шрифт…</string>
+    <string name="editor_memory_usage_title">Использование памяти</string>
+    <string name="editor_memory_usage_desc">Показывать оверлей использования памяти</string>
+    <string name="editor_font_size_title">Размер шрифта</string>
+    <string name="editor_font_size_desc">%dпикс</string>
+    <string name="editor_tab_size_title">Размер табуляции</string>
+    <string name="editor_tab_size_desc">%d пробелов</string>
+    <string name="editor_line_numbers_title">Номера строк</string>
+    <string name="editor_line_numbers_desc">Показывать номера строк на полях</string>
+    <string name="editor_word_wrap_title">Перенос строк</string>
+    <string name="editor_word_wrap_desc">Переносить длинные строки по ширине экрана</string>
+    <string name="editor_line_column_indicator_title">Индикатор строки и столбца</string>
+    <string name="editor_line_column_indicator_desc">Показывать позицию курсора в редакторе</string>
+    <string name="editor_auto_format_title">Автоформатирование</string>
+    <string name="editor_auto_format_desc">Автоматически форматировать код после сохранения</string>
+    <string name="editor_auto_indent_title">Автоотступ</string>
+    <string name="editor_auto_indent_desc">Автоматически расставлять отступы для новых строк</string>
+    <string name="editor_auto_pairing_title">Автозакрытие скобок</string>
+    <string name="editor_auto_pairing_desc">Автоматически закрывать скобки и кавычки</string>
+    <string name="editor_string_extraction_title">Извлечение строк</string>
+    <string name="editor_string_extraction_desc">Обнаруживать жёстко заданные строки и предлагать действия по их извлечению в ресурсы</string>
+    <string name="editor_page_mode_title">Постраничный режим</string>
+    <string name="editor_page_mode_desc">Разбивает редактор на страницы при открытии больших файлов.</string>
+    <string name="editor_kotlin_diagnostics_title">Экспериментальная диагностика Kotlin</string>
+    <string name="editor_kotlin_diagnostics_desc">Показывать диагностику для файлов Kotlin</string>
+    <string name="editor_show_whitespace_title">Показывать пробельные символы</string>
+    <string name="editor_show_whitespace_desc">Визуально отображать пробелы и табуляции</string>
+    <string name="editor_show_line_endings_title">Показывать окончания строк</string>
+    <string name="editor_show_line_endings_desc">Отображать символы разрыва строки</string>
+    <string name="editor_cursor_blink_title">Мигание курсора</string>
+    <string name="editor_cursor_blink_desc">Анимировать мигание курсора</string>
+    <string name="editor_visible_password_flag_title">Флаг видимого пароля</string>
+    <string name="editor_visible_password_flag_desc">Использовать безопасную клавиатуру без подсказок. Отключите для отображения подсказок клавиатуры.</string>
+    <string name="editor_font_import_dialog_title">Импорт пользовательского шрифта</string>
+    <string name="editor_font_import_dialog_body">Выберите файл шрифта TrueType (.ttf) или OpenType (.otf).</string>
+    <string name="editor_font_import_name_label">Название шрифта</string>
+    <string name="editor_font_import_choose_file">Выбрать файл шрифта</string>
+    <string name="editor_font_import_confirm">Импортировать</string>
+    <string name="editor_font_import_cancel">Отмена</string>
+    <string name="editor_font_import_file_selected">Файл шрифта выбран ✓</string>
+    <string name="gradle_sync_args_title">Аргументы синхронизации</string>
+    <string name="gradle_no_extra_flags">Нет дополнительных флагов</string>
+    <string name="gradle_common_flags_label">Распространённые флаги</string>
+    <string name="gradle_custom_flag_label">Пользовательский флаг</string>
+    <string name="gradle_custom_flags_label">Пользовательские флаги</string>
+    <string name="gradle_custom_flag_placeholder" translatable="false">e.g. --warning-mode=all</string>
+    <string name="gradle_add_flag_cd">Добавить флаг</string>
+    <string name="gradle_remove_flag_cd">Удалить</string>
+    <string name="settings_about_section_title">О приложении</string>
+    <string name="settings_editor_section_title">Редактор</string>
+    <string name="settings_general_section_title">Общие</string>
+    <string name="settings_experimental_section_title">Экспериментальные функции</string>
+    <string name="settings_terminal_section_title">Терминал</string>
+    <string name="settings_terminal_section_header">Гибридная среда</string>
+    <string name="settings_proot_no_seccomp_title">Отключить seccomp в PRoot</string>
+    <string name="settings_proot_no_seccomp_desc">Применяет PROOT_NO_SECCOMP=1 к сессиям PRoot. Используйте только если гибридная среда не работает на вашем устройстве.</string>
+    <string name="error_report_title">Отправить отчёт об ошибке?</string>
+    <string name="error_report_message">Что-то пошло не так. Анонимный отчёт с диагностическими логами будет отправлен разработчику только с вашего согласия. Эти логи помогают устранить проблему. Личные данные не включаются.</string>
+    <string name="error_report_send_report_btn">Отправить отчёт</string>
+    <string name="error_report_no_thanks_btn">Нет, спасибо</string>
+    <!-- About Section - App Info -->
+    <string name="about_app_name">Android Code Studio</string>
+    <!-- About Section - Device Information -->
+    <string name="about_device_info_title">Информация об устройстве</string>
+    <string name="about_device_label">Устройство</string>
+    <string name="about_model_label">Модель</string>
+    <string name="about_android_label">Android</string>
+    <!-- About Section - Links -->
+    <string name="about_links_title">Ссылки</string>
+    <string name="about_link_source_code">Исходный код</string>
+    <string name="about_link_discussion">Группа обсуждения</string>
+    <string name="about_link_channel">Официальный канал</string>
+    <string name="lib_editor_backend_filename" translatable="false">libeditor-backend.so</string>
+    <string name="permission_transition" translatable="false">permission_transition</string>
+    <string name="icon_pulse" translatable="false">icon_pulse</string>
+    <string name="icon_scale" translatable="false">icon_scale</string>
+    <string name="storage_access_required">Требуется доступ к хранилищу</string>
+    <string name="grant_permissions_to_browse_and_manage_your_files">Предоставьте разрешения для просмотра файлов и управления ими</string>
+    <string name="grant_basic_permissions">Предоставить базовые разрешения</string>
+    <string name="grant_all_files_access">Предоставить доступ ко всем файлам</string>
+    <string name="close_terminal">Закрыть терминал</string>
+    <string name="navigate_to_path">Перейти по пути</string>
+    <string name="directory_path">Путь к каталогу</string>
+    <string name="directory_does_not_exist_or_is_not_allowed">Каталог не существует или недоступен</string>
+    <string name="go">Перейти</string>
+    <string name="locations">Расположения</string>
+    <string name="restricted_to_listed_directories">Ограничено перечисленными каталогами</string>
+    <string name="twin_file_manager">Файловый менеджер Twin</string>
+    <string name="drawer_icon_progress" translatable="false">drawer_icon_progress</string>
+    <string name="toggle_drawer">Открыть/закрыть панель</string>
+    <string name="git_clone">Клонировать Git</string>
+    <string name="delete">Удалить</string>
+    <string name="str_new">Создать</string>
+    <string name="select">Выбрать</string>
+    <string name="select_all">Выбрать всё</string>
+    <string name="all">Все</string>
+    <!-- Those are new and should go here -->
+    <string name="file_browser">Файловый браузер</string>
+    <string name="close_search">Закрыть поиск</string>
+    <string name="search_projects">Поиск проектов</string>
+    <string name="project_directory_path">Путь к каталогу проекта</string>
+    <string name="project_directory_path_placeholder">Путь к вашему проекту</string>
+    <string name="project_directory_does_not_exist">Каталог проекта не существует</string>
+    <string name="browse_with_file_picker">Выбрать через диалог выбора файлов</string>
+    <string name="path_must_be_under_sdcard">Путь должен находиться в /sdcard, AndroidCSProjects или Projects</string>
+    <string name="directory_not_found_or_not_valid">Каталог не найден или не является допустимым проектом</string>
+    <string name="open_project_sheet_search_hint">Поиск проектов…</string>
+    <string name="open_project_sheet_section_all_projects">ВСЕ ПРОЕКТЫ</string>
+    <string name="open_project_sheet_no_match">Нет проектов, соответствующих "%1$s"</string>
+    <string name="open_project_sheet_no_projects">Проекты не найдены</string>
+    <string name="open_project_sheet_recent_badge">Недавний</string>
+    <string name="problems_quick_fix">Быстрое исправление</string>
+    <string name="problems_quick_fix_choose_title">Выберите исправление</string>
+    <string name="problems_quick_fix_none">Нет доступных быстрых исправлений</string>
+    <string name="editor_drawer_backup_project">Резервная копия проекта (ZIP)</string>
+    <string name="backup_project_succeeded">Резервная копия проекта сохранена</string>
+    <string name="backup_project_failed">Не удалось создать резервную копию</string>
+    <string name="backup_project_in_progress">Создание резервной копии проекта…</string>
+    <string name="backup_project_succeeded_title">Резервное копирование завершено</string>
+    <string name="backup_project_failed_title">Резервное копирование не удалось</string>
+    <string name="backup_project_files_progress">%1$d из %2$d файлов</string>
+    <string name="backup_project_eta_calculating">Оценка оставшегося времени…</string>
+    <string name="backup_project_eta_almost_done">Почти готово…</string>
+    <string name="backup_project_eta_seconds">Осталось примерно %1$d с</string>
+    <string name="backup_project_collapse">Свернуть</string>
+    <string name="backup_project_expand">Развернуть</string>
+    <string name="recent_project_menu_subtitle">Проект</string>
+    <string name="recent_project_copy_path">Скопировать путь</string>
+    <string name="recent_project_path_copied">Путь скопирован</string>
+    <string name="recent_project_rename">Переименовать</string>
+    <string name="recent_project_rename_title">Переименовать проект</string>
+    <string name="recent_project_rename_label">Имя проекта</string>
+    <string name="recent_project_rename_confirm">Переименовать</string>
+    <string name="recent_project_rename_succeeded">Проект переименован</string>
+    <string name="recent_project_rename_failed">Не удалось переименовать проект</string>
+    <string name="recent_project_delete_permanently">Удалить навсегда</string>
+    <string name="recent_project_delete_title">Удалить проект?</string>
+    <string name="recent_project_delete_message">Это навсегда удалит «%1$s» и все файлы в:\n%2$s</string>
+    <string name="recent_project_delete_confirm">Удалить</string>
+    <string name="recent_project_delete_succeeded">Проект удалён</string>
+    <string name="recent_project_delete_failed">Не удалось удалить проект</string>
+
+    <!-- ATC Compose Wizard Strings -->
+    <string name="atc_checking_ndk">Проверка NDK...</string>
+    <string name="atc_error_invalid_ndk">Найденная последняя версия NDK (%1$s) недействительна или повреждена.</string>
+    <string name="atc_error_empty_project_name">Имя проекта не может быть пустым</string>
+    <string name="atc_error_invalid_project_name">Имя проекта должно начинаться с буквы и содержать только буквы, цифры и символы подчёркивания</string>
+    <string name="atc_error_project_exists">Проект с таким именем уже существует в этом расположении</string>
+    <string name="atc_error_project_exists_msg">Проект с именем %1$s уже существует в этом расположении.</string>
+    <string name="atc_creating_project">Создание проекта...</string>
+    <string name="atc_error_create_project_failed">Не удалось создать проект: %1$s</string>
+    <string name="atc_error_generic">Ошибка: %1$s</string>
+    <string name="atc_error_no_cmake">Установка CMake не найдена. Установите CMake в настройках IDE.</string>
+    <string name="atc_invalid_save_location_title">Недопустимое место сохранения</string>
+    <string name="atc_invalid_save_location_message">Игровые проекты должны сохраняться в домашнем каталоге Android Code Studio, чтобы работать корректно.</string>
+    <string name="atc_switch_automatically">Переключить автоматически</string>
+    <string name="native_language_cpp" translatable="false">C++</string>
+    <string name="native_language_c" translatable="false">C</string>
+    <string name="atc_error_no_ndk">NDK не найден</string>
+    <string name="atc_ndk_version">NDK: %1$s</string>
+    <string name="atc_ndk_auto">Авто</string>
+    <string name="atc_ndk_version_label">Версия NDK: %1$s</string>
+    <string name="atc_use_gradle_kts">Использовать Gradle Kotlin DSL</string>
+    <string name="atc_use_cmake">Использовать CMake</string>
+    <string name="atc_create_project_btn">Создать проект</string>
+
+    <!-- Editor Dialogs Strings -->
+    <string name="atc_cleaning_up">Очистка...</string>
+    <string name="atc_cleanup_complete">Очистка завершена</string>
+    <string name="atc_cleanup_desc">Остановка демонов Gradle и очистка ресурсов. Подождите...</string>
+    <string name="atc_cleanup_success">Все ресурсы успешно очищены.</string>
+    <string name="atc_run_task">Выполнить задачу</string>
+    <string name="atc_available_tasks">Доступные задачи:</string>
+
+    <!-- SDK Manager Tabs Strings -->
+    <string name="sdk_tab_build_tools">Build Tools</string>
+    <string name="sdk_tab_ndk">NDK</string>
+    <string name="sdk_tab_cmake">CMake</string>
+    <string name="sdk_tab_platforms">Платформы</string>
+    <string name="sdk_tab_jdk">JDK</string>
+    <string name="sdk_tab_flutter">Flutter</string>
+    <string name="sdk_config_title">Конфигурация SDK</string>
+    <string name="sdk_config_desc">Управление скриптами инициализации Gradle, применяемыми при синхронизации проекта и сборках.</string>
+    <string name="sdk_config_force_ndk">Принудительная версия NDK</string>
+    <string name="sdk_config_force_cmake">Принудительная версия CMake</string>
+    <string name="sdk_config_force_protoc">Принудительный путь к protoc</string>
+
+    <!-- SDK Manager Screen Strings -->
+    <string name="sdk_ndk_versions">Версии NDK</string>
+    <string name="sdk_forced_ndk_format">Принудительный NDK: %1$s</string>
+    <string name="sdk_force_ndk_title">Принудительная версия NDK</string>
+    <string name="sdk_force_ndk_desc">Укажите установленную версию NDK для принудительного применения ко всем проектам. Версия будет проверена по пути /home/Android/Sdk/ndk перед применением.</string>
+    <string name="sdk_ndk_version_label">Версия NDK</string>
+    <string name="sdk_ndk_version_placeholder" translatable="false">e.g. 27.3.13750724</string>
+    <string name="sdk_currently_forced_format">Сейчас принудительно задано: %1$s</string>
+    <string name="sdk_apply_btn">Применить</string>
+    <string name="sdk_version_format">Версия %1$s</string>
+    <string name="sdk_installed_badge">Установлено</string>
+    <string name="sdk_invalid_badge">Недействительно</string>
+    <string name="sdk_ndk_invalid_title">Недействительный NDK</string>
+    <string name="sdk_ndk_invalid_help_cd">Показать, почему этот NDK недействителен</string>
+    <string name="sdk_uninstall_btn">Удалить</string>
+    <string name="sdk_installing_status">Установка...</string>
+    <string name="sdk_install_btn">Установить</string>
+    <string name="sdk_flutter_sdk">Flutter SDK</string>
+    <string name="sdk_installed_ready">Установлено и готово</string>
+    <string name="sdk_not_installed">Не установлено</string>
+    <string name="sdk_requirements">Требования</string>
+    <string name="sdk_architecture">Архитектура</string>
+    <string name="sdk_arm64_only">Только ARM64</string>
+    <string name="sdk_storage_required">Требуется места</string>
+    <string name="sdk_flutter_storage_value" translatable="false">~2 GB</string>
+    <string name="sdk_already_installed">Уже установлено</string>
+    <string name="sdk_install_flutter">Установить Flutter</string>
+    <string name="sdk_uninstall_flutter">Удалить Flutter</string>
+    <string name="sdk_uninstalling_status">Удаление...</string>
+    <string name="sdk_close_btn">Закрыть</string>
+    <string name="sdk_jdk_imported_msg">JDK %1$s импортирован</string>
+    <string name="sdk_jdk_import_failed_msg">Не удалось импортировать JDK</string>
+    <string name="sdk_android_sdk_imported_msg">Android SDK импортирован</string>
+    <string name="sdk_android_sdk_import_failed_msg">Не удалось импортировать SDK</string>
+    <string name="sdk_no_ndk_found">NDK не найден</string>
+    <string name="sdk_platform_tools">Platform Tools</string>
+    <string name="sdk_cmake_versions">Версии CMake</string>
+    <string name="sdk_jdk_versions">Версии JDK</string>
+
+    <string name="env_setup_header_title">Установка среды</string>
+    <string name="env_setup_header_subtitle">Настройте JDK, SDK и NDK</string>
+    <string name="env_setup_back_content_description">Назад</string>
+    
+    <string name="env_setup_jdk_title">OpenJDK</string>
+    <string name="env_setup_jdk_subtitle">Выберите версию JDK для использования</string>
+    
+    <string name="env_setup_sdk_title">Android SDK</string>
+    <string name="env_setup_sdk_subtitle">Установить автоматически или из локального архива</string>
+    <string name="env_setup_sdk_archive_field_label">Архив SDK</string>
+    <string name="env_setup_sdk_archive_field_placeholder">Файл не выбран</string>
+    <string name="env_setup_sdk_archive_field_support" translatable="false">.zip, .tar.gz, or .tar.xz</string>
+    <string name="env_setup_sdk_archive_picker_content_description">Выбрать файл архива SDK</string>
+    
+    <string name="env_setup_ndk_title">Android NDK</string>
+    <string name="env_setup_ndk_subtitle">Выберите версию набора инструментов NDK</string>
+    
+    <string name="env_setup_done_button">Готово</string>
+
+    <!-- Feature Announcement Strings -->
+    <string name="feature_badge_new">Новая функция</string>
+    <string name="feature_fluent2_title">Режим Windows 11 Fluent 2</string>
+    <string name="feature_fluent2_subtitle">Оцените визуальные изменения нового поколения</string>
+    <string name="feature_fluent2_description">Android Code Studio теперь использует эстетику Microsoft Fluent 2, предлагая изысканный интерфейс уровня рабочего стола с мягкой глубиной, фонами Mica и скруглёнными элементами управления.</string>
+    <string name="feature_fluent2_highlight1_title">Поверхности Mica и Acrylic</string>
+    <string name="feature_fluent2_highlight1_desc">Полупрозрачные слоистые карточки, мягкие тени и чёткие границы на всех экранах.</string>
+    <string name="feature_fluent2_highlight2_title">Улучшенная типографика и отступы</string>
+    <string name="feature_fluent2_highlight2_desc">Повышенная читаемость благодаря компактным элементам управления и динамическим выделениям.</string>
+    <string name="feature_fluent2_highlight3_title">Мгновенное переключение в один клик</string>
+    <string name="feature_fluent2_highlight3_desc">Включайте или отключайте режим Fluent 2 в любой момент из шапки главного экрана или настроек.</string>
+    <string name="feature_fluent2_action">Включить Fluent 2</string>
+    <string name="feature_fluent2_dismiss">Понятно</string>
+    <string name="empty_editor_message">Нет открытого файла.\nНажмите кнопку обзора файлов и начните программировать.</string>
+
+    <string name="browse_files">Обзор файлов</string>
+    <!-- XML Preview Strings -->
+    <string name="action_xml_preview_title">Предпросмотр XML</string>
+    <string name="xml_preview_title">Предпросмотр XML</string>
+    <string name="xml_preview_rendering">Отрисовка предпросмотра макета...</string>
+    <string name="xml_preview_error">Ошибка предпросмотра XML</string>
+    <string name="xml_preview_not_synced">Проект не синхронизирован. Сначала синхронизируйте проект Gradle.</string>
+    <string name="xml_preview_no_layout">Файл макета не указан</string>
+    <string name="xml_preview_refresh">Обновить предпросмотр</string>
+    <string name="xml_preview_rebuild">Пересобрать (assembleDebug)</string>
+    <string name="xml_preview_rebuild_hint">Ресурсы макета могут быть устаревшими. Пересоберите модуль с помощью assembleDebug и повторите предпросмотр.</string>
+    <string name="xml_preview_theme">Тема</string>
+    <string name="xml_preview_night_mode">Ночной режим</string>
+    <string name="xml_preview_mode_system">Как в системе</string>
+    <string name="xml_preview_mode_light">Светлая</string>
+    <string name="xml_preview_mode_dark">Тёмная</string>
+    <string name="xml_preview_display_settings">Настройки отображения</string>
+    <string name="xml_preview_menu_preview">Предпросмотр</string>
+    <string name="xml_preview_menu_preview_video">Предпросмотр видео</string>
+    <string name="xml_preview_width_label">Ширина (px)</string>
+    <string name="xml_preview_height_label">Высота (px)</string>
+    <string name="xml_preview_density_label">Плотность (dpi)</string>
+    <string name="xml_preview_preset_standard">Стандарт</string>
+    <string name="xml_preview_preset_full_hd_plus">Full HD+</string>
+    <string name="xml_preview_preset_tablet">Планшет</string>
+    <string name="xml_preview_display_invalid">Введите корректные положительные значения ширины, высоты и плотности.</string>
+    <string name="xml_preview_apply">Применить</string>
+    <string name="xml_preview_applying">Применение…</string>
+    <string name="xml_preview_unavailable">Отрисовка предпросмотра недоступна</string>
+    <string name="xml_preview_parsing">Разбор макета XML %1$s...</string>
+    <string name="xml_preview_no_active">Нет активного предпросмотра XML</string>
+    <string name="xml_preview_start_before_refresh">Сначала запустите предпросмотр, прежде чем обновлять.</string>
+    <string name="xml_preview_start_before_settings">Сначала запустите предпросмотр, прежде чем менять настройки отображения.</string>
+    <string name="xml_preview_start_before_rebuild">Сначала запустите предпросмотр, прежде чем пересобирать.</string>
+    <string name="xml_preview_project_not_synced_title">Проект не синхронизирован</string>
+    <string name="xml_preview_project_not_synced_details">Сначала синхронизируйте проект Gradle, чтобы можно было скомпилировать целевые ресурсы.</string>
+    <string name="xml_preview_metadata_unavailable">Метаданные недоступны</string>
+    <string name="xml_preview_metadata_unavailable_details">Метаданные активной сессии предпросмотра недоступны.</string>
+    <string name="xml_preview_resource_not_found">Пакет ресурсов не найден</string>
+    <string name="xml_preview_resource_not_found_rerender">Нет доступного архива ресурсов для повторной отрисовки.</string>
+    <string name="xml_preview_resource_not_found_after_build">Компиляция завершена, но результат не найден в %1$s.</string>
+    <string name="xml_preview_resource_not_found_apk">Компиляция завершена, но файл .ap_ или .apk не найден в %1$s.</string>
+    <string name="xml_preview_resource_compile_failed">Не удалось скомпилировать ресурсы</string>
+    <string name="xml_preview_incremental_error">Ошибка инкрементальной компиляции</string>
+    <string name="xml_preview_unknown_render_error">Неизвестная ошибка при отрисовке предпросмотра XML</string>
+    <string name="xml_preview_recompiling">Повторная компиляция %1$s...</string>
+    <string name="xml_preview_compiling_resources">Компиляция ресурсов макета целевого модуля...</string>
+    <string name="xml_preview_running_assemble">Выполняется %1$s...</string>
+    <string name="xml_preview_rendering_layout">Отрисовка макета %1$s...</string>
+    <string name="xml_preview_resolving_metadata">Анализ ресурсов целевого модуля...</string>
+    <string name="no_output_yet">Пока нет вывода</string>
+    <string name="run_project_for_output">Запустите проект, чтобы увидеть вывод здесь</string>
+    <string name="previous_page">Предыдущая страница</string>
+    <string name="next_page">Следующая страница</string>
+    <string name="install_apk">Установить APK</string>
+    <string name="share_output">Поделиться выводом</string>
+    <string name="clear_output">Очистить вывод</string>
+    <!-- Language Server Settings -->
+    <string name="experiments_java_lsp_title">Языковой сервер Java</string>
+    <string name="experiments_java_lsp_desc">Автодополнение, диагностика и навигация для файлов Java</string>
+    <string name="experiments_dart_lsp_title">Языковой сервер Dart</string>
+    <string name="experiments_dart_lsp_desc">Автодополнение и анализ для файлов Dart и Flutter</string>
+    <string name="experiments_dart_lsp_no_sdk_desc">Требуется Flutter SDK (не установлен)</string>
+    <string name="experiments_xml_lsp_title">Языковой сервер XML</string>
+    <string name="experiments_xml_lsp_desc">Автодополнение и валидация для XML-разметки и ресурсов Android</string>
+    <string name="experiments_section_gradle_service">Служба Gradle</string>
+    <string name="experiments_custom_gradle_title">Пользовательская установка Gradle</string>
+    <string name="experiments_custom_gradle_desc">Переопределить версию Gradle в gradle-wrapper.properties указанным локальным путем дистрибутива.</string>
+    <string name="experiments_label_experimental">ЭКСПЕРИМЕНТАЛЬНО</string>
+    <!-- LSP JVM Options -->
+    <string name="lsp_jvm_options_title">Параметры JVM</string>
+    <string name="lsp_jvm_options_subtitle">Применяется при следующем запуске сервера</string>
+    <string name="lsp_jvm_memory_header">ПАМЯТЬ</string>
+    <string name="lsp_jvm_extra_flags_header">ДОПОЛНИТЕЛЬНЫЕ ФЛАГИ</string>
+    <string name="lsp_jvm_initial_heap_label">-Xms  (нач. память)</string>
+    <string name="lsp_jvm_max_heap_label">-Xmx  (макс. память)</string>
+    <string name="lsp_jvm_extra_flags_label">Дополнительные флаги JVM</string>
+    <string name="lsp_jvm_reset_action">Сброс</string>
+    <string name="lsp_jvm_save_action">Сохранить</string>
+    <!-- Gradle Task Runner Strings -->
+    <string name="settings_remember_gradle_tasks_title">Запоминать выбранные задачи Gradle</string>
+    <string name="settings_remember_gradle_tasks_desc">Сохранять выбранные задачи Gradle и доп. аргументы между перезапусками приложения</string>
+    <string name="gradle_dialog_remember_tasks">Запомнить выбор</string>
+    <string name="gradle_tasks_run_count">Запустить %1$d задач</string>
+    <string name="gradle_task_run_single">Запустить 1 задачу</string>
+    <string name="gradle_task_select_tasks">Выберите задачи</string>
+    <string name="gradle_tasks_clear_selection">Очистить выбор</string>
+    <string name="gradle_extra_args_btn">Дополнительные аргументы Gradle</string>
+    <string name="gradle_extra_args_count_btn">Доп. аргументы Gradle (%1$d)</string>
+    <string name="gradle_dialog_run_gradle_tasks">Запуск задач Gradle</string>
+    <string name="gradle_dialog_run_flutter_commands">Запуск команд Flutter</string>
+    <string name="gradle_dialog_tasks_selected_count">Выбрано задач: %1$d</string>
+    <string name="gradle_dialog_single_task_selected">Выбрана 1 задача</string>
+    <string name="gradle_args_dialog_title">Дополнительные аргументы Gradle</string>
+    <string name="gradle_args_dialog_subtitle">Выберите стандартные аргументы или добавьте пользовательские</string>
+    <string name="gradle_args_custom_badge">Пользовательский</string>
+    <string name="gradle_args_custom_placeholder">Добавить аргумент (напр. --parallel)</string>
+    <string name="gradle_args_clear_all">Очистить все</string>
+    <string name="gradle_args_apply">Применить</string>
+    <string name="run_action_build_debug">Собрать отладку</string>
+    <string name="run_action_build_release">Собрать релиз</string>
+    <string name="run_action_custom">Пользовательские</string>
+    <!-- Memory Overlay Strings -->
+    <string name="overlay_memory_content_description">Память</string>
+    <string name="overlay_memory_usage_title">Использование памяти</string>
+    <string name="overlay_collapse_content_description">Свернуть</string>
+    <string name="overlay_expand_content_description">Развернуть</string>
+    <string name="overlay_ide_process_title">Процесс IDE</string>
+    <string name="overlay_acside_process_title">Общее использование</string>
+    <string name="overlay_tooling_api_title">Tooling API</string>
+    <string name="overlay_active_screen">Активный экран</string>
+    <string name="overlay_heap_breakdown">Структура кучи</string>
+    <string name="overlay_dalvik_label">Dalvik</string>
+    <string name="overlay_native_label">Native</string>
+    <string name="overlay_other_label">Другое</string>
+    <string name="overlay_active_threads">Активные потоки</string>
+    <string name="overlay_tooling_workspace">Рабочая область</string>
+    <string name="overlay_tooling_building">Сборка</string>
+    <string name="overlay_tooling_heap_graph">График кучи</string>
+    <string name="overlay_size_label">Размер</string>
+    <string name="overlay_drag_to_move">Потяните для перемещения</string>
+    <string name="overlay_status_running">Запущен</string>
+    <string name="overlay_status_not_running">Не запущен</string>
+    <string name="overlay_subprocesses_title">Процессы</string>
+    <string name="overlay_thread_frames_format">%1$d фреймов</string>
+    <string name="overlay_pid_format">PID: %1$d</string>
+    <string name="overlay_used_max_mb_format">%1$d МБ / %2$d МБ</string>
+    <string name="overlay_percent_format">%1$d%%</string>
+    <string name="overlay_mb_format">%1$d МБ</string>
+    <string name="overlay_tooling_mb_format">Tooling %1$d МБ</string>
+    <string name="overlay_acside_mb_format">ACSIDE %1$d МБ</string>
+    <!-- Adaptive Performance Strings -->
+    <string name="adaptive_perf_dialog_title">Адаптивная производительность</string>
+    <string name="adaptive_perf_dialog_subtitle">Оптимальные параметры под ваше устройство</string>
+    <string name="adaptive_perf_specs_ram">Оперативная память</string>
+    <string name="adaptive_perf_specs_storage">Внутреннее хранилище</string>
+    <string name="adaptive_perf_specs_cores">Ядра процессора</string>
+    <string name="adaptive_perf_specs_tier">Профиль производительности</string>
+    <string name="adaptive_perf_tier_low">Базовый</string>
+    <string name="adaptive_perf_tier_balanced">Сбалансированный</string>
+    <string name="adaptive_perf_tier_high">Высокий</string>
+    <string name="adaptive_perf_tier_ultra">Максимальный</string>
+    <string name="adaptive_perf_applying">Применение оптимальных настроек&#8230;</string>
+    <string name="adaptive_perf_applied">Оптимальные параметры производительности применены</string>
+    <string name="adaptive_perf_continue">Продолжить</string>
+    <string name="adaptive_perf_dialog_description">Характеристики вашего устройства проанализированы для оптимизации памяти JVM, скорости языковых серверов и фоновых демонов Gradle.</string>
+    <!-- HealthWatcher Strings -->
+    <string name="health_watcher_nullij_warning_title">Предупреждение о расходе памяти</string>
+    <string name="health_watcher_nullij_warning_message">Использование памяти Android Code Studio достигло %1$d МБ. Рекомендуется закрыть тяжелые вкладки при падении скорости работы.</string>
+    <string name="health_watcher_acside_warning_title">Предупреждение о памяти ACSIDE</string>
+    <string name="health_watcher_acside_warning_message">Память фонового процесса ACSIDE достигла %1$d МБ (порог: %2$d МБ). Остановка языковых серверов освободит память.</string>
+    <string name="health_watcher_stop_lsps">Остановить языковые серверы</string>
+    <string name="health_watcher_never_show_again">Больше не показывать</string>
+    <string name="health_watcher_dismiss">Закрыть</string>
+    <string name="health_watcher_ok">OK</string>
+    <string name="health_watcher_lsps_stopped">Языковые серверы остановлены. Редактор обновлен.</string>
+    <string name="health_watcher_settings_title">Мониторинг памяти и состояния</string>
+    <string name="health_watcher_settings_summary">Отслеживание расхода памяти в фоне и оповещения о превышении порога</string>
+    <string name="health_watcher_threshold_title">Порог памяти ACSIDE</string>
+    <string name="health_watcher_threshold_summary">Предупреждать при превышении процессом этого лимита</string>
+    <string name="health_watcher_unit_title">Единица порога</string>
+    <string name="health_watcher_unit_summary">Единица измерения порога памяти фонового процесса</string>
+    <string name="health_watcher_reset_dialogs_title">Сбросить настройки диалогов предупреждений</string>
+    <string name="health_watcher_reset_dialogs_summary">Снова показывать скрытые предупреждения о расходе памяти</string>
+    <string name="health_watcher_reset_dialogs_done">Настройки предупреждений сброшены до стандартных.</string>
+    <!-- Tooling API JVM Options Strings -->
+    <string name="experiments_tooling_api_jvm_title">Параметры JVM для Tooling API</string>
+    <string name="experiments_tooling_api_jvm_desc">Настройка памяти и параметров JVM для сервера Gradle Tooling API.</string>
+    <string name="tooling_api_jvm_options_title">Параметры JVM для Tooling API</string>
+    <string name="tooling_api_jvm_options_subtitle">Применяется при следующем запуске сервера инструментов</string>
+    <!-- External file change conflict strings -->
+    <string name="external_change_dialog_title">Файл изменен на диске</string>
+    <string name="external_change_dialog_desc">%1$s был изменен внешней программой. Перезагрузить его с диска и перезаписать изменения в редакторе или сохранить изменения в редакторе?</string>
+    <string name="external_change_reload">Перезагрузить с диска</string>
+    <string name="external_change_keep">Сохранить изменения в редакторе</string>
+    <!-- MCP Agent Strings -->
+    <string name="mcp_edit_mode_button_desc">Режим редактирования</string>
+    <string name="mcp_edit_mode_always_accept">Всегда принимать правки</string>
+    <string name="mcp_edit_mode_preview">Предпросмотр перед принятием</string>
+    <string name="mcp_diff_title">Просмотр предлагаемых изменений</string>
+    <string name="mcp_diff_accept">Принять изменения</string>
+    <string name="mcp_diff_reject">Отклонить</string>
+    <string name="mcp_diff_conflict_warning">Файл был изменен на диске с момента создания предпросмотра.</string>
+    <string name="mcp_diff_file_created">Новый файл</string>
+    <string name="mcp_diff_file_deleted">Удаленный файл</string>
+    <string name="mcp_diff_file_renamed">%1$s → %2$s</string>
+    <string name="mcp_diff_prev_file">Назад</string>
+    <string name="mcp_diff_next_file">Вперед</string>
+    <string name="mcp_fallback_empty_response">От модели не получено ответа.</string>
+    <string name="mcp_error_tap_for_details">Что-то пошло не так. Нажмите ! для подробностей.</string>
+    <string name="mcp_error_details_title">Сведения об ошибке</string>
+    <string name="mcp_error_copy">Копировать</string>
+    <string name="mcp_error_copied">Скопировано в буфер обмена</string>
+    <string name="mcp_error_no_internet">Нет подключения к интернету.</string>
+    <string name="mcp_error_invalid_api_key">Неверный ключ API.</string>
+    <string name="mcp_error_quota">Превышена квота или лимит запросов.</string>
+    <string name="mcp_error_timeout">Время ожидания запроса истекло.</string>
+    <string name="mcp_error_unexpected">Произошла непредвиденная ошибка.</string>
+    <string name="mcp_error_details_summary">Сводка</string>
+    <string name="mcp_error_details_type">Тип</string>
+    <string name="mcp_error_details_message">Сообщение</string>
+    <string name="mcp_error_details_tool">Инструмент</string>
+    <string name="mcp_error_details_stacktrace">Трассировка стека</string>
+
+    <string name="quick_line_actions">Быстрые действия со строкой</string>
+    <string name="quick_action_copy_line">Копировать строку</string>
+    <string name="quick_action_cut_line">Вырезать строку</string>
+    <string name="quick_action_delete_line">Удалить строку</string>
+    <string name="quick_action_empty_line">Очистить строку</string>
+    <string name="quick_action_replace_line">Заменить строку</string>
+    <string name="quick_action_duplicate_line">Дублировать строку</string>
+    <string name="quick_action_uppercase">Преобразовать в верхний регистр</string>
+    <string name="quick_action_lowercase">Преобразовать в нижний регистр</string>
+    <string name="quick_action_increase_indent">Увеличить отступ</string>
+    <string name="quick_action_decrease_indent">Уменьшить отступ</string>
+    <string name="quick_action_toggle_comment">Переключить комментарий</string>
+    <string name="quick_action_format_java">Форматировать код Java</string>
+    <string name="java_format_error_title">Ошибка форматирования Java</string>
+    <string name="dependency_update_available_title">Доступно обновление</string>
+    <string name="dependency_update_all_title">Обновить все</string>
+    <string name="dependency_update_all_message">Обновить %1$d зависимостей до последних версий?</string>
+    <string name="dependency_update_apply">Применить</string>
+    <string name="dependency_update_catalog_hint">Это обновит libs.versions.toml</string>
+</resources>
+

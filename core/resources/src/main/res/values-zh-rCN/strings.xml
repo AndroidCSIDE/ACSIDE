@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" translatable="false">ACS IDE</string>
+    <string name="acsb_app_name" translatable="false">ACS IDE:bootstrap</string>
+    <string name="create_project">创建项目</string>
+    <string name="open_project">打开项目</string>
+    <string name="launch_terminal">启动终端</string>
+    <!-- ============================================================ -->
+    <!-- Project Actions                                              -->
+    <!-- ============================================================ -->
+    <string name="action_create_project_title">新建项目</string>
+    <string name="action_create_project_desc">创建新的 Android 项目</string>
+    <string name="action_open_project_title">打开</string>
+    <string name="action_open_project_desc">打开现有项目</string>
+    <!-- ============================================================ -->
+    <!-- Tool Actions                                                 -->
+    <!-- ============================================================ -->
+    <string name="action_sdk_manager_title">SDK 管理器</string>
+    <string name="action_terminal_title">终端</string>
+    <string name="action_settings_title">设置</string>
+    <string name="action_plugins_title">插件</string>
+    <!-- ============================================================ -->
+    <!-- Editor Actions                                               -->
+    <!-- ============================================================ -->
+    <string name="action_save_title">保存</string>
+    <string name="action_undo_title">撤销</string>
+    <string name="action_redo_title">重做</string>
+    <string name="action_search_title">搜索</string>
+    <string name="action_sync_title">同步</string>
+    <string name="action_run_title">运行</string>
+    <string name="action_cancel_build_title">取消构建</string>
+    <string name="action_group_project">项目</string>
+    <string name="action_group_tools">工具</string>
+    <string name="action_group_settings">设置</string>
+    <string name="action_group_plugins">插件</string>
+    <string name="action_group_editor_plugins">编辑器插件</string>
+    <!-- ============================================================ -->
+    <!-- Preview Action (Compose / Flutter)                           -->
+    <!-- ============================================================ -->
+    <string name="action_preview_title">预览</string>
+    <string name="action_preview_desc">预览布局或可组合项</string>
+    <string name="settings">首选项</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="ndk_version_auto">NDK：自动</string>
+    <string name="native_error_title">需要 NDK</string>
+    <string name="error_ndk_not_found_or_incompatible">未找到 NDK 安装，或其版本不兼容。请从 IDE 设置中安装 NDK。</string>
+    <string name="open_ide_cfg_msg">打开设置</string>
+    <!-- ATC Options Dialog -->
+    <string name="choose_template">选择模板</string>
+    <string name="project_configuration">项目配置</string>
+    <string name="use_cmake">使用 CMake 构建系统</string>
+    <string name="native_language">原生语言</string>
+    <string name="minimum_sdk">最低 SDK 版本</string>
+    <string name="new_project">新建项目</string>
+    <string name="package_name">包名</string>
+    <string name="project_name">项目名称</string>
+    <string name="project_location">项目位置</string>
+    <string name="browse">浏览</string>
+    <string name="language">语言</string>
+    <string name="java">Java</string>
+    <string name="use_gradle_kotlin_dsl">使用 Gradle Kotlin DSL（.kts）</string>
+    <string name="cancel">取消</string>
+    <string name="create">创建</string>
+    <string name="default_project_name" translatable="false">MyApplication</string>
+    <string name="default_package_name" translatable="false">com.example.myapplication</string>
+    <string name="back">返回</string>
+    <!-- MainActivity -->
+    <string name="app_name_full" translatable="false">Android Code Studio</string>
+    <string name="app_icon_description">应用图标</string>
+    <string name="error_invalid_gradle_project">所选目录不是有效的 Gradle 项目</string>
+    <string name="error_could_not_access_directory">无法访问所选目录</string>
+    <!-- Sections -->
+    <string name="section_projects">项目</string>
+    <string name="section_recent_projects">最近的项目</string>
+    <string name="section_learn">学习</string>
+    <string name="section_resources">资源</string>
+    <!-- Recent Projects -->
+    <string name="no_recent_projects">暂无最近的项目</string>
+    <string name="content_description_remove">移除</string>
+    <!-- Learn Section -->
+    <string name="learn_first_app_title">构建你的第一个应用</string>
+    <string name="learn_first_app_description">了解 Android 开发基础知识</string>
+    <string name="learn_kotlin_title">Kotlin 语言指南</string>
+    <string name="learn_kotlin_description">掌握 Kotlin 编程</string>
+    <string name="learn_compose_title">Jetpack Compose</string>
+    <string name="learn_compose_description">现代化的 Android UI 工具包</string>
+    <!-- Resources Section -->
+    <string name="resources_documentation_title">文档</string>
+    <string name="resources_documentation_description">API 参考与使用指南</string>
+    <string name="resources_samples_title">示例项目</string>
+    <string name="resources_samples_description">探索示例应用</string>
+    <!-- Editor Bottom Sheet -->
+    <string name="content_description_expand">展开</string>
+    <string name="content_description_collapse">收起</string>
+    <string name="content_description_clear">清除</string>
+    <string name="content_description_close">关闭</string>
+    <!-- Actions -->
+    <string name="action_new_project">新建项目</string>
+    <string name="action_new_project_desc">创建新的 Android 项目</string>
+    <string name="action_open">打开</string>
+    <string name="action_open_desc">打开现有项目</string>
+    <string name="action_sdk_manager">SDK 管理器</string>
+    <string name="action_sdk_manager_desc">管理 Android SDK 组件</string>
+    <string name="action_terminal">终端</string>
+    <string name="action_terminal_desc">打开集成终端</string>
+    <string name="action_settings">设置</string>
+    <string name="action_settings_desc">配置 IDE 首选项</string>
+    <string name="action_plugins">插件</string>
+    <string name="action_plugins_desc">管理 IDE 插件</string>
+    <string name="action_jitpack_preview">JitPack 预览</string>
+    <string name="action_jitpack_preview_desc">预览 JitPack 库</string>
+    <string name="action_sdk_manager_test">SDK 管理器（测试版）</string>
+    <string name="action_sdk_manager_test_desc">SDK 管理器的测试版本</string>
+    <!-- Editor Actions -->
+    <string name="action_save">保存</string>
+    <string name="action_save_desc">保存当前文件</string>
+    <string name="action_undo">撤销</string>
+    <string name="action_undo_desc">撤销上一次更改</string>
+    <string name="action_redo">重做</string>
+    <string name="action_redo_desc">重做上一次撤销的更改</string>
+    <string name="action_search">搜索</string>
+    <string name="action_search_desc">在文件中搜索和替换</string>
+    <string name="action_sync">同步</string>
+    <string name="action_sync_desc">同步 Gradle 项目</string>
+    <string name="action_run">运行</string>
+    <string name="action_run_desc">构建并运行项目</string>
+    <string name="action_cancel_build">取消构建</string>
+    <string name="action_cancel_build_desc">取消当前构建</string>
+    <!-- Action Messages -->
+    <string name="action_disabled">%1$s 当前已禁用</string>
+    <string name="action_executing">正在执行：%1$s</string>
+    <string name="action_execution_error">执行 %1$s 时出错：%2$s</string>
+    <string name="jitpack_preview_unavailable">JitPack 预览不可用</string>
+    <string name="sdk_manager_test_unavailable">SDK 管理器测试版不可用</string>
+    <!-- Template Plugin Messages -->
+    <string name="template_plugins_directory_not_found">未找到插件目录</string>
+    <string name="template_no_enabled_plugins">未找到已启用的插件</string>
+    <string name="template_plugin_no_templates">插件 %1$s 没有 templates.json 文件</string>
+    <string name="template_loaded_count">已从插件加载 %1$d 个模板：%2$s</string>
+    <string name="template_total_loaded">共加载了 %1$d 个模板，来自 %2$d 个插件</string>
+    <string name="template_plugins_json_not_found">未找到 plugins.json</string>
+    <string name="template_enabled_plugins">已启用的插件：%1$s</string>
+    <string name="template_parse_success">已成功从 JSON 加载 %1$d 个模板</string>
+    <string name="template_parse_error">解析模板 JSON 失败</string>
+    <string name="template_creation_failed">模板创建失败</string>
+    <!-- Internal Error Dialog (lib dir missing / extraction failure) -->
+    <string name="error_internal_title">内部错误</string>
+    <string name="error_internal_lib_dir_missing">缺少一个关键内部目录，这是一个无法恢复的错误。请重新安装该应用。</string>
+    <string name="error_internal_exit">退出</string>
+    <!-- Editor backend native library -->
+    <string name="lib_editor_backend_asset_path" translatable="false">naive/libeditor-backend.so</string>
+    <!-- Plugin Installation -->
+    <string name="plugin_install_success_title">插件已安装</string>
+    <string name="plugin_install_success_message">%1$s 已成功安装。\n\n是否要启用它并重新加载 IDE？</string>
+    <string name="plugin_install_enable_and_reload">启用并重新加载</string>
+    <string name="plugin_install_later">稍后</string>
+    <string name="plugin_install_failed_title">安装失败</string>
+    <string name="plugin_enabled">插件已启用</string>
+    <!-- Plugin Screen UI -->
+    <string name="plugin_refresh">刷新</string>
+    <string name="plugin_refreshing">正在刷新…</string>
+    <string name="plugin_search_hint">搜索插件…</string>
+    <string name="plugin_install_from_file">从文件安装</string>
+    <string name="plugin_section_installed">已安装</string>
+    <string name="plugin_section_available">可用</string>
+    <string name="plugin_no_installed">尚未安装任何插件</string>
+    <string name="plugin_no_installed_match">没有匹配的已安装插件</string>
+    <string name="plugin_all_installed">仓库中的所有插件均已安装</string>
+    <string name="plugin_no_available_match">没有匹配的可用插件</string>
+    <string name="plugin_updates_available">有 %1$d 个更新可用</string>
+    <string name="plugin_update_available">有可用更新：v%1$s</string>
+    <string name="plugin_repo_loading">正在加载仓库…</string>
+    <string name="plugin_repo_load_failed">无法加载仓库</string>
+    <string name="plugin_repo_empty">未加载任何插件</string>
+    <string name="plugin_repo_empty_hint">无法连接到插件仓库。请检查你的网络连接，然后点击 ↻ 重试。</string>
+    <string name="plugin_downloading">正在下载…</string>
+    <string name="plugin_downloading_update">正在下载更新…</string>
+    <string name="plugin_badge_installed">已安装</string>
+    <string name="plugin_badge_enabled">已启用</string>
+    <string name="plugin_badge_disabled">已禁用</string>
+    <string name="plugin_action_install">安装</string>
+    <string name="plugin_action_update">更新</string>
+    <string name="plugin_action_update_to">更新到 v%1$s</string>
+    <string name="plugin_action_enable">启用</string>
+    <string name="plugin_action_disable">禁用</string>
+    <string name="plugin_action_uninstall">卸载</string>
+    <string name="plugin_uninstall_confirm_title">卸载插件？</string>
+    <string name="plugin_uninstall_confirm_message">确定要卸载 %1$s 吗？此操作无法撤销。</string>
+    <string name="plugin_reload_required">需要重新加载</string>
+    <string name="plugin_reload_message">“%1$s”已就绪。请立即重新加载 IDE 以激活它。</string>
+    <string name="plugin_reload_now">立即重新加载</string>
+    <string name="plugin_reload_later">稍后</string>
+    <string name="plugin_install_invalid_file_type">文件类型无效，仅允许 .acp 文件。</string>
+    <string name="plugin_install_error">安装失败：%1$s</string>
+    <string name="plugin_download_error">下载失败：%1$s</string>
+    <string name="ok">确定</string>
+    <!-- Terminal -->
+    <string name="terminal_title">终端</string>
+    <string name="terminal_sessions">会话</string>
+    <string name="terminal_add_session">添加会话</string>
+    <string name="terminal_delete_session">删除会话</string>
+    <string name="terminal_active">终端已激活</string>
+    <string name="terminal_session_single">终端会话 1 已打开</string>
+    <string name="terminal_sessions_range">终端会话 1-%1$d 已打开</string>
+    <string name="terminal_notification_channel_name">终端会话</string>
+    <string name="terminal_notification_channel_description">显示活动终端会话的状态</string>
+    <!-- Updater Dialog -->
+    <string name="updater_title">有可用更新</string>
+    <string name="updater_version_prefix" translatable="false">v%1$s</string>
+    <string name="updater_dismiss">忽略</string>
+    <string name="updater_whats_new">新增内容</string>
+    <string name="updater_download">下载更新</string>
+    <string name="updater_retry">重试下载</string>
+    <string name="updater_later">稍后</string>
+    <string name="updater_downloading">正在下载…</string>
+    <string name="updater_install_now">立即安装</string>
+    <string name="updater_progress_percent" translatable="false">%1$d%%</string>
+    <string name="updater_changelog_unavailable">更新日志不可用</string>
+    <!-- Component Downloader Dialog -->
+    <string name="component_fetch_error">获取组件信息失败</string>
+    <string name="component_extracting">正在解压…</string>
+    <string name="component_linking">正在链接…</string>
+    <string name="component_downloading">正在下载…</string>
+    <string name="component_installed">安装成功</string>
+    <string name="component_install_failed">安装失败</string>
+    <string name="component_installing">正在安装…</string>
+    <string name="component_done">完成</string>
+    <string name="component_retry">重试</string>
+    <string name="component_download">下载</string>
+    <!-- Experiments Settings -->
+    <string name="experiments_section_language_servers">语言服务器</string>
+    <string name="experiments_kotlin_lsp_title">Kotlin 语言服务器</string>
+    <string name="experiments_kotlin_lsp_desc">为 Kotlin 文件提供代码补全、诊断和导航功能</string>
+    <string name="kotlin_lsp_indexing_reassurance">仍在建立索引……在较大的项目中这是正常现象，请稍候。</string>
+    <string name="kotlin_lsp_ready">Kotlin 语言服务器就绪</string>
+    <string name="experiments_label_beta">测试版</string>
+    <string name="experiments_action_setup">设置</string>
+    <!-- Kotlin LSP Dialog -->
+    <string name="lsp_dialog_title">Kotlin 语言服务器</string>
+    <string name="lsp_dialog_subtitle">实验性功能</string>
+    <string name="lsp_dialog_dismiss">忽略</string>
+    <string name="lsp_feature_completion">智能代码补全</string>
+    <string name="lsp_feature_diagnostics">实时错误诊断</string>
+    <string name="lsp_feature_navigation">跳转到定义和引用</string>
+    <string name="lsp_feature_formatting">代码格式化</string>
+    <string name="lsp_download">下载（约 270 MB）</string>
+    <string name="lsp_install">安装</string>
+    <string name="lsp_installing">正在安装…</string>
+    <string name="lsp_retry">重试安装</string>
+    <string name="lsp_later">稍后</string>
+    <string name="lsp_downloading">正在下载…</string>
+    <string name="lsp_done">完成</string>
+    <string name="lsp_progress_percent" translatable="false">%1$d%%</string>
+    <string name="lsp_already_installed">Kotlin 语言服务器已安装</string>
+    <string name="lsp_remove">移除</string>
+    <string name="lsp_extracting">正在解压…</string>
+    <!-- LSP Per-Feature Toggles -->
+    <string name="lsp_features_sheet_title">%1$s 功能</string>
+    <string name="lsp_features_sheet_subtitle">启用或禁用各个 LSP 功能</string>
+    <string name="lsp_feat_completion">代码补全</string>
+    <string name="lsp_feat_completion_desc">输入时提供补全建议</string>
+    <string name="lsp_feat_diagnostics">诊断</string>
+    <string name="lsp_feat_diagnostics_desc">以内联方式显示错误、警告和提示</string>
+    <string name="lsp_feat_hover">悬停信息</string>
+    <string name="lsp_feat_hover_desc">悬停时显示类型和文档</string>
+    <string name="lsp_feat_signature_help">签名帮助</string>
+    <string name="lsp_feat_signature_help_desc">在函数调用内显示参数提示</string>
+    <string name="lsp_feat_code_actions">代码操作</string>
+    <string name="lsp_feat_code_actions_desc">快速修复、导入和重构</string>
+    <string name="lsp_feat_formatting">格式化</string>
+    <string name="lsp_feat_formatting_desc">自动格式化文档和选区</string>
+    <string name="lsp_feat_inlay_hints">内联提示</string>
+    <string name="lsp_feat_inlay_hints_desc">显示内联类型和参数提示</string>
+    <string name="lsp_java_exclude_desktop">排除桌面端/Swing 类</string>
+    <string name="lsp_java_exclude_desktop_desc">隐藏 AWT、Swing、JavaFX 及其他非 Android JDK 类型</string>
+    <!-- Git Clone -->
+    <string name="git_clone_title">克隆仓库</string>
+    <string name="git_clone_label_url">仓库地址</string>
+    <string name="git_clone_placeholder_url" translatable="false">https://github.com/user/repo.git</string>
+    <string name="git_clone_label_destination">克隆到（父文件夹）</string>
+    <string name="git_clone_placeholder_destination">点击文件夹图标进行选择</string>
+    <string name="git_clone_content_desc_pick_folder">选择文件夹</string>
+    <string name="git_clone_label_branch">分支（可选）</string>
+    <string name="git_clone_placeholder_branch" translatable="false">main</string>
+    <string name="git_clone_label_custom_flags">自定义 git 参数</string>
+    <string name="git_clone_label_extra_args">附加参数</string>
+    <string name="git_clone_placeholder_extra_args" translatable="false">--recurse-submodules --depth 1</string>
+    <string name="git_clone_extra_args_hint">以空格分隔的参数，将附加到 git clone 命令后</string>
+    <string name="git_clone_label_credentials">使用凭据（私有仓库）</string>
+    <string name="git_clone_label_username">用户名</string>
+    <string name="git_clone_label_token">令牌 / 密码</string>
+    <string name="git_clone_progress">正在克隆，请稍候…</string>
+    <string name="git_clone_button">克隆</string>
+    <string name="git_clone_status_cloning">正在克隆…</string>
+    <string name="git_clone_error_no_repo_name">无法从该地址确定仓库名称。</string>
+    <string name="git_clone_error_move_failed">克隆成功，但移动到目标位置失败：\n%1$s</string>
+    <string name="git_not_found_title">未安装 Git</string>
+    <string name="git_not_found_message">当前环境中未安装 Git。请打开终端并运行以下命令进行安装，然后重新尝试克隆。</string>
+    <string name="git_not_found_command" translatable="false">apt install git -y</string>
+    <string name="git_not_found_open_terminal">打开终端</string>
+    <string name="git_not_found_dismiss">忽略</string>
+    <!-- Source Control Drawer & Guided Git Workflow -->
+    <string name="git_source_control_title">源代码管理</string>
+    <string name="git_refresh">刷新</string>
+    <string name="git_no_repo_title">未检测到 Git 仓库</string>
+    <string name="git_no_repo_desc">此工作区尚未初始化为 Git 仓库。立即初始化以开始追踪代码变更。</string>
+    <string name="git_init_repo">初始化仓库</string>
+    <string name="git_open_terminal_git">打开终端使用 Git 命令行</string>
+    <string name="git_init_dialog_title">初始化 Git 仓库</string>
+    <string name="git_init_dialog_desc">将在以下路径创建新的 Git 仓库：\n%1$s\n\n将生成隐藏的 .git 文件夹用于版本与历史追踪。</string>
+    <string name="git_init_confirm">初始化</string>
+    <string name="git_first_run_title">仓库引导设置</string>
+    <string name="git_step_init_done">1. 仓库已初始化</string>
+    <string name="git_step_stage_commit">2. 暂存并提交变更</string>
+    <string name="git_step_add_remote">3. 连接远程仓库</string>
+    <string name="git_step_push">4. 推送分支至远程</string>
+    <string name="git_no_remote_banner_title">未配置远程仓库</string>
+    <string name="git_no_remote_banner_desc">添加远程仓库（如 GitHub 或 GitLab）以推送代码并进行协作。</string>
+    <string name="git_add_remote_btn">添加远程仓库</string>
+    <string name="git_remote_name_label">远程名称</string>
+    <string name="git_remote_url_label">远程 URL</string>
+    <string name="git_remote_url_invalid">请输入有效的 Git 地址（https://、git@ 或 ssh://）</string>
+    <string name="git_staged_changes">已暂存的更改</string>
+    <string name="git_unstaged_changes">更改</string>
+    <string name="git_conflict_changes">合并冲突</string>
+    <string name="git_stage_all">全部暂存</string>
+    <string name="git_unstage_all">全部取消暂存</string>
+    <string name="git_discard_all">放弃全部更改</string>
+    <string name="git_stage">暂存</string>
+    <string name="git_unstage">取消暂存</string>
+    <string name="git_discard">放弃更改</string>
+    <string name="git_filter_placeholder">筛选更改文件</string>
+    <string name="git_commit_placeholder">提交信息</string>
+    <string name="git_commit_btn">提交</string>
+    <string name="git_amend">修正上次提交</string>
+    <string name="git_sign">GPG 签名</string>
+    <string name="git_no_staged_hint">请先暂存文件再进行提交</string>
+    <string name="git_clean_tree_hint">工作区干净，无未提交更改</string>
+    <string name="git_quick_actions">快捷操作</string>
+    <string name="git_fetch">拉取更新 (Fetch)</string>
+    <string name="git_pull">拉取并合并 (Pull)</string>
+    <string name="git_push">推送 (Push)</string>
+    <string name="git_history">历史记录</string>
+    <string name="git_remotes">远程仓库</string>
+    <string name="git_branches">分支</string>
+    <string name="git_stash">暂存储藏 (Stash)</string>
+    <string name="git_stash_pop">恢复储藏</string>
+    <string name="git_merge">合并分支</string>
+    <string name="git_cherry_pick">拣选提交 (Cherry-pick)</string>
+    <string name="git_tag">标签</string>
+    <string name="git_force_push">强制推送</string>
+    <string name="git_hard_reset">硬重置 (Hard Reset)</string>
+    <string name="git_credentials">身份凭据</string>
+    <string name="git_auth_dialog_title">Git 身份认证</string>
+    <string name="git_auth_dialog_title_invalid">无效凭据</string>
+    <string name="git_auth_dialog_title_expired">令牌已过期</string>
+    <string name="git_auth_dialog_title_permission">权限被拒绝</string>
+    <string name="git_auth_username_label">用户名</string>
+    <string name="git_auth_remember_label">安全保存凭据</string>
+    <string name="git_auth_confirm">验证</string>
+    <string name="git_auth_cancel">取消</string>
+    <string name="git_auth_auth_required">此远程操作需要身份认证。</string>
+    <string name="git_auth_auth_failed">身份验证失败，请检查凭据是否正确。</string>
+    <string name="git_auth_permission_denied">访问被拒绝，请确认仓库权限或令牌作用域。</string>
+    <string name="git_auth_method">认证方式</string>
+    <string name="git_auth_method_token">个人访问令牌 (PAT)</string>
+    <string name="git_auth_method_password">用户名与密码</string>
+    <string name="git_auth_method_ssh">SSH 私钥</string>
+    <string name="git_auth_username">用户名</string>
+    <string name="git_auth_token_label">个人访问令牌</string>
+    <string name="git_auth_password_label">密码</string>
+    <string name="git_auth_ssh_path_label">SSH 私钥路径</string>
+    <string name="git_auth_ssh_passphrase">密钥口令（可选）</string>
+    <string name="git_auth_remember">安全保存凭据</string>
+    <string name="git_auth_save">保存并继续</string>
+    <string name="git_auth_saved_title">已保存的凭据</string>
+    <string name="git_auth_no_saved">暂无已保存的凭据</string>
+    <string name="git_auth_delete">删除</string>
+    <string name="git_auth_add_btn">添加凭据</string>
+    <string name="git_auth_remote_label">远程或主机（例如 origin 或 github.com）</string>
+    <string name="git_auth_username_optional_hint">用户名（使用令牌时可选）</string>
+    <string name="git_diff_inline">单列内联</string>
+    <string name="git_diff_side_by_side">双列并排</string>
+    <string name="git_diff_expand">展开对比视图</string>
+    <string name="git_diff_collapse">收起</string>
+    <string name="git_diff_close">关闭</string>
+    <string name="git_diff_binary">二进制文件 - 差异已隐藏</string>
+    <string name="git_diff_empty">未检测到任何差异</string>
+    <string name="git_conflict_banner_title">检测到合并冲突</string>
+    <string name="git_conflict_banner_desc">在提交前请先解决以下文件中的冲突。</string>
+    <string name="git_conflict_accept_ours">保留当前更改 (Ours)</string>
+    <string name="git_conflict_accept_theirs">采用传入更改 (Theirs)</string>
+    <string name="git_conflict_mark_resolved">标记为已解决</string>
+    <string name="git_hint_stash">临时保存未提交的修改以便切换任务</string>
+    <string name="git_hint_rebase">在目标分支基础之上重新应用提交记录</string>
+    <string name="git_hint_cherry_pick">将特定提交的应用到当前分支</string>
+    <string name="git_hint_force_push">用本地历史强制覆盖远程分支历史</string>
+    <string name="git_hint_hard_reset">放弃所有未提交更改并完全重置至 HEAD</string>
+    <string name="git_branch_current">当前</string>
+    <string name="git_branch_checkout">检出分支</string>
+    <string name="git_branch_create">创建分支</string>
+    <string name="git_branch_delete">删除</string>
+    <string name="git_branch_rename">重命名</string>
+    <string name="git_branch_new_name">新分支名称</string>
+    <string name="git_branch_filter">筛选分支</string>
+    <string name="git_commit_empty_error">提交信息不能为空</string>
+    <string name="git_nothing_to_commit">没有可提交的内容，请先暂存更改。</string>
+    <string name="git_nothing_to_push">当前分支已与远程保持最新。</string>
+    <string name="git_nothing_to_pull">已与远程完全同步。</string>
+    <string name="git_repo_initialized_success">仓库初始化成功</string>
+    <string name="git_commit_success">代码提交成功</string>
+    <string name="git_push_success">已成功推送到远程</string>
+    <string name="git_pull_success">已成功拉取远程更改</string>
+    <string name="git_fetch_success">已成功获取远程状态</string>
+    <string name="git_up_to_date">已是最新</string>
+    <string name="git_ahead_commits">领先 %1$d 个提交</string>
+    <string name="git_behind_commits">落后 %1$d 个提交</string>
+    <string name="git_error_dialog_title">Git 错误</string>
+    <string name="git_error_dialog_copy">复制错误</string>
+    <string name="git_error_dialog_copied">错误信息已复制到剪贴板</string>
+    <string name="git_error_dialog_close">关闭</string>
+    <string name="git_error_details_label">错误详情与堆栈跟踪</string>
+    <!-- Setup Screen - Step 0: Welcome -->
+    <string name="privacy_consent_title">隐私</string>
+    <string name="privacy_consent_body">ACS IDE 不会收集任何用户数据。</string>
+    <string name="privacy_consent_accept">继续</string>
+    <string name="privacy_consent_decline">退出</string>
+
+    <!-- Core Components Missing Dialog -->
+    <string name="core_components_missing_title">核心组件缺失</string>
+    <string name="core_components_missing_message">系统中缺少核心组件（com.acside）。该组件是 Android Code Studio 的核心，不能缺失。请重新安装整个 IDE 以恢复核心功能。</string>
+    <string name="core_components_missing_action_reinstall">重新安装 IDE</string>
+    <string name="core_components_missing_action_exit">退出</string>
+    <string name="bootstrap_marker_missing_error">缺少核心引导标记文件（.acside_bootstrap_ok）。请完成设置。</string>
+    <string name="setup_step_welcome_title">欢迎使用 AndroidCodeStudio</string>
+    <string name="setup_step_welcome_description">将你的 Android 设备变为强大的开发环境。</string>
+    <string name="setup_step_welcome_action">开始使用</string>
+    <!-- Setup Screen - Step 1: Storage Permissions -->
+    <string name="setup_step_permissions_title">存储权限</string>
+    <string name="setup_step_permissions_description">我们需要访问你设备的存储空间，以管理项目文件。</string>
+    <string name="setup_step_permissions_action">授予权限</string>
+    <!-- Setup Screen - Step 2: Install -->
+    <string name="setup_step_install_title">开发环境</string>
+    <string name="setup_step_install_description">下载 Ubuntu、JDK 和 Android SDK，或从存储中安装压缩包。</string>
+    <string name="setup_step_install_action">安装环境</string>
+    <!-- Setup Screen - Step 3: Complete -->
+    <string name="setup_step_complete_title">一切就绪！</string>
+    <string name="setup_step_complete_description">你的开发环境已准备就绪，开始编写代码吧！</string>
+    <string name="setup_step_complete_action">开始编码</string>
+    <!-- Setup Screen - Install progress UI -->
+    <string name="setup_label_installing">正在安装</string>
+    <!-- Setup Screen - Error UI -->
+    <string name="setup_error_install_failed">安装失败</string>
+    <!-- Setup Screen - Retry button -->
+    <string name="setup_btn_retry">重试安装</string>
+    <string name="setup_manual_section_title">安装 ACS Bootstrap</string>
+    <string name="setup_manual_section_hint">自 Alpha 6 起，ACS Lite 已正式改为通过 ACSIDE 环境使用 Termux 软件包。要继续设置 IDE，请点击“安装 ACSIDE Bootstrap”开始。</string>
+    <string name="setup_manual_section_or_hint">或</string>
+    <string name="setup_acside_shared_package">安装 ACSIDE Bootstrap</string>
+    <string name="setup_manual_installed">已安装</string>
+    <string name="jdk_pick_title_install">选择 JDK 版本</string>
+    <string name="jdk_pick_desc_install">选择要安装的 Java 开发工具包（JDK）版本。</string>
+    <string name="jdk_pick_confirm_install">安装</string>
+    <string name="jdk_pick_title_import">压缩包对应的 JDK 版本</string>
+    <string name="jdk_pick_desc_import">选择应将此压缩包安装为哪个版本。</string>
+    <string name="jdk_pick_confirm_import">继续</string>
+    <string name="sdk_manual_installed">已导入</string>
+    <string name="sdk_manual_section_title">从存储安装</string>
+    <string name="sdk_manual_jdk">导入 JDK 压缩包</string>
+    <string name="sdk_manual_sdk">导入 Android SDK 压缩包</string>
+    <!-- BugReportOverlay -->
+    <string name="bug_report_fab_content_desc">报告问题</string>
+    <string name="bug_report_dialog_title">报告问题</string>
+    <string name="bug_report_close_content_desc">关闭</string>
+    <string name="bug_report_attachment_default_name">附件</string>
+    <string name="bug_report_remove_attachment_content_desc">移除附件</string>
+    <!-- Consent dialog -->
+    <string name="bug_report_consent_title">在继续之前</string>
+    <string name="bug_report_consent_body">问题报告包含你的设备型号、Android 版本、应用版本，以及你选择附加的任何描述或文件。\n\n此信息仅会发送给开发者，且仅用于诊断和修复问题，不会收集任何个人数据。\n\n你是否同意发送这些信息？</string>
+    <string name="bug_report_consent_agree">同意</string>
+    <string name="bug_report_consent_decline">不用了</string>
+    <!-- Report form -->
+    <string name="bug_report_rate_limit_msg">你已发送 %1$d 份报告，请等待 %2$d 秒后再发送下一份。</string>
+    <string name="bug_report_title_label">问题标题</string>
+    <string name="bug_report_title_placeholder">简要描述该问题</string>
+    <string name="bug_report_title_error">标题为必填项</string>
+    <string name="bug_report_body_label">描述</string>
+    <string name="bug_report_body_placeholder">复现步骤、预期结果、实际发生的情况……</string>
+    <string name="bug_report_body_error">描述为必填项</string>
+    <string name="bug_report_attach_button">附加文件或图片（可选）</string>
+    <string name="bug_report_cancel_button">取消</string>
+    <string name="bug_report_send_button">发送报告</string>
+    <string name="bug_report_reports_remaining">剩余报告次数：%1$d / %2$d</string>
+    <string name="bug_report_reset_preferences_button">重置首选项</string>
+    <!-- MainActivity -->
+    <string name="main_git_icon_content_desc">Git</string>
+    <string name="main_hero_line1">打开或创建</string>
+    <string name="main_hero_line2">你的下一个项目</string>
+
+    <string name="main_section_quick_actions">快捷操作</string>
+    <string name="main_section_recent_projects">最近的项目</string>
+    <string name="main_project_updated">更新于 %1$s</string>
+    <!-- RecentProjectCard -->
+    <string name="project_type_flutter" translatable="false">Flutter</string>
+    <string name="project_type_android" translatable="false">Android</string>
+    <!-- GeneralSettings sections -->
+    <string name="settings_section_appearance">外观</string>
+    <string name="settings_section_language">语言</string>
+    <string name="settings_section_developer">开发者选项</string>
+    <!-- Appearance settings -->
+    <string name="settings_dark_mode_title">深色模式</string>
+    <string name="settings_dark_mode_desc">在整个应用中使用深色主题</string>
+    <string name="settings_looks_feel_title">外观样式</string>
+    <string name="settings_looks_feel_desc">选择应用的配色方案</string>
+    <string name="settings_looks_feel_custom_colors_title">自定义配色</string>
+    <string name="settings_looks_feel_color_primary">主色</string>
+    <string name="settings_looks_feel_color_secondary">次要色</string>
+    <string name="settings_looks_feel_color_tertiary">第三色</string>
+    <string name="settings_looks_feel_color_background">背景色</string>
+    <string name="settings_looks_feel_color_surface">表面色</string>
+    <string name="settings_looks_feel_color_error">错误色</string>
+    <string name="settings_looks_feel_hex_label">十六进制颜色值</string>
+    <string name="settings_looks_feel_apply">应用</string>
+    <string name="settings_looks_feel_cancel">取消</string>
+    <string name="settings_fluent2_look_title">Windows 11 Fluent 2 外观</string>
+    <string name="settings_fluent2_look_desc">在整个应用中应用 Fluent 2 风格的视觉样式</string>
+    <string name="settings_fluent2_restart_title">需要重启</string>
+    <string name="settings_fluent2_restart_message">重启应用以应用新外观。</string>
+    <string name="settings_fluent2_restart_confirm">立即重启</string>
+    <string name="settings_fluent2_restart_later">稍后</string>
+    <string name="settings_app_scale_title">应用缩放</string>
+    <string name="settings_app_scale_desc">缩放比例：%1$sx</string>
+    <!-- Language settings -->
+    <string name="settings_language_title">应用语言</string>
+    <string name="settings_language_desc">选择应用中使用的语言</string>
+    <!-- Developer settings -->
+    <string name="settings_ide_logs_title">IDE 日志</string>
+    <string name="settings_ide_logs_desc">启用详细日志记录以便调试</string>
+    <!-- Developer settings -->
+    <string name="settings_bug_report_overlay_title">问题报告悬浮窗</string>
+    <string name="settings_bug_report_overlay_desc">显示一个悬浮窗，让你能够快速报告问题</string>
+    <!-- LocaleManager display names - never translate these -->
+    <string name="locale_system_default">跟随系统</string>
+    <string name="locale_english" translatable="false">English</string>
+    <string name="locale_arabic" translatable="false">العربية</string>
+    <string name="locale_french" translatable="false">Français</string>
+    <string name="locale_german" translatable="false">Deutsch</string>
+    <string name="locale_spanish" translatable="false">Español</string>
+    <string name="locale_portuguese" translatable="false">Português</string>
+    <string name="locale_russian" translatable="false">Русский</string>
+    <string name="locale_chinese" translatable="false">中文</string>
+    <string name="locale_japanese" translatable="false">日本語</string>
+    <string name="locale_korean" translatable="false">한국어</string>
+    <!-- Language switch overlay -->
+    <string name="settings_language_switching_title">正在切换语言</string>
+    <string name="settings_language_switching_subtitle">应用即将重启…</string>
+    <!-- EditorActivity: Permission -->
+    <string name="storage_permission_required">浏览文件需要存储权限</string>
+    <string name="all_files_access_permission">请在设置中授予“所有文件访问权限”</string>
+    <!-- EditorActivity: Flutter SDK not found dialog -->
+    <string name="flutter_sdk_not_found_title">未找到 Flutter SDK</string>
+    <string name="flutter_sdk_not_found_message">未找到 Flutter SDK</string>
+    <string name="flutter_sdk_not_found_error_code" translatable="false">ACS_FLUTTER_SDK_NOT_FOUND illegal argument</string>
+    <string name="flutter_sdk_install_hint">在打开 Flutter 项目之前，请先在主屏幕的 SDK 管理器中安装 Flutter SDK。</string>
+    <!-- EditorActivity: Exit dialog -->
+    <string name="exit_editor_title">退出编辑器？</string>
+    <string name="exit_editor_message">这将关闭项目并清理相关资源。</string>
+    <string name="unsaved_changes_warning">⚠️ 你有未保存的更改！</string>
+    <string name="exit_with_cleanup">清理后退出</string>
+    <!-- EditorActivity: Cleanup progress dialog -->
+    <string name="cleaning_up_title">正在清理…</string>
+    <string name="force_stop">强制停止</string>
+    <string name="cleanup_stopping_builds">正在停止活动的构建…</string>
+    <string name="cleanup_stopping_daemons">正在停止 Gradle 守护进程…</string>
+    <string name="cleanup_shutting_down_gradle">正在关闭 Gradle 服务…</string>
+    <string name="cleanup_closing_terminals">正在关闭终端会话…</string>
+    <string name="cleanup_stopping_lsp">正在停止语言服务器…</string>
+    <string name="cleanup_finalizing">正在完成…</string>
+    <!-- EditorActivity: Service / build messages -->
+    <string name="tooling_api_not_available">工具 API 不可用，构建功能将被禁用。</string>
+    <string name="services_may_need_reconnect">部分服务可能需要重新连接</string>
+    <!-- EditorScreen: General -->
+    <string name="toggle_navigation_drawer">切换导航抽屉</string>
+    <!-- EditorScreen: Bottom sheet header -->
+    <string name="build_output">构建输出</string>
+    <string name="ready">就绪</string>
+    <!-- EditorScreen: Bottom sheet tab titles -->
+    <string name="tab_output">输出</string>
+    <string name="tab_problems">问题</string>
+    <string name="tab_app_logs">应用日志</string>
+    <string name="tab_ide_logs">IDE 日志</string>
+    <!-- EditorScreen: LSP / definition navigation -->
+    <string name="could_not_open_definition">无法打开定义</string>
+    <string name="definition_not_found">未找到定义</string>
+    <!-- EditorScreen: Unsupported JDK dialog -->
+    <string name="unsupported_java_version_title">不支持的 Java 版本</string>
+    <string name="unsupported_java_version_message">Kotlin 语言服务器需要 Java 21 或更高版本。\n\n当前的 Java 运行时版本过旧，无法运行它（class 文件版本 65.0 需要 Java 21 及以上）。请通过 SDK 管理器安装 Temurin JDK 21，然后重启 IDE。</string>
+    <!-- EditorScreen: Sync -->
+    <string name="syncing_project">正在同步项目…</string>
+    <string name="finalizing_sync">正在完成同步…</string>
+    <string name="refreshing_classpaths">正在刷新类路径…</string>
+    <string name="restarting_language_servers">正在重启语言服务器…</string>
+    <string name="loading_tasks">正在加载任务…</string>
+    <string name="sync_completed">同步完成！</string>
+    <string name="project_synced_successfully">✓ 项目同步成功</string>
+    <string name="sync_failed">✗ 同步失败，请查看构建输出。</string>
+    <string name="sync_error">✗ 同步错误：%s</string>
+    <string name="please_sync_project_first">请先同步项目，或等待同步完成</string>
+    <!-- EditorScreen: File actions -->
+    <string name="file_saved">文件已保存</string>
+    <string name="failed_to_save_file">保存文件失败</string>
+    <string name="failed_to_open_file">打开文件失败：%s</string>
+    <!-- EditorScreen: Build actions -->
+    <string name="build_cancelled">构建已取消</string>
+    <string name="failed_to_cancel">取消失败：%s</string>
+    <string name="failed_to_run">运行失败：%s</string>
+    <!-- Shared: Flutter -->
+    <string name="flutter_clean_running">正在运行 Flutter 清理…</string>
+    <string name="flutter_clean_completed">Flutter 清理成功完成</string>
+    <string name="flutter_clean_failed">Flutter 清理失败，退出代码 %1$d</string>
+    <string name="flutter_clean_error">运行 Flutter 清理时出错：%1$s</string>
+    <string name="flutter_pub_get_running">正在运行 Flutter pub get…</string>
+    <string name="flutter_pub_get_completed">Flutter pub get 成功完成</string>
+    <string name="flutter_pub_get_failed">Flutter pub get 执行失败，详情请查看输出面板。</string>
+    <string name="flutter_pub_get_failed_with_code">Flutter pub get 失败，退出代码 %1$d</string>
+    <string name="flutter_pub_get_failed_reason">Flutter pub get 失败：%1$s</string>
+    <string name="flutter_dependencies_downloaded">Flutter 依赖项下载成功</string>
+    <string name="dart_pub_get_running">正在运行 Dart pub get…</string>
+    <string name="dart_pub_get_completed">Dart pub get 成功完成</string>
+    <string name="dart_pub_get_failed_with_code">Dart pub get 失败，退出代码 %1$d</string>
+    <string name="dart_pub_get_failed_reason">Dart pub get 失败：%1$s</string>
+    <string name="flutter_sdk_not_found_settings">未找到 Flutter SDK，请从 IDE 设置中安装 Flutter。</string>
+    <!-- Shared: Generic error -->
+    <string name="error_with_message">错误：%s</string>
+    <string name="settings_back">返回</string>
+    <string name="settings_hero_line1">定制你的</string>
+    <string name="settings_hero_line2">使用体验</string>
+    <string name="settings_hero_subtitle">应用设置与首选项</string>
+    <string name="settings_section_header">设置</string>
+    <string name="settings_detail_subtitle">设置</string>
+    <string name="settings_summary_general">外观、文件与确认操作</string>
+    <string name="settings_summary_editor">字体、显示与代码行为</string>
+    <string name="settings_summary_experimental">预览与实验性功能</string>
+    <string name="settings_summary_terminal">配置终端设置</string>
+    <string name="settings_summary_about">应用信息、设备与相关链接</string>
+    <string name="settings_summary_output_debug">构建输出、logcat 与 ADB</string>
+    <string name="settings_output_debug_section_title">输出与调试</string>
+    <string name="settings_section_build_output">构建输出</string>
+    <string name="settings_section_logcat_backend">应用 logcat</string>
+    <string name="settings_section_adb_setup">ADB 设置</string>
+    <string name="settings_logcat_backend_title">Logcat 后端</string>
+    <string name="settings_logcat_backend_desc">推荐使用 ADB，Shizuku 仍可作为备选方案。</string>
+    <string name="settings_logcat_backend_adb">ADB（推荐）</string>
+    <string name="settings_logcat_backend_shizuku">Shizuku</string>
+    <string name="settings_adb_step_developer_title">1. 打开开发者选项</string>
+    <string name="settings_adb_step_developer_desc">请先启用开发者选项，然后返回此处。</string>
+    <string name="settings_adb_step_usb_title">2. 启用 USB 调试</string>
+    <string name="settings_adb_step_usb_desc">在开发者选项中开启 USB 调试。</string>
+    <string name="settings_adb_step_wireless_title">3. 启用无线调试</string>
+    <string name="settings_adb_step_wireless_desc">打开无线调试并保持其开启状态。</string>
+    <string name="settings_adb_step_pair_title">4. 将 ACS 与无线调试配对</string>
+    <string name="settings_adb_step_pair_desc">开始配对服务发现。配对服务出现后，输入通知中显示的配对码。</string>
+    <string name="settings_adb_open_developer_options">打开</string>
+    <string name="settings_adb_open_wireless">打开</string>
+    <string name="settings_adb_start_pairing">配对</string>
+    <string name="settings_adb_developer_help_title">启用开发者选项</string>
+    <string name="settings_adb_developer_help_body">打开“设置 → 关于手机”，然后连续点击版本号七次，直到开发者选项被启用。</string>
+    <string name="settings_adb_developer_help_got_it">知道了</string>
+    <string name="settings_adb_usb_otg_title">USB-OTG 设备</string>
+    <string name="settings_adb_usb_otg_desc">为通过 USB-OTG 连接的 ADB 设备请求 USB 主机权限。</string>
+    <string name="settings_adb_usb_otg_action">授予 USB 权限</string>
+    <string name="settings_adb_how_to_connect_title">无线调试</string>
+    <string name="settings_adb_how_to_connect_desc">配对 ACS 并检查连接状态。</string>
+    <string name="settings_adb_how_to_connect_action">如何连接</string>
+    <string name="adb_connect_title">通过 ADB 连接</string>
+    <string name="adb_connect_subtitle">配对无线调试并安装到已连接的设备</string>
+    <string name="adb_connect_status_section">连接状态</string>
+    <string name="adb_connect_status_checking">正在检查…</string>
+    <string name="adb_connect_status_connected">已连接</string>
+    <string name="adb_connect_status_disconnected">未连接</string>
+    <string name="adb_connect_refresh">刷新</string>
+    <string name="adb_connect_pair_action">配对</string>
+    <string name="adb_connect_pair_waiting">正在等待配对…</string>
+    <string name="adb_connect_pair_done">已连接</string>
+    <string name="adb_pairing_channel_name">无线调试配对</string>
+    <string name="adb_pairing_searching_title">正在搜索配对服务</string>
+    <string name="adb_pairing_searching_text">正在等待无线调试配对…</string>
+    <string name="adb_pairing_found_title">已找到配对服务</string>
+    <string name="adb_pairing_found_text">请输入端口 %1$d 的配对码</string>
+    <string name="adb_pairing_working_title">正在配对</string>
+    <string name="adb_pairing_succeed_title">配对成功</string>
+    <string name="adb_pairing_succeed_text">ACS 已通过无线调试连接。</string>
+    <string name="adb_pairing_failed_title">配对失败</string>
+    <string name="adb_pairing_failed_text">无法与无线调试配对。</string>
+    <string name="adb_pairing_code_label">配对码</string>
+    <string name="adb_pairing_input_action">输入配对码</string>
+    <string name="adb_pairing_stop">停止</string>
+    <string name="editor_section_gradle_service">Gradle 服务</string>
+    <string name="editor_section_syntax_highlighting">语法高亮</string>
+    <string name="editor_section_display">显示</string>
+    <string name="editor_section_behavior">行为</string>
+    <string name="editor_section_lsp_kotlin">语言服务器：Kotlin</string>
+    <string name="editor_section_advanced">高级</string>
+    <string name="editor_theme_title">编辑器主题</string>
+    <string name="editor_syntax_highlighting_title">语法高亮</string>
+    <string name="editor_syntax_highlighting_desc">根据编程语言为代码着色</string>
+    <string name="editor_color_preview_title">颜色预览</string>
+    <string name="editor_color_preview_desc">显示颜色值的预览</string>
+    <string name="editor_highlight_current_line_title">高亮当前行</string>
+    <string name="editor_highlight_current_line_desc">高亮显示光标所在的行</string>
+    <string name="editor_font_family_title">字体系列</string>
+    <string name="editor_font_import_option">导入字体…</string>
+    <string name="editor_memory_usage_title">内存使用情况</string>
+    <string name="editor_memory_usage_desc">显示内存使用悬浮层</string>
+    <string name="editor_font_size_title">字体大小</string>
+    <string name="editor_font_size_desc">%d 像素</string>
+    <string name="editor_tab_size_title">制表符宽度</string>
+    <string name="editor_tab_size_desc">%d 个空格</string>
+    <string name="editor_line_numbers_title">行号</string>
+    <string name="editor_line_numbers_desc">在侧边栏显示行号</string>
+    <string name="editor_word_wrap_title">自动换行</string>
+    <string name="editor_word_wrap_desc">将过长的行自动换行以适应屏幕</string>
+    <string name="editor_line_column_indicator_title">行列指示器</string>
+    <string name="editor_line_column_indicator_desc">在编辑器中显示光标位置</string>
+    <string name="editor_auto_format_title">自动格式化</string>
+    <string name="editor_auto_format_desc">保存后自动格式化代码</string>
+    <string name="editor_auto_indent_title">自动缩进</string>
+    <string name="editor_auto_indent_desc">为新行自动添加缩进</string>
+    <string name="editor_auto_pairing_title">自动配对</string>
+    <string name="editor_auto_pairing_desc">自动闭合括号和引号</string>
+    <string name="editor_string_extraction_title">字符串提取</string>
+    <string name="editor_string_extraction_desc">检测硬编码字符串，并提供提取为资源的操作建议</string>
+    <string name="editor_page_mode_title">分页模式</string>
+    <string name="editor_page_mode_desc">打开大文件时，将编辑器拆分为多个页面。</string>
+    <string name="editor_kotlin_diagnostics_title">实验性 Kotlin 诊断</string>
+    <string name="editor_kotlin_diagnostics_desc">为 Kotlin 文件报告诊断信息</string>
+    <string name="editor_show_whitespace_title">显示空白字符</string>
+    <string name="editor_show_whitespace_desc">直观显示空格和制表符</string>
+    <string name="editor_show_line_endings_title">显示行尾符</string>
+    <string name="editor_show_line_endings_desc">显示换行符</string>
+    <string name="editor_cursor_blink_title">光标闪烁</string>
+    <string name="editor_cursor_blink_desc">为光标添加闪烁动画</string>
+    <string name="editor_visible_password_flag_title">可见密码标志</string>
+    <string name="editor_visible_password_flag_desc">使用无输入建议的安全键盘。关闭后可启用键盘建议。</string>
+    <string name="editor_font_import_dialog_title">导入自定义字体</string>
+    <string name="editor_font_import_dialog_body">选择 TrueType（.ttf）或 OpenType（.otf）字体文件。</string>
+    <string name="editor_font_import_name_label">字体名称</string>
+    <string name="editor_font_import_choose_file">选择字体文件</string>
+    <string name="editor_font_import_confirm">导入</string>
+    <string name="editor_font_import_cancel">取消</string>
+    <string name="editor_font_import_file_selected">已选择字体文件 ✓</string>
+    <string name="gradle_sync_args_title">同步参数</string>
+    <string name="gradle_no_extra_flags">无附加参数</string>
+    <string name="gradle_common_flags_label">常用参数</string>
+    <string name="gradle_custom_flag_label">自定义参数</string>
+    <string name="gradle_custom_flags_label">自定义参数</string>
+    <string name="gradle_custom_flag_placeholder" translatable="false">e.g. --warning-mode=all</string>
+    <string name="gradle_add_flag_cd">添加参数</string>
+    <string name="gradle_remove_flag_cd">移除</string>
+    <string name="settings_about_section_title">关于</string>
+    <string name="settings_editor_section_title">编辑器</string>
+    <string name="settings_general_section_title">通用</string>
+    <string name="settings_experimental_section_title">实验性功能</string>
+    <string name="settings_terminal_section_title">终端</string>
+    <string name="settings_terminal_section_header">混合环境</string>
+    <string name="settings_proot_no_seccomp_title">禁用 PRoot 的 seccomp</string>
+    <string name="settings_proot_no_seccomp_desc">为 PRoot 会话应用 PROOT_NO_SECCOMP=1。仅在混合环境在你的设备上运行失败时使用。</string>
+    <string name="error_report_title">发送错误报告？</string>
+    <string name="error_report_message">出现了一些问题。只有在你同意的情况下，才会将包含诊断日志的匿名报告发送给开发者。这些日志有助于修复问题，不会包含任何个人数据。</string>
+    <string name="error_report_send_report_btn">发送报告</string>
+    <string name="error_report_no_thanks_btn">不用了</string>
+    <!-- About Section - App Info -->
+    <string name="about_app_name">Android Code Studio</string>
+    <!-- About Section - Device Information -->
+    <string name="about_device_info_title">设备信息</string>
+    <string name="about_device_label">设备</string>
+    <string name="about_model_label">型号</string>
+    <string name="about_android_label">Android 版本</string>
+    <!-- About Section - Links -->
+    <string name="about_links_title">相关链接</string>
+    <string name="about_link_source_code">源代码</string>
+    <string name="about_link_discussion">讨论组</string>
+    <string name="about_link_channel">官方频道</string>
+    <string name="lib_editor_backend_filename" translatable="false">libeditor-backend.so</string>
+    <string name="permission_transition" translatable="false">permission_transition</string>
+    <string name="icon_pulse" translatable="false">icon_pulse</string>
+    <string name="icon_scale" translatable="false">icon_scale</string>
+    <string name="storage_access_required">需要存储访问权限</string>
+    <string name="grant_permissions_to_browse_and_manage_your_files">授予权限以浏览和管理你的文件</string>
+    <string name="grant_basic_permissions">授予基本权限</string>
+    <string name="grant_all_files_access">授予所有文件访问权限</string>
+    <string name="close_terminal">关闭终端</string>
+    <string name="navigate_to_path">跳转到路径</string>
+    <string name="directory_path">目录路径</string>
+    <string name="directory_does_not_exist_or_is_not_allowed">目录不存在或不被允许访问</string>
+    <string name="go">前往</string>
+    <string name="locations">位置</string>
+    <string name="restricted_to_listed_directories">仅限于列出的目录</string>
+    <string name="twin_file_manager">Twin 文件管理器</string>
+    <string name="drawer_icon_progress" translatable="false">drawer_icon_progress</string>
+    <string name="toggle_drawer">切换抽屉</string>
+    <string name="git_clone">Git 克隆</string>
+    <string name="delete">删除</string>
+    <string name="str_new">新建</string>
+    <string name="select">选择</string>
+    <string name="select_all">全选</string>
+    <string name="all">全部</string>
+    <!-- Those are new and should go here -->
+    <string name="file_browser">文件浏览器</string>
+    <string name="close_search">关闭搜索</string>
+    <string name="search_projects">搜索项目</string>
+    <string name="project_directory_path">项目目录路径</string>
+    <string name="project_directory_path_placeholder">你的项目路径</string>
+    <string name="project_directory_does_not_exist">项目目录不存在</string>
+    <string name="browse_with_file_picker">使用文件选择器浏览</string>
+    <string name="path_must_be_under_sdcard">路径必须位于 /sdcard、AndroidCSProjects 或 Projects 下</string>
+    <string name="directory_not_found_or_not_valid">未找到目录，或该目录不是有效的项目</string>
+    <string name="open_project_sheet_search_hint">搜索项目…</string>
+    <string name="open_project_sheet_section_all_projects">所有项目</string>
+    <string name="open_project_sheet_no_match">没有匹配"%1$s"的项目</string>
+    <string name="open_project_sheet_no_projects">未找到项目</string>
+    <string name="open_project_sheet_recent_badge">最近</string>
+    <string name="problems_quick_fix">快速修复</string>
+    <string name="problems_quick_fix_choose_title">选择修复方式</string>
+    <string name="problems_quick_fix_none">没有可用的快速修复</string>
+    <string name="editor_drawer_backup_project">备份项目（ZIP）</string>
+    <string name="backup_project_succeeded">项目备份已保存</string>
+    <string name="backup_project_failed">无法创建备份</string>
+    <string name="backup_project_in_progress">正在备份项目…</string>
+    <string name="backup_project_succeeded_title">备份完成</string>
+    <string name="backup_project_failed_title">备份失败</string>
+    <string name="backup_project_files_progress">%1$d / %2$d 个文件</string>
+    <string name="backup_project_eta_calculating">正在估算剩余时间…</string>
+    <string name="backup_project_eta_almost_done">即将完成…</string>
+    <string name="backup_project_eta_seconds">剩余约 %1$d 秒</string>
+    <string name="backup_project_collapse">收起</string>
+    <string name="backup_project_expand">展开</string>
+    <string name="recent_project_menu_subtitle">项目</string>
+    <string name="recent_project_copy_path">复制路径</string>
+    <string name="recent_project_path_copied">路径已复制</string>
+    <string name="recent_project_rename">重命名</string>
+    <string name="recent_project_rename_title">重命名项目</string>
+    <string name="recent_project_rename_label">项目名称</string>
+    <string name="recent_project_rename_confirm">重命名</string>
+    <string name="recent_project_rename_succeeded">项目已重命名</string>
+    <string name="recent_project_rename_failed">无法重命名项目</string>
+    <string name="recent_project_delete_permanently">永久删除</string>
+    <string name="recent_project_delete_title">删除项目？</string>
+    <string name="recent_project_delete_message">这将永久删除“%1$s”及其以下所有文件：\n%2$s</string>
+    <string name="recent_project_delete_confirm">删除</string>
+    <string name="recent_project_delete_succeeded">项目已删除</string>
+    <string name="recent_project_delete_failed">无法删除项目</string>
+
+    <!-- ATC Compose Wizard Strings -->
+    <string name="atc_checking_ndk">正在检查 NDK...</string>
+    <string name="atc_error_invalid_ndk">找到的最高 NDK 版本（%1$s）无效或已损坏。</string>
+    <string name="atc_error_empty_project_name">项目名称不能为空</string>
+    <string name="atc_error_invalid_project_name">项目名称必须以字母开头，且只能包含字母、数字和下划线</string>
+    <string name="atc_error_project_exists">此位置已存在同名项目</string>
+    <string name="atc_error_project_exists_msg">此位置已存在名为 %1$s 的项目。</string>
+    <string name="atc_creating_project">正在创建项目...</string>
+    <string name="atc_error_create_project_failed">创建项目失败：%1$s</string>
+    <string name="atc_error_generic">错误：%1$s</string>
+    <string name="atc_error_no_cmake">未找到 CMake 安装。请从 IDE 设置中安装 CMake。</string>
+    <string name="atc_invalid_save_location_title">保存位置无效</string>
+    <string name="atc_invalid_save_location_message">游戏项目必须保存在 Android Code Studio 主目录中才能正常运行。</string>
+    <string name="atc_switch_automatically">自动切换</string>
+    <string name="native_language_cpp" translatable="false">C++</string>
+    <string name="native_language_c" translatable="false">C</string>
+    <string name="atc_error_no_ndk">未找到 NDK</string>
+    <string name="atc_ndk_version">NDK：%1$s</string>
+    <string name="atc_ndk_auto">自动</string>
+    <string name="atc_ndk_version_label">NDK 版本：%1$s</string>
+    <string name="atc_use_gradle_kts">使用 Gradle Kotlin DSL</string>
+    <string name="atc_use_cmake">使用 CMake</string>
+    <string name="atc_create_project_btn">创建项目</string>
+
+    <!-- Editor Dialogs Strings -->
+    <string name="atc_cleaning_up">正在清理...</string>
+    <string name="atc_cleanup_complete">清理完成</string>
+    <string name="atc_cleanup_desc">正在停止 Gradle 守护进程并清理资源，请稍候...</string>
+    <string name="atc_cleanup_success">所有资源均已成功清理。</string>
+    <string name="atc_run_task">运行任务</string>
+    <string name="atc_available_tasks">可用任务：</string>
+
+    <!-- SDK Manager Tabs Strings -->
+    <string name="sdk_tab_build_tools">构建工具</string>
+    <string name="sdk_tab_ndk">NDK</string>
+    <string name="sdk_tab_cmake">CMake</string>
+    <string name="sdk_tab_platforms">平台</string>
+    <string name="sdk_tab_jdk">JDK</string>
+    <string name="sdk_tab_flutter">Flutter</string>
+    <string name="sdk_config_title">SDK 配置</string>
+    <string name="sdk_config_desc">控制在项目同步和构建过程中应用的 Gradle 初始化脚本。</string>
+    <string name="sdk_config_force_ndk">强制指定 NDK 版本</string>
+    <string name="sdk_config_force_cmake">强制指定 CMake 版本</string>
+    <string name="sdk_config_force_protoc">强制指定 protoc 路径</string>
+
+    <!-- SDK Manager Screen Strings -->
+    <string name="sdk_ndk_versions">NDK 版本</string>
+    <string name="sdk_forced_ndk_format">强制使用的 NDK：%1$s</string>
+    <string name="sdk_force_ndk_title">强制指定 NDK 版本</string>
+    <string name="sdk_force_ndk_desc">指定一个已安装的 NDK 版本，以在所有项目中强制使用。应用前将根据 /home/Android/Sdk/ndk 校验该版本。</string>
+    <string name="sdk_ndk_version_label">NDK 版本</string>
+    <string name="sdk_ndk_version_placeholder" translatable="false">e.g. 27.3.13750724</string>
+    <string name="sdk_currently_forced_format">当前强制使用：%1$s</string>
+    <string name="sdk_apply_btn">应用</string>
+    <string name="sdk_version_format">版本 %1$s</string>
+    <string name="sdk_installed_badge">已安装</string>
+    <string name="sdk_invalid_badge">无效</string>
+    <string name="sdk_ndk_invalid_title">NDK 无效</string>
+    <string name="sdk_ndk_invalid_help_cd">查看此 NDK 无效的原因</string>
+    <string name="sdk_uninstall_btn">卸载</string>
+    <string name="sdk_installing_status">正在安装...</string>
+    <string name="sdk_install_btn">安装</string>
+    <string name="sdk_flutter_sdk">Flutter SDK</string>
+    <string name="sdk_installed_ready">已安装并就绪</string>
+    <string name="sdk_not_installed">未安装</string>
+    <string name="sdk_requirements">系统要求</string>
+    <string name="sdk_architecture">架构</string>
+    <string name="sdk_arm64_only">仅支持 ARM64</string>
+    <string name="sdk_storage_required">所需存储空间</string>
+    <string name="sdk_flutter_storage_value" translatable="false">~2 GB</string>
+    <string name="sdk_already_installed">已安装</string>
+    <string name="sdk_install_flutter">安装 Flutter</string>
+    <string name="sdk_uninstall_flutter">卸载 Flutter</string>
+    <string name="sdk_uninstalling_status">正在卸载...</string>
+    <string name="sdk_close_btn">关闭</string>
+    <string name="sdk_jdk_imported_msg">已导入 JDK %1$s</string>
+    <string name="sdk_jdk_import_failed_msg">导入 JDK 失败</string>
+    <string name="sdk_android_sdk_imported_msg">Android SDK 已导入</string>
+    <string name="sdk_android_sdk_import_failed_msg">导入 SDK 失败</string>
+    <string name="sdk_no_ndk_found">未找到 NDK</string>
+    <string name="sdk_platform_tools">Platform Tools</string>
+    <string name="sdk_cmake_versions">CMake 版本</string>
+    <string name="sdk_jdk_versions">JDK 版本</string>
+
+    <string name="env_setup_header_title">安装环境</string>
+    <string name="env_setup_header_subtitle">配置你的 JDK、SDK 和 NDK</string>
+    <string name="env_setup_back_content_description">返回</string>
+    
+    <string name="env_setup_jdk_title">OpenJDK</string>
+    <string name="env_setup_jdk_subtitle">选择要使用的 JDK 版本</string>
+    
+    <string name="env_setup_sdk_title">Android SDK</string>
+    <string name="env_setup_sdk_subtitle">自动安装或从本地压缩包安装</string>
+    <string name="env_setup_sdk_archive_field_label">SDK 压缩包</string>
+    <string name="env_setup_sdk_archive_field_placeholder">未选择文件</string>
+    <string name="env_setup_sdk_archive_field_support" translatable="false">.zip, .tar.gz, or .tar.xz</string>
+    <string name="env_setup_sdk_archive_picker_content_description">选择 SDK 压缩包文件</string>
+    
+    <string name="env_setup_ndk_title">Android NDK</string>
+    <string name="env_setup_ndk_subtitle">选择 NDK 工具包版本</string>
+    
+    <string name="env_setup_done_button">完成</string>
+
+    <!-- Feature Announcement Strings -->
+    <string name="feature_badge_new">新功能</string>
+    <string name="feature_fluent2_title">Windows 11 Fluent 2 模式</string>
+    <string name="feature_fluent2_subtitle">体验新一代视觉效果</string>
+    <string name="feature_fluent2_description">Android Code Studio 现已采用 Microsoft Fluent 2 设计美学，带来具有柔和深度、云母质感背景和圆润控件的精致桌面级界面。</string>
+    <string name="feature_fluent2_highlight1_title">云母与亚克力表面</string>
+    <string name="feature_fluent2_highlight1_desc">半透明的分层卡片、柔和的阴影，以及各屏幕间清晰的边框。</string>
+    <string name="feature_fluent2_highlight2_title">精致的排版与间距</string>
+    <string name="feature_fluent2_highlight2_desc">通过紧凑的控件和动态高亮效果，提升可读性。</string>
+    <string name="feature_fluent2_highlight3_title">一键即时切换</string>
+    <string name="feature_fluent2_highlight3_desc">随时可从主屏幕顶栏或设置中启用或禁用 Fluent 2 模式。</string>
+    <string name="feature_fluent2_action">启用 Fluent 2</string>
+    <string name="feature_fluent2_dismiss">知道了</string>
+    <string name="empty_editor_message">没有打开的文件。\n点击浏览文件按钮，开始编写代码。</string>
+
+    <string name="browse_files">浏览文件</string>
+    <!-- XML Preview Strings -->
+    <string name="action_xml_preview_title">XML 预览</string>
+    <string name="xml_preview_title">XML 预览</string>
+    <string name="xml_preview_rendering">正在渲染布局预览...</string>
+    <string name="xml_preview_error">XML 预览错误</string>
+    <string name="xml_preview_not_synced">项目未同步，请先同步 Gradle 项目。</string>
+    <string name="xml_preview_no_layout">未指定布局文件</string>
+    <string name="xml_preview_refresh">刷新预览</string>
+    <string name="xml_preview_rebuild">重新构建（assembleDebug）</string>
+    <string name="xml_preview_rebuild_hint">布局资源可能已过期。请使用 assembleDebug 重新构建该模块，然后再次尝试预览。</string>
+    <string name="xml_preview_theme">主题</string>
+    <string name="xml_preview_night_mode">夜间模式</string>
+    <string name="xml_preview_mode_system">跟随系统</string>
+    <string name="xml_preview_mode_light">浅色</string>
+    <string name="xml_preview_mode_dark">深色</string>
+    <string name="xml_preview_display_settings">显示设置</string>
+    <string name="xml_preview_menu_preview">预览</string>
+    <string name="xml_preview_menu_preview_video">视频预览</string>
+    <string name="xml_preview_width_label">宽度 (px)</string>
+    <string name="xml_preview_height_label">高度 (px)</string>
+    <string name="xml_preview_density_label">密度 (dpi)</string>
+    <string name="xml_preview_preset_standard">标准</string>
+    <string name="xml_preview_preset_full_hd_plus">Full HD+</string>
+    <string name="xml_preview_preset_tablet">平板</string>
+    <string name="xml_preview_display_invalid">请输入有效的宽度、高度和密度正整数。</string>
+    <string name="xml_preview_apply">应用</string>
+    <string name="xml_preview_applying">应用中…</string>
+    <string name="xml_preview_unavailable">预览渲染不可用</string>
+    <string name="xml_preview_parsing">正在解析 XML 布局 %1$s...</string>
+    <string name="xml_preview_no_active">没有活动的 XML 预览</string>
+    <string name="xml_preview_start_before_refresh">请先开始预览，然后再刷新。</string>
+    <string name="xml_preview_start_before_settings">请先开始预览，然后再更改显示设置。</string>
+    <string name="xml_preview_start_before_rebuild">请先开始预览，然后再重新构建。</string>
+    <string name="xml_preview_project_not_synced_title">项目未同步</string>
+    <string name="xml_preview_project_not_synced_details">请先同步 Gradle 项目，以便编译目标资源。</string>
+    <string name="xml_preview_metadata_unavailable">元数据不可用</string>
+    <string name="xml_preview_metadata_unavailable_details">没有可用的活动预览会话元数据。</string>
+    <string name="xml_preview_resource_not_found">未找到资源包</string>
+    <string name="xml_preview_resource_not_found_rerender">没有可用于重新渲染的资源存档。</string>
+    <string name="xml_preview_resource_not_found_after_build">编译已完成，但在 %1$s 下未找到输出。</string>
+    <string name="xml_preview_resource_not_found_apk">编译已完成，但在 %1$s 下未找到 .ap_ 或 .apk 输出。</string>
+    <string name="xml_preview_resource_compile_failed">资源编译失败</string>
+    <string name="xml_preview_incremental_error">增量编译错误</string>
+    <string name="xml_preview_unknown_render_error">渲染 XML 预览时发生未知错误</string>
+    <string name="xml_preview_recompiling">正在重新编译 %1$s...</string>
+    <string name="xml_preview_compiling_resources">正在编译目标模块的布局资源...</string>
+    <string name="xml_preview_running_assemble">正在运行 %1$s...</string>
+    <string name="xml_preview_rendering_layout">正在渲染布局 %1$s...</string>
+    <string name="xml_preview_resolving_metadata">正在解析目标模块资源...</string>
+    <string name="no_output_yet">暂无输出</string>
+    <string name="run_project_for_output">运行项目以在此处查看输出</string>
+    <string name="previous_page">上一页</string>
+    <string name="next_page">下一页</string>
+    <string name="install_apk">安装 APK</string>
+    <string name="share_output">分享输出</string>
+    <string name="clear_output">清除输出</string>
+    <!-- Language Server Settings -->
+    <string name="experiments_java_lsp_title">Java 语言服务器</string>
+    <string name="experiments_java_lsp_desc">Java 文件的代码补全、诊断与导航</string>
+    <string name="experiments_dart_lsp_title">Dart 语言服务器</string>
+    <string name="experiments_dart_lsp_desc">Dart 和 Flutter 文件的代码补全与分析</string>
+    <string name="experiments_dart_lsp_no_sdk_desc">需要 Flutter SDK（未安装）</string>
+    <string name="experiments_xml_lsp_title">XML 语言服务器</string>
+    <string name="experiments_xml_lsp_desc">Android XML 布局与资源的代码补全和校验</string>
+    <string name="experiments_section_gradle_service">Gradle 服务</string>
+    <string name="experiments_custom_gradle_title">自定义 Gradle 安装</string>
+    <string name="experiments_custom_gradle_desc">使用指定的本地分发路径覆盖 gradle-wrapper.properties 中的 Gradle 版本。</string>
+    <string name="experiments_label_experimental">实验性</string>
+    <!-- LSP JVM Options -->
+    <string name="lsp_jvm_options_title">JVM 选项</string>
+    <string name="lsp_jvm_options_subtitle">在下次启动服务器时生效</string>
+    <string name="lsp_jvm_memory_header">内存</string>
+    <string name="lsp_jvm_extra_flags_header">额外参数</string>
+    <string name="lsp_jvm_initial_heap_label">-Xms  (初始堆大小)</string>
+    <string name="lsp_jvm_max_heap_label">-Xmx  (最大堆大小)</string>
+    <string name="lsp_jvm_extra_flags_label">其他 JVM 参数</string>
+    <string name="lsp_jvm_reset_action">重置</string>
+    <string name="lsp_jvm_save_action">保存</string>
+    <!-- Gradle Task Runner Strings -->
+    <string name="settings_remember_gradle_tasks_title">记住选定的 Gradle 任务</string>
+    <string name="settings_remember_gradle_tasks_desc">在应用重启后保留选定的 Gradle 任务和额外参数</string>
+    <string name="gradle_dialog_remember_tasks">记住选择</string>
+    <string name="gradle_tasks_run_count">运行 %1$d 个任务</string>
+    <string name="gradle_task_run_single">运行 1 个任务</string>
+    <string name="gradle_task_select_tasks">选择任务</string>
+    <string name="gradle_tasks_clear_selection">清除选择</string>
+    <string name="gradle_extra_args_btn">额外 Gradle 参数</string>
+    <string name="gradle_extra_args_count_btn">额外 Gradle 参数 (%1$d)</string>
+    <string name="gradle_dialog_run_gradle_tasks">运行 Gradle 任务</string>
+    <string name="gradle_dialog_run_flutter_commands">运行 Flutter 命令</string>
+    <string name="gradle_dialog_tasks_selected_count">已选择 %1$d 个任务</string>
+    <string name="gradle_dialog_single_task_selected">已选择 1 个任务</string>
+    <string name="gradle_args_dialog_title">额外 Gradle 参数</string>
+    <string name="gradle_args_dialog_subtitle">选择常用参数或添加自定义参数</string>
+    <string name="gradle_args_custom_badge">自定义</string>
+    <string name="gradle_args_custom_placeholder">添加自定义参数（例如 --parallel）</string>
+    <string name="gradle_args_clear_all">全部清除</string>
+    <string name="gradle_args_apply">应用</string>
+    <string name="run_action_build_debug">构建 Debug</string>
+    <string name="run_action_build_release">构建 Release</string>
+    <string name="run_action_custom">自定义</string>
+    <!-- Memory Overlay Strings -->
+    <string name="overlay_memory_content_description">内存</string>
+    <string name="overlay_memory_usage_title">内存使用情况</string>
+    <string name="overlay_collapse_content_description">折叠</string>
+    <string name="overlay_expand_content_description">展开</string>
+    <string name="overlay_ide_process_title">IDE 进程</string>
+    <string name="overlay_acside_process_title">总体使用情况</string>
+    <string name="overlay_tooling_api_title">Tooling API</string>
+    <string name="overlay_active_screen">当前界面</string>
+    <string name="overlay_heap_breakdown">堆内存分解</string>
+    <string name="overlay_dalvik_label">Dalvik</string>
+    <string name="overlay_native_label">原生</string>
+    <string name="overlay_other_label">其他</string>
+    <string name="overlay_active_threads">活动线程</string>
+    <string name="overlay_tooling_workspace">工作区</string>
+    <string name="overlay_tooling_building">构建中</string>
+    <string name="overlay_tooling_heap_graph">堆内存图表</string>
+    <string name="overlay_size_label">大小</string>
+    <string name="overlay_drag_to_move">拖动以移动</string>
+    <string name="overlay_status_running">运行中</string>
+    <string name="overlay_status_not_running">未运行</string>
+    <string name="overlay_subprocesses_title">进程列表</string>
+    <string name="overlay_thread_frames_format">%1$d 帧</string>
+    <string name="overlay_pid_format">PID: %1$d</string>
+    <string name="overlay_used_max_mb_format">%1$d MB / %2$d MB</string>
+    <string name="overlay_percent_format">%1$d%%</string>
+    <string name="overlay_mb_format">%1$dMB</string>
+    <string name="overlay_tooling_mb_format">Tooling %1$dMB</string>
+    <string name="overlay_acside_mb_format">ACSIDE %1$dMB</string>
+    <!-- Adaptive Performance Strings -->
+    <string name="adaptive_perf_dialog_title">自适应性能优化</string>
+    <string name="adaptive_perf_dialog_subtitle">根据您的设备硬件定制的最佳设置</string>
+    <string name="adaptive_perf_specs_ram">设备运行内存</string>
+    <string name="adaptive_perf_specs_storage">内部存储空间</string>
+    <string name="adaptive_perf_specs_cores">CPU 核心数</string>
+    <string name="adaptive_perf_specs_tier">性能配置级别</string>
+    <string name="adaptive_perf_tier_low">入门级</string>
+    <string name="adaptive_perf_tier_balanced">均衡级</string>
+    <string name="adaptive_perf_tier_high">高性能</string>
+    <string name="adaptive_perf_tier_ultra">极致性能</string>
+    <string name="adaptive_perf_applying">正在应用最佳性能设置&#8230;</string>
+    <string name="adaptive_perf_applied">最佳性能设置已成功应用</string>
+    <string name="adaptive_perf_continue">继续</string>
+    <string name="adaptive_perf_dialog_description">已检测您的设备硬件规格，以自动优化 JVM 内存分配、语言服务器响应能力及 Gradle 后台构建进程。</string>
+    <!-- HealthWatcher Strings -->
+    <string name="health_watcher_nullij_warning_title">内存占用过高提醒</string>
+    <string name="health_watcher_nullij_warning_message">Android Code Studio 内存占用已达到 %1$d MB。若感到操作卡顿，建议关闭不需要的编辑器标签页或后台任务。</string>
+    <string name="health_watcher_acside_warning_title">ACSIDE 进程内存提醒</string>
+    <string name="health_watcher_acside_warning_message">ACSIDE 伴随进程内存已达到 %1$d MB（设定阈值：%2$d MB）。停止语言服务器可释放内存。</string>
+    <string name="health_watcher_stop_lsps">停止语言服务器</string>
+    <string name="health_watcher_never_show_again">不再提示</string>
+    <string name="health_watcher_dismiss">忽略</string>
+    <string name="health_watcher_ok">确定</string>
+    <string name="health_watcher_lsps_stopped">语言服务器已停止，编辑器已刷新。</string>
+    <string name="health_watcher_settings_title">内存健康监视器</string>
+    <string name="health_watcher_settings_summary">监视后台内存占用并在超出阈值时接收提醒</string>
+    <string name="health_watcher_threshold_title">ACSIDE 内存阈值</string>
+    <string name="health_watcher_threshold_summary">伴随进程超出此限制时触发提醒</string>
+    <string name="health_watcher_unit_title">阈值单位</string>
+    <string name="health_watcher_unit_summary">伴随进程内存阈值的度量单位</string>
+    <string name="health_watcher_reset_dialogs_title">重置提醒弹窗偏好</string>
+    <string name="health_watcher_reset_dialogs_summary">重新启用先前选择“不再提示”的内存提醒弹窗</string>
+    <string name="health_watcher_reset_dialogs_done">提醒弹窗偏好已恢复默认设置。</string>
+    <!-- Tooling API JVM Options Strings -->
+    <string name="experiments_tooling_api_jvm_title">Tooling API JVM 选项</string>
+    <string name="experiments_tooling_api_jvm_desc">为 Gradle Tooling API 服务配置堆内存分配与 JVM 运行参数。</string>
+    <string name="tooling_api_jvm_options_title">Tooling API JVM 选项</string>
+    <string name="tooling_api_jvm_options_subtitle">将在下次工具服务启动时生效</string>
+    <!-- External file change conflict strings -->
+    <string name="external_change_dialog_title">文件已在磁盘上修改</string>
+    <string name="external_change_dialog_desc">%1$s 已在外部被修改。您要从磁盘重新加载并覆盖编辑器中的更改，还是保留编辑器更改？</string>
+    <string name="external_change_reload">从磁盘重新加载</string>
+    <string name="external_change_keep">保留编辑器更改</string>
+    <!-- MCP Agent Strings -->
+    <string name="mcp_edit_mode_button_desc">编辑模式</string>
+    <string name="mcp_edit_mode_always_accept">始终接受编辑</string>
+    <string name="mcp_edit_mode_preview">接受前预览</string>
+    <string name="mcp_diff_title">审查拟议修改</string>
+    <string name="mcp_diff_accept">接受更改</string>
+    <string name="mcp_diff_reject">拒绝</string>
+    <string name="mcp_diff_conflict_warning">自生成此预览以来，文件在磁盘上已被修改。</string>
+    <string name="mcp_diff_file_created">新建文件</string>
+    <string name="mcp_diff_file_deleted">已删除文件</string>
+    <string name="mcp_diff_file_renamed">%1$s → %2$s</string>
+    <string name="mcp_diff_prev_file">上一个</string>
+    <string name="mcp_diff_next_file">下一个</string>
+    <string name="mcp_fallback_empty_response">未收到模型响应。</string>
+    <string name="mcp_error_tap_for_details">出错了。点击 ! 查看详情。</string>
+    <string name="mcp_error_details_title">错误详情</string>
+    <string name="mcp_error_copy">复制</string>
+    <string name="mcp_error_copied">已复制到剪贴板</string>
+    <string name="mcp_error_no_internet">无网络连接。</string>
+    <string name="mcp_error_invalid_api_key">API 密钥无效。</string>
+    <string name="mcp_error_quota">超出配额或请求受限。</string>
+    <string name="mcp_error_timeout">请求超时。</string>
+    <string name="mcp_error_unexpected">发生意外错误。</string>
+    <string name="mcp_error_details_summary">摘要</string>
+    <string name="mcp_error_details_type">类型</string>
+    <string name="mcp_error_details_message">信息</string>
+    <string name="mcp_error_details_tool">工具</string>
+    <string name="mcp_error_details_stacktrace">堆栈跟踪</string>
+
+    <string name="quick_line_actions">快速行操作</string>
+    <string name="quick_action_copy_line">复制行</string>
+    <string name="quick_action_cut_line">剪切行</string>
+    <string name="quick_action_delete_line">删除行</string>
+    <string name="quick_action_empty_line">清空行</string>
+    <string name="quick_action_replace_line">替换行</string>
+    <string name="quick_action_duplicate_line">复制整行</string>
+    <string name="quick_action_uppercase">转换为大写</string>
+    <string name="quick_action_lowercase">转换为小写</string>
+    <string name="quick_action_increase_indent">增加缩进</string>
+    <string name="quick_action_decrease_indent">减少缩进</string>
+    <string name="quick_action_toggle_comment">切换注释</string>
+    <string name="quick_action_format_java">格式化 Java 代码</string>
+    <string name="java_format_error_title">Java 格式化错误</string>
+    <string name="dependency_update_available_title">有可用更新</string>
+    <string name="dependency_update_all_title">全部更新</string>
+    <string name="dependency_update_all_message">将 %1$d 个依赖更新到最新版本？</string>
+    <string name="dependency_update_apply">应用</string>
+    <string name="dependency_update_catalog_hint">这将更新 libs.versions.toml</string>
+</resources>
+

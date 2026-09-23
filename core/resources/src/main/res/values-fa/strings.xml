@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" translatable="false">ACS IDE</string>
+    <string name="acsb_app_name" translatable="false">ACS IDE:bootstrap</string>
+    <string name="create_project">ایجاد پروژه</string>
+    <string name="open_project">باز کردن پروژه</string>
+    <string name="launch_terminal">اجرای ترمینال</string>
+    <!-- ============================================================ -->
+    <!-- Project Actions                                              -->
+    <!-- ============================================================ -->
+    <string name="action_create_project_title">پروژه جدید</string>
+    <string name="action_create_project_desc">ایجاد یک پروژه اندروید جدید</string>
+    <string name="action_open_project_title">باز کردن</string>
+    <string name="action_open_project_desc">باز کردن یک پروژه موجود</string>
+    <!-- ============================================================ -->
+    <!-- Tool Actions                                                 -->
+    <!-- ============================================================ -->
+    <string name="action_sdk_manager_title">مدیریت SDK</string>
+    <string name="action_terminal_title">ترمینال</string>
+    <string name="action_settings_title">تنظیمات</string>
+    <string name="action_plugins_title">افزونه ها</string>
+    <!-- ============================================================ -->
+    <!-- Editor Actions                                               -->
+    <!-- ============================================================ -->
+    <string name="action_save_title">ذخیره</string>
+    <string name="action_undo_title">واگرد</string>
+    <string name="action_redo_title">انجام مجدد</string>
+    <string name="action_search_title">جستجو</string>
+    <string name="action_sync_title">همگام سازی</string>
+    <string name="action_run_title">اجرا</string>
+    <string name="action_cancel_build_title">لغو ساخت</string>
+    <string name="action_group_project">پروژه</string>
+    <string name="action_group_tools">ابزارها</string>
+    <string name="action_group_settings">تنظیمات</string>
+    <string name="action_group_plugins">افزونه ها</string>
+    <string name="action_group_editor_plugins">افزونه های ویرایشگر</string>
+    <!-- ============================================================ -->
+    <!-- Preview Action (Compose / Flutter)                           -->
+    <!-- ============================================================ -->
+    <string name="action_preview_title">پیش نمایش</string>
+    <string name="action_preview_desc">پیش نمایش طرح بندی یا Composable</string>
+    <string name="settings">ترجیحات</string>
+    <string name="kotlin">کاتلین</string>
+    <string name="ndk_version_auto">NDK: خودکار</string>
+    <string name="native_error_title">نیازمند NDK</string>
+    <string name="error_ndk_not_found_or_incompatible">هیچ NDK نصب شده ای یافت نشد یا ناسازگار است. لطفاً NDK را از تنظیمات IDE نصب کنید.</string>
+    <string name="open_ide_cfg_msg">باز کردن تنظیمات</string>
+    <!-- ATC Options Dialog -->
+    <string name="choose_template">انتخاب قالب</string>
+    <string name="project_configuration">پیکربندی پروژه</string>
+    <string name="use_cmake">استفاده از سیستم ساخت CMake</string>
+    <string name="native_language">زبان نیتیو (Native)</string>
+    <string name="minimum_sdk">حداقل SDK</string>
+    <string name="new_project">پروژه جدید</string>
+    <string name="package_name">نام پکیج</string>
+    <string name="project_name">نام پروژه</string>
+    <string name="project_location">مسیر پروژه</string>
+    <string name="browse">مرور</string>
+    <string name="language">زبان</string>
+    <string name="java">جاوا</string>
+    <string name="use_gradle_kotlin_dsl">استفاده از Gradle Kotlin DSL (.kts)</string>
+    <string name="cancel">لغو</string>
+    <string name="create">ایجاد</string>
+    <string name="default_project_name" translatable="false">MyApplication</string>
+    <string name="default_package_name" translatable="false">com.example.myapplication</string>
+    <string name="back">بازگشت</string>
+    <!-- MainActivity -->
+    <string name="app_name_full" translatable="false">Android Code Studio</string>
+    <string name="app_icon_description">آیکون برنامه</string>
+    <string name="error_invalid_gradle_project">پوشه انتخاب شده یک پروژه معتبر Gradle نیست</string>
+    <string name="error_could_not_access_directory">امکان دسترسی به پوشه انتخاب شده وجود ندارد</string>
+    <!-- Sections -->
+    <string name="section_projects">پروژه ها</string>
+    <string name="section_recent_projects">پروژه های اخیر</string>
+    <string name="section_learn">آموزش</string>
+    <string name="section_resources">منابع</string>
+    <!-- Recent Projects -->
+    <string name="no_recent_projects">هیچ پروژه اخیری وجود ندارد</string>
+    <string name="content_description_remove">حذف</string>
+    <!-- Learn Section -->
+    <string name="learn_first_app_title">اولین برنامه خود را بسازید</string>
+    <string name="learn_first_app_description">مبانی توسعه اندروید را بیاموزید</string>
+    <string name="learn_kotlin_title">راهنمای زبان کاتلین</string>
+    <string name="learn_kotlin_description">تسلط بر برنامه نویسی کاتلین</string>
+    <string name="learn_compose_title">Jetpack Compose</string>
+    <string name="learn_compose_description">ابزار مدرن رابط کاربری برای اندروید</string>
+    <!-- Resources Section -->
+    <string name="resources_documentation_title">مستندات</string>
+    <string name="resources_documentation_description">راهنماها و مرجع API</string>
+    <string name="resources_samples_title">پروژه های نمونه</string>
+    <string name="resources_samples_description">بررسی برنامه های نمونه</string>
+    <!-- Editor Bottom Sheet -->
+    <string name="content_description_expand">گسترش</string>
+    <string name="content_description_collapse">جمع کردن</string>
+    <string name="content_description_clear">پاکسازی</string>
+    <string name="content_description_close">بستن</string>
+    <!-- Actions -->
+    <string name="action_new_project">پروژه جدید</string>
+    <string name="action_new_project_desc">ایجاد یک پروژه اندروید جدید</string>
+    <string name="action_open">باز کردن</string>
+    <string name="action_open_desc">باز کردن یک پروژه موجود</string>
+    <string name="action_sdk_manager">مدیریت SDK</string>
+    <string name="action_sdk_manager_desc">مدیریت کامپوننت های SDK اندروید</string>
+    <string name="action_terminal">ترمینال</string>
+    <string name="action_terminal_desc">باز کردن ترمینال داخلی</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="action_settings_desc">پیکربندی تنظیمات IDE</string>
+    <string name="action_plugins">افزونه ها</string>
+    <string name="action_plugins_desc">مدیریت افزونه های IDE</string>
+    <string name="action_jitpack_preview">پیش نمایش JitPack</string>
+    <string name="action_jitpack_preview_desc">پیش نمایش کتابخانه های JitPack</string>
+    <string name="action_sdk_manager_test">مدیریت SDK (تست)</string>
+    <string name="action_sdk_manager_test_desc">نسخه آزمایشی مدیریت SDK</string>
+    <!-- Editor Actions -->
+    <string name="action_save">ذخیره</string>
+    <string name="action_save_desc">ذخیره فایل فعلی</string>
+    <string name="action_undo">واگرد</string>
+    <string name="action_undo_desc">لغو آخرین تغییر</string>
+    <string name="action_redo">انجام مجدد</string>
+    <string name="action_redo_desc">تکرار آخرین تغییر لغو شده</string>
+    <string name="action_search">جستجو</string>
+    <string name="action_search_desc">جستجو و جایگزینی در فایل</string>
+    <string name="action_sync">همگام سازی</string>
+    <string name="action_sync_desc">همگام سازی پروژه Gradle</string>
+    <string name="action_run">اجرا</string>
+    <string name="action_run_desc">ساخت و اجرای پروژه</string>
+    <string name="action_cancel_build">لغو ساخت</string>
+    <string name="action_cancel_build_desc">لغو روند ساخت فعلی</string>
+    <!-- Action Messages -->
+    <string name="action_disabled">%1$s در حال حاضر غیرفعال است</string>
+    <string name="action_executing">در حال اجرا: %1$s</string>
+    <string name="action_execution_error">خطا در اجرای %1$s: %2$s</string>
+    <string name="jitpack_preview_unavailable">پیش نمایش JitPack در دسترس نیست</string>
+    <string name="sdk_manager_test_unavailable">تست مدیریت SDK در دسترس نیست</string>
+    <!-- Template Plugin Messages -->
+    <string name="template_plugins_directory_not_found">پوشه افزونه ها یافت نشد</string>
+    <string name="template_no_enabled_plugins">هیچ افزونه فعال شده ای یافت نشد</string>
+    <string name="template_plugin_no_templates">افزونه %1$s دارای فایل templates.json نیست</string>
+    <string name="template_loaded_count">تعداد %1$d قالب از افزونه بارگیری شد: %2$s</string>
+    <string name="template_total_loaded">مجموع قالب های بارگیری شده: %1$d از %2$d افزونه</string>
+    <string name="template_plugins_json_not_found">فایل plugins.json یافت نشد</string>
+    <string name="template_enabled_plugins">افزونه های فعال: %1$s</string>
+    <string name="template_parse_success">با موفقیت %1$d قالب از JSON بارگیری شد</string>
+    <string name="template_parse_error">خطا در تجزیه قالب های JSON</string>
+    <string name="template_creation_failed">ایجاد قالب ناموفق بود</string>
+    <!-- Internal Error Dialog (lib dir missing / extraction failure) -->
+    <string name="error_internal_title">خطای داخلی</string>
+    <string name="error_internal_lib_dir_missing">یکی از پوشه های داخلی حیاتی یافت نشد. این یک خطای غیرقابل جبران است. لطفاً برنامه را مجدداً نصب کنید.</string>
+    <string name="error_internal_exit">خروج</string>
+    <!-- Editor backend native library -->
+    <string name="lib_editor_backend_asset_path" translatable="false">naive/libeditor-backend.so</string>
+    <!-- Plugin Installation -->
+    <string name="plugin_install_success_title">افزونه نصب شد</string>
+    <string name="plugin_install_success_message">%1$s با موفقیت نصب شد.\n\nآیا می خواهید آن را فعال کرده و IDE را دوباره بارگیری کنید؟</string>
+    <string name="plugin_install_enable_and_reload">فعالسازی و بارگیری مجدد</string>
+    <string name="plugin_install_later">بعداً</string>
+    <string name="plugin_install_failed_title">نصب ناموفق بود</string>
+    <string name="plugin_enabled">افزونه فعال شد</string>
+    <!-- Plugin Screen UI -->
+    <string name="plugin_refresh">به روزرسانی</string>
+    <string name="plugin_refreshing">در حال به روزرسانی…</string>
+    <string name="plugin_search_hint">جستجوی افزونه ها…</string>
+    <string name="plugin_install_from_file">نصب از فایل</string>
+    <string name="plugin_section_installed">نصب شده</string>
+    <string name="plugin_section_available">موجود</string>
+    <string name="plugin_no_installed">هنوز هیچ افزونه ای نصب نشده است</string>
+    <string name="plugin_no_installed_match">هیچ افزونه نصب شده ای مطابقت ندارد</string>
+    <string name="plugin_all_installed">تمام افزونه های مخزن نصب شده اند</string>
+    <string name="plugin_no_available_match">هیچ افزونه موجودی مطابقت ندارد</string>
+    <string name="plugin_updates_available">%1$d به روزرسانی در دسترس است</string>
+    <string name="plugin_update_available">به روزرسانی در دسترس: v%1$s</string>
+    <string name="plugin_repo_loading">در حال بارگیری مخزن…</string>
+    <string name="plugin_repo_load_failed">بارگیری مخزن ناموفق بود</string>
+    <string name="plugin_repo_empty">هیچ افزونه ای بارگیری نشد</string>
+    <string name="plugin_repo_empty_hint">ارتباط با مخازن افزونه برقرار نشد. اتصال خود را بررسی کرده و روی ↻ ضربه بزنید.</string>
+    <string name="plugin_downloading">در حال دانلود…</string>
+    <string name="plugin_downloading_update">در حال دانلود به روزرسانی…</string>
+    <string name="plugin_badge_installed">نصب شده</string>
+    <string name="plugin_badge_enabled">فعال</string>
+    <string name="plugin_badge_disabled">غیرفعال</string>
+    <string name="plugin_action_install">نصب</string>
+    <string name="plugin_action_update">به روزرسانی</string>
+    <string name="plugin_action_update_to">به روزرسانی به v%1$s</string>
+    <string name="plugin_action_enable">فعالسازی</string>
+    <string name="plugin_action_disable">غیرفعالسازی</string>
+    <string name="plugin_action_uninstall">حذف نصب</string>
+    <string name="plugin_uninstall_confirm_title">حذف افزونه؟</string>
+    <string name="plugin_uninstall_confirm_message">آیا از حذف %1$s اطمینان دارید؟ این عمل قابل بازگشت نیست.</string>
+    <string name="plugin_reload_required">نیازمند بارگیری مجدد</string>
+    <string name="plugin_reload_message">"%1$s" آماده است. اکنون IDE را دوباره بارگیری کنید تا فعال شود.</string>
+    <string name="plugin_reload_now">بارگیری مجدد</string>
+    <string name="plugin_reload_later">بعداً</string>
+    <string name="plugin_install_invalid_file_type">نوع فایل نامعتبر است. فقط فایل های .acp مجاز هستند.</string>
+    <string name="plugin_install_error">نصب ناموفق بود: %1$s</string>
+    <string name="plugin_download_error">دانلود ناموفق بود: %1$s</string>
+    <string name="ok">تایید</string>
+    <!-- Terminal -->
+    <string name="terminal_title">ترمینال</string>
+    <string name="terminal_sessions">نشست ها</string>
+    <string name="terminal_add_session">افزودن نشست</string>
+    <string name="terminal_delete_session">حذف نشست</string>
+    <string name="terminal_active">ترمینال فعال است</string>
+    <string name="terminal_session_single">نشست ۱ ترمینال باز است</string>
+    <string name="terminal_sessions_range">نشست های ۱ تا %1$d ترمینال باز هستند</string>
+    <string name="terminal_notification_channel_name">نشست های ترمینال</string>
+    <string name="terminal_notification_channel_description">وضعیت نشست های فعال ترمینال را نشان می دهد</string>
+    <!-- Updater Dialog -->
+    <string name="updater_title">به روزرسانی در دسترس است</string>
+    <string name="updater_version_prefix" translatable="false">v%1$s</string>
+    <string name="updater_dismiss">بستن</string>
+    <string name="updater_whats_new">تغییرات جدید</string>
+    <string name="updater_download">دانلود به روزرسانی</string>
+    <string name="updater_retry">تلاش مجدد برای دانلود</string>
+    <string name="updater_later">بعداً</string>
+    <string name="updater_downloading">در حال دانلود…</string>
+    <string name="updater_install_now">هم اکنون نصب کنید</string>
+    <string name="updater_progress_percent" translatable="false">%1$d%%</string>
+    <string name="updater_changelog_unavailable">لیست تغییرات در دسترس نیست</string>
+    <!-- Component Downloader Dialog -->
+    <string name="component_fetch_error">دریافت اطلاعات کامپوننت ناموفق بود</string>
+    <string name="component_extracting">در حال استخراج…</string>
+    <string name="component_linking">در حال پیوند (Linking)…</string>
+    <string name="component_downloading">در حال دانلود…</string>
+    <string name="component_installed">با موفقیت نصب شد</string>
+    <string name="component_install_failed">نصب ناموفق بود</string>
+    <string name="component_installing">در حال نصب…</string>
+    <string name="component_done">انجام شد</string>
+    <string name="component_retry">تلاش مجدد</string>
+    <string name="component_download">دانلود</string>
+    <!-- Experiments Settings -->
+    <string name="experiments_section_language_servers">سرورهای زبان</string>
+    <string name="experiments_kotlin_lsp_title">سرور زبان کاتلین (Kotlin LSP)</string>
+    <string name="experiments_kotlin_lsp_desc">تکمیل کد، عیب یابی و نمایه برای فایل های کاتلین</string>
+    <string name="kotlin_lsp_indexing_reassurance">در حال نمایه سازی... این فرآیند در پروژه های بزرگ زمان بر است. لطفاً منتظر بمانید.</string>
+    <string name="kotlin_lsp_ready">سرور زبان کاتلین آماده است</string>
+    <string name="experiments_label_beta">آزمایشی (BETA)</string>
+    <string name="experiments_action_setup">راه اندازی</string>
+    <!-- Kotlin LSP Dialog -->
+    <string name="lsp_dialog_title">سرور زبان کاتلین</string>
+    <string name="lsp_dialog_subtitle">آزمایشی</string>
+    <string name="lsp_dialog_dismiss">بستن</string>
+    <string name="lsp_feature_completion">تکمیل هوشمند کد</string>
+    <string name="lsp_feature_diagnostics">عیب یابی خطاهای لحظه ای</string>
+    <string name="lsp_feature_navigation">ارتباط به تعاریف و مراجع</string>
+    <string name="lsp_feature_formatting">قالب بندی و مرتب سازی کد</string>
+    <string name="lsp_download">دانلود (~270 MB)</string>
+    <string name="lsp_install">نصب</string>
+    <string name="lsp_installing">در حال نصب…</string>
+    <string name="lsp_retry">تلاش مجدد برای نصب</string>
+    <string name="lsp_later">بعداً</string>
+    <string name="lsp_downloading">در حال دانلود…</string>
+    <string name="lsp_done">انجام شد</string>
+    <string name="lsp_progress_percent" translatable="false">%1$d%%</string>
+    <string name="lsp_already_installed">سرور زبان کاتلین قبلاً نصب شده است</string>
+    <string name="lsp_remove">حذف</string>
+    <string name="lsp_extracting">در حال استخراج…</string>
+    <!-- LSP Per-Feature Toggles -->
+    <string name="lsp_features_sheet_title">قابلیت‌های %1$s</string>
+    <string name="lsp_features_sheet_subtitle">فعال یا غیرفعال کردن قابلیت‌های جداگانه LSP</string>
+    <string name="lsp_feat_completion">تکمیل خودکار</string>
+    <string name="lsp_feat_completion_desc">پیشنهاد تکمیل‌ها هنگام تایپ</string>
+    <string name="lsp_feat_diagnostics">تشخیص‌ها</string>
+    <string name="lsp_feat_diagnostics_desc">نمایش خطاها، هشدارها و راهنماها به صورت درون‌خطی</string>
+    <string name="lsp_feat_hover">اطلاعات هوور</string>
+    <string name="lsp_feat_hover_desc">نمایش نوع و مستندات در هنگام هوور</string>
+    <string name="lsp_feat_signature_help">کمک امضا</string>
+    <string name="lsp_feat_signature_help_desc">نمایش راهنمای پارامترها داخل فراخوانی‌های تابع</string>
+    <string name="lsp_feat_code_actions">اقدامات کد</string>
+    <string name="lsp_feat_code_actions_desc">رفع سریع خطا، واردات و بازسازی</string>
+    <string name="lsp_feat_formatting">قالب‌بندی</string>
+    <string name="lsp_feat_formatting_desc">قالب‌بندی خودکار اسناد و انتخاب‌ها</string>
+    <string name="lsp_feat_inlay_hints">راهنماهای درون‌خطی</string>
+    <string name="lsp_feat_inlay_hints_desc">نمایش راهنماهای نوع و پارامتر به صورت درون‌خطی</string>
+    <string name="lsp_java_exclude_desktop">حذف کلاس‌های دسکتاپ/Swing</string>
+    <string name="lsp_java_exclude_desktop_desc">پنهان کردن انواع AWT، Swing، JavaFX و سایر انواع JDK غیر اندرویدی</string>
+    <!-- Git Clone -->
+    <string name="git_clone_title">کلون کردن مخزن (Git Clone)</string>
+    <string name="git_clone_label_url">آدرس URL مخزن</string>
+    <string name="git_clone_placeholder_url" translatable="false">https://github.com/user/repo.git</string>
+    <string name="git_clone_label_destination">کلون در (پوشه اصلی)</string>
+    <string name="git_clone_placeholder_destination">برای انتخاب، آیکون پوشه را لمس کنید</string>
+    <string name="git_clone_content_desc_pick_folder">انتخاب پوشه</string>
+    <string name="git_clone_label_branch">شاخه / Branch (اختیاری)</string>
+    <string name="git_clone_placeholder_branch" translatable="false">main</string>
+    <string name="git_clone_label_custom_flags">فلگ های سفارشی git</string>
+    <string name="git_clone_label_extra_args">آرگومان های اضافی</string>
+    <string name="git_clone_placeholder_extra_args" translatable="false">--recurse-submodules --depth 1</string>
+    <string name="git_clone_extra_args_hint">فلگ های جدا شده با فاصله که به git clone اضافه می شوند</string>
+    <string name="git_clone_label_credentials">استفاده از اعتبارنامه (مخزن خصوصی)</string>
+    <string name="git_clone_label_username">نام کاربری</string>
+    <string name="git_clone_label_token">توکن / رمز عبور</string>
+    <string name="git_clone_progress">در حال کلون کردن، لطفاً منتظر بمانید…</string>
+    <string name="git_clone_button">کلون</string>
+    <string name="git_clone_status_cloning">در حال کلون…</string>
+    <string name="git_clone_error_no_repo_name">تشخیص نام مخزن از روی URL امکان پذیر نیست.</string>
+    <string name="git_clone_error_move_failed">کلون انجام شد اما انتقال به مقصد ناموفق بود:\n%1$s</string>
+    <string name="git_not_found_title">Git نصب نشده است</string>
+    <string name="git_not_found_message">برنامه Git در محیط سیستم نصب نیست. ترمینال را باز کرده و دستور زیر را برای نصب آن اجرا کنید، سپس دوباره تلاش کنید.</string>
+    <string name="git_not_found_command" translatable="false">apt install git -y</string>
+    <string name="git_not_found_open_terminal">باز کردن ترمینال</string>
+    <string name="git_not_found_dismiss">رد کردن</string>
+    <!-- Source Control Drawer & Guided Git Workflow -->
+    <string name="git_source_control_title">کنترل نسخه</string>
+    <string name="git_refresh">تازه‌سازی</string>
+    <string name="git_no_repo_title">مخزن Git یافت نشد</string>
+    <string name="git_no_repo_desc">این فضای کاری هنوز یک مخزن Git نیست. برای ردیابی تغییرات یک مخزن ایجاد کنید.</string>
+    <string name="git_init_repo">راه‌اندازی مخزن</string>
+    <string name="git_open_terminal_git">باز کردن ترمینال برای دستورات Git</string>
+    <string name="git_init_dialog_title">راه‌اندازی مخزن Git</string>
+    <string name="git_init_dialog_desc">یک مخزن Git جدید در مسیر زیر ایجاد می‌شود:\n%1$s\n\nیک پوشه مخفی .git برای نگهداری تاریخچه و نسخه‌ها ساخته خواهد شد.</string>
+    <string name="git_init_confirm">راه‌اندازی</string>
+    <string name="git_first_run_title">پیکربندی مخزن</string>
+    <string name="git_step_init_done">۱. مخزن راه‌اندازی شد</string>
+    <string name="git_step_stage_commit">۲. آماده‌سازی و ثبت تغییرات</string>
+    <string name="git_step_add_remote">۳. اتصال مخزن راه دور</string>
+    <string name="git_step_push">۴. ارسال شاخه به مخزن راه دور</string>
+    <string name="git_no_remote_banner_title">هیچ مخزن راه دوری تنظیم نشده</string>
+    <string name="git_no_remote_banner_desc">برای ارسال تغییرات و همکاری، یک مخزن راه دور (مانند GitHub یا GitLab) اضافه کنید.</string>
+    <string name="git_add_remote_btn">افزودن مخزن راه دور</string>
+    <string name="git_remote_name_label">نام مخزن راه دور</string>
+    <string name="git_remote_url_label">نشانی مخزن راه دور</string>
+    <string name="git_remote_url_invalid">لطفاً یک آدرس معتبر Git وارد کنید (https:// یا git@ یا ssh://)</string>
+    <string name="git_staged_changes">تغییرات آماده‌شده</string>
+    <string name="git_unstaged_changes">تغییرات</string>
+    <string name="git_conflict_changes">تداخل‌های ادغام</string>
+    <string name="git_stage_all">آماده‌سازی همه</string>
+    <string name="git_unstage_all">لغو آماده‌سازی همه</string>
+    <string name="git_discard_all">رد کردن همه تغییرات</string>
+    <string name="git_stage">آماده‌سازی</string>
+    <string name="git_unstage">لغو آماده‌سازی</string>
+    <string name="git_discard">رد کردن</string>
+    <string name="git_filter_placeholder">فیلتر کردن تغییرات</string>
+    <string name="git_commit_placeholder">پیام کامیت</string>
+    <string name="git_commit_btn">کامیت</string>
+    <string name="git_amend">اصلاح کامیت قبلی</string>
+    <string name="git_sign">امضای GPG</string>
+    <string name="git_no_staged_hint">برای کامیت کردن، ابتدا فایل‌ها را آماده کنید</string>
+    <string name="git_clean_tree_hint">درخت کاری تمیز است و تغییری وجود ندارد</string>
+    <string name="git_quick_actions">اقدامات سریع</string>
+    <string name="git_fetch">دریافت اطلاعات (Fetch)</string>
+    <string name="git_pull">دریافت تغییرات (Pull)</string>
+    <string name="git_push">ارسال تغییرات (Push)</string>
+    <string name="git_history">تاریخچه</string>
+    <string name="git_remotes">مخازن راه دور</string>
+    <string name="git_branches">شاخه‌ها</string>
+    <string name="git_stash">ذخیره موقت (Stash)</string>
+    <string name="git_stash_pop">بازیابی ذخیره موقت</string>
+    <string name="git_merge">ادغام (Merge)</string>
+    <string name="git_cherry_pick">انتقال کامیت (Cherry-pick)</string>
+    <string name="git_tag">برچسب (Tag)</string>
+    <string name="git_force_push">ارسال اجباری (Force Push)</string>
+    <string name="git_hard_reset">بازنشانی کامل (Hard Reset)</string>
+    <string name="git_credentials">اطلاعات احراز هویت</string>
+    <string name="git_auth_dialog_title">احراز هویت Git</string>
+    <string name="git_auth_dialog_title_invalid">اعتبارنامه نادرست</string>
+    <string name="git_auth_dialog_title_expired">توکن منقضی شده</string>
+    <string name="git_auth_dialog_title_permission">دسترسی رد شد</string>
+    <string name="git_auth_username_label">نام کاربری</string>
+    <string name="git_auth_remember_label">ذخیره اعتبارنامه به‌صورت امن</string>
+    <string name="git_auth_confirm">احراز هویت</string>
+    <string name="git_auth_cancel">لغو</string>
+    <string name="git_auth_auth_required">احراز هویت برای این عملیات راه دور الزامی است.</string>
+    <string name="git_auth_auth_failed">احراز هویت ناموفق بود. لطفاً اطلاعات خود را بررسی کنید.</string>
+    <string name="git_auth_permission_denied">دسترسی رد شد. مجوزهای مخزن یا توکن را بررسی کنید.</string>
+    <string name="git_auth_method">روش احراز هویت</string>
+    <string name="git_auth_method_token">توکن دسترسی شخصی (PAT)</string>
+    <string name="git_auth_method_password">نام کاربری و گذرواژه</string>
+    <string name="git_auth_method_ssh">کلید خصوصی SSH</string>
+    <string name="git_auth_username">نام کاربری</string>
+    <string name="git_auth_token_label">توکن دسترسی شخصی</string>
+    <string name="git_auth_password_label">گذرواژه</string>
+    <string name="git_auth_ssh_path_label">مسیر کلید خصوصی SSH</string>
+    <string name="git_auth_ssh_passphrase">عبارت عبور کلید (اختیاری)</string>
+    <string name="git_auth_remember">ذخیره امن اطلاعات ورود</string>
+    <string name="git_auth_save">ذخیره و ادامه</string>
+    <string name="git_auth_saved_title">اطلاعات ورود ذخیره‌شده</string>
+    <string name="git_auth_no_saved">هنوز هیچ اطلاعات ورودی ذخیره نشده است</string>
+    <string name="git_auth_delete">حذف</string>
+    <string name="git_auth_add_btn">افزودن اعتبارنامه</string>
+    <string name="git_auth_remote_label">ریموت یا میزبان (مانند origin یا github.com)</string>
+    <string name="git_auth_username_optional_hint">نام کاربری (هنگام استفاده از توکن اختیاری است)</string>
+    <string name="git_diff_inline">یکپارچه</string>
+    <string name="git_diff_side_by_side">در کنار هم</string>
+    <string name="git_diff_expand">بزرگ‌نمایی تفاوت‌ها</string>
+    <string name="git_diff_collapse">جمع کردن</string>
+    <string name="git_diff_close">بستن</string>
+    <string name="git_diff_binary">فایل باینری - تفاوت‌ها پنهان است</string>
+    <string name="git_diff_empty">تفاوتی مشاهده نشد</string>
+    <string name="git_conflict_banner_title">تداخل ادغام شناسایی شد</string>
+    <string name="git_conflict_banner_desc">پیش از ادامه، تداخل‌های موجود در فایل‌های زیر را حل کنید.</string>
+    <string name="git_conflict_accept_ours">پذیرش نسخه ما (Ours)</string>
+    <string name="git_conflict_accept_theirs">پذیرش نسخه دریافتی (Theirs)</string>
+    <string name="git_conflict_mark_resolved">علامت‌گذاری به عنوان حل‌شده</string>
+    <string name="git_hint_stash">تغییرات کاری را موقتاً کنار می‌گذارد</string>
+    <string name="git_hint_rebase">کامیت‌ها را روی شاخه پایه دیگر بازنشانی می‌کند</string>
+    <string name="git_hint_cherry_pick">یک کامیت مشخص را روی شاخه فعلی اعمال می‌کند</string>
+    <string name="git_hint_force_push">تاریخچه شاخه راه دور را با نسخه محلی جایگزین می‌کند</string>
+    <string name="git_hint_hard_reset">همه تغییرات ثبت‌نشده را لغو کرده و به HEAD برمی‌گرداند</string>
+    <string name="git_branch_current">فعلی</string>
+    <string name="git_branch_checkout">جابه‌جایی به شاخه</string>
+    <string name="git_branch_create">ایجاد</string>
+    <string name="git_branch_delete">حذف</string>
+    <string name="git_branch_rename">تغییر نام</string>
+    <string name="git_branch_new_name">نام شاخه جدید</string>
+    <string name="git_branch_filter">فیلتر شاخه‌ها</string>
+    <string name="git_commit_empty_error">پیام کامیت نمی‌تواند خالی باشد</string>
+    <string name="git_nothing_to_commit">چیزی برای کامیت وجود ندارد. ابتدا فایل‌ها را آماده کنید.</string>
+    <string name="git_nothing_to_push">شاخه با مخزن راه دور همگام و به‌روز است.</string>
+    <string name="git_nothing_to_pull">مخزن در حال حاضر کاملاً به‌روز است.</string>
+    <string name="git_repo_initialized_success">مخزن با موفقیت راه‌اندازی شد</string>
+    <string name="git_commit_success">تغییرات با موفقیت کامیت شدند</string>
+    <string name="git_push_success">ارسال به مخزن راه دور با موفقیت انجام شد</string>
+    <string name="git_pull_success">دریافت تغییرات با موفقیت انجام شد</string>
+    <string name="git_fetch_success">دریافت اطلاعات با موفقیت انجام شد</string>
+    <string name="git_up_to_date">به‌روز</string>
+    <string name="git_ahead_commits">%1$d کامیت جلوتر</string>
+    <string name="git_behind_commits">%1$d کامیت عقب‌تر</string>
+    <string name="git_error_dialog_title">خطای Git</string>
+    <string name="git_error_dialog_copy">کپی خطا</string>
+    <string name="git_error_dialog_copied">خطا در کلیپ‌بورد کپی شد</string>
+    <string name="git_error_dialog_close">بستن</string>
+    <string name="git_error_details_label">جزئیات خطا و ردپای پشته</string>
+    <!-- Setup Screen - Step 0: Welcome -->
+    <string name="privacy_consent_title">حریم خصوصی</string>
+    <string name="privacy_consent_body">برنامه ACS IDE هیچ داده ای از کاربر جمع آوری نمی کند.</string>
+    <string name="privacy_consent_accept">ادامه</string>
+    <string name="privacy_consent_decline">خروج</string>
+
+    <!-- Core Components Missing Dialog -->
+    <string name="core_components_missing_title">اجزای اصلی مفقود شده اند</string>
+    <string name="core_components_missing_message">کامپوننت اصلی (com.acside) در سیستم یافت نشد. این جزء هسته اصلی Android Code Studio است. لطفاً برنامه را مجدداً نصب کنید.</string>
+    <string name="core_components_missing_action_reinstall">نصب مجدد IDE</string>
+    <string name="core_components_missing_action_exit">خروج</string>
+    <string name="bootstrap_marker_missing_error">مارکر اصلی بوت استرپ (.acside_bootstrap_ok) یافت نشد. لطفاً راه اندازی را تکمیل کنید.</string>
+    <string name="setup_step_welcome_title">به AndroidCodeStudio خوش آمدید</string>
+    <string name="setup_step_welcome_description">دستگاه اندروید خود را به یک محیط توسعه قدرتمند تبدیل کنید.</string>
+    <string name="setup_step_welcome_action">شروع کنید</string>
+    <!-- Setup Screen - Step 1: Storage Permissions -->
+    <string name="setup_step_permissions_title">دسترسی های حافظه</string>
+    <string name="setup_step_permissions_description">برای مدیریت فایل های پروژه به دسترسی حافظه دستگاه نیاز داریم.</string>
+    <string name="setup_step_permissions_action">اعطای دسترسی</string>
+    <!-- Setup Screen - Step 2: Install -->
+    <string name="setup_step_install_title">محیط توسعه</string>
+    <string name="setup_step_install_description">دانلود Ubuntu، JDK و Android SDK، یا نصب فایل های آرشیو از حافظه.</string>
+    <string name="setup_step_install_action">نصب محیط توسعه</string>
+    <!-- Setup Screen - Step 3: Complete -->
+    <string name="setup_step_complete_title">همه چیز آماده است!</string>
+    <string name="setup_step_complete_description">محیط توسعه شما آماده است. کدنویسی را شروع کنید!</string>
+    <string name="setup_step_complete_action">شروع کدنویسی</string>
+    <!-- Setup Screen - Install progress UI -->
+    <string name="setup_label_installing">در حال نصب</string>
+    <!-- Setup Screen - Error UI -->
+    <string name="setup_error_install_failed">نصب ناموفق بود</string>
+    <!-- Setup Screen - Retry button -->
+    <string name="setup_btn_retry">تلاش مجدد برای نصب</string>
+    <string name="setup_manual_section_title">نصب بوت استرپ ACS</string>
+    <string name="setup_manual_section_hint">از نسخه Alpha 6، برنامه ACS Lite به پکیج های Termux منتقل شده است. جهت ادامه راه اندازی، گزینه "نصب بوت استرپ ACSIDE" را انتخاب کنید.</string>
+    <string name="setup_manual_section_or_hint">یا</string>
+    <string name="setup_acside_shared_package">نصب بوت استرپ ACSIDE</string>
+    <string name="setup_manual_installed">نصب شد</string>
+    <string name="jdk_pick_title_install">انتخاب نسخه JDK</string>
+    <string name="jdk_pick_desc_install">نسخه Java Development Kit جهت نصب را انتخاب کنید.</string>
+    <string name="jdk_pick_confirm_install">نصب</string>
+    <string name="jdk_pick_title_import">نسخه JDK فایل آرشیو</string>
+    <string name="jdk_pick_desc_import">مشخص کنید این فایل آرشیو مربوط به کدام نسخه است.</string>
+    <string name="jdk_pick_confirm_import">ادامه</string>
+    <string name="sdk_manual_installed">وارد شد</string>
+    <string name="sdk_manual_section_title">نصب از حافظه داخلی</string>
+    <string name="sdk_manual_jdk">وارد کردن آرشیو JDK</string>
+    <string name="sdk_manual_sdk">وارد کردن آرشیو Android SDK</string>
+    <!-- BugReportOverlay -->
+    <string name="bug_report_fab_content_desc">گزارش خطا</string>
+    <string name="bug_report_dialog_title">گزارش یک خطا</string>
+    <string name="bug_report_close_content_desc">بستن</string>
+    <string name="bug_report_attachment_default_name">پیوست</string>
+    <string name="bug_report_remove_attachment_content_desc">حذف پیوست</string>
+    <!-- Consent dialog -->
+    <string name="bug_report_consent_title">قبل از ادامه</string>
+    <string name="bug_report_consent_body">گزارش های خطا شامل مدل دستگاه، نسخه اندروید، نسخه برنامه و فایل های پیوستی انتخابی شما می باشد.\n\nاین اطلاعات فقط برای رفع عیوب برنامه به توسعه دهنده ارسال می شود. هیچ داده شخصی جمع آوری نمی شود.\n\nآیا با ارسال موافقید؟</string>
+    <string name="bug_report_consent_agree">موافقم</string>
+    <string name="bug_report_consent_decline">خیر، ممنون</string>
+    <!-- Report form -->
+    <string name="bug_report_rate_limit_msg">شما %1$d گزارش ارسال کرده اید. لطفاً %2$d ثانیه منتظر بمانید.</string>
+    <string name="bug_report_title_label">عنوان مشکل</string>
+    <string name="bug_report_title_placeholder">خلاصه ای از مشکل</string>
+    <string name="bug_report_title_error">ورود عنوان الزامی است</string>
+    <string name="bug_report_body_label">توضیحات</string>
+    <string name="bug_report_body_placeholder">مراحل بازسازی مشکل، آنچه انتظار داشتید و آنچه اتفاق افتاده…</string>
+    <string name="bug_report_body_error">ورود توضیحات الزامی است</string>
+    <string name="bug_report_attach_button">پیوست تصویر یا فایل (اختیاری)</string>
+    <string name="bug_report_cancel_button">لغو</string>
+    <string name="bug_report_send_button">ارسال گزارش</string>
+    <string name="bug_report_reports_remaining">گزارش های باقیمانده: %1$d / %2$d</string>
+    <string name="bug_report_reset_preferences_button">بازنشانی تنظیمات</string>
+    <!-- MainActivity -->
+    <string name="main_git_icon_content_desc">گیت</string>
+    <string name="main_hero_line1">باز کردن یا ساخت</string>
+    <string name="main_hero_line2">پروژه بعدی شما</string>
+
+    <string name="main_section_quick_actions">دسترس های سریع</string>
+    <string name="main_section_recent_projects">پروژه های اخیر</string>
+    <string name="main_project_updated">به روزرسانی شده در %1$s</string>
+    <!-- RecentProjectCard -->
+    <string name="project_type_flutter" translatable="false">Flutter</string>
+    <string name="project_type_android" translatable="false">Android</string>
+    <!-- GeneralSettings sections -->
+    <string name="settings_section_appearance">ظاهر</string>
+    <string name="settings_section_language">زبان</string>
+    <string name="settings_section_developer">گزینه های توسعه دهنده</string>
+    <!-- Appearance settings -->
+    <string name="settings_dark_mode_title">حالت تاریک</string>
+    <string name="settings_dark_mode_desc">استفاده از تم تاریک در سراسر برنامه</string>
+    <string name="settings_looks_feel_title">جلوه های بصری و پوسته</string>
+    <string name="settings_looks_feel_desc">انتخاب رنگ بندی محیط برنامه</string>
+    <string name="settings_looks_feel_custom_colors_title">پالت رنگ سفارشی</string>
+    <string name="settings_looks_feel_color_primary">اصلی</string>
+    <string name="settings_looks_feel_color_secondary">ثانویه</string>
+    <string name="settings_looks_feel_color_tertiary">ثالثیه</string>
+    <string name="settings_looks_feel_color_background">پس زمینه</string>
+    <string name="settings_looks_feel_color_surface">سطح</string>
+    <string name="settings_looks_feel_color_error">خطا</string>
+    <string name="settings_looks_feel_hex_label">کد رنگ (Hex)</string>
+    <string name="settings_looks_feel_apply">اعمال</string>
+    <string name="settings_looks_feel_cancel">لغو</string>
+    <string name="settings_fluent2_look_title">ظاهر Fluent 2 ویندوز ۱۱</string>
+    <string name="settings_fluent2_look_desc">اعمال سبک بصری Fluent 2 در تمام برنامه</string>
+    <string name="settings_fluent2_restart_title">نیازمند راه اندازی مجدد</string>
+    <string name="settings_fluent2_restart_message">جهت اعمال پوسته جدید، برنامه را دوباره راه اندازی کنید.</string>
+    <string name="settings_fluent2_restart_confirm">راه اندازی مجدد</string>
+    <string name="settings_fluent2_restart_later">بعداً</string>
+    <string name="settings_app_scale_title">مقیاس برنامه</string>
+    <string name="settings_app_scale_desc">مقیاس: %1$sx</string>
+    <!-- Language settings -->
+    <string name="settings_language_title">زبان برنامه</string>
+    <string name="settings_language_desc">زبان مورد نظر خود برای برنامه را انتخاب کنید</string>
+    <!-- Developer settings -->
+    <string name="settings_ide_logs_title">لاگ های IDE</string>
+    <string name="settings_ide_logs_desc">فعالسازی لاگ های تفصیلی جهت عیب یابی</string>
+    <!-- Developer settings -->
+    <string name="settings_bug_report_overlay_title">لایه شناور گزارش خطا</string>
+    <string name="settings_bug_report_overlay_desc">نمایش دکمه شناور برای گزارش سریع مشکلات</string>
+    <!-- LocaleManager display names - never translate these -->
+    <string name="locale_system_default">System Default</string>
+    <string name="locale_english" translatable="false">English</string>
+    <string name="locale_arabic" translatable="false">العربية</string>
+    <string name="locale_french" translatable="false">Français</string>
+    <string name="locale_german" translatable="false">Deutsch</string>
+    <string name="locale_spanish" translatable="false">Español</string>
+    <string name="locale_portuguese" translatable="false">Português</string>
+    <string name="locale_russian" translatable="false">Русский</string>
+    <string name="locale_chinese" translatable="false">中文</string>
+    <string name="locale_japanese" translatable="false">日本語</string>
+    <string name="locale_korean" translatable="false">한국어</string>
+    <!-- Language switch overlay -->
+    <string name="settings_language_switching_title">در حال تغییر زبان</string>
+    <string name="settings_language_switching_subtitle">برنامه تا لحظاتی دیگر مجدداً اجرا خواهد شد…</string>
+    <!-- EditorActivity: Permission -->
+    <string name="storage_permission_required">برای مرور فایل ها به مجوز دسترسی به حافظه نیاز است</string>
+    <string name="all_files_access_permission">لطفاً مجوز دسترسی به همه فایل ها را در تنظیمات فعال کنید</string>
+    <!-- EditorActivity: Flutter SDK not found dialog -->
+    <string name="flutter_sdk_not_found_title">Flutter SDK یافت نشد</string>
+    <string name="flutter_sdk_not_found_message">ابزار توسعه Flutter SDK پیدا نشد</string>
+    <string name="flutter_sdk_not_found_error_code">خطای آرگومان نامعتبر ACS_FLUTTER_SDK_NOT_FOUND</string>
+    <string name="flutter_sdk_install_hint">لطفاً پیش از باز کردن پروژه های Flutter، اقدام به نصب Flutter SDK از بخش مدیریت SDK در صفحه اصلی کنید.</string>
+    <!-- EditorActivity: Exit dialog -->
+    <string name="exit_editor_title">خروج از ویرایشگر؟</string>
+    <string name="exit_editor_message">این کار باعث بستن پروژه و آزادسازی منابع خواهد شد.</string>
+    <string name="unsaved_changes_warning">⚠️ شما تغییرات ذخیره نشده دارید!</string>
+    <string name="exit_with_cleanup">خروج و پاکسازی</string>
+    <!-- EditorActivity: Cleanup progress dialog -->
+    <string name="cleaning_up_title">در حال پاکسازی…</string>
+    <string name="force_stop">توقف اجباری</string>
+    <string name="cleanup_stopping_builds">در حال متوقف کردن پروسه های ساخت…</string>
+    <string name="cleanup_stopping_daemons">در حال متوقف کردن دیمون های Gradle…</string>
+    <string name="cleanup_shutting_down_gradle">در حال خاموش کردن سرویس Gradle…</string>
+    <string name="cleanup_closing_terminals">در حال بستن نشست های ترمینال…</string>
+    <string name="cleanup_stopping_lsp">در حال متوقف کردن سرورهای زبان…</string>
+    <string name="cleanup_finalizing">در حال اتمام…</string>
+    <!-- EditorActivity: Service / build messages -->
+    <string name="tooling_api_not_available">سرویس Tooling API در دسترس نیست. قابلیت های ساخت غیرفعال خواهند بود.</string>
+    <string name="services_may_need_reconnect">ممکن است برخی سرویس ها نیاز به اتصال مجدد داشته باشند</string>
+    <!-- EditorScreen: General -->
+    <string name="toggle_navigation_drawer">تغییر وضعیت منوی کشویی navigation</string>
+    <!-- EditorScreen: Bottom sheet header -->
+    <string name="build_output">خروجی ساخت (Build Output)</string>
+    <string name="ready">آماده</string>
+    <string name="building">در حال ساخت</string>
+    <string name="synchronizing_with_gradle">در حال همگام سازی با Gradle…</string>
+    <string name="running_tasks">در حال اجرا: %1$s</string>
+    <string name="build_successful">ساخت با موفقیت انجام شد</string>
+    <string name="all_tasks_completed">تمام دستورات تکمیل شدند</string>
+    <string name="build_failed_title">ساخت ناموفق بود</string>
+    <string name="build_failed_summary">%1$s</string>
+    <!-- EditorScreen: Bottom sheet tab titles -->
+    <string name="tab_output">خروجی</string>
+    <string name="tab_problems">مشکلات</string>
+    <string name="tab_app_logs">لاگ های برنامه</string>
+    <string name="tab_ide_logs">لاگ های IDE</string>
+    <!-- EditorScreen: LSP / definition navigation -->
+    <string name="could_not_open_definition">تعریف مورد نظر باز نشد</string>
+    <string name="definition_not_found">تعریف یافت نشد</string>
+    <!-- EditorScreen: Unsupported JDK dialog -->
+    <string name="unsupported_java_version_title">نسخه جاوا پشتیبانی نمی شود</string>
+    <string name="unsupported_java_version_message">سرور زبان کاتلین نیازمند جاوا ۲۱ یا بالاتر است.\n\nنسخه جاوای فعلی قدیمی است. لطفاً Temurin JDK 21 را از طریق مدیریت SDK نصب کرده و برنامه را مجدداً اجرا کنید.</string>
+    <!-- EditorScreen: Sync -->
+    <string name="syncing_project">در حال همگام سازی پروژه…</string>
+    <string name="finalizing_sync">در حال اتمام همگام سازی…</string>
+    <string name="refreshing_classpaths">در حال به روزرسانی Classpath ها…</string>
+    <string name="restarting_language_servers">در حال راه اندازی مجدد سرورهای زبان…</string>
+    <string name="loading_tasks">در حال بارگیری تسک ها…</string>
+    <string name="sync_completed">همگام سازی با موفقیت پایان یافت!</string>
+    <string name="project_synced_successfully">✓ همگام سازی پروژه موفقیت آمیز بود</string>
+    <string name="sync_failed">✗ همگام سازی ناموفق بود. پنل خروجی را بررسی کنید.</string>
+    <string name="sync_error">✗ خطای همگام سازی: %s</string>
+    <string name="please_sync_project_first">لطفاً ابتدا پروژه را همگام سازی کنید یا منتظر اتمام آن باشید</string>
+    <!-- EditorScreen: File actions -->
+    <string name="file_saved">فایل ذخیره شد</string>
+    <string name="failed_to_save_file">ذخیره فایل ناموفق بود</string>
+    <string name="failed_to_open_file">باز کردن فایل ناموفق بود: %s</string>
+    <!-- EditorScreen: Build actions -->
+    <string name="build_cancelled">ساخت لغو شد</string>
+    <string name="failed_to_cancel">لغو فرآیند ناموفق بود: %s</string>
+    <string name="failed_to_run">اجرا ناموفق بود: %s</string>
+    <!-- Shared: Flutter -->
+    <string name="flutter_clean_running">در حال اجرای پاکسازی Flutter…</string>
+    <string name="flutter_clean_completed">پاکسازی Flutter با موفقیت انجام شد</string>
+    <string name="flutter_clean_failed">پاکسازی Flutter با کد خروج %1$d ناموفق بود</string>
+    <string name="flutter_clean_error">خطا در اجرای پاکسازی Flutter: %1$s</string>
+    <string name="flutter_pub_get_running">در حال اجرای Flutter pub get…</string>
+    <string name="flutter_pub_get_completed">اجرای Flutter pub get با موفقیت انجام شد</string>
+    <string name="flutter_pub_get_failed">دستور Flutter pub get ناموفق بود. پنل خروجی را چک کنید.</string>
+    <string name="flutter_pub_get_failed_with_code">اجرای Flutter pub get با کد خروج %1$d ناموفق بود</string>
+    <string name="flutter_pub_get_failed_reason">اجرای Flutter pub get ناموفق بود: %1$s</string>
+    <string name="flutter_dependencies_downloaded">وابستگی های Flutter با موفقیت دانلود شدند</string>
+    <string name="dart_pub_get_running">در حال اجرای Dart pub get…</string>
+    <string name="dart_pub_get_completed">اجرای Dart pub get با موفقیت انجام شد</string>
+    <string name="dart_pub_get_failed_with_code">اجرای Dart pub get با کد خروج %1$d ناموفق بود</string>
+    <string name="dart_pub_get_failed_reason">اجرای Dart pub get ناموفق بود: %1$s</string>
+    <string name="flutter_sdk_not_found_settings">Flutter SDK یافت نشد. لطفاً آن را از تنظیمات IDE نصب کنید.</string>
+    <!-- Shared: Generic error -->
+    <string name="error_with_message">خطا: %s</string>
+    <string name="settings_back">بازگشت</string>
+    <string name="settings_hero_line1">شخصی سازی</string>
+    <string name="settings_hero_line2">تجربه کاربری شما</string>
+    <string name="settings_hero_subtitle">تنظیمات و ترجیحات برنامه</string>
+    <string name="settings_section_header">تنظیمات</string>
+    <string name="settings_detail_subtitle">تنظیمات</string>
+    <string name="settings_summary_general">ظاهر، فایل ها و تاییده ها</string>
+    <string name="settings_summary_editor">فونت، نمایش و رفتار کدها</string>
+    <string name="settings_summary_experimental">ویژگی های آزمایشی و پیش نمایش</string>
+    <string name="settings_summary_terminal">پیکربندی تنظیمات ترمینال</string>
+    <string name="settings_summary_about">اطلاعات برنامه، دستگاه و لینک ها</string>
+    <string name="settings_summary_output_debug">خروجی ساخت، Logcat و ADB</string>
+    <string name="settings_output_debug_section_title">خروجی و دیباگ</string>
+    <string name="settings_section_build_output">خروجی ساخت</string>
+    <string name="settings_section_logcat_backend">لاگ کَت (Logcat) برنامه</string>
+    <string name="settings_section_adb_setup">راه اندازی ADB</string>
+    <string name="settings_logcat_backend_title">بستر Logcat</string>
+    <string name="settings_logcat_backend_desc">استفاده از ADB توصیه می شود. Shizuku نیز به عنوان جایگزین در دسترس است.</string>
+    <string name="settings_logcat_backend_adb">ADB (پیشنهاد شده)</string>
+    <string name="settings_logcat_backend_shizuku">Shizuku</string>
+    <string name="settings_adb_step_developer_title">۱. باز کردن تنظیمات توسعه دهندگان</string>
+    <string name="settings_adb_step_developer_desc">ابتدا گزینه های توسعه دهنده (Developer Options) را فعال کرده و سپس بازگردید.</string>
+    <string name="settings_adb_step_usb_title">۲. فعال سازی اشکال زدایی USB</string>
+    <string name="settings_adb_step_usb_desc">گزینه USB Debugging را در تنظیمات توسعه دهنده روشن کنید.</string>
+    <string name="settings_adb_step_wireless_title">۳. فعال سازی اشکال زدایی بی سیم</string>
+    <string name="settings_adb_step_wireless_desc">Wireless debugging را باز کرده و آن را روشن نگه دارید.</string>
+    <string name="settings_adb_step_pair_title">۴. جفت سازی ACS با دیباگ بی سیم</string>
+    <string name="settings_adb_step_pair_desc">جستجوی سرویس جفت سازی را شروع کنید، سپس کد مربوطه را وارد نمایید.</string>
+    <string name="settings_adb_open_developer_options">باز کردن</string>
+    <string name="settings_adb_open_wireless">باز کردن</string>
+    <string name="settings_adb_start_pairing">جفت سازی</string>
+    <string name="settings_adb_developer_help_title">فعال سازی گزینه های توسعه دهنده</string>
+    <string name="settings_adb_developer_help_body">مسیر تنظیمات ← درباره گوشی را باز کرده و ۷ بار روی "Build number" ضربه بزنید.</string>
+    <string name="settings_adb_developer_help_got_it">متوجه شدم</string>
+    <string name="settings_adb_usb_otg_title">دستگاه های USB-OTG</string>
+    <string name="settings_adb_usb_otg_desc">درخواست دسترسی USB Host برای دستگاه های ADB متصل شده از طریق کابل OTG.</string>
+    <string name="settings_adb_usb_otg_action">اعطای دسترسی USB</string>
+    <string name="settings_adb_how_to_connect_title">اشکال زدایی بی سیم</string>
+    <string name="settings_adb_how_to_connect_desc">جفت سازی ACS و بررسی وضعیت اتصال.</string>
+    <string name="settings_adb_how_to_connect_action">راهنمای اتصال</string>
+    <string name="adb_connect_title">اتصال با ADB</string>
+    <string name="adb_connect_subtitle">جفت سازی دیباگ بی سیم و نصب برنامه روی دستگاه متصل شده</string>
+    <string name="adb_connect_status_section">وضعیت اتصال</string>
+    <string name="adb_connect_status_checking">در حال بررسی…</string>
+    <string name="adb_connect_status_connected">متصل شد</string>
+    <string name="adb_connect_status_disconnected">متصل نیست</string>
+    <string name="adb_connect_refresh">به روزرسانی</string>
+    <string name="adb_connect_pair_action">جفت سازی</string>
+    <string name="adb_connect_pair_waiting">در انتظار جفت سازی…</string>
+    <string name="adb_connect_pair_done">قبلاً متصل شده است</string>
+    <string name="adb_pairing_channel_name">جفت سازی اشکال زدایی بی سیم</string>
+    <string name="adb_pairing_searching_title">در حال جستجوی سرویس جفت سازی</string>
+    <string name="adb_pairing_searching_text">در انتظار سرویس جفت سازی Wireless debugging…</string>
+    <string name="adb_pairing_found_title">سرویس جفت سازی پیدا شد</string>
+    <string name="adb_pairing_found_text">کد جفت سازی را برای پورت %1$d وارد کنید</string>
+    <string name="adb_pairing_working_title">در حال جفت سازی</string>
+    <string name="adb_pairing_succeed_title">جفت سازی موفقیت آمیز بود</string>
+    <string name="adb_pairing_succeed_text">برنامه ACS از طریق دیباگ بی سیم متصل شد.</string>
+    <string name="adb_pairing_failed_title">جفت سازی ناموفق بود</string>
+    <string name="adb_pairing_failed_text">ارتباط جفت سازی با دیباگ بی سیم برقرار نشد.</string>
+    <string name="adb_pairing_code_label">کد جفت سازی</string>
+    <string name="adb_pairing_input_action">ورود کد جفت سازی</string>
+    <string name="adb_pairing_stop">توقف</string>
+    <string name="editor_section_gradle_service">سرویس Gradle</string>
+    <string name="editor_section_syntax_highlighting">رنگ آمیزی دستورات (Syntax)</string>
+    <string name="editor_section_display">صفحه نمایش</string>
+    <string name="editor_section_behavior">رفتار ویرایشگر</string>
+    <string name="editor_section_lsp_kotlin">LSP: کاتلین</string>
+    <string name="editor_section_advanced">پیشرفته</string>
+    <string name="editor_theme_title">پوسته ویرایشگر</string>
+    <string name="editor_syntax_highlighting_title">برجسته سازی دستورات</string>
+    <string name="editor_syntax_highlighting_desc">رنگ آمیزی کدهای برنامه بر اساس زبان</string>
+    <string name="editor_color_preview_title">پیش نمایش رنگ</string>
+    <string name="editor_color_preview_desc">نمایش پیش نمایش برای مقادیر رنگ ها</string>
+    <string name="editor_highlight_current_line_title">برجسته سازی خط فعلی</string>
+    <string name="editor_highlight_current_line_desc">برجسته کردن خطی که نشانگر در آن قرار دارد</string>
+    <string name="editor_font_family_title">خانواده فونت</string>
+    <string name="editor_font_import_option">وارد کردن فونت…</string>
+    <string name="editor_memory_usage_title">میزان مصرف حافظه</string>
+    <string name="editor_memory_usage_desc">نمایش لایه مصرف حافظه روی صفحه</string>
+    <string name="editor_font_size_title">اندازه فونت</string>
+    <string name="editor_font_size_desc">%dpx</string>
+    <string name="editor_tab_size_title">اندازه کلید Tab</string>
+    <string name="editor_tab_size_desc">%d فاصله (Space)</string>
+    <string name="editor_line_numbers_title">شماره خطوط</string>
+    <string name="editor_line_numbers_desc">نمایش شماره خط ها در حاشیه ویرایشگر</string>
+    <string name="editor_word_wrap_title">شكستن خطوط بلند (Word Wrap)</string>
+    <string name="editor_word_wrap_desc">شکستن خطوط طولانی جهت جاگیری کامل در صفحه</string>
+    <string name="editor_line_column_indicator_title">شاخص خط و ستون</string>
+    <string name="editor_line_column_indicator_desc">نمایش موقعیت دقیق نشانگر در ویرایشگر</string>
+    <string name="editor_auto_format_title">قالب بندی خودکار</string>
+    <string name="editor_auto_format_desc">مرتب سازی خودکار کدها هنگام ذخیره کردن</string>
+    <string name="editor_auto_indent_title">تورفتگی خودکار (Auto Indent)</string>
+    <string name="editor_auto_indent_desc">ایجاد تورفتگی مناسب در خطوط جدید</string>
+    <string name="editor_auto_pairing_title">بستن خودکار پرانتزها</string>
+    <string name="editor_auto_pairing_desc">بستن خودکار پرانتزها، آکولادها و کوتیشن ها</string>
+    <string name="editor_string_extraction_title">استخراج رشته ها (String Extraction)</string>
+    <string name="editor_string_extraction_desc">تشخیص متون سخت نویسی شده و پیشنهاد انتقال آن ها به منابع</string>
+    <string name="editor_page_mode_title">حالت صفحه ای</string>
+    <string name="editor_page_mode_desc">تقسیم ویرایشگر به چند صفحه هنگام باز کردن فایل های بسیار بزرگ.</string>
+    <string name="editor_kotlin_diagnostics_title">عیب یابی آزمایشی کاتلین</string>
+    <string name="editor_kotlin_diagnostics_desc">ارائه گزارش عیب یابی برای فایل های کاتلین</string>
+    <string name="editor_show_whitespace_title">نمایش کاراکترهای فاصله</string>
+    <string name="editor_show_whitespace_desc">نمایش بصری فواصل و کلیدهای Tab</string>
+    <string name="editor_show_line_endings_title">نمایش پایان خطوط</string>
+    <string name="editor_show_line_endings_desc">نمایش بصری کاراکترهای شکست خط (Line Break)</string>
+    <string name="editor_cursor_blink_title">چشمک زدن نشانگر</string>
+    <string name="editor_cursor_blink_desc">انیمیشن چشمک زدن نشانگر متن</string>
+    <string name="editor_visible_password_flag_title">نشان گذرواژه مرئی</string>
+    <string name="editor_visible_password_flag_desc">استفاده از صفحه‌کلید امن بدون پیشنهادات. برای فعال‌سازی پیشنهادات صفحه‌کلید آن را خاموش کنید.</string>
+    <string name="editor_font_import_dialog_title">وارد کردن فونت سفارشی</string>
+    <string name="editor_font_import_dialog_body">یک فایل فونت با پسوند TrueType (.ttf) یا OpenType (.otf) انتخاب کنید.</string>
+    <string name="editor_font_import_name_label">نام فونت</string>
+    <string name="editor_font_import_choose_file">انتخاب فایل فونت</string>
+    <string name="editor_font_import_confirm">وارد کردن</string>
+    <string name="editor_font_import_cancel">لغو</string>
+    <string name="editor_font_import_file_selected">فایل فونت انتخاب شد ✓</string>
+    <string name="gradle_sync_args_title">آرگومان های همگام سازی Gradle</string>
+    <string name="gradle_no_extra_flags">بدون فلگ اضافی</string>
+    <string name="gradle_common_flags_label">فلگ های عمومی</string>
+    <string name="gradle_custom_flag_label">فلگ سفارشی</string>
+    <string name="gradle_custom_flags_label">فلگ های سفارشی</string>
+    <string name="gradle_custom_flag_placeholder">مثال: --warning-mode=all</string>
+    <string name="gradle_add_flag_cd">افزودن فلگ</string>
+    <string name="gradle_remove_flag_cd">حذف</string>
+    <string name="settings_about_section_title">درباره</string>
+    <string name="settings_editor_section_title">ویرایشگر</string>
+    <string name="settings_general_section_title">عمومی</string>
+    <string name="settings_experimental_section_title">آزمایشی</string>
+    <string name="settings_terminal_section_title">ترمینال</string>
+    <string name="settings_terminal_section_header">محیط ترکیبی (Hybrid)</string>
+    <string name="settings_proot_no_seccomp_title">غیرفعال کردن PRoot seccomp</string>
+    <string name="settings_proot_no_seccomp_desc">اعمال PROOT_NO_SECCOMP=1 روی نشست های PRoot. فقط در صورت بروز خطا در محیط ترکیبی استفاده کنید.</string>
+    <string name="error_report_title">ارسال گزارش خطا؟</string>
+    <string name="error_report_message">خطایی رخ داده است. گزارش ناشناسی شامل لاگ های عیب یابی تنها در صورت تایید شما برای توسعه دهنده فرستاده می شود. اطلاعات شخصی شامل آن نمی شود.</string>
+    <string name="error_report_send_report_btn">ارسال گزارش</string>
+    <string name="error_report_no_thanks_btn">خیر، ممنون</string>
+    <!-- About Section - App Info -->
+    <string name="about_app_name">Android Code Studio</string>
+    <!-- About Section - Device Information -->
+    <string name="about_device_info_title">اطلاعات دستگاه</string>
+    <string name="about_device_label">دستگاه</string>
+    <string name="about_model_label">مدل</string>
+    <string name="about_android_label">اندروید</string>
+    <!-- About Section - Links -->
+    <string name="about_links_title">لینک ها</string>
+    <string name="about_link_source_code">سورس کد</string>
+    <string name="about_link_discussion">گروه گفتگوی کاربران</string>
+    <string name="about_link_channel">کانال رسمی</string>
+    <string name="lib_editor_backend_filename" translatable="false">libeditor-backend.so</string>
+    <string name="permission_transition" translatable="false">permission_transition</string>
+    <string name="icon_pulse" translatable="false">icon_pulse</string>
+    <string name="icon_scale" translatable="false">icon_scale</string>
+    <string name="storage_access_required">نیازمند دسترسی به حافظه</string>
+    <string name="grant_permissions_to_browse_and_manage_your_files">برای مدیریت و مرور فایل ها مجوزهای لازم را تایید کنید</string>
+    <string name="grant_basic_permissions">اعطای دسترسی های پایه</string>
+    <string name="grant_all_files_access">اعطای دسترسی به همه فایل ها</string>
+    <string name="close_terminal">بستن ترمینال</string>
+    <string name="navigate_to_path">پیمایش به مسیر</string>
+    <string name="directory_path">مسیر پوشه</string>
+    <string name="directory_does_not_exist_or_is_not_allowed">پوشه وجود ندارد یا دسترسی به آن مجاز نیست</string>
+    <string name="go">برو</string>
+    <string name="locations">مکان ها</string>
+    <string name="restricted_to_listed_directories">محدود به پوشه های لیست شده</string>
+    <string name="twin_file_manager">مدیریت فایل دوپنجره ای</string>
+    <string name="drawer_icon_progress" translatable="false">drawer_icon_progress</string>
+    <string name="toggle_drawer">تغییر وضعیت منوی کشویی</string>
+    <string name="git_clone">کلون گیت (Git clone)</string>
+    <string name="delete">حذف</string>
+    <string name="str_new">جدید</string>
+    <string name="select">انتخاب</string>
+    <string name="select_all">انتخاب همه</string>
+    <string name="all">همه</string>
+    <!-- Those are new and should go here -->
+    <string name="file_browser">مرورگر فایل</string>
+    <string name="close_search">بستن جستجو</string>
+    <string name="search_projects">جستجوی پروژه ها</string>
+    <string name="project_directory_path">مسیر پوشه پروژه</string>
+    <string name="project_directory_path_placeholder">مسیر ذخیره پروژه شما</string>
+    <string name="project_directory_does_not_exist">پوشه پروژه وجود ندارد</string>
+    <string name="browse_with_file_picker">انتخاب با انتخاب گر فایل</string>
+    <string name="path_must_be_under_sdcard">مسیر باید در /sdcard ، AndroidCSProjects یا Projects باشد</string>
+    <string name="directory_not_found_or_not_valid">پوشه یافت نشد یا پروژه معتبری نیست</string>
+    <string name="open_project_sheet_search_hint">جستجوی پروژه‌ها…</string>
+    <string name="open_project_sheet_section_all_projects">همه پروژه‌ها</string>
+    <string name="open_project_sheet_no_match">هیچ پروژه‌ای با "%1$s" مطابقت ندارد</string>
+    <string name="open_project_sheet_no_projects">هیچ پروژه‌ای یافت نشد</string>
+    <string name="open_project_sheet_recent_badge">اخیر</string>
+    <string name="problems_quick_fix">اصلاح سریع (Quick fix)</string>
+    <string name="problems_quick_fix_choose_title">یک راه حل را انتخاب کنید</string>
+    <string name="problems_quick_fix_none">هیچ اصلاح سريعی موجود نیست</string>
+    <string name="editor_drawer_backup_project">پشتیبان گیری از پروژه (ZIP)</string>
+    <string name="backup_project_succeeded">نسخه پشتیبان پروژه ذخیره شد</string>
+    <string name="backup_project_failed">ایجاد نسخه پشتیبان ناموفق بود</string>
+    <string name="backup_project_in_progress">در حال پشتیبان گیری از پروژه…</string>
+    <string name="backup_project_succeeded_title">پشتیبان گیری تکمیل شد</string>
+    <string name="backup_project_failed_title">پشتیبان گیری ناموفق بود</string>
+    <string name="backup_project_files_progress">%1$d از %2$d فایل</string>
+    <string name="backup_project_eta_calculating">در حال محاسبه زمان باقیمانده…</string>
+    <string name="backup_project_eta_almost_done">تقریباً تمام شده است…</string>
+    <string name="backup_project_eta_seconds">حدود %1$d ثانیه باقیمانده</string>
+    <string name="backup_project_collapse">جمع کردن</string>
+    <string name="backup_project_expand">گسترش</string>
+    <string name="recent_project_menu_subtitle">پروژه</string>
+    <string name="recent_project_copy_path">کپی مسیر</string>
+    <string name="recent_project_path_copied">مسیر کپی شد</string>
+    <string name="recent_project_rename">تغییر نام</string>
+    <string name="recent_project_rename_title">تغییر نام پروژه</string>
+    <string name="recent_project_rename_label">نام پروژه</string>
+    <string name="recent_project_rename_confirm">تغییر نام</string>
+    <string name="recent_project_rename_succeeded">نام پروژه تغییر یافت</string>
+    <string name="recent_project_rename_failed">تغییر نام پروژه ناموفق بود</string>
+    <string name="recent_project_delete_permanently">حذف دائمی</string>
+    <string name="recent_project_delete_title">حذف پروژه؟</string>
+    <string name="recent_project_delete_message">این عمل باعث حذف دائمی \"%1$s\" و تمامی فایل های آن در مسیر زیر می شود:\n%2$s</string>
+    <string name="recent_project_delete_confirm">حذف</string>
+    <string name="recent_project_delete_succeeded">پروژه حذف شد</string>
+    <string name="recent_project_delete_failed">حذف پروژه ناموفق بود</string>
+
+    <!-- ATC Compose Wizard Strings -->
+    <string name="atc_checking_ndk">در حال بررسی NDK...</string>
+    <string name="atc_error_invalid_ndk">آخرین نسخه NDK یافت شده (%1$s) معتبر نیست یا آسیب دیده است.</string>
+    <string name="atc_error_empty_project_name">نام پروژه نمی تواند خالی باشد</string>
+    <string name="atc_error_invalid_project_name">نام پروژه باید با حروف انگلیسی شروع شده و فقط شامل حروف، اعداد و خط زیر (Underscore) باشد</string>
+    <string name="atc_error_project_exists">پروژه ای با این نام در این مسیر وجود دارد</string>
+    <string name="atc_error_project_exists_msg">پروژه ای با نام %1$s قبلاً در این مسیر ایجاد شده است.</string>
+    <string name="atc_creating_project">در حال ایجاد پروژه...</string>
+    <string name="atc_error_create_project_failed">ایجاد پروژه ناموفق بود: %1$s</string>
+    <string name="atc_error_generic">خطا: %1$s</string>
+    <string name="atc_error_no_cmake">هیچ نسخه نصب شده ای از CMake یافت نشد. لطفاً آن را از تنظیمات IDE نصب کنید.</string>
+    <string name="atc_invalid_save_location_title">مکان ذخیره سازی نامعتبر</string>
+    <string name="atc_invalid_save_location_message">پروژه های بازی برای کارکرد صحیح باید در پوشه اصلی Android Code Studio ذخیره شوند.</string>
+    <string name="atc_switch_automatically">تغییر خودکار</string>
+    <string name="native_language_cpp" translatable="false">C++</string>
+    <string name="native_language_c" translatable="false">C</string>
+    <string name="atc_error_no_ndk">NDK یافت نشد</string>
+    <string name="atc_ndk_version">NDK: %1$s</string>
+    <string name="atc_ndk_auto">خودکار</string>
+    <string name="atc_ndk_version_label">نسخه NDK: %1$s</string>
+    <string name="atc_use_gradle_kts">استفاده از Gradle Kotlin DSL</string>
+    <string name="atc_use_cmake">استفاده از CMake</string>
+    <string name="atc_create_project_btn">ایجاد پروژه</string>
+
+    <!-- Editor Dialogs Strings -->
+    <string name="atc_cleaning_up">در حال پاکسازی...</string>
+    <string name="atc_cleanup_complete">پاکسازی کامل شد</string>
+    <string name="atc_cleanup_desc">در حال متوقف کردن دیمون های Gradle و آزاد کردن منابع. لطفاً منتظر بمانید...</string>
+    <string name="atc_cleanup_success">تمامی منابع با موفقیت آزادسازی شدند.</string>
+    <string name="atc_run_task">اجرای تسک</string>
+    <string name="atc_available_tasks">تسک های موجود:</string>
+
+    <!-- SDK Manager Tabs Strings -->
+    <string name="sdk_tab_build_tools">ابزارهای ساخت (Build Tools)</string>
+    <string name="sdk_tab_ndk">NDK</string>
+    <string name="sdk_tab_cmake">CMake</string>
+    <string name="sdk_tab_platforms">پلتفرم ها</string>
+    <string name="sdk_tab_jdk">JDK</string>
+    <string name="sdk_tab_flutter">Flutter</string>
+    <string name="sdk_config_title">پیکربندی SDK</string>
+    <string name="sdk_config_desc">کنترل اسکریپت های اولیه Gradle اعمال شده هنگام ساخت و همگام سازی.</string>
+    <string name="sdk_config_force_ndk">اجبار نسخه NDK</string>
+    <string name="sdk_config_force_cmake">اجبار نسخه CMake</string>
+    <string name="sdk_config_force_protoc">اجبار مسیر protoc</string>
+
+    <!-- SDK Manager Screen Strings -->
+    <string name="sdk_ndk_versions">نسخه های NDK</string>
+    <string name="sdk_forced_ndk_format">NDK اجباری: %1$s</string>
+    <string name="sdk_force_ndk_title">اجبار نسخه NDK</string>
+    <string name="sdk_force_ndk_desc">تعیین یک نسخه NDK نصب شده برای اعمال اجباری روی تمام پروژه ها. صحت فایل ها پیش از اعمال در مسیر /home/Android/Sdk/ndk بررسی می شود.</string>
+    <string name="sdk_ndk_version_label">نسخه NDK</string>
+    <string name="sdk_ndk_version_placeholder">مثال: 27.3.13750724</string>
+    <string name="sdk_currently_forced_format">نسخه اجباری فعلی: %1$s</string>
+    <string name="sdk_apply_btn">اعمال</string>
+    <string name="sdk_version_format">نسخه %1$s</string>
+    <string name="sdk_installed_badge">نصب شده</string>
+    <string name="sdk_invalid_badge">نامعتبر</string>
+    <string name="sdk_ndk_invalid_title">NDK نامعتبر</string>
+    <string name="sdk_ndk_invalid_help_cd">نمایش علت نامعتبر بودن این NDK</string>
+    <string name="sdk_uninstall_btn">حذف نصب</string>
+    <string name="sdk_installing_status">در حال نصب...</string>
+    <string name="sdk_install_btn">نصب</string>
+    <string name="sdk_flutter_sdk">Flutter SDK</string>
+    <string name="sdk_installed_ready">نصب شده و آماده استفاده</string>
+    <string name="sdk_not_installed">نصب نشده است</string>
+    <string name="sdk_requirements">نیازمندی ها</string>
+    <string name="sdk_architecture">معماری پردازنده</string>
+    <string name="sdk_arm64_only">فقط ARM64</string>
+    <string name="sdk_storage_required">فضای حافظه مورد نیاز</string>
+    <string name="sdk_flutter_storage_value">حدود ۲ گیگابایت</string>
+    <string name="sdk_already_installed">قبلاً نصب شده است</string>
+    <string name="sdk_install_flutter">نصب Flutter</string>
+    <string name="sdk_uninstall_flutter">حذف Flutter</string>
+    <string name="sdk_uninstalling_status">در حال حذف…</string>
+    <string name="sdk_close_btn">بستن</string>
+    <string name="sdk_jdk_imported_msg">نسخه JDK %1$s وارد شد</string>
+    <string name="sdk_jdk_import_failed_msg">وارد کردن JDK ناموفق بود</string>
+    <string name="sdk_android_sdk_imported_msg">مجموعه Android SDK وارد شد</string>
+    <string name="sdk_android_sdk_import_failed_msg">وارد کردن SDK ناموفق بود</string>
+    <string name="sdk_no_ndk_found">هیچ نسخه NDK یافت نشد</string>
+    <string name="sdk_platform_tools">ابزارهای پلتفرم (Platform Tools)</string>
+    <string name="sdk_cmake_versions">نسخه های CMake</string>
+    <string name="sdk_jdk_versions">نسخه های JDK</string>
+
+    <string name="env_setup_header_title">نصب محیط توسعه</string>
+    <string name="env_setup_header_subtitle">پیکربندی ابزارهای JDK ، SDK و NDK</string>
+    <string name="env_setup_back_content_description">بازگشت</string>
+    
+    <string name="env_setup_jdk_title">OpenJDK</string>
+    <string name="env_setup_jdk_subtitle">نسخه JDK مورد نظر را انتخاب کنید</string>
+    
+    <string name="env_setup_sdk_title">Android SDK</string>
+    <string name="env_setup_sdk_subtitle">نصب به صورت خودکار یا از طریق فایل آرشیو محلی</string>
+    <string name="env_setup_sdk_archive_field_label">فایل آرشیو SDK</string>
+    <string name="env_setup_sdk_archive_field_placeholder">فایلی انتخاب نشده است</string>
+    <string name="env_setup_sdk_archive_field_support">.zip، .tar.gz، یا .tar.xz</string>
+    <string name="env_setup_sdk_archive_picker_content_description">انتخاب فایل آرشیو SDK</string>
+    
+    <string name="env_setup_ndk_title">Android NDK</string>
+    <string name="env_setup_ndk_subtitle">نسخه ابزارهای NDK را انتخاب کنید</string>
+    
+    <string name="env_setup_done_button">انجام شد</string>
+
+    <!-- Feature Announcement Strings -->
+    <string name="feature_badge_new">قابلیت جدید</string>
+    <string name="feature_fluent2_title">حالت Fluent 2 ویندوز ۱۱</string>
+    <string name="feature_fluent2_subtitle">تجربه ای جدید از تحول بصری مدرن</string>
+    <string name="feature_fluent2_description">برنامه Android Code Studio اکنون از طراحی Microsoft Fluent 2 پشتیبانی می کند و رابط کاربری شبیه به نسخه دسکتاپ را به همراه پس زمینه های شفاف Mica و لبه های گرد ارائه می دهد.</string>
+    <string name="feature_fluent2_highlight1_title">سطوح Mica و Acrylic</string>
+    <string name="feature_fluent2_highlight1_desc">کارت های لایه ای نیمه شفاف، سایه های ملایم و حاشیه های شفاف در تمام صفحات.</string>
+    <string name="feature_fluent2_highlight2_title">تایپوگرافی و فواصل اصلاح شده</string>
+    <string name="feature_fluent2_highlight2_desc">خوانایی بهتر همراه با عناصر فشرده و برجسته سازی پویا.</string>
+    <string name="feature_fluent2_highlight3_title">تغییر سریع حالت با یک کلیک</string>
+    <string name="feature_fluent2_highlight3_desc">امکان فعال یا غیرفعال کردن حالت Fluent 2 در هر زمان از طریق صفحه اصلی یا تنظیمات.</string>
+    <string name="feature_fluent2_action">فعال سازی Fluent 2</string>
+    <string name="feature_fluent2_dismiss">متوجه شدم</string>
+    <string name="empty_editor_message">هیچ فایلی باز نشده است.\nروی دکمه مرور فایل کلیک کرده و کدنویسی را آغاز کنید.</string>
+
+    <string name="browse_files">مرور فایل ها</string>
+    <!-- XML Preview Strings -->
+    <string name="action_xml_preview_title">پیش نمایش XML</string>
+    <string name="xml_preview_title">پیش نمایش XML</string>
+    <string name="xml_preview_rendering">در حال پردازش و رندر پیش نمایش طرح بندی...</string>
+    <string name="xml_preview_error">خطای پیش نمایش XML</string>
+    <string name="xml_preview_not_synced">پروژه همگام سازی نشده است. لطفاً ابتدا پروژه Gradle را همگام سازی کنید.</string>
+    <string name="xml_preview_no_layout">هیچ فایل طرح بندی تعیین نشده است</string>
+    <string name="xml_preview_refresh">به روزرسانی پیش نمایش</string>
+    <string name="xml_preview_rebuild">بازسازی پروژه (assembleDebug)</string>
+    <string name="xml_preview_rebuild_hint">ممکن است منابع طرح بندی قدیمی شده باشند. ماژول را با assembleDebug بازسازی کرده و دوباره تلاش کنید.</string>
+    <string name="xml_preview_theme">پوسته</string>
+    <string name="xml_preview_night_mode">حالت شب</string>
+    <string name="xml_preview_mode_system">پیش فرض سیستم</string>
+    <string name="xml_preview_mode_light">روشن</string>
+    <string name="xml_preview_mode_dark">تاریک</string>
+    <string name="xml_preview_display_settings">تنظیمات صفحه نمایش</string>
+    <string name="xml_preview_menu_preview">پیش نمایش</string>
+    <string name="xml_preview_menu_preview_video">پیش نمایش به صورت ویدیو</string>
+    <string name="xml_preview_width_label">عرض (px)</string>
+    <string name="xml_preview_height_label">ارتفاع (px)</string>
+    <string name="xml_preview_density_label">تراکم پیکسل (dpi)</string>
+    <string name="xml_preview_preset_standard">استاندارد</string>
+    <string name="xml_preview_preset_full_hd_plus">Full HD+</string>
+    <string name="xml_preview_preset_tablet">تبلت</string>
+    <string name="xml_preview_display_invalid">لطفاً مقادیر عددی مثبت و معتبری برای عرض، ارتفاع و تراکم پیکسل وارد کنید.</string>
+    <string name="xml_preview_apply">اعمال</string>
+    <string name="xml_preview_applying">در حال اعمال…</string>
+    <string name="xml_preview_unavailable">رندر پیش نمایش در دسترس نیست</string>
+    <string name="xml_preview_parsing">در حال تجزیه طرح بندی XML %1$s...</string>
+    <string name="xml_preview_no_active">هیچ پیش نمایش XML فعالی وجود ندارد</string>
+    <string name="xml_preview_start_before_refresh">پیش از به روز رسانی ابتدا یک پیش نمایش شروع کنید.</string>
+    <string name="xml_preview_start_before_settings">پیش از تغییر تنظیمات نمایش ابتدا یک پیش نمایش شروع کنید.</string>
+    <string name="xml_preview_start_before_rebuild">پیش از بازسازی، ابتدا یک پیش نمایش شروع کنید.</string>
+    <string name="xml_preview_project_not_synced_title">پروژه همگام سازی نشده است</string>
+    <string name="xml_preview_project_not_synced_details">ابتدا پروژه Gradle را همگام سازی کنید تا منابع کامپایل شوند.</string>
+    <string name="xml_preview_metadata_unavailable">متاداده در دسترس نیست</string>
+    <string name="xml_preview_metadata_unavailable_details">هیچ متاداده ای برای جلسه پیش نمایش فعال یافت نشد.</string>
+    <string name="xml_preview_resource_not_found">پکیج منابع یافت نشد</string>
+    <string name="xml_preview_resource_not_found_rerender">هیچ آرشیو منبعی برای رندر مجدد موجود نیست.</string>
+    <string name="xml_preview_resource_not_found_after_build">کامپایل به پایان رسید اما خروجی در مسیر %1$s یافت نشد.</string>
+    <string name="xml_preview_resource_not_found_apk">کامپایل به پایان رسید اما هیچ فایل .ap_ یا .apk در مسیر %1$s یافت نشد.</string>
+    <string name="xml_preview_resource_compile_failed">کامپایل منابع با خطا مواجه شد</string>
+    <string name="xml_preview_incremental_error">خطای کامپایل افزایشی (Incremental)</string>
+    <string name="xml_preview_unknown_render_error">خطای ناشناخته در رندر پیش نمایش XML</string>
+    <string name="xml_preview_recompiling">در حال کامپایل مجدد %1$s...</string>
+    <string name="xml_preview_compiling_resources">در حال کامپایل منابع طرح بندی ماژول مقصد...</string>
+    <string name="xml_preview_running_assemble">در حال اجرای %1$s...</string>
+    <string name="xml_preview_rendering_layout">در حال رندر طرح بندی %1$s...</string>
+    <string name="xml_preview_resolving_metadata">در حال تحلیل منابع ماژول هدف...</string>
+    <string name="no_output_yet">هنوز خروجی وجود ندارد</string>
+    <string name="run_project_for_output">پروژه خود را اجرا کنید تا خروجی را در اینجا ببینید</string>
+    <string name="previous_page">صفحه قبل</string>
+    <string name="next_page">صفحه بعد</string>
+    <string name="install_apk">نصب APK</string>
+    <string name="share_output">اشتراک‌گذاری خروجی</string>
+    <string name="clear_output">پاک کردن خروجی</string>
+    <!-- Language Server Settings -->
+    <string name="experiments_java_lsp_title">سرور زبان Java</string>
+    <string name="experiments_java_lsp_desc">تکمیل خودکار کد، عیب‌یابی و پیمایش برای فایل‌های Java</string>
+    <string name="experiments_dart_lsp_title">سرور زبان Dart</string>
+    <string name="experiments_dart_lsp_desc">تکمیل خودکار کد و تجزیه و تحلیل برای فایل‌های Dart و Flutter</string>
+    <string name="experiments_dart_lsp_no_sdk_desc">نیاز به Flutter SDK دارد (نصب نشده است)</string>
+    <string name="experiments_xml_lsp_title">سرور زبان XML</string>
+    <string name="experiments_xml_lsp_desc">تکمیل خودکار کد و اعتبارسنجی برای چیدمان‌ها و منابع XML اندروید</string>
+    <string name="experiments_section_gradle_service">سرویس Gradle</string>
+    <string name="experiments_custom_gradle_title">نصب سفارشی Gradle</string>
+    <string name="experiments_custom_gradle_desc">لغو نسخه Gradle در gradle-wrapper.properties با یک مسیر توزیع محلی خاص.</string>
+    <string name="experiments_label_experimental">آزمایشی</string>
+    <!-- LSP JVM Options -->
+    <string name="lsp_jvm_options_title">گزینه‌های JVM</string>
+    <string name="lsp_jvm_options_subtitle">در شروع بعدی سرور اعمال می‌شود</string>
+    <string name="lsp_jvm_memory_header">حافظه</string>
+    <string name="lsp_jvm_extra_flags_header">پرچم‌های اضافی</string>
+    <string name="lsp_jvm_initial_heap_label">-Xms  (حافظه اولیه)</string>
+    <string name="lsp_jvm_max_heap_label">-Xmx  (حداکثر حافظه)</string>
+    <string name="lsp_jvm_extra_flags_label">پرچم‌های اضافی JVM</string>
+    <string name="lsp_jvm_reset_action">بازنشانی</string>
+    <string name="lsp_jvm_save_action">ذخیره</string>
+    <!-- Gradle Task Runner Strings -->
+    <string name="settings_remember_gradle_tasks_title">به‌خاطر سپردن وظایف انتخاب شده Gradle</string>
+    <string name="settings_remember_gradle_tasks_desc">حفظ وظایف انتخاب شده Gradle و آرگومان‌های اضافی در راه‌اندازی‌های مجدد برنامه</string>
+    <string name="gradle_dialog_remember_tasks">به‌خاطر سپردن انتخاب</string>
+    <string name="gradle_tasks_run_count">اجرای %1$d وظیفه</string>
+    <string name="gradle_task_run_single">اجرای ۱ وظیفه</string>
+    <string name="gradle_task_select_tasks">انتخاب وظایف</string>
+    <string name="gradle_tasks_clear_selection">پاک کردن انتخاب</string>
+    <string name="gradle_extra_args_btn">آرگومان‌های اضافی Gradle</string>
+    <string name="gradle_extra_args_count_btn">آرگومان‌های اضافی Gradle (%1$d)</string>
+    <string name="gradle_dialog_run_gradle_tasks">اجرای وظایف Gradle</string>
+    <string name="gradle_dialog_run_flutter_commands">اجرای دستورات Flutter</string>
+    <string name="gradle_dialog_tasks_selected_count">%1$d وظیفه انتخاب شد</string>
+    <string name="gradle_dialog_single_task_selected">۱ وظیفه انتخاب شد</string>
+    <string name="gradle_args_dialog_title">آرگومان‌های اضافی Gradle</string>
+    <string name="gradle_args_dialog_subtitle">آرگومان‌های رایج را انتخاب کنید یا موارد سفارشی اضافه نمایید</string>
+    <string name="gradle_args_custom_badge">سفارشی</string>
+    <string name="gradle_args_custom_placeholder">افزودن آرگومان سفارشی (مانند --parallel)</string>
+    <string name="gradle_args_clear_all">پاک کردن همه</string>
+    <string name="gradle_args_apply">اعمال</string>
+    <string name="run_action_build_debug">ساخت دیباگ</string>
+    <string name="run_action_build_release">ساخت نسخه نهایی</string>
+    <string name="run_action_custom">سفارشی</string>
+    <!-- Memory Overlay Strings -->
+    <string name="overlay_memory_content_description">حافظه</string>
+    <string name="overlay_memory_usage_title">مصرف حافظه</string>
+    <string name="overlay_collapse_content_description">جمع کردن</string>
+    <string name="overlay_expand_content_description">گسترش دادن</string>
+    <string name="overlay_ide_process_title">فرایند IDE</string>
+    <string name="overlay_acside_process_title">مصرف کلی</string>
+    <string name="overlay_tooling_api_title">ابزار API</string>
+    <string name="overlay_active_screen">صفحه فعال</string>
+    <string name="overlay_heap_breakdown">تفکیک حافظه</string>
+    <string name="overlay_dalvik_label">Dalvik</string>
+    <string name="overlay_native_label">بومی</string>
+    <string name="overlay_other_label">سایر</string>
+    <string name="overlay_active_threads">رشته‌های فعال</string>
+    <string name="overlay_tooling_workspace">فضای کاری</string>
+    <string name="overlay_tooling_building">در حال ساخت</string>
+    <string name="overlay_tooling_heap_graph">نمودار حافظه</string>
+    <string name="overlay_size_label">اندازه</string>
+    <string name="overlay_drag_to_move">برای جابجایی بکشید</string>
+    <string name="overlay_status_running">در حال اجرا</string>
+    <string name="overlay_status_not_running">غیرفعال</string>
+    <string name="overlay_subprocesses_title">فرایندها</string>
+    <string name="overlay_thread_frames_format">%1$d فریم</string>
+    <string name="overlay_pid_format">شناسه فرایند: %1$d</string>
+    <string name="overlay_used_max_mb_format">%1$d مگابایت / %2$d مگابایت</string>
+    <string name="overlay_percent_format">%1$d%%</string>
+    <string name="overlay_mb_format">%1$d مگابایت</string>
+    <string name="overlay_tooling_mb_format">ابزار %1$d مگابایت</string>
+    <string name="overlay_acside_mb_format">ACSIDE %1$d مگابایت</string>
+    <!-- Adaptive Performance Strings -->
+    <string name="adaptive_perf_dialog_title">عملکرد تطبیقی</string>
+    <string name="adaptive_perf_dialog_subtitle">تنظیمات بهینه متناسب با سخت‌افزار دستگاه شما</string>
+    <string name="adaptive_perf_specs_ram">حافظه رم (RAM)</string>
+    <string name="adaptive_perf_specs_storage">حافظه داخلی</string>
+    <string name="adaptive_perf_specs_cores">هسته‌های پردازنده</string>
+    <string name="adaptive_perf_specs_tier">سطح عملکرد</string>
+    <string name="adaptive_perf_tier_low">پایه</string>
+    <string name="adaptive_perf_tier_balanced">متعادل</string>
+    <string name="adaptive_perf_tier_high">بالا</string>
+    <string name="adaptive_perf_tier_ultra">فوق‌العاده</string>
+    <string name="adaptive_perf_applying">در حال اعمال تنظیمات بهینه&#8230;</string>
+    <string name="adaptive_perf_applied">تنظیمات بهینه با موفقیت اعمال شد</string>
+    <string name="adaptive_perf_continue">ادامه</string>
+    <string name="adaptive_perf_dialog_description">مشخصات سخت‌افزاری دستگاه شما برای بهینه‌سازی حافظه JVM، سرعت سرورهای زبان و پاسخگویی ساخت Gradle ارزیابی شد.</string>
+    <!-- HealthWatcher Strings -->
+    <string name="health_watcher_nullij_warning_title">هشدار مصرف بالای حافظه</string>
+    <string name="health_watcher_nullij_warning_message">مصرف حافظه استودیو کد اندروید به %1$d مگابایت رسیده است. در صورت افت کارایی، بستن برگه‌های سنگین ویرایشگر توصیه می‌شود.</string>
+    <string name="health_watcher_acside_warning_title">هشدار حافظه فرایند ACSIDE</string>
+    <string name="health_watcher_acside_warning_message">مصرف حافظه فرایند همیار ACSIDE به %1$d مگابایت رسیده است (آستانه مجاز: %2$d مگابایت). توقف سرورهای زبان حافظه را آزاد می‌کند.</string>
+    <string name="health_watcher_stop_lsps">توقف سرورهای زبان</string>
+    <string name="health_watcher_never_show_again">دیگر نشان داده نشود</string>
+    <string name="health_watcher_dismiss">نادیده گرفتن</string>
+    <string name="health_watcher_ok">تأیید</string>
+    <string name="health_watcher_lsps_stopped">سرورهای زبان متوقف شدند. ویرایشگر بازنشانی شد.</string>
+    <string name="health_watcher_settings_title">دیده‌بان حافظه و سلامت</string>
+    <string name="health_watcher_settings_summary">نظارت بر مصرف حافظه در پس‌زمینه و دریافت هشدارهای آستانه</string>
+    <string name="health_watcher_threshold_title">آستانه حافظه ACSIDE</string>
+    <string name="health_watcher_threshold_summary">هشدار هنگام تجاوز فرایند همیار از این آستانه</string>
+    <string name="health_watcher_unit_title">واحد آستانه</string>
+    <string name="health_watcher_unit_summary">واحد اندازه‌گیری برای آستانه حافظه فرایند همیار</string>
+    <string name="health_watcher_reset_dialogs_title">بازنشانی ترجیحات هشدارهای حافظه</string>
+    <string name="health_watcher_reset_dialogs_summary">فعال‌سازی مجدد پیام‌های هشداری که پیش‌تر پنهان شده بودند</string>
+    <string name="health_watcher_reset_dialogs_done">ترجیحات هشدارهای حافظه به حالت پیش‌فرض بازگشت.</string>
+    <!-- Tooling API JVM Options Strings -->
+    <string name="experiments_tooling_api_jvm_title">گزینه‌های JVM برای Tooling API</string>
+    <string name="experiments_tooling_api_jvm_desc">پیکربندی تخصیص حافظه و گزینه‌های JVM برای سرور Gradle Tooling API.</string>
+    <string name="tooling_api_jvm_options_title">گزینه‌های JVM برای Tooling API</string>
+    <string name="tooling_api_jvm_options_subtitle">در شروع مجدد بعدی سرور ابزار اعمال می‌شود</string>
+    <!-- External file change conflict strings -->
+    <string name="external_change_dialog_title">فایل روی دیسک تغییر کرده است</string>
+    <string name="external_change_dialog_desc">%1$s به صورت خارجی تغییر یافته است. آیا می‌خواهید آن را از دیسک بارگیری مجدد کرده و تغییرات ویرایشگر را بازنویسی کنید، یا تغییرات ویرایشگر را نگه دارید؟</string>
+    <string name="external_change_reload">بارگیری مجدد از دیسک</string>
+    <string name="external_change_keep">نگه داشتن تغییرات ویرایشگر</string>
+    <!-- MCP Agent Strings -->
+    <string name="mcp_edit_mode_button_desc">حالت ویرایش</string>
+    <string name="mcp_edit_mode_always_accept">پذیرش همیشگی ویرایش‌ها</string>
+    <string name="mcp_edit_mode_preview">پیش‌نمایش قبل از پذیرش</string>
+    <string name="mcp_diff_title">بررسی تغییرات پیشنهادی</string>
+    <string name="mcp_diff_accept">پذیرش تغییرات</string>
+    <string name="mcp_diff_reject">رد کردن</string>
+    <string name="mcp_diff_conflict_warning">فایل روی دیسک از زمان ایجاد این پیش‌نمایش تغییر کرده است.</string>
+    <string name="mcp_diff_file_created">فایل جدید</string>
+    <string name="mcp_diff_file_deleted">فایل حذف شده</string>
+    <string name="mcp_diff_file_renamed">%1$s ← %2$s</string>
+    <string name="mcp_diff_prev_file">قبلی</string>
+    <string name="mcp_diff_next_file">بعدی</string>
+    <string name="mcp_fallback_empty_response">پاسخی از مدل دریافت نشد.</string>
+    <string name="mcp_error_tap_for_details">مشکلی پیش آمد. برای جزئیات روی ! ضربه بزنید.</string>
+    <string name="mcp_error_details_title">جزئیات خطا</string>
+    <string name="mcp_error_copy">کپی</string>
+    <string name="mcp_error_copied">در بریده‌دان کپی شد</string>
+    <string name="mcp_error_no_internet">اتصال اینترنت برقرار نیست.</string>
+    <string name="mcp_error_invalid_api_key">کلید API نامعتبر است.</string>
+    <string name="mcp_error_quota">سهمیه تمام شده یا نرخ درخواست محدود شده است.</string>
+    <string name="mcp_error_timeout">زمان درخواست به پایان رسید.</string>
+    <string name="mcp_error_unexpected">خطای غیرمنتظره‌ای رخ داد.</string>
+    <string name="mcp_error_details_summary">خلاصه</string>
+    <string name="mcp_error_details_type">نوع</string>
+    <string name="mcp_error_details_message">پیام</string>
+    <string name="mcp_error_details_tool">ابزار</string>
+    <string name="mcp_error_details_stacktrace">ردیابی پشته</string>
+
+    <string name="quick_line_actions">اقدامات سریع خط</string>
+    <string name="quick_action_copy_line">کپی خط</string>
+    <string name="quick_action_cut_line">برش خط</string>
+    <string name="quick_action_delete_line">حذف خط</string>
+    <string name="quick_action_empty_line">خالی کردن خط</string>
+    <string name="quick_action_replace_line">جایگزینی خط</string>
+    <string name="quick_action_duplicate_line">تکرار خط</string>
+    <string name="quick_action_uppercase">تبدیل به حروف بزرگ</string>
+    <string name="quick_action_lowercase">تبدیل به حروف کوچک</string>
+    <string name="quick_action_increase_indent">افزایش تورفتگی</string>
+    <string name="quick_action_decrease_indent">کاهش تورفتگی</string>
+    <string name="quick_action_toggle_comment">تغییر وضعیت توضیح</string>
+    <string name="quick_action_format_java">قالب‌بندی کد Java</string>
+    <string name="java_format_error_title">خطای قالب‌بندی Java</string>
+    <string name="dependency_update_available_title">به‌روزرسانی موجود است</string>
+    <string name="dependency_update_all_title">به‌روزرسانی همه</string>
+    <string name="dependency_update_all_message">آیا %1$d وابستگی به آخرین نسخه‌ها به‌روزرسانی شوند؟</string>
+    <string name="dependency_update_apply">اعمال</string>
+    <string name="dependency_update_catalog_hint">این libs.versions.toml را به‌روزرسانی می‌کند</string>
+</resources>
+

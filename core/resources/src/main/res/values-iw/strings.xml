@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" translatable="false">ACS IDE</string>
+    <string name="acsb_app_name" translatable="false">ACS IDE:bootstrap</string>
+    <string name="create_project">צור פרויקט</string>
+    <string name="open_project">פתח פרויקט</string>
+    <string name="launch_terminal">הפעל מסוף</string>
+    <!-- ============================================================ -->
+    <!-- Project Actions                                              -->
+    <!-- ============================================================ -->
+    <string name="action_create_project_title">פרויקט חדש</string>
+    <string name="action_create_project_desc">צור פרויקט Android חדש</string>
+    <string name="action_open_project_title">פתח</string>
+    <string name="action_open_project_desc">פתח פרויקט קיים</string>
+    <!-- ============================================================ -->
+    <!-- Tool Actions                                                 -->
+    <!-- ============================================================ -->
+    <string name="action_sdk_manager_title">מנהל SDK</string>
+    <string name="action_terminal_title">מסוף</string>
+    <string name="action_settings_title">הגדרות</string>
+    <string name="action_plugins_title">תוספים</string>
+    <!-- ============================================================ -->
+    <!-- Editor Actions                                               -->
+    <!-- ============================================================ -->
+    <string name="action_save_title">שמור</string>
+    <string name="action_undo_title">בטל</string>
+    <string name="action_redo_title">בצע מחדש</string>
+    <string name="action_search_title">חיפוש</string>
+    <string name="action_sync_title">סנכרן</string>
+    <string name="action_run_title">הפעל</string>
+    <string name="action_cancel_build_title">בטל בנייה</string>
+    <string name="action_group_project">פרויקט</string>
+    <string name="action_group_tools">כלים</string>
+    <string name="action_group_settings">הגדרות</string>
+    <string name="action_group_plugins">תוספים</string>
+    <string name="action_group_editor_plugins">תוספי עורך</string>
+    <!-- ============================================================ -->
+    <!-- Preview Action (Compose / Flutter)                           -->
+    <!-- ============================================================ -->
+    <string name="action_preview_title">תצוגה מקדימה</string>
+    <string name="action_preview_desc">הצג תצוגה מקדימה של פריסה או Composable</string>
+    <string name="settings">העדפות</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="ndk_version_auto">NDK: אוטומטי</string>
+    <string name="native_error_title">נדרש NDK</string>
+    <string name="error_ndk_not_found_or_incompatible">לא נמצאה התקנת NDK או שהיא אינה תואמת. התקן NDK מהגדרות ה-IDE.</string>
+    <string name="open_ide_cfg_msg">פתח הגדרות</string>
+    <!-- ATC Options Dialog -->
+    <string name="choose_template">בחר תבנית</string>
+    <string name="project_configuration">תצורת פרויקט</string>
+    <string name="use_cmake">השתמש במערכת הבנייה CMake</string>
+    <string name="native_language">שפת Native</string>
+    <string name="minimum_sdk">SDK מינימלי</string>
+    <string name="new_project">פרויקט חדש</string>
+    <string name="package_name">שם חבילה</string>
+    <string name="project_name">שם פרויקט</string>
+    <string name="project_location">מיקום הפרויקט</string>
+    <string name="browse">עיון</string>
+    <string name="language">שפה</string>
+    <string name="java">Java</string>
+    <string name="use_gradle_kotlin_dsl">השתמש ב-Gradle Kotlin DSL (.kts)</string>
+    <string name="cancel">ביטול</string>
+    <string name="create">צור</string>
+    <string name="default_project_name" translatable="false">MyApplication</string>
+    <string name="default_package_name" translatable="false">com.example.myapplication</string>
+    <string name="back">חזרה</string>
+    <!-- MainActivity -->
+    <string name="app_name_full" translatable="false">Android Code Studio</string>
+    <string name="app_icon_description">סמל האפליקציה</string>
+    <string name="error_invalid_gradle_project">התיקייה שנבחרה אינה פרויקט Gradle חוקי</string>
+    <string name="error_could_not_access_directory">לא ניתן לגשת לתיקייה שנבחרה</string>
+    <!-- Sections -->
+    <string name="section_projects">פרויקטים</string>
+    <string name="section_recent_projects">פרויקטים אחרונים</string>
+    <string name="section_learn">לימוד</string>
+    <string name="section_resources">משאבים</string>
+    <!-- Recent Projects -->
+    <string name="no_recent_projects">אין פרויקטים אחרונים</string>
+    <string name="content_description_remove">הסר</string>
+    <!-- Learn Section -->
+    <string name="learn_first_app_title">בנה את האפליקציה הראשונה שלך</string>
+    <string name="learn_first_app_description">למד את יסודות פיתוח Android</string>
+    <string name="learn_kotlin_title">מדריך לשפת Kotlin</string>
+    <string name="learn_kotlin_description">שלוט בתכנות Kotlin</string>
+    <string name="learn_compose_title">Jetpack Compose</string>
+    <string name="learn_compose_description">ערכת UI מודרנית עבור Android</string>
+    <!-- Resources Section -->
+    <string name="resources_documentation_title">תיעוד</string>
+    <string name="resources_documentation_description">מדריך API ומדריכים</string>
+    <string name="resources_samples_title">פרויקטים לדוגמה</string>
+    <string name="resources_samples_description">חקור אפליקציות לדוגמה</string>
+    <!-- Editor Bottom Sheet -->
+    <string name="content_description_expand">הרחב</string>
+    <string name="content_description_collapse">כווץ</string>
+    <string name="content_description_clear">נקה</string>
+    <string name="content_description_close">סגור</string>
+    <!-- Actions -->
+    <string name="action_new_project">פרויקט חדש</string>
+    <string name="action_new_project_desc">צור פרויקט Android חדש</string>
+    <string name="action_open">פתח</string>
+    <string name="action_open_desc">פתח פרויקט קיים</string>
+    <string name="action_sdk_manager">מנהל SDK</string>
+    <string name="action_sdk_manager_desc">נהל רכיבי Android SDK</string>
+    <string name="action_terminal">מסוף</string>
+    <string name="action_terminal_desc">פתח את המסוף המשולב</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="action_settings_desc">הגדר את העדפות ה-IDE</string>
+    <string name="action_plugins">תוספים</string>
+    <string name="action_plugins_desc">נהל תוספי IDE</string>
+    <string name="action_jitpack_preview">תצוגה מקדימה של JitPack</string>
+    <string name="action_jitpack_preview_desc">הצג תצוגה מקדימה של ספריות JitPack</string>
+    <string name="action_sdk_manager_test">מנהל SDK (בדיקה)</string>
+    <string name="action_sdk_manager_test_desc">גרסת בדיקה של מנהל SDK</string>
+    <!-- Editor Actions -->
+    <string name="action_save">שמור</string>
+    <string name="action_save_desc">שמור את הקובץ הנוכחי</string>
+    <string name="action_undo">בטל</string>
+    <string name="action_undo_desc">בטל את השינוי האחרון</string>
+    <string name="action_redo">בצע מחדש</string>
+    <string name="action_redo_desc">בצע מחדש את הפעולה שבוטלה לאחרונה</string>
+    <string name="action_search">חיפוש</string>
+    <string name="action_search_desc">חפש והחלף בקובץ</string>
+    <string name="action_sync">סנכרן</string>
+    <string name="action_sync_desc">סנכרן את פרויקט Gradle</string>
+    <string name="action_run">הפעל</string>
+    <string name="action_run_desc">בנה והפעל את הפרויקט</string>
+    <string name="action_cancel_build">בטל בנייה</string>
+    <string name="action_cancel_build_desc">בטל את הבנייה הנוכחית</string>
+    <!-- Action Messages -->
+    <string name="action_disabled">%1$s הוא currently מושבת</string>
+    <string name="action_executing">Executing: %1$s</string>
+    <string name="action_execution_error">שגיאה executing %1$s: %2$s</string>
+    <string name="jitpack_preview_unavailable">JitPack תצוגה מקדימה לא זמין</string>
+    <string name="sdk_manager_test_unavailable">מנהל SDK לבדיקה אינו זמין</string>
+    <!-- Template Plugin Messages -->
+    <string name="template_plugins_directory_not_found">תוספים תיקייה לא נמצא</string>
+    <string name="template_no_enabled_plugins">אין מופעל תוספים נמצא</string>
+    <string name="template_plugin_no_templates">לתוסף %1$s אין קובץ templates.json</string>
+    <string name="template_loaded_count">Loaded %1$d templates מ תוסף: %2$s</string>
+    <string name="template_total_loaded">Total templates loaded: %1$d מ %2$d תוספים</string>
+    <string name="template_plugins_json_not_found">הקובץ plugins.json לא נמצא</string>
+    <string name="template_enabled_plugins">מופעל תוספים: %1$s</string>
+    <string name="template_parse_success">%1$d תבניות נטענו בהצלחה מ-JSON</string>
+    <string name="template_parse_error">פענוח JSON של התבניות נכשל</string>
+    <string name="template_creation_failed">Template creation נכשל</string>
+    <!-- Internal Error Dialog (lib dir missing / extraction failure) -->
+    <string name="error_internal_title">שגיאה פנימית</string>
+    <string name="error_internal_lib_dir_missing">critical internal תיקייה הוא missing. זה הוא unrecoverable שגיאה. נא reinstall ה application.</string>
+    <string name="error_internal_exit">יציאה</string>
+    <!-- Editor backend native library -->
+    <string name="lib_editor_backend_asset_path" translatable="false">naive/libeditor-backend.so</string>
+    <!-- Plugin Installation -->
+    <string name="plugin_install_success_title">התוסף הותקן</string>
+    <string name="plugin_install_success_message">%1$s הותקן בהצלחה.
+
+האם ברצונך להפעיל אותו ולטעון מחדש את ה-IDE?</string>
+    <string name="plugin_install_enable_and_reload">הפעל &amp; Reload</string>
+    <string name="plugin_install_later">מאוחר יותר</string>
+    <string name="plugin_install_failed_title">ההתקנה נכשלה</string>
+    <string name="plugin_enabled">התוסף הופעל</string>
+    <!-- Plugin Screen UI -->
+    <string name="plugin_refresh">רענן</string>
+    <string name="plugin_refreshing">מרענן…</string>
+    <string name="plugin_search_hint">חיפוש תוספים…</string>
+    <string name="plugin_install_from_file">התקן מקובץ</string>
+    <string name="plugin_section_installed">מותקן</string>
+    <string name="plugin_section_available">זמין</string>
+    <string name="plugin_no_installed">עדיין לא מותקנים תוספים</string>
+    <string name="plugin_no_installed_match">אין תוספים מותקנים תואמים</string>
+    <string name="plugin_all_installed">כל תוספי המאגר מותקנים</string>
+    <string name="plugin_no_available_match">אין תוספים זמינים תואמים</string>
+    <string name="plugin_updates_available">%1$d עדכון(s) זמין</string>
+    <string name="plugin_update_available">עדכן זמין: v%1$s</string>
+    <string name="plugin_repo_loading">טוען מאגר…</string>
+    <string name="plugin_repo_load_failed">לא ניתן לטעון את המאגר</string>
+    <string name="plugin_repo_empty">לא נטענו תוספים</string>
+    <string name="plugin_repo_empty_hint">לא ניתן להגיע למאגרי התוספים. בדוק את החיבור שלך והקש על ↻ כדי לנסות שוב.</string>
+    <string name="plugin_downloading">מוריד…</string>
+    <string name="plugin_downloading_update">מוריד עדכון…</string>
+    <string name="plugin_badge_installed">מותקן</string>
+    <string name="plugin_badge_enabled">מופעל</string>
+    <string name="plugin_badge_disabled">מושבת</string>
+    <string name="plugin_action_install">התקן</string>
+    <string name="plugin_action_update">עדכן</string>
+    <string name="plugin_action_update_to">עדכן ל v%1$s</string>
+    <string name="plugin_action_enable">הפעל</string>
+    <string name="plugin_action_disable">השבת</string>
+    <string name="plugin_action_uninstall">הסר התקנה</string>
+    <string name="plugin_uninstall_confirm_title">להסיר את התוסף?</string>
+    <string name="plugin_uninstall_confirm_message">הם אתה sure אתה want ל הסר התקנה %1$s? זה פעולה לא יכול be undone.</string>
+    <string name="plugin_reload_required">נדרשת טעינה מחדש</string>
+    <string name="plugin_reload_message">"%1$s" מוכן. טען מחדש את ה-IDE עכשיו כדי להפעיל אותו.</string>
+    <string name="plugin_reload_now">טען מחדש עכשיו</string>
+    <string name="plugin_reload_later">מאוחר יותר</string>
+    <string name="plugin_install_invalid_file_type">סוג קובץ לא חוקי. מותרים רק קובצי .acp.</string>
+    <string name="plugin_install_error">התקןation נכשל: %1$s</string>
+    <string name="plugin_download_error">הורד נכשל: %1$s</string>
+    <string name="ok">אישור</string>
+    <!-- Terminal -->
+    <string name="terminal_title">מסוף</string>
+    <string name="terminal_sessions">הפעלות</string>
+    <string name="terminal_add_session">הוסף הפעלה</string>
+    <string name="terminal_delete_session">מחק הפעלה</string>
+    <string name="terminal_active">המסוף פעיל</string>
+    <string name="terminal_session_single">הפעלת מסוף 1 פתוחה</string>
+    <string name="terminal_sessions_range">מסוף sessions 1-%1$d הם פתח</string>
+    <string name="terminal_notification_channel_name">הפעלות מסוף</string>
+    <string name="terminal_notification_channel_description">מציג את מצב הפעלות המסוף הפעילות</string>
+    <!-- Updater Dialog -->
+    <string name="updater_title">עדכון זמין</string>
+    <string name="updater_version_prefix" translatable="false">v%1$s</string>
+    <string name="updater_dismiss">סגור</string>
+    <string name="updater_whats_new">What\'s חדש</string>
+    <string name="updater_download">הורד עדכון</string>
+    <string name="updater_retry">נסה להוריד שוב</string>
+    <string name="updater_later">מאוחר יותר</string>
+    <string name="updater_downloading">מוריד…</string>
+    <string name="updater_install_now">התקן עכשיו</string>
+    <string name="updater_progress_percent" translatable="false">%1$d%%</string>
+    <string name="updater_changelog_unavailable">יומן השינויים אינו זמין</string>
+    <!-- Component Downloader Dialog -->
+    <string name="component_fetch_error">נכשל ל fetch component info</string>
+    <string name="component_extracting">מחלץ…</string>
+    <string name="component_linking">מקשר…</string>
+    <string name="component_downloading">מוריד…</string>
+    <string name="component_installed">הותקן בהצלחה</string>
+    <string name="component_install_failed">התקןation נכשל</string>
+    <string name="component_installing">מתקין…</string>
+    <string name="component_done">בוצע</string>
+    <string name="component_retry">נסה שוב</string>
+    <string name="component_download">הורד</string>
+    <!-- Experiments Settings -->
+    <string name="experiments_section_language_servers">שרתי שפה</string>
+    <string name="experiments_kotlin_lsp_title">שרת השפה Kotlin</string>
+    <string name="experiments_kotlin_lsp_desc">השלמת קוד, אבחון וניווט עבור קובצי Kotlin</string>
+    <string name="kotlin_lsp_indexing_reassurance">Still indexing... זה הוא expected ב larger פרויקטים. נא המתן.</string>
+    <string name="kotlin_lsp_ready">שרת השפה Kotlin מוכן</string>
+    <string name="experiments_label_beta">בטא</string>
+    <string name="experiments_action_setup">הגדר</string>
+    <!-- Kotlin LSP Dialog -->
+    <string name="lsp_dialog_title">שרת השפה Kotlin</string>
+    <string name="lsp_dialog_subtitle">ניסיוני</string>
+    <string name="lsp_dialog_dismiss">סגור</string>
+    <string name="lsp_feature_completion">השלמת קוד חכמה</string>
+    <string name="lsp_feature_diagnostics">אבחון שגיאות בזמן אמת</string>
+    <string name="lsp_feature_navigation">עבור להגדרה ולמופעים</string>
+    <string name="lsp_feature_formatting">עיצוב קוד</string>
+    <string name="lsp_download">הורד (~270 MB)</string>
+    <string name="lsp_install">התקן</string>
+    <string name="lsp_installing">מתקין…</string>
+    <string name="lsp_retry">נסה שוב התקן</string>
+    <string name="lsp_later">מאוחר יותר</string>
+    <string name="lsp_downloading">מוריד…</string>
+    <string name="lsp_done">בוצע</string>
+    <string name="lsp_progress_percent" translatable="false">%1$d%%</string>
+    <string name="lsp_already_installed">שרת השפה Kotlin כבר מותקן</string>
+    <string name="lsp_remove">הסר</string>
+    <string name="lsp_extracting">מחלץ…</string>
+    <!-- LSP Per-Feature Toggles -->
+    <string name="lsp_features_sheet_title">תכונות %1$s</string>
+    <string name="lsp_features_sheet_subtitle">הפעל או השבת יכולות LSP בודדות</string>
+    <string name="lsp_feat_completion">השלמת קוד</string>
+    <string name="lsp_feat_completion_desc">הצע השלמות בזמן הקלדה</string>
+    <string name="lsp_feat_diagnostics">אבחונים</string>
+    <string name="lsp_feat_diagnostics_desc">הצג שגיאות, אזהרות ורמזים בשורה</string>
+    <string name="lsp_feat_hover">מידע ריחוף</string>
+    <string name="lsp_feat_hover_desc">הצג סוג ותיעוד בעת ריחוף</string>
+    <string name="lsp_feat_signature_help">עזרת חתימה</string>
+    <string name="lsp_feat_signature_help_desc">הצג רמזי פרמטרים בתוך קריאות לפונקציות</string>
+    <string name="lsp_feat_code_actions">פעולות קוד</string>
+    <string name="lsp_feat_code_actions_desc">תיקונים מהירים, ייבואים ורפקטורינג</string>
+    <string name="lsp_feat_formatting">עיצוב</string>
+    <string name="lsp_feat_formatting_desc">עצב מסמכים ובחירות אוטומטית</string>
+    <string name="lsp_feat_inlay_hints">רמזים בשורה</string>
+    <string name="lsp_feat_inlay_hints_desc">הצג רמזי סוג ופרמטרים בשורה</string>
+    <string name="lsp_java_exclude_desktop">אל תכלול מחלקות דסקטופ/Swing</string>
+    <string name="lsp_java_exclude_desktop_desc">הסתר סוגי AWT, Swing, JavaFX וסוגי JDK שאינם קשורים לאנדרואיד</string>
+    <!-- Git Clone -->
+    <string name="git_clone_title">שכפל מאגר</string>
+    <string name="git_clone_label_url">כתובת URL של המאגר</string>
+    <string name="git_clone_placeholder_url" translatable="false">https://github.com/user/repo.git</string>
+    <string name="git_clone_label_destination">שכפל אל (parent תיקייה)</string>
+    <string name="git_clone_placeholder_destination">הקש על סמל התיקייה כדי לבחור</string>
+    <string name="git_clone_content_desc_pick_folder">Pick תיקייה</string>
+    <string name="git_clone_label_branch">ענף (אופציונלי)</string>
+    <string name="git_clone_placeholder_branch" translatable="false">main</string>
+    <string name="git_clone_label_custom_flags">דגלי Git מותאמים אישית</string>
+    <string name="git_clone_label_extra_args">ארגומנטים נוספים</string>
+    <string name="git_clone_placeholder_extra_args" translatable="false">--recurse-submodules --depth 1</string>
+    <string name="git_clone_extra_args_hint">דגלים מופרדים ברווחים שנוספים לפקודת git clone</string>
+    <string name="git_clone_label_credentials">השתמש בפרטי התחברות (מאגר פרטי)</string>
+    <string name="git_clone_label_username">שם משתמש</string>
+    <string name="git_clone_label_token">אסימון / סיסמה</string>
+    <string name="git_clone_progress">משכפל, נא להמתין…</string>
+    <string name="git_clone_button">שכפל</string>
+    <string name="git_clone_status_cloning">Cloning…</string>
+    <string name="git_clone_error_no_repo_name">יכול לא determine repo שם מ URL.</string>
+    <string name="git_clone_error_move_failed">שכפל succeeded but נכשל ל move ל destination:\n%1$s</string>
+    <string name="git_not_found_title">Git אינו מותקן</string>
+    <string name="git_not_found_message">Git אינו מותקן בסביבה. פתח את המסוף והפעל את הפקודה שלהלן כדי להתקין אותו, ולאחר מכן נסה לשכפל שוב.</string>
+    <string name="git_not_found_command" translatable="false">apt install git -y</string>
+    <string name="git_not_found_open_terminal">פתח מסוף</string>
+    <string name="git_not_found_dismiss">סגור</string>
+    <!-- Source Control Drawer & Guided Git Workflow -->
+    <string name="git_source_control_title">בקרת גרסאות</string>
+    <string name="git_refresh">רענן</string>
+    <string name="git_no_repo_title">אין מאגר Git</string>
+    <string name="git_no_repo_desc">סביבת עבודה זו אינה מאגר Git עדיין. אתחל מאגר כדי להתחיל לעקוב אחר שינויים.</string>
+    <string name="git_init_repo">אתחל מאגר</string>
+    <string name="git_open_terminal_git">פתח מסוף עבור פקודות Git</string>
+    <string name="git_init_dialog_title">אתחול מאגר Git</string>
+    <string name="git_init_dialog_desc">ייווצר מאגר Git חדש בנתיב:\n%1$s\n\nתיקיית .git נסתרת תיווצר למעקב גרסאות והיסטוריה.</string>
+    <string name="git_init_confirm">אתחל</string>
+    <string name="git_first_run_title">הגדרת המאגר</string>
+    <string name="git_step_init_done">1. המאגר אותחל</string>
+    <string name="git_step_stage_commit">2. הכן ובצע שינויים (Commit)</string>
+    <string name="git_step_add_remote">3. חבר מאגר מרוחק</string>
+    <string name="git_step_push">4. דחוף ענף למאגר המרוחק</string>
+    <string name="git_no_remote_banner_title">לא הוגדר מאגר מרוחק</string>
+    <string name="git_no_remote_banner_desc">הוסף מאגר מרוחק (כגון GitHub או GitLab) כדי לדחוף שינויים ולשתף פעולה.</string>
+    <string name="git_add_remote_btn">הוסף מאגר מרוחק</string>
+    <string name="git_remote_name_label">שם המאגר המרוחק</string>
+    <string name="git_remote_url_label">כתובת URL של המאגר</string>
+    <string name="git_remote_url_invalid">נא להזין כתובת Git תקינה (https://, git@, או ssh://)</string>
+    <string name="git_staged_changes">שינויים מוכנים (Staged)</string>
+    <string name="git_unstaged_changes">שינויים</string>
+    <string name="git_conflict_changes">התנגשויות מיזוג</string>
+    <string name="git_stage_all">הכן הכל</string>
+    <string name="git_unstage_all">בטל הכנת הכל</string>
+    <string name="git_discard_all">בטל את כל השינויים</string>
+    <string name="git_stage">הכן</string>
+    <string name="git_unstage">בטל הכנה</string>
+    <string name="git_discard">בטל שינויים</string>
+    <string name="git_filter_placeholder">סנן שינויים</string>
+    <string name="git_commit_placeholder">הודעת Commit</string>
+    <string name="git_commit_btn">בצע Commit</string>
+    <string name="git_amend">תקן Commit קודם</string>
+    <string name="git_sign">חתימת GPG</string>
+    <string name="git_no_staged_hint">הכן קבצים כדי לבצע Commit</string>
+    <string name="git_clean_tree_hint">עץ העבודה נקי ואין שינויים</string>
+    <string name="git_quick_actions">פעולות מהירות</string>
+    <string name="git_fetch">אחזר (Fetch)</string>
+    <string name="git_pull">משוך (Pull)</string>
+    <string name="git_push">דחוף (Push)</string>
+    <string name="git_history">היסטוריה</string>
+    <string name="git_remotes">מאגרים מרוחקים</string>
+    <string name="git_branches">ענפים</string>
+    <string name="git_stash">שמור זמנית (Stash)</string>
+    <string name="git_stash_pop">שחזר שמירה זמנית</string>
+    <string name="git_merge">מזג (Merge)</string>
+    <string name="git_cherry_pick">העתק Commit בודד</string>
+    <string name="git_tag">תגית</string>
+    <string name="git_force_push">דחיפה כפויה</string>
+    <string name="git_hard_reset">איפוס מלא (Hard Reset)</string>
+    <string name="git_credentials">פרטי אימות</string>
+    <string name="git_auth_dialog_title">אימות Git</string>
+    <string name="git_auth_dialog_title_invalid">פרטי כניסה לא חוקיים</string>
+    <string name="git_auth_dialog_title_expired">אסימון פג תוקף</string>
+    <string name="git_auth_dialog_title_permission">הרשאה נדחתה</string>
+    <string name="git_auth_username_label">שם משתמש</string>
+    <string name="git_auth_remember_label">שמור אישורים באופן מאובטח</string>
+    <string name="git_auth_confirm">אמת</string>
+    <string name="git_auth_cancel">בטל</string>
+    <string name="git_auth_auth_required">נדרש אימות עבור פעולה מרוחקת זו.</string>
+    <string name="git_auth_auth_failed">האימות נכשל. אנא בדוק את פרטי הכניסה שלך.</string>
+    <string name="git_auth_permission_denied">הגישה נדחתה. בדוק הרשאות מאגר או תוקף טוקן.</string>
+    <string name="git_auth_method">שיטת אימות</string>
+    <string name="git_auth_method_token">טוקן גישה אישי (PAT)</string>
+    <string name="git_auth_method_password">שם משתמש וסיסמה</string>
+    <string name="git_auth_method_ssh">מפתח פרטי SSH</string>
+    <string name="git_auth_username">שם משתמש</string>
+    <string name="git_auth_token_label">טוקן גישה אישי</string>
+    <string name="git_auth_password_label">סיסמה</string>
+    <string name="git_auth_ssh_path_label">נתיב מפתח פרטי SSH</string>
+    <string name="git_auth_ssh_passphrase">ביטוי מפתח (אופציונלי)</string>
+    <string name="git_auth_remember">זכור פרטי אימות באופן מאובטח</string>
+    <string name="git_auth_save">שמור והמשך</string>
+    <string name="git_auth_saved_title">פרטי אימות שמורים</string>
+    <string name="git_auth_no_saved">אין עדיין פרטי אימות שמורים</string>
+    <string name="git_auth_delete">מחק</string>
+    <string name="git_auth_add_btn">הוסף אישורים</string>
+    <string name="git_auth_remote_label">מרוחק או מארח (למשל origin או github.com)</string>
+    <string name="git_auth_username_optional_hint">שם משתמש (אופציונלי בעת שימוש באסימון)</string>
+    <string name="git_diff_inline">משולב</string>
+    <string name="git_diff_side_by_side">זה לצד זה</string>
+    <string name="git_diff_expand">הרחב הבדלים</string>
+    <string name="git_diff_collapse">כווץ</string>
+    <string name="git_diff_close">סגור</string>
+    <string name="git_diff_binary">קובץ בינארי - הבדלים מוסתרים</string>
+    <string name="git_diff_empty">לא זוהו הבדלים</string>
+    <string name="git_conflict_banner_title">זוהו התנגשויות מיזוג</string>
+    <string name="git_conflict_banner_desc">פתור את ההתנגשויות בקבצים לפני ביצוע Commit.</string>
+    <string name="git_conflict_accept_ours">קבל את הגרסה שלנו</string>
+    <string name="git_conflict_accept_theirs">קבל את הגרסה הנכנסת</string>
+    <string name="git_conflict_mark_resolved">סמן כנפתר</string>
+    <string name="git_hint_stash">שומר שינויים זמנית ללא ביצוע Commit</string>
+    <string name="git_hint_rebase">מחיל מחדש Commits מעל ענף בסיס אחר</string>
+    <string name="git_hint_cherry_pick">מחיל שינויים מ-Commit מסוים לענף הנוכחי</string>
+    <string name="git_hint_force_push">דורס את היסטוריית הענף המרוחק עם המצב המקומי</string>
+    <string name="git_hint_hard_reset">מבטל את כל השינויים ומחזיר ל-HEAD</string>
+    <string name="git_branch_current">נוכחי</string>
+    <string name="git_branch_checkout">עבור לענף</string>
+    <string name="git_branch_create">צור</string>
+    <string name="git_branch_delete">מחק</string>
+    <string name="git_branch_rename">שנה שם</string>
+    <string name="git_branch_new_name">שם ענף חדש</string>
+    <string name="git_branch_filter">סנן ענפים</string>
+    <string name="git_commit_empty_error">הודעת Commit אינה יכולה להיות ריקה</string>
+    <string name="git_nothing_to_commit">אין מה לשמור. הכן שינויים תחילה.</string>
+    <string name="git_nothing_to_push">הענף מעודכן לחלוטין מול המאגר המרוחק.</string>
+    <string name="git_nothing_to_pull">המאגר כבר מעודכן מול המרוחק.</string>
+    <string name="git_repo_initialized_success">המאגר אותחל בהצלחה</string>
+    <string name="git_commit_success">השינויים נשמרו בהצלחה</string>
+    <string name="git_push_success">הדחיפה למרוחק הצליחה</string>
+    <string name="git_pull_success">המשיכה מהמרוחק הצליחה</string>
+    <string name="git_fetch_success">האחזור מהמרוחק הצליח</string>
+    <string name="git_up_to_date">מעודכן</string>
+    <string name="git_ahead_commits">מתקדם ב-%1$d</string>
+    <string name="git_behind_commits">מפגר ב-%1$d</string>
+    <string name="git_error_dialog_title">שגיאת Git</string>
+    <string name="git_error_dialog_copy">העתק שגיאה</string>
+    <string name="git_error_dialog_copied">השגיאה הועתקה ללוח</string>
+    <string name="git_error_dialog_close">סגור</string>
+    <string name="git_error_details_label">פרטי שגיאה ומעקב מחסנית</string>
+    <!-- Setup Screen - Step 0: Welcome -->
+    <string name="privacy_consent_title">פרטיות</string>
+    <string name="privacy_consent_body">ACS IDE אינו אוסף נתוני משתמש או מידע אישי.</string>
+    <string name="privacy_consent_accept">המשך</string>
+    <string name="privacy_consent_decline">יציאה</string>
+
+    <!-- Core Components Missing Dialog -->
+    <string name="core_components_missing_title">רכיבי ליבה חסרים</string>
+    <string name="core_components_missing_message">רכיב הליבה (com.acside) חסר במערכת שלך. רכיב זה הוא הלב של Android Code Studio ואסור שיחסר. התקן מחדש את ה-IDE כולו כדי לשחזר את הפונקציונליות המרכזית.</string>
+    <string name="core_components_missing_action_reinstall">התקן מחדש את ה-IDE</string>
+    <string name="core_components_missing_action_exit">יציאה</string>
+    <string name="bootstrap_marker_missing_error">סמן האתחול של הליבה (.acside_bootstrap_ok) חסר. נא להשלים את ההגדרה.</string>
+    <string name="setup_step_welcome_title">ברוכים הבאים ל-AndroidCodeStudio</string>
+    <string name="setup_step_welcome_description">הפוך את מכשיר ה-Android שלך לסביבת פיתוח עוצמתית.</string>
+    <string name="setup_step_welcome_action">התחל</string>
+    <!-- Setup Screen - Step 1: Storage Permissions -->
+    <string name="setup_step_permissions_title">הרשאות אחסון</string>
+    <string name="setup_step_permissions_description">אנו זקוקים לגישה לאחסון המכשיר שלך כדי לנהל קובצי פרויקט.</string>
+    <string name="setup_step_permissions_action">הענק הרשאה</string>
+    <!-- Setup Screen - Step 2: Install -->
+    <string name="setup_step_install_title">סביבת פיתוח</string>
+    <string name="setup_step_install_description">הורד Ubuntu, JDK ו-Android SDK, או התקן ארכיונים מהאחסון.</string>
+    <string name="setup_step_install_action">התקנת סביבה</string>
+    <!-- Setup Screen - Step 3: Complete -->
+    <string name="setup_step_complete_title">הכול מוכן!</string>
+    <string name="setup_step_complete_description">סביבת הפיתוח שלך מוכנה. התחל לתכנת!</string>
+    <string name="setup_step_complete_action">התחל לתכנת</string>
+    <!-- Setup Screen - Install progress UI -->
+    <string name="setup_label_installing">מתקין</string>
+    <!-- Setup Screen - Error UI -->
+    <string name="setup_error_install_failed">ההתקנה נכשלה</string>
+    <!-- Setup Screen - Retry button -->
+    <string name="setup_btn_retry">נסה להתקין שוב</string>
+    <string name="setup_manual_section_title">התקן ACS Bootstrap</string>
+    <string name="setup_manual_section_hint">מאז Alpha 6, ACS Lite עבר רשמית לשימוש בחבילות Termux דרך סביבת ACSIDE. כדי להמשיך בהגדרת ה-IDE, הקש על "התקן ACSIDE Bootstrap" כדי להתחיל.</string>
+    <string name="setup_manual_section_or_hint">או</string>
+    <string name="setup_acside_shared_package">התקן ACSIDE Bootstrap</string>
+    <string name="setup_manual_installed">מותקן</string>
+    <string name="jdk_pick_title_install">בחר גרסת JDK</string>
+    <string name="jdk_pick_desc_install">בחר איזו גרסת Java Development Kit להתקין.</string>
+    <string name="jdk_pick_confirm_install">התקן</string>
+    <string name="jdk_pick_title_import">גרסת JDK עבור הארכיון</string>
+    <string name="jdk_pick_desc_import">בחר באיזו גרסה יש להתקין את הארכיון הזה.</string>
+    <string name="jdk_pick_confirm_import">המשך</string>
+    <string name="sdk_manual_installed">יובא</string>
+    <string name="sdk_manual_section_title">התקן מ אחסון</string>
+    <string name="sdk_manual_jdk">ייבא ארכיון JDK</string>
+    <string name="sdk_manual_sdk">ייבא ארכיון Android SDK</string>
+    <!-- BugReportOverlay -->
+    <string name="bug_report_fab_content_desc">דווח על באג</string>
+    <string name="bug_report_dialog_title">דיווח על באג</string>
+    <string name="bug_report_close_content_desc">סגור</string>
+    <string name="bug_report_attachment_default_name">attachment</string>
+    <string name="bug_report_remove_attachment_content_desc">הסר attachment</string>
+    <!-- Consent dialog -->
+    <string name="bug_report_consent_title">לפני שתמשיך</string>
+    <string name="bug_report_consent_body">דיווחי באגים כוללים את דגם המכשיר שלך, גרסת Android, גרסת האפליקציה וכל תיאור או קבצים שתבחר לצרף.
+
+מידע זה נשלח למפתח ומשמש אך ורק לאבחון ולתיקון בעיות. לא נאסף מידע אישי.
+
+האם אתה מסכים לשלוח מידע זה?</string>
+    <string name="bug_report_consent_agree">אני מסכים</string>
+    <string name="bug_report_consent_decline">לא תודה</string>
+    <!-- Report form -->
+    <string name="bug_report_rate_limit_msg">שלחת %1$d דיווחים. נא להמתין %2$ds לפני שליחת דיווח נוסף.</string>
+    <string name="bug_report_title_label">כותרת הבעיה</string>
+    <string name="bug_report_title_placeholder">סיכום קצר של הבאג</string>
+    <string name="bug_report_title_error">נדרשת כותרת</string>
+    <string name="bug_report_body_label">תיאור</string>
+    <string name="bug_report_body_placeholder">שלבים לשחזור, מה ציפית שיקרה ומה קרה…</string>
+    <string name="bug_report_body_error">נדרש תיאור</string>
+    <string name="bug_report_attach_button">צרף קובץ או תמונה (אופציונלי)</string>
+    <string name="bug_report_cancel_button">ביטול</string>
+    <string name="bug_report_send_button">שלח דיווח</string>
+    <string name="bug_report_reports_remaining">דיווחים שנותרו: %1$d / %2$d</string>
+    <string name="bug_report_reset_preferences_button">אפס העדפות</string>
+    <!-- MainActivity -->
+    <string name="main_git_icon_content_desc">Git</string>
+    <string name="main_hero_line1">פתח או צור</string>
+    <string name="main_hero_line2">את הפרויקט הבא שלך</string>
+
+    <string name="main_section_quick_actions">פעולות מהירות</string>
+    <string name="main_section_recent_projects">פרויקטים אחרונים</string>
+    <string name="main_project_updated">עודכן %1$s</string>
+    <!-- RecentProjectCard -->
+    <string name="project_type_flutter" translatable="false">Flutter</string>
+    <string name="project_type_android" translatable="false">Android</string>
+    <!-- GeneralSettings sections -->
+    <string name="settings_section_appearance">מראה</string>
+    <string name="settings_section_language">שפה</string>
+    <string name="settings_section_developer">אפשרויות למפתחים</string>
+    <!-- Appearance settings -->
+    <string name="settings_dark_mode_title">מצב כהה</string>
+    <string name="settings_dark_mode_desc">השתמש בערכת נושא כהה בכל האפליקציה</string>
+    <string name="settings_looks_feel_title">מראה ותחושה</string>
+    <string name="settings_looks_feel_desc">בחר את לוח הצבעים של האפליקציה</string>
+    <string name="settings_looks_feel_custom_colors_title">לוח צבעים מותאם אישית</string>
+    <string name="settings_looks_feel_color_primary">ראשי</string>
+    <string name="settings_looks_feel_color_secondary">משני</string>
+    <string name="settings_looks_feel_color_tertiary">שלישוני</string>
+    <string name="settings_looks_feel_color_background">רקע</string>
+    <string name="settings_looks_feel_color_surface">משטח</string>
+    <string name="settings_looks_feel_color_error">שגיאה</string>
+    <string name="settings_looks_feel_hex_label">צבע Hex</string>
+    <string name="settings_looks_feel_apply">החל</string>
+    <string name="settings_looks_feel_cancel">ביטול</string>
+    <string name="settings_fluent2_look_title">מראה Fluent 2 של Windows 11</string>
+    <string name="settings_fluent2_look_desc">החל סגנון חזותי בהשראת Fluent 2 בכל האפליקציה</string>
+    <string name="settings_fluent2_restart_title">נדרשת הפעלה מחדש</string>
+    <string name="settings_fluent2_restart_message">הפעל מחדש את האפליקציה כדי להחיל את המראה החדש.</string>
+    <string name="settings_fluent2_restart_confirm">הפעל מחדש עכשיו</string>
+    <string name="settings_fluent2_restart_later">מאוחר יותר</string>
+    <string name="settings_app_scale_title">קנה מידה של האפליקציה</string>
+    <string name="settings_app_scale_desc">Scale: %1$sx</string>
+    <!-- Language settings -->
+    <string name="settings_language_title">שפת האפליקציה</string>
+    <string name="settings_language_desc">בחר את השפה המשמשת בכל האפליקציה</string>
+    <!-- Developer settings -->
+    <string name="settings_ide_logs_title">יומני IDE</string>
+    <string name="settings_ide_logs_desc">הפעל רישום מפורט לצורכי ניפוי באגים</string>
+    <!-- Developer settings -->
+    <string name="settings_bug_report_overlay_title">שכבת דיווח על באגים</string>
+    <string name="settings_bug_report_overlay_desc">מציג שכבת-על צפה המאפשרת לדווח במהירות על בעיות</string>
+    <!-- LocaleManager display names - never translate these -->
+    <string name="locale_system_default">ברירת המחדל של המערכת</string>
+    <string name="locale_english" translatable="false">English</string>
+    <string name="locale_arabic" translatable="false">العربية</string>
+    <string name="locale_french" translatable="false">Français</string>
+    <string name="locale_german" translatable="false">Deutsch</string>
+    <string name="locale_spanish" translatable="false">Español</string>
+    <string name="locale_portuguese" translatable="false">Português</string>
+    <string name="locale_russian" translatable="false">Русский</string>
+    <string name="locale_chinese" translatable="false">中文</string>
+    <string name="locale_japanese" translatable="false">日本語</string>
+    <string name="locale_korean" translatable="false">한국어</string>
+    <!-- Language switch overlay -->
+    <string name="settings_language_switching_title">מחליף שפה</string>
+    <string name="settings_language_switching_subtitle">האפליקציה תופעל מחדש בעוד רגע…</string>
+    <!-- EditorActivity: Permission -->
+    <string name="storage_permission_required">נדרשת הרשאת אחסון כדי לעיין בקבצים</string>
+    <string name="all_files_access_permission">נא הענק \'כל קבצים גישה\' הרשאה ב הגדרות</string>
+    <!-- EditorActivity: Flutter SDK not found dialog -->
+    <string name="flutter_sdk_not_found_title">Flutter SDK לא נמצא</string>
+    <string name="flutter_sdk_not_found_message">ה-Flutter SDK לא נמצא</string>
+    <string name="flutter_sdk_not_found_error_code">ACS_FLUTTER_SDK_לא_נמצא illegal argument</string>
+    <string name="flutter_sdk_install_hint">התקן את Flutter SDK ממנהל ה-SDK במסך הבית לפני פתיחת פרויקט Flutter.</string>
+    <!-- EditorActivity: Exit dialog -->
+    <string name="exit_editor_title">לצאת מהעורך?</string>
+    <string name="exit_editor_message">זה יהיה סגור ה פרויקט ו clean up משאבים.</string>
+    <string name="unsaved_changes_warning">⚠️ אתה יש unsaved changes!</string>
+    <string name="exit_with_cleanup">יציאה עם Cleanup</string>
+    <!-- EditorActivity: Cleanup progress dialog -->
+    <string name="cleaning_up_title">Cleaning Up…</string>
+    <string name="force_stop">Force Stop</string>
+    <string name="cleanup_stopping_builds">עוצר בניות פעילות…</string>
+    <string name="cleanup_stopping_daemons">עוצר תהליכי Gradle ברקע…</string>
+    <string name="cleanup_shutting_down_gradle">מכבה את שירות Gradle…</string>
+    <string name="cleanup_closing_terminals">Closing מסוף sessions…</string>
+    <string name="cleanup_stopping_lsp">Stopping שרתי שפה…</string>
+    <string name="cleanup_finalizing">Finalizing…</string>
+    <!-- EditorActivity: Service / build messages -->
+    <string name="tooling_api_not_available">Tooling API לא זמין. בנייה features יהיה be מושבת.</string>
+    <string name="services_may_need_reconnect">Some services may need ל reconnect</string>
+    <!-- EditorScreen: General -->
+    <string name="toggle_navigation_drawer">Toggle navigation drawer</string>
+    <!-- EditorScreen: Bottom sheet header -->
+    <string name="build_output">פלט בנייה</string>
+    <string name="ready">מוכן</string>
+    <string name="building">בונה</string>
+    <string name="synchronizing_with_gradle">מסנכרן עם Gradle…</string>
+    <string name="running_tasks">הפעלning: %1$s</string>
+    <string name="build_successful">הבנייה הצליחה</string>
+    <string name="all_tasks_completed">כל המשימות הושלמו</string>
+    <string name="build_failed_title">הבנייה נכשלה</string>
+    <string name="build_failed_summary">%1$s</string>
+    <!-- EditorScreen: Bottom sheet tab titles -->
+    <string name="tab_output">פלט</string>
+    <string name="tab_problems">בעיות</string>
+    <string name="tab_app_logs">יומני אפליקציה</string>
+    <string name="tab_ide_logs">יומני IDE</string>
+    <!-- EditorScreen: LSP / definition navigation -->
+    <string name="could_not_open_definition">לא ניתן לפתוח את ההגדרה</string>
+    <string name="definition_not_found">ההגדרה לא נמצאה</string>
+    <!-- EditorScreen: Unsupported JDK dialog -->
+    <string name="unsupported_java_version_title">Unsupported Java גרסה</string>
+    <string name="unsupported_java_version_message">שרת השפה Kotlin דורש Java 21 ואילך.
+
+סביבת זמן הריצה הנוכחית של Java ישנה מדי להפעלתו (גרסת קובץ מחלקה 65.0 דורשת Java 21 ומעלה). התקן Temurin JDK 21 דרך מנהל ה-SDK ולאחר מכן הפעל מחדש את ה-IDE.</string>
+    <!-- EditorScreen: Sync -->
+    <string name="syncing_project">מסנכרן את הפרויקט…</string>
+    <string name="finalizing_sync">מסיים את הסנכרון…</string>
+    <string name="refreshing_classpaths">מרענן נתיבי מחלקות…</string>
+    <string name="restarting_language_servers">מפעיל מחדש שרתי שפה…</string>
+    <string name="loading_tasks">טוען משימות…</string>
+    <string name="sync_completed">הסנכרון הושלם!</string>
+    <string name="project_synced_successfully">✓ פרויקט synced בהצלחה</string>
+    <string name="sync_failed">✗ סנכרן נכשל. Check בנייה פלט.</string>
+    <string name="sync_error">✗ סנכרן שגיאה: %s</string>
+    <string name="please_sync_project_first">נא לסנכרן את הפרויקט תחילה, או להמתין לסיום הסנכרון</string>
+    <!-- EditorScreen: File actions -->
+    <string name="file_saved">הקובץ נשמר</string>
+    <string name="failed_to_save_file">שמירת הקובץ נכשלה</string>
+    <string name="failed_to_open_file">נכשל ל פתח קובץ: %s</string>
+    <!-- EditorScreen: Build actions -->
+    <string name="build_cancelled">הבנייה בוטלה</string>
+    <string name="failed_to_cancel">נכשל ל בטל: %s</string>
+    <string name="failed_to_run">נכשל ל הפעל: %s</string>
+    <!-- Shared: Flutter -->
+    <string name="flutter_clean_running">מריץ ניקוי Flutter…</string>
+    <string name="flutter_clean_completed">ניקוי Flutter הושלם בהצלחה</string>
+    <string name="flutter_clean_failed">ניקוי Flutter נכשל עם קוד יציאה %1$d</string>
+    <string name="flutter_clean_error">שגיאה בהפעלת ניקוי Flutter: %1$s</string>
+    <string name="flutter_pub_get_running">מריץ Flutter pub get…</string>
+    <string name="flutter_pub_get_completed">Flutter pub get הושלם בהצלחה</string>
+    <string name="flutter_pub_get_failed">Flutter pub get נכשל. בדוק את חלונית הפלט לפרטים.</string>
+    <string name="flutter_pub_get_failed_with_code">Flutter pub get נכשל עם קוד יציאה %1$d</string>
+    <string name="flutter_pub_get_failed_reason">Flutter pub get נכשל: %1$s</string>
+    <string name="flutter_dependencies_downloaded">תלויות Flutter הורדו בהצלחה</string>
+    <string name="dart_pub_get_running">מריץ Dart pub get…</string>
+    <string name="dart_pub_get_completed">Dart pub get הושלם בהצלחה</string>
+    <string name="dart_pub_get_failed_with_code">Dart pub get נכשל עם קוד יציאה %1$d</string>
+    <string name="dart_pub_get_failed_reason">Dart pub get נכשל: %1$s</string>
+    <string name="flutter_sdk_not_found_settings">Flutter SDK לא נמצא. התקן את Flutter מהגדרות ה-IDE.</string>
+    <!-- Shared: Generic error -->
+    <string name="error_with_message">שגיאה: %s</string>
+    <string name="settings_back">חזרה</string>
+    <string name="settings_hero_line1">התאם אישית את</string>
+    <string name="settings_hero_line2">החוויה שלך</string>
+    <string name="settings_hero_subtitle">App הגדרות &amp; preferences</string>
+    <string name="settings_section_header">הגדרות</string>
+    <string name="settings_detail_subtitle">הגדרות</string>
+    <string name="settings_summary_general">מראה, קבצים &amp; confirmations</string>
+    <string name="settings_summary_editor">גופן, תצוגה והתנהגות קוד</string>
+    <string name="settings_summary_experimental">תצוגה מקדימה ותכונות ניסיוניות</string>
+    <string name="settings_summary_terminal">הגדר מסוף הגדרות</string>
+    <string name="settings_summary_about">App info, מכשיר &amp; קישורים</string>
+    <string name="settings_summary_output_debug">פלט בנייה, Logcat ו-ADB</string>
+    <string name="settings_output_debug_section_title">פלט &amp; Debug</string>
+    <string name="settings_section_build_output">בנייה פלט</string>
+    <string name="settings_section_logcat_backend">App logcat</string>
+    <string name="settings_section_adb_setup">הגדרת ADB</string>
+    <string name="settings_logcat_backend_title">Logcat backend</string>
+    <string name="settings_logcat_backend_desc">ADB מומלץ. Shizuku עדיין זמין כחלופה.</string>
+    <string name="settings_logcat_backend_adb">ADB (מומלץ)</string>
+    <string name="settings_logcat_backend_shizuku">Shizuku</string>
+    <string name="settings_adb_step_developer_title">1. פתח developer options</string>
+    <string name="settings_adb_step_developer_desc">הפעל developer options ראשון, אז return here.</string>
+    <string name="settings_adb_step_usb_title">2. הפעל USB debugging</string>
+    <string name="settings_adb_step_usb_desc">Turn ב USB debugging ב developer options.</string>
+    <string name="settings_adb_step_wireless_title">3. הפעל wireless debugging</string>
+    <string name="settings_adb_step_wireless_desc">פתח wireless debugging ו keep it מופעל.</string>
+    <string name="settings_adb_step_pair_title">4. Pair ACS עם wireless debugging</string>
+    <string name="settings_adb_step_pair_desc">מתחיל גילוי צימוד. כאשר שירות הצימוד מופיע, הזן את הקוד מההתראה.</string>
+    <string name="settings_adb_open_developer_options">פתח</string>
+    <string name="settings_adb_open_wireless">פתח</string>
+    <string name="settings_adb_start_pairing">Pair</string>
+    <string name="settings_adb_developer_help_title">הפעל developer options</string>
+    <string name="settings_adb_developer_help_body">פתח הגדרות → אודות הטלפון, ולאחר מכן הקש על מספר Build שבע פעמים עד שאפשרויות המפתחים יופעלו.</string>
+    <string name="settings_adb_developer_help_got_it">עבורt it</string>
+    <string name="settings_adb_usb_otg_title">USB-OTG devices</string>
+    <string name="settings_adb_usb_otg_desc">בקש הרשאת מארח USB עבור התקני ADB המחוברים דרך USB-OTG.</string>
+    <string name="settings_adb_usb_otg_action">הענק USB</string>
+    <string name="settings_adb_how_to_connect_title">Wireless debugging</string>
+    <string name="settings_adb_how_to_connect_desc">Pair ACS ו check connection status.</string>
+    <string name="settings_adb_how_to_connect_action">How ל connect</string>
+    <string name="adb_connect_title">התחבר באמצעות ADB</string>
+    <string name="adb_connect_subtitle">Pair wireless debugging ו התקנה ל ה connected מכשיר</string>
+    <string name="adb_connect_status_section">Connection</string>
+    <string name="adb_connect_status_checking">Checking…</string>
+    <string name="adb_connect_status_connected">Connected</string>
+    <string name="adb_connect_status_disconnected">לא connected</string>
+    <string name="adb_connect_refresh">רענן</string>
+    <string name="adb_connect_pair_action">Pair</string>
+    <string name="adb_connect_pair_waiting">Waiting עבור pairing…</string>
+    <string name="adb_connect_pair_done">Already connected</string>
+    <string name="adb_pairing_channel_name">Wireless debugging pairing</string>
+    <string name="adb_pairing_searching_title">מחפש שירות צימוד</string>
+    <string name="adb_pairing_searching_text">Waiting עבור wireless debugging pairing…</string>
+    <string name="adb_pairing_found_title">שירות הצימוד נמצא</string>
+    <string name="adb_pairing_found_text">הזן את קוד הצימוד עבור יציאה %1$d</string>
+    <string name="adb_pairing_working_title">Pairing ב progress</string>
+    <string name="adb_pairing_succeed_title">Paired בהצלחה</string>
+    <string name="adb_pairing_succeed_text">ACS הוא connected through wireless debugging.</string>
+    <string name="adb_pairing_failed_title">Pairing נכשל</string>
+    <string name="adb_pairing_failed_text">יכול לא pair עם wireless debugging.</string>
+    <string name="adb_pairing_code_label">Pairing קוד</string>
+    <string name="adb_pairing_input_action">הזן קוד צימוד</string>
+    <string name="adb_pairing_stop">Stop</string>
+    <string name="editor_section_gradle_service">שירות Gradle</string>
+    <string name="editor_section_syntax_highlighting">Syntax Highlighting</string>
+    <string name="editor_section_display">תצוגה</string>
+    <string name="editor_section_behavior">Behavior</string>
+    <string name="editor_section_lsp_kotlin">LSP: Kotlin</string>
+    <string name="editor_section_advanced">Advanced</string>
+    <string name="editor_theme_title">Editor ערכת נושא</string>
+    <string name="editor_syntax_highlighting_title">Syntax Highlighting</string>
+    <string name="editor_syntax_highlighting_desc">Colorize קוד based ב שפה</string>
+    <string name="editor_color_preview_title">Color תצוגה מקדימה</string>
+    <string name="editor_color_preview_desc">הצג תצוגה מקדימה עבור ערכי צבע</string>
+    <string name="editor_highlight_current_line_title">הדגש את השורה הנוכחית</string>
+    <string name="editor_highlight_current_line_desc">הדגש את השורה שבה נמצא הסמן</string>
+    <string name="editor_font_family_title">משפחת גופנים</string>
+    <string name="editor_font_import_option">ייבא גופן…</string>
+    <string name="editor_memory_usage_title">Memory usage</string>
+    <string name="editor_memory_usage_desc">הצג שכבת-על של שימוש בזיכרון</string>
+    <string name="editor_font_size_title">גודל גופן</string>
+    <string name="editor_font_size_desc">%dpx</string>
+    <string name="editor_tab_size_title">Tab Size</string>
+    <string name="editor_tab_size_desc">%d רווחים</string>
+    <string name="editor_line_numbers_title">מספרי שורות</string>
+    <string name="editor_line_numbers_desc">הצג מספרי שורות בשוליים</string>
+    <string name="editor_word_wrap_title">Word Wrap</string>
+    <string name="editor_word_wrap_desc">גלוש שורות ארוכות כדי להתאים למסך</string>
+    <string name="editor_line_column_indicator_title">מחוון שורה ועמודה</string>
+    <string name="editor_line_column_indicator_desc">הצג את מיקום הסמן בעורך</string>
+    <string name="editor_auto_format_title">אוטומטי Format</string>
+    <string name="editor_auto_format_desc">אוטומטיmatically format קוד אחרי saving</string>
+    <string name="editor_auto_indent_title">אוטומטי Indent</string>
+    <string name="editor_auto_indent_desc">אוטומטיmatically indent חדש lines</string>
+    <string name="editor_auto_pairing_title">אוטומטי Pairing</string>
+    <string name="editor_auto_pairing_desc">אוטומטי-סגור brackets ו quotes</string>
+    <string name="editor_string_extraction_title">String extraction</string>
+    <string name="editor_string_extraction_desc">Detect hardcoded strings ו offer extract-ל-משאב פעולות</string>
+    <string name="editor_page_mode_title">Page מצב</string>
+    <string name="editor_page_mode_desc">Splits ה editor אל pages כאשר large קבצים הם opened.</string>
+    <string name="editor_kotlin_diagnostics_title">אבחון Kotlin ניסיוני</string>
+    <string name="editor_kotlin_diagnostics_desc">דווח על אבחון עבור קובצי Kotlin</string>
+    <string name="editor_show_whitespace_title">הצג רווחים לבנים</string>
+    <string name="editor_show_whitespace_desc">הצג רווחים וטאבים באופן חזותי</string>
+    <string name="editor_show_line_endings_title">הצג סופי שורות</string>
+    <string name="editor_show_line_endings_desc">הצג תווי שבירת שורה</string>
+    <string name="editor_cursor_blink_title">הבהוב סמן</string>
+    <string name="editor_cursor_blink_desc">הנפש את הבהוב הסמן</string>
+    <string name="editor_visible_password_flag_title">דגל סיסמה גלויה</string>
+    <string name="editor_visible_password_flag_desc">השתמש במקלדת מאובטחת ללא הצעות. כבה כדי לאפשר הצעות מקלדת.</string>
+    <string name="editor_font_import_dialog_title">ייבא גופן מותאם אישית</string>
+    <string name="editor_font_import_dialog_body">בחר קובץ גופן TrueType (.ttf) או OpenType (.otf).</string>
+    <string name="editor_font_import_name_label">שם הגופן</string>
+    <string name="editor_font_import_choose_file">בחר קובץ גופן</string>
+    <string name="editor_font_import_confirm">ייבא</string>
+    <string name="editor_font_import_cancel">ביטול</string>
+    <string name="editor_font_import_file_selected">קובץ הגופן נבחר ✓</string>
+    <string name="gradle_sync_args_title">סנכרן ארגומנטים</string>
+    <string name="gradle_no_extra_flags">אין נוסף דגלים</string>
+    <string name="gradle_common_flags_label">נפוצים דגלים</string>
+    <string name="gradle_custom_flag_label">מותאם אישית דגל</string>
+    <string name="gradle_custom_flags_label">מותאם אישית דגלים</string>
+    <string name="gradle_custom_flag_placeholder">e.g. --אזהרה-מצב=כל</string>
+    <string name="gradle_add_flag_cd">Add דגל</string>
+    <string name="gradle_remove_flag_cd">הסר</string>
+    <string name="settings_about_section_title">אודות</string>
+    <string name="settings_editor_section_title">Editor</string>
+    <string name="settings_general_section_title">General</string>
+    <string name="settings_experimental_section_title">ניסיוני</string>
+    <string name="settings_terminal_section_title">מסוף</string>
+    <string name="settings_terminal_section_header">Hybrid סביבה</string>
+    <string name="settings_proot_no_seccomp_title">השבת PRoot seccomp</string>
+    <string name="settings_proot_no_seccomp_desc">Applies PROOT_אין_SECCOMP=1 ל PRoot sessions. Use רק אם ה hybrid סביבה fails ב שלך מכשיר.</string>
+    <string name="error_report_title">לשלוח דוח שגיאה?</string>
+    <string name="error_report_message">משהו השתבש. דוח אנונימי עם יומני אבחון יישלח למפתח רק אם תסכים. יומנים אלה מסייעים בתיקון הבעיה. לא נכלל מידע אישי.</string>
+    <string name="error_report_send_report_btn">שלח דוח</string>
+    <string name="error_report_no_thanks_btn">לא תודה</string>
+    <!-- About Section - App Info -->
+    <string name="about_app_name">Android Code Studio</string>
+    <!-- About Section - Device Information -->
+    <string name="about_device_info_title">פרטי המכשיר</string>
+    <string name="about_device_label">מכשיר</string>
+    <string name="about_model_label">דגם</string>
+    <string name="about_android_label">Android</string>
+    <!-- About Section - Links -->
+    <string name="about_links_title">קישורים</string>
+    <string name="about_link_source_code">קוד מקור</string>
+    <string name="about_link_discussion">קבוצת דיון</string>
+    <string name="about_link_channel">ערוץ רשמי</string>
+    <string name="lib_editor_backend_filename" translatable="false">libeditor-backend.so</string>
+    <string name="permission_transition" translatable="false">permission_transition</string>
+    <string name="icon_pulse" translatable="false">icon_pulse</string>
+    <string name="icon_scale" translatable="false">icon_scale</string>
+    <string name="storage_access_required">נדרשת גישה לאחסון</string>
+    <string name="grant_permissions_to_browse_and_manage_your_files">הענק הרשאות ל עיין ו manage שלך קבצים</string>
+    <string name="grant_basic_permissions">הענק הרשאות בסיסיות</string>
+    <string name="grant_all_files_access">הענק גישה לכל הקבצים</string>
+    <string name="close_terminal">סגור מסוף</string>
+    <string name="navigate_to_path">נווט לנתיב</string>
+    <string name="directory_path">נתיב תיקייה</string>
+    <string name="directory_does_not_exist_or_is_not_allowed">תיקייה does לא exist או הוא לא allowed</string>
+    <string name="go">עבור</string>
+    <string name="locations">מיקומים</string>
+    <string name="restricted_to_listed_directories">Restricted ל listed directories</string>
+    <string name="twin_file_manager">Twin קובץ Manager</string>
+    <string name="drawer_icon_progress" translatable="false">drawer_icon_progress</string>
+    <string name="toggle_drawer">Toggle drawer</string>
+    <string name="git_clone">שכפל באמצעות Git</string>
+    <string name="delete">מחק</string>
+    <string name="str_new">חדש</string>
+    <string name="select">בחר</string>
+    <string name="select_all">בחר כל</string>
+    <string name="all">כל</string>
+    <!-- Those are new and should go here -->
+    <string name="file_browser">דפדפן קבצים</string>
+    <string name="close_search">סגור חיפוש</string>
+    <string name="search_projects">חפש פרויקטים</string>
+    <string name="project_directory_path">נתיב תיקיית הפרויקט</string>
+    <string name="project_directory_path_placeholder">הנתיב לפרויקט שלך</string>
+    <string name="project_directory_does_not_exist">פרויקט תיקייה does לא exist</string>
+    <string name="browse_with_file_picker">עיין באמצעות בוחר הקבצים</string>
+    <string name="path_must_be_under_sdcard">נתיב חייב be תחת /sdcard, AndroidCSפרויקטים, או פרויקטים</string>
+    <string name="directory_not_found_or_not_valid">תיקייה לא נמצא או לא חוקי פרויקט</string>
+    <string name="open_project_sheet_search_hint">חיפוש פרויקטים…</string>
+    <string name="open_project_sheet_section_all_projects">כל הפרויקטים</string>
+    <string name="open_project_sheet_no_match">אין פרויקטים התואמים "%1$s"</string>
+    <string name="open_project_sheet_no_projects">לא נמצאו פרויקטים</string>
+    <string name="open_project_sheet_recent_badge">אחרון</string>
+    <string name="problems_quick_fix">תיקון מהיר</string>
+    <string name="problems_quick_fix_choose_title">בחר תיקון</string>
+    <string name="problems_quick_fix_none">אין תיקונים מהירים זמינים</string>
+    <string name="editor_drawer_backup_project">גיבוי פרויקט (ZIP)</string>
+    <string name="backup_project_succeeded">גיבוי הפרויקט נשמר</string>
+    <string name="backup_project_failed">לא ניתן ליצור גיבוי</string>
+    <string name="backup_project_in_progress">מגבה את הפרויקט…</string>
+    <string name="backup_project_succeeded_title">הגיבוי הושלם</string>
+    <string name="backup_project_failed_title">הגיבוי נכשל</string>
+    <string name="backup_project_files_progress">%1$d של %2$d קבצים</string>
+    <string name="backup_project_eta_calculating">Estimating זמן נותרו…</string>
+    <string name="backup_project_eta_almost_done">כמעט סיימנו…</string>
+    <string name="backup_project_eta_seconds">אודות %1$d s נותרו</string>
+    <string name="backup_project_collapse">כווץ</string>
+    <string name="backup_project_expand">הרחב</string>
+    <string name="recent_project_menu_subtitle">פרויקט</string>
+    <string name="recent_project_copy_path">העתק נתיב</string>
+    <string name="recent_project_path_copied">הנתיב הועתק</string>
+    <string name="recent_project_rename">שנה שם</string>
+    <string name="recent_project_rename_title">שנה את שם הפרויקט</string>
+    <string name="recent_project_rename_label">שם פרויקט</string>
+    <string name="recent_project_rename_confirm">שנה שם</string>
+    <string name="recent_project_rename_succeeded">שם הפרויקט שונה</string>
+    <string name="recent_project_rename_failed">יכול לא שנה שם פרויקט</string>
+    <string name="recent_project_delete_permanently">מחק לצמיתות</string>
+    <string name="recent_project_delete_title">למחוק את הפרויקט?</string>
+    <string name="recent_project_delete_message">זה לצמיתות deletes \"%1$s\" ו כל קבצים תחת:\n%2$s</string>
+    <string name="recent_project_delete_confirm">מחק</string>
+    <string name="recent_project_delete_succeeded">הפרויקט נמחק</string>
+    <string name="recent_project_delete_failed">יכול לא מחק פרויקט</string>
+
+    <!-- ATC Compose Wizard Strings -->
+    <string name="atc_checking_ndk">בודק NDK...</string>
+    <string name="atc_error_invalid_ndk">גרסת ה-NDK הגבוהה ביותר שנמצאה (%1$s) אינה חוקית או פגומה.</string>
+    <string name="atc_error_empty_project_name">שם הפרויקט אינו יכול להיות ריק</string>
+    <string name="atc_error_invalid_project_name">שם הפרויקט חייב להתחיל באות ולהכיל רק אותיות, מספרים וקווים תחתונים</string>
+    <string name="atc_error_project_exists">פרויקט עם זה שם already exists at זה location</string>
+    <string name="atc_error_project_exists_msg">פרויקט named %1$s already exists at זה location.</string>
+    <string name="atc_creating_project">יוצר פרויקט...</string>
+    <string name="atc_error_create_project_failed">נכשל ל create פרויקט: %1$s</string>
+    <string name="atc_error_generic">שגיאה: %1$s</string>
+    <string name="atc_error_no_cmake">לא נמצאה התקנת CMake. התקן את CMake מהגדרות ה-IDE.</string>
+    <string name="atc_invalid_save_location_title">מיקום שמירה לא חוקי</string>
+    <string name="atc_invalid_save_location_message">פרויקטי משחק חייבים להישמר בתיקיית הבית של Android Code Studio כדי לפעול כראוי.</string>
+    <string name="atc_switch_automatically">החלף אוטומטית</string>
+    <string name="native_language_cpp" translatable="false">C++</string>
+    <string name="native_language_c" translatable="false">C</string>
+    <string name="atc_error_no_ndk">לא נמצא NDK</string>
+    <string name="atc_ndk_version">NDK: %1$s</string>
+    <string name="atc_ndk_auto">אוטומטי</string>
+    <string name="atc_ndk_version_label">NDK גרסה: %1$s</string>
+    <string name="atc_use_gradle_kts">השתמש ב-Gradle Kotlin DSL</string>
+    <string name="atc_use_cmake">השתמש ב-CMake</string>
+    <string name="atc_create_project_btn">צור פרויקט</string>
+
+    <!-- Editor Dialogs Strings -->
+    <string name="atc_cleaning_up">מנקה...</string>
+    <string name="atc_cleanup_complete">הניקוי הושלם</string>
+    <string name="atc_cleanup_desc">עוצר תהליכי Gradle ברקע ומנקה משאבים. נא להמתין...</string>
+    <string name="atc_cleanup_success">כל משאבים יש been cleaned up בהצלחה.</string>
+    <string name="atc_run_task">הפעל משימה</string>
+    <string name="atc_available_tasks">משימות זמינות:</string>
+
+    <!-- SDK Manager Tabs Strings -->
+    <string name="sdk_tab_build_tools">כלי בנייה</string>
+    <string name="sdk_tab_ndk">NDK</string>
+    <string name="sdk_tab_cmake">CMake</string>
+    <string name="sdk_tab_platforms">פלטפורמות</string>
+    <string name="sdk_tab_jdk">JDK</string>
+    <string name="sdk_tab_flutter">Flutter</string>
+    <string name="sdk_config_title">תצורת SDK</string>
+    <string name="sdk_config_desc">שלוט בסקריפטי האתחול של Gradle המוחלים במהלך סנכרון ובניית הפרויקט.</string>
+    <string name="sdk_config_force_ndk">כפה גרסת NDK</string>
+    <string name="sdk_config_force_cmake">כפה גרסת CMake</string>
+    <string name="sdk_config_force_protoc">Force protoc נתיב</string>
+
+    <!-- SDK Manager Screen Strings -->
+    <string name="sdk_ndk_versions">גרסאות NDK</string>
+    <string name="sdk_forced_ndk_format">NDK שנכפה: %1$s</string>
+    <string name="sdk_force_ndk_title">כפה גרסת NDK</string>
+    <string name="sdk_force_ndk_desc">ציין גרסת NDK מותקנת לכפייה בכל הפרויקטים. הגרסה תאומת מול /home/Android/Sdk/ndk לפני ההחלה.</string>
+    <string name="sdk_ndk_version_label">גרסת NDK</string>
+    <string name="sdk_ndk_version_placeholder">e.g. 27.3.13750724</string>
+    <string name="sdk_currently_forced_format">Currently forced: %1$s</string>
+    <string name="sdk_apply_btn">החל</string>
+    <string name="sdk_version_format">גרסה %1$s</string>
+    <string name="sdk_installed_badge">מותקן</string>
+    <string name="sdk_invalid_badge">לא חוקי</string>
+    <string name="sdk_ndk_invalid_title">NDK לא חוקי</string>
+    <string name="sdk_ndk_invalid_help_cd">הצג מדוע NDK זה אינו חוקי</string>
+    <string name="sdk_uninstall_btn">הסר התקנה</string>
+    <string name="sdk_installing_status">מתקין...</string>
+    <string name="sdk_install_btn">התקן</string>
+    <string name="sdk_flutter_sdk">Flutter SDK</string>
+    <string name="sdk_installed_ready">מותקן ומוכן</string>
+    <string name="sdk_not_installed">לא מותקן</string>
+    <string name="sdk_requirements">דרישות</string>
+    <string name="sdk_architecture">ארכיטקטורה</string>
+    <string name="sdk_arm64_only">ARM64 בלבד</string>
+    <string name="sdk_storage_required">נדרש שטח אחסון</string>
+    <string name="sdk_flutter_storage_value">~2 GB</string>
+    <string name="sdk_already_installed">כבר מותקן</string>
+    <string name="sdk_install_flutter">התקן Flutter</string>
+    <string name="sdk_uninstall_flutter">הסר את Flutter</string>
+    <string name="sdk_uninstalling_status">מסיר התקנה...</string>
+    <string name="sdk_close_btn">סגור</string>
+    <string name="sdk_jdk_imported_msg">JDK %1$s יובא</string>
+    <string name="sdk_jdk_import_failed_msg">ייבוא JDK נכשל</string>
+    <string name="sdk_android_sdk_imported_msg">Android SDK יובא</string>
+    <string name="sdk_android_sdk_import_failed_msg">ייבוא SDK נכשל</string>
+    <string name="sdk_no_ndk_found">לא נמצא NDK</string>
+    <string name="sdk_platform_tools">כלי פלטפורמה</string>
+    <string name="sdk_cmake_versions">גרסאות CMake</string>
+    <string name="sdk_jdk_versions">גרסאות JDK</string>
+
+    <string name="env_setup_header_title">התקנת סביבה</string>
+    <string name="env_setup_header_subtitle">הגדר את ה-JDK, ה-SDK וה-NDK שלך</string>
+    <string name="env_setup_back_content_description">חזרה</string>
+    
+    <string name="env_setup_jdk_title">OpenJDK</string>
+    <string name="env_setup_jdk_subtitle">בחר את גרסת ה-JDK לשימוש</string>
+    
+    <string name="env_setup_sdk_title">Android SDK</string>
+    <string name="env_setup_sdk_subtitle">התקן אוטומטית או מארכיון מקומי</string>
+    <string name="env_setup_sdk_archive_field_label">ארכיון SDK</string>
+    <string name="env_setup_sdk_archive_field_placeholder">לא נבחר קובץ</string>
+    <string name="env_setup_sdk_archive_field_support">.zip, .tar.gz, או .tar.xz</string>
+    <string name="env_setup_sdk_archive_picker_content_description">בחר קובץ ארכיון SDK</string>
+    
+    <string name="env_setup_ndk_title">Android NDK</string>
+    <string name="env_setup_ndk_subtitle">בחר את גרסת ערכת כלי ה-NDK</string>
+    
+    <string name="env_setup_done_button">בוצע</string>
+
+    <!-- Feature Announcement Strings -->
+    <string name="feature_badge_new">תכונה חדשה</string>
+    <string name="feature_fluent2_title">מצב Fluent 2 של Windows 11</string>
+    <string name="feature_fluent2_subtitle">חווה שינוי חזותי מהדור הבא</string>
+    <string name="feature_fluent2_description">Android Code Studio כולל כעת אסתטיקה של Microsoft Fluent 2, עם ממשק מעודן ברמה שולחנית, עומק חלק, רקעי Mica ובקרות מעוגלות.</string>
+    <string name="feature_fluent2_highlight1_title">Mica &amp; Acrylic משטחs</string>
+    <string name="feature_fluent2_highlight1_desc">כרטיסים שקופים בשכבות, צללים רכים ומסגרות נקיות בכל המסכים.</string>
+    <string name="feature_fluent2_highlight2_title">Refined טיפוגרפיה &amp; ריווח</string>
+    <string name="feature_fluent2_highlight2_desc">קריאות משופרת עם בקרות קומפקטיות והדגשות דינמיות.</string>
+    <string name="feature_fluent2_highlight3_title">מתג מיידי בלחיצה אחת</string>
+    <string name="feature_fluent2_highlight3_desc">הפעל או השבת את מצב Fluent 2 בכל עת מכותרת המסך הראשי או מההגדרות.</string>
+    <string name="feature_fluent2_action">הפעל Fluent 2</string>
+    <string name="feature_fluent2_dismiss">הבנתי</string>
+    <string name="empty_editor_message">אין קובץ פתוח.
+לחץ על כפתור עיון בקבצים והתחל לתכנת.</string>
+
+    <string name="browse_files">עיין בקבצים</string>
+    <!-- XML Preview Strings -->
+    <string name="action_xml_preview_title">תצוגת XML מקדימה</string>
+    <string name="xml_preview_title">תצוגת XML מקדימה</string>
+    <string name="xml_preview_rendering">מרנדר תצוגה מקדימה של הפריסה...</string>
+    <string name="xml_preview_error">שגיאת תצוגת XML מקדימה</string>
+    <string name="xml_preview_not_synced">הפרויקט לא מסונכרן. סנכרן תחילה את פרויקט Gradle.</string>
+    <string name="xml_preview_no_layout">לא צוין קובץ פריסה</string>
+    <string name="xml_preview_refresh">רענן תצוגה מקדימה</string>
+    <string name="xml_preview_rebuild">בנה מחדש (assembleDebug)</string>
+    <string name="xml_preview_rebuild_hint">משאבי הפריסה עשויים להיות מיושנים. בנה מחדש את המודול עם assembleDebug ולאחר מכן נסה שוב את התצוגה המקדימה.</string>
+    <string name="xml_preview_theme">ערכת נושא</string>
+    <string name="xml_preview_night_mode">מצב לילה</string>
+    <string name="xml_preview_mode_system">ברירת המחדל של המערכת</string>
+    <string name="xml_preview_mode_light">בהיר</string>
+    <string name="xml_preview_mode_dark">כהה</string>
+    <string name="xml_preview_display_settings">הגדרות תצוגה</string>
+    <string name="xml_preview_menu_preview">תצוגה מקדימה</string>
+    <string name="xml_preview_menu_preview_video">תצוגה מקדימה כסרטון</string>
+    <string name="xml_preview_width_label">רוחב (פיקסלים)</string>
+    <string name="xml_preview_height_label">גובה (פיקסלים)</string>
+    <string name="xml_preview_density_label">צפיפות (dpi)</string>
+    <string name="xml_preview_preset_standard">רגיל</string>
+    <string name="xml_preview_preset_full_hd_plus">Full HD+</string>
+    <string name="xml_preview_preset_tablet">טאבלט</string>
+    <string name="xml_preview_display_invalid">הזן מספרים חיוביים חוקיים עבור רוחב, גובה וצפיפות.</string>
+    <string name="xml_preview_apply">החל</string>
+    <string name="xml_preview_applying">החלing…</string>
+    <string name="xml_preview_unavailable">תצוגה מקדימה render unavailable</string>
+    <string name="xml_preview_parsing">מנתח פריסת XML %1$s...</string>
+    <string name="xml_preview_no_active">אין תצוגת XML מקדימה פעילה</string>
+    <string name="xml_preview_start_before_refresh">התחל תצוגה מקדימה לפני הרענון.</string>
+    <string name="xml_preview_start_before_settings">התחל תצוגה מקדימה לפני שינוי הגדרות התצוגה.</string>
+    <string name="xml_preview_start_before_rebuild">התחל תצוגה מקדימה לפני בנייה מחדש.</string>
+    <string name="xml_preview_project_not_synced_title">הפרויקט לא מסונכרן</string>
+    <string name="xml_preview_project_not_synced_details">סנכרן תחילה את פרויקט Gradle כדי שניתן יהיה להדר את משאבי היעד.</string>
+    <string name="xml_preview_metadata_unavailable">מטא-נתונים אינם זמינים</string>
+    <string name="xml_preview_metadata_unavailable_details">אין מטא-נתונים זמינים של סשן תצוגה מקדימה פעיל.</string>
+    <string name="xml_preview_resource_not_found">חבילת המשאבים לא נמצאה</string>
+    <string name="xml_preview_resource_not_found_rerender">אין ארכיון משאבים זמין לרינדור מחדש.</string>
+    <string name="xml_preview_resource_not_found_after_build">ההידור הסתיים אך לא נמצא פלט תחת %1$s.</string>
+    <string name="xml_preview_resource_not_found_apk">ההידור הסתיים אך לא נמצא פלט .ap_ או .apk תחת %1$s.</string>
+    <string name="xml_preview_resource_compile_failed">הידור המשאבים נכשל</string>
+    <string name="xml_preview_incremental_error">שגיאת הידור מצטבר</string>
+    <string name="xml_preview_unknown_render_error">שגיאה לא ידועה ברינדור תצוגת XML</string>
+    <string name="xml_preview_recompiling">Recompiling %1$s...</string>
+    <string name="xml_preview_compiling_resources">מהדר את משאבי הפריסה של מודול היעד...</string>
+    <string name="xml_preview_running_assemble">מריץ %1$s...</string>
+    <string name="xml_preview_rendering_layout">מרנדר את הפריסה %1$s...</string>
+    <string name="xml_preview_resolving_metadata">מנתח משאבי מודול יעד...</string>
+    <string name="no_output_yet">אין פלט עדיין</string>
+    <string name="run_project_for_output">הפעל את הפרויקט שלך כדי לראות פלט כאן</string>
+    <string name="previous_page">עמוד קודם</string>
+    <string name="next_page">עמוד הבא</string>
+    <string name="install_apk">התקן APK</string>
+    <string name="share_output">שתף פלט</string>
+    <string name="clear_output">נקה פלט</string>
+    <!-- Language Server Settings -->
+    <string name="experiments_java_lsp_title">שרת שפת Java</string>
+    <string name="experiments_java_lsp_desc">השלמת קוד, אבחון וניווט עבור קובצי Java</string>
+    <string name="experiments_dart_lsp_title">שרת שפת Dart</string>
+    <string name="experiments_dart_lsp_desc">השלמת קוד וניתוח עבור קובצי Dart ו-Flutter</string>
+    <string name="experiments_dart_lsp_no_sdk_desc">דורש Flutter SDK (לא מותקן)</string>
+    <string name="experiments_xml_lsp_title">שרת שפת XML</string>
+    <string name="experiments_xml_lsp_desc">השלמת קוד ואימות עבור פריסות ומשאבי XML של Android</string>
+    <string name="experiments_section_gradle_service">שירות Gradle</string>
+    <string name="experiments_custom_gradle_title">התקנת Gradle מותאמת אישית</string>
+    <string name="experiments_custom_gradle_desc">עקוף את גרסת Gradle ב-gradle-wrapper.properties באמצעות נתיב הפצה מקומי ספציפי.</string>
+    <string name="experiments_label_experimental">ניסיוני</string>
+    <!-- LSP JVM Options -->
+    <string name="lsp_jvm_options_title">אפשרויות JVM</string>
+    <string name="lsp_jvm_options_subtitle">יוחל בהפעלת השרת הבאה</string>
+    <string name="lsp_jvm_memory_header">זיכרון</string>
+    <string name="lsp_jvm_extra_flags_header">דגלים נוספים</string>
+    <string name="lsp_jvm_initial_heap_label">-Xms  (זיכרון ראשוני)</string>
+    <string name="lsp_jvm_max_heap_label">-Xmx  (זיכרון מרבי)</string>
+    <string name="lsp_jvm_extra_flags_label">דגלי JVM נוספים</string>
+    <string name="lsp_jvm_reset_action">איפוס</string>
+    <string name="lsp_jvm_save_action">שמור</string>
+    <!-- Gradle Task Runner Strings -->
+    <string name="settings_remember_gradle_tasks_title">זכור משימות Gradle שנבחרו</string>
+    <string name="settings_remember_gradle_tasks_desc">שמור משימות וארגומנטים נבחרים של Gradle לאחר סגירת האפליקציה</string>
+    <string name="gradle_dialog_remember_tasks">זכור בחירה</string>
+    <string name="gradle_tasks_run_count">הפעל %1$d משימות</string>
+    <string name="gradle_task_run_single">הפעל משימה 1</string>
+    <string name="gradle_task_select_tasks">בחר משימות</string>
+    <string name="gradle_tasks_clear_selection">נקה בחירה</string>
+    <string name="gradle_extra_args_btn">ארגומנטים נוספים של Gradle</string>
+    <string name="gradle_extra_args_count_btn">ארגומנטים נוספים של Gradle (%1$d)</string>
+    <string name="gradle_dialog_run_gradle_tasks">הפעל משימות Gradle</string>
+    <string name="gradle_dialog_run_flutter_commands">הפעל פקודות Flutter</string>
+    <string name="gradle_dialog_tasks_selected_count">נבחרו %1$d משימות</string>
+    <string name="gradle_dialog_single_task_selected">נבחרה משימה 1</string>
+    <string name="gradle_args_dialog_title">ארגומנטים נוספים של Gradle</string>
+    <string name="gradle_args_dialog_subtitle">בחר ארגומנטים נפוצים או הוסף מותאמים אישית</string>
+    <string name="gradle_args_custom_badge">מותאם אישית</string>
+    <string name="gradle_args_custom_placeholder">הוסף ארגומנט מותאם אישית (למשל --parallel)</string>
+    <string name="gradle_args_clear_all">נקה הכל</string>
+    <string name="gradle_args_apply">החל</string>
+    <string name="run_action_build_debug">בנה דיבאג</string>
+    <string name="run_action_build_release">בנה הפצה</string>
+    <string name="run_action_custom">מותאם אישית</string>
+    <!-- Memory Overlay Strings -->
+    <string name="overlay_memory_content_description">זיכרון</string>
+    <string name="overlay_memory_usage_title">שימוש בזיכרון</string>
+    <string name="overlay_collapse_content_description">כווץ</string>
+    <string name="overlay_expand_content_description">הרחב</string>
+    <string name="overlay_ide_process_title">תהליך IDE</string>
+    <string name="overlay_acside_process_title">שימוש כולל</string>
+    <string name="overlay_tooling_api_title">כלי API</string>
+    <string name="overlay_active_screen">מסך פעיל</string>
+    <string name="overlay_heap_breakdown">פירוט זיכרון</string>
+    <string name="overlay_dalvik_label">Dalvik</string>
+    <string name="overlay_native_label">Native</string>
+    <string name="overlay_other_label">אחר</string>
+    <string name="overlay_active_threads">תהליכונים פעילים</string>
+    <string name="overlay_tooling_workspace">סביבת עבודה</string>
+    <string name="overlay_tooling_building">בבנייה</string>
+    <string name="overlay_tooling_heap_graph">גרף זיכרון</string>
+    <string name="overlay_size_label">גודל</string>
+    <string name="overlay_drag_to_move">גרור כדי להזיז</string>
+    <string name="overlay_status_running">פועל</string>
+    <string name="overlay_status_not_running">אינו פועל</string>
+    <string name="overlay_subprocesses_title">תהליכים</string>
+    <string name="overlay_thread_frames_format">%1$d מסגרות</string>
+    <string name="overlay_pid_format">PID: %1$d</string>
+    <string name="overlay_used_max_mb_format">%1$d מ\"ב / %2$d מ\"ב</string>
+    <string name="overlay_percent_format">%1$d%%</string>
+    <string name="overlay_mb_format">%1$d מ\"ב</string>
+    <string name="overlay_tooling_mb_format">Tooling %1$d מ\"ב</string>
+    <string name="overlay_acside_mb_format">ACSIDE %1$d מ\"ב</string>
+    <!-- Adaptive Performance Strings -->
+    <string name="adaptive_perf_dialog_title">ביצועים מסתגלים</string>
+    <string name="adaptive_perf_dialog_subtitle">הגדרות אופטימליות המותאמות לחומרת המכשיר</string>
+    <string name="adaptive_perf_specs_ram">זיכרון מכשיר (RAM)</string>
+    <string name="adaptive_perf_specs_storage">אחסון פנימי</string>
+    <string name="adaptive_perf_specs_cores">ליבות מעבד</string>
+    <string name="adaptive_perf_specs_tier">פרופיל ביצועים</string>
+    <string name="adaptive_perf_tier_low">בסיסי</string>
+    <string name="adaptive_perf_tier_balanced">מאוזן</string>
+    <string name="adaptive_perf_tier_high">גבוה</string>
+    <string name="adaptive_perf_tier_ultra">אולטרה</string>
+    <string name="adaptive_perf_applying">מחיל הגדרות אופטימליות&#8230;</string>
+    <string name="adaptive_perf_applied">הגדרות ביצועים הוחלו בהצלחה</string>
+    <string name="adaptive_perf_continue">המשך</string>
+    <string name="adaptive_perf_dialog_description">מפרט המכשיר נבדק כדי למטב את הקצאת הזיכרון של JVM, ביצועי שרתי השפה ומהירות הבנייה ב-Gradle.</string>
+    <!-- HealthWatcher Strings -->
+    <string name="health_watcher_nullij_warning_title">אזהרת שימוש גבוה בזיכרון</string>
+    <string name="health_watcher_nullij_warning_message">השימוש בזיכרון של Android Code Studio הגיע ל-%1$d מ\"ב. שקול לסגור כרטיסיות עורך כבדות אם הביצועים יורדים.</string>
+    <string name="health_watcher_acside_warning_title">אזהרת זיכרון ACSIDE</string>
+    <string name="health_watcher_acside_warning_message">השימוש בזיכרון של תהליך ACSIDE הגיע ל-%1$d מ\"ב (סף מוגדר: %2$d מ\"ב). עצירת שרתי השפה תשחרר זיכרון.</string>
+    <string name="health_watcher_stop_lsps">עצור שרתי שפה</string>
+    <string name="health_watcher_never_show_again">אל תציג שוב</string>
+    <string name="health_watcher_dismiss">התעלם</string>
+    <string name="health_watcher_ok">אישור</string>
+    <string name="health_watcher_lsps_stopped">שרתי השפה נעצרו. העורך רוענן.</string>
+    <string name="health_watcher_settings_title">מעקב בריאות וזיכרון</string>
+    <string name="health_watcher_settings_summary">מעקב אחר שימוש בזיכרון ברקע וקבלת התראות סף</string>
+    <string name="health_watcher_threshold_title">סף זיכרון ACSIDE</string>
+    <string name="health_watcher_threshold_summary">הפעל אזהרה כאשר התהליך הנלווה חורג מסף זה</string>
+    <string name="health_watcher_unit_title">יחידת סף</string>
+    <string name="health_watcher_unit_summary">יחידת מידה עבור סף הזיכרון של התהליך הנלווה</string>
+    <string name="health_watcher_reset_dialogs_title">איפוס העדפות התראות אזהרה</string>
+    <string name="health_watcher_reset_dialogs_summary">הפעל מחדש תיבות דו-שיח של אזהרות זיכרון שהוסתרו</string>
+    <string name="health_watcher_reset_dialogs_done">העדפות התראות האזהרה אופסו לברירת המחדל.</string>
+    <!-- Tooling API JVM Options Strings -->
+    <string name="experiments_tooling_api_jvm_title">אפשרויות JVM עבור Tooling API</string>
+    <string name="experiments_tooling_api_jvm_desc">הגדר הקצאות זיכרון ואפשרויות JVM עבור שרת Gradle Tooling API.</string>
+    <string name="tooling_api_jvm_options_title">אפשרויות JVM עבור Tooling API</string>
+    <string name="tooling_api_jvm_options_subtitle">יוחל בהפעלה הבאה של שרת הכלים</string>
+    <!-- External file change conflict strings -->
+    <string name="external_change_dialog_title">הקובץ השתנה בדיסק</string>
+    <string name="external_change_dialog_desc">%1$s שונה באופן חיצוני. האם ברצונך לטעון מחדש מהדיסק ולדרוס את שינויי העורך, או לשמור על שינויי העורך?</string>
+    <string name="external_change_reload">טעינה מחדש מהדיסק</string>
+    <string name="external_change_keep">שמירת שינויי העורך</string>
+    <!-- MCP Agent Strings -->
+    <string name="mcp_edit_mode_button_desc">מצב עריכה</string>
+    <string name="mcp_edit_mode_always_accept">קבל עריכות תמיד</string>
+    <string name="mcp_edit_mode_preview">תצוגה מקדימה לפני קבלה</string>
+    <string name="mcp_diff_title">סקירת שינויים מוצעים</string>
+    <string name="mcp_diff_accept">קבל שינויים</string>
+    <string name="mcp_diff_reject">דחה</string>
+    <string name="mcp_diff_conflict_warning">הקובץ השתנה בדיסק מאז יצירת תצוגה מקדימה זו.</string>
+    <string name="mcp_diff_file_created">קובץ חדש</string>
+    <string name="mcp_diff_file_deleted">קובץ שנמחק</string>
+    <string name="mcp_diff_file_renamed">%1$s ← %2$s</string>
+    <string name="mcp_diff_prev_file">הקודם</string>
+    <string name="mcp_diff_next_file">הבא</string>
+    <string name="mcp_fallback_empty_response">לא התקבלה תגובה מהמודל.</string>
+    <string name="mcp_error_tap_for_details">משהו השתבש. הקש על ! לפרטים.</string>
+    <string name="mcp_error_details_title">פרטי שגיאה</string>
+    <string name="mcp_error_copy">העתק</string>
+    <string name="mcp_error_copied">הועתק ללוח</string>
+    <string name="mcp_error_no_internet">אין חיבור לאינטרנט.</string>
+    <string name="mcp_error_invalid_api_key">מפתח API לא חוקי.</string>
+    <string name="mcp_error_quota">חריגה ממכסה או הגבלת קצב.</string>
+    <string name="mcp_error_timeout">הבקשה פגה.</string>
+    <string name="mcp_error_unexpected">אירעה שגיאה בלתי צפויה.</string>
+    <string name="mcp_error_details_summary">סיכום</string>
+    <string name="mcp_error_details_type">סוג</string>
+    <string name="mcp_error_details_message">הודעה</string>
+    <string name="mcp_error_details_tool">כלי</string>
+    <string name="mcp_error_details_stacktrace">מעקב מחסנית</string>
+
+    <string name="quick_line_actions">פעולות שורה מהירות</string>
+    <string name="quick_action_copy_line">העתק שורה</string>
+    <string name="quick_action_cut_line">גזור שורה</string>
+    <string name="quick_action_delete_line">מחק שורה</string>
+    <string name="quick_action_empty_line">רוקן שורה</string>
+    <string name="quick_action_replace_line">החלף שורה</string>
+    <string name="quick_action_duplicate_line">שכפל שורה</string>
+    <string name="quick_action_uppercase">המר לאותיות גדולות</string>
+    <string name="quick_action_lowercase">המר לאותיות קטנות</string>
+    <string name="quick_action_increase_indent">הגדל הזחה</string>
+    <string name="quick_action_decrease_indent">הקטן הזחה</string>
+    <string name="quick_action_toggle_comment">החלף הערה</string>
+    <string name="quick_action_format_java">פרמט קוד Java</string>
+    <string name="java_format_error_title">שגיאת עיצוב Java</string>
+    <string name="dependency_update_available_title">עדכון זמין</string>
+    <string name="dependency_update_all_title">עדכן הכל</string>
+    <string name="dependency_update_all_message">לעדכן %1$d תלויות לגרסאות האחרונות?</string>
+    <string name="dependency_update_apply">החל</string>
+    <string name="dependency_update_catalog_hint">פעולה זו תעדכן את libs.versions.toml</string>
+</resources>
+
