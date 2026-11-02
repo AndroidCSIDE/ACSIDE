@@ -13,6 +13,19 @@
 </p>
 
 <p align="center">
+  <a href="README.md">English</a> •
+  <a href="README.ar.md">العربية</a> •
+  <a href="README.ru.md">Русский</a> •
+  <a href="README.zh.md">简体中文</a> •
+  <a href="README.tr.md">Türkçe</a> •
+  <a href="README.es.md">Español</a> •
+  <a href="README.he.md">עברית</a> •
+  <a href="README.fa.md">فارسی</a> •
+  <a href="README.pt-BR.md">Português (Brasil)</a> •
+  <a href="README.pt-PT.md">Português (Portugal)</a>
+</p>
+
+<p align="center">
   <a href="https://github.com/AndroidCSIDE/ACSIDE/issues/new?labels=bug&template=BUG.yml&title=%5BBug%5D%3A+">
     <img src="https://img.shields.io/badge/Report%20Bug-red?style=for-the-badge&logo=github" alt="Report a bug">
   </a>
@@ -58,7 +71,7 @@ AndroidCS IDE is a full-featured development environment designed for creating a
 ### Projects & Build
 * [x] Android Flutter project support
 * [x] Gradle project support
-* [x] JDK 17, 21 *(JDK 8, 11, 22, and others are untested)*
+* [x] JDK 17, 21
 * [x] SDK Manager for installing build tools, NDK, CMake, Flutter SDK, and more
 * [x] Dependency Updater with notices for outdated dependencies right in your build files
 
@@ -105,10 +118,12 @@ AndroidCS IDE is a full-featured development environment designed for creating a
 ### Terminal & Debugging
 * [x] Terminal powered by Termux Packages *(PRoot can still be installed via PRoot-Distro)*
 * [x] ADB debugging with wireless pairing, USB-OTG support, and logcat via ADB or Shizuku
+* [x] Logger plugin that is injected into projects during debug builds for faster and more reliable log capturing
 
 ### Customization
 * [x] Windows 11 Fluent 2 Look
-* [x] Available in English, Arabic, Russian, Persian, Hebrew, Turkish, and Simplified Chinese
+* [x] Google Material Look
+* [x] Available in English, Arabic, Russian, Persian, Hebrew, Turkish, and Simplified Chinese, and more...
 
 More features are planned and will be added in the future - stay tuned!
 
@@ -116,7 +131,6 @@ More features are planned and will be added in the future - stay tuned!
 
 ## Limitations
 
-- **armeabi-v7a is not supported** in the current release. Support is planned for the next release.
 - AndroidCS IDE (ACSIDE) may fail to build older projects that use AGP 8.x.x or below. It is strongly recommended to upgrade your project to the latest Android Gradle Plugin (AGP) version for the best compatibility.
 
 ---
@@ -128,3 +142,13 @@ This project is under active development. Feedback and suggestions are always we
 ### About the Source Code
 
 The IDE is currently closed source to allow for faster iteration and development. Once the project reaches a stable state, parts of the source code will be open-sourced.
+
+### Transparency & Network Privacy
+
+ACSIDE is closed source for now, so you shouldn't have to take my word for what it does on the network.
+
+- **No telemetry.** No analytics, no usage tracking, no silent crash reporting. If the IDE crashes, you get a crash screen with a "Send report" button that opens your browser to a pre-filled GitHub issue. Nothing is sent unless you submit it.
+- **AI Agent:** you bring your own API keys. Requests go directly from your device to the model server you chose, end to end, and never pass through my servers.
+- **Updates and plugins** come from open GitHub repos: [`updater.json`](https://github.com/AndroidCSIDE/ACSIDE/blob/main/others/updater/updater.json) and [androidcs-plugins](https://github.com/AndroidCSIDE/androidcs-plugins).
+
+Don't trust me, check: run [Reqable](https://reqable.com/) or any Android network monitor and look at which hosts the IDE contacts. You should only see GitHub, package and SDK repositories, and the AI provider you configured. If you see anything else, please open an issue.
